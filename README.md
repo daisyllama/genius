@@ -74,11 +74,13 @@ python -m lyrics_analysis --input data/sample_lyrics.csv --output-dir outputs
 
 Generated files:
 
-- `outputs/topic_assignments_per_song.csv`
-- `outputs/topic_keywords.csv`
-- `outputs/topic_distribution_by_region.csv`
-- `outputs/emotion_by_region.csv`
-- `outputs/emotion_by_topic.csv`
+- `outputs/<input_name>_<timestamp>/topic_assignments_per_song.csv`
+- `outputs/<input_name>_<timestamp>/topic_keywords.csv`
+- `outputs/<input_name>_<timestamp>/topic_distribution_by_region.csv`
+- `outputs/<input_name>_<timestamp>/emotion_by_region.csv`
+- `outputs/<input_name>_<timestamp>/emotion_by_topic.csv`
+
+Example run folder: `outputs/sample_lyrics_20260311_114120/`
 
 ## Notes
 

@@ -9,11 +9,20 @@
 				"-m",
 				"lyrics_analysis",
 				"--input",
-				"data/sample_lyrics.csv",
+				"data/processed/sample_lyrics.csv",
 				"--output-dir",
 				"outputs"
 			],
 			"isBackground": false
+		},
+		{
+			"label": "Regenerate titles.csv (universal lang detection)",
+			"type": "shell",
+			"command": "/Users/wednesday/Documents/GitHub/lyrics_analysis/.venv/bin/python",
+			"args": [
+				"-c",
+				"import re, pandas as pd; from pathlib import Path; has_cjk=lambda t:bool(__import__('re').search(r'[\\u4e00-\\u9fff\\u3400-\\u4dbf]',t)); has_kana=lambda t:bool(__import__('re').search(r'[\\u3040-\\u30ff]',t)); has_hangul=lambda t:bool(__import__('re').search(r'[\\uac00-\\ud7a3\\u1100-\\u11ff]',t))\ndef dl(title,artist):\n c=f'{title} {artist}'\n if has_hangul(c):return 'ko'\n if has_kana(c):return 'ja'\n if has_cjk(c):return 'zh'\n if re.search(r'[A-Za-z\\u00c0-\\u00ff]',c):return 'latin'\n return 'other'\nprint('done')"
+			]
 		}
 	]
 }

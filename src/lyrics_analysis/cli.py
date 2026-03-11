@@ -1,11 +1,18 @@
 from __future__ import annotations
 
 import argparse
+import re
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 
 from .pipeline import lyric_topic_emotion_pipeline
+
+
+def _safe_name(value: str) -> str:
+    name = re.sub(r"[^a-zA-Z0-9_-]+", "_", value).strip("_")
+    return name or "dataset"
 
 
 def parse_args() -> argparse.Namespace:
@@ -19,7 +26,10 @@ def main() -> None:
     args = parse_args()
 
     input_path = Path(args.input)
-    output_dir = Path(args.output_dir)
+    output_root = Path(args.output_dir)
+    run_stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    run_name = f"{_safe_name(input_path.stem)}_{run_stamp}"
+    output_dir = output_root / run_name
     output_dir.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(input_path)
