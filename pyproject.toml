@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lyrics-analysis"
+version = "0.1.0"
+description = "Song lyric topic modeling with BERTopic and emotion comparison"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2.0",
+  "numpy>=1.26.0",
+  "bertopic>=0.16.0",
+  "sentence-transformers>=2.7.0",
+  "transformers>=4.40.0",
+  "torch>=2.2.0",
+  "scikit-learn>=1.4.0",
+  "umap-learn>=0.5.5",
+  "hdbscan>=0.8.33",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+lyrics-analysis = "lyrics_analysis.cli:main"

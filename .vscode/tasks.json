@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run lyric analysis sample",
+			"type": "shell",
+			"command": "/Users/wednesday/Documents/GitHub/lyrics_analysis/.venv/bin/python",
+			"args": [
+				"-m",
+				"lyrics_analysis",
+				"--input",
+				"data/sample_lyrics.csv",
+				"--output-dir",
+				"outputs"
+			],
+			"isBackground": false
+		}
+	]
+}
