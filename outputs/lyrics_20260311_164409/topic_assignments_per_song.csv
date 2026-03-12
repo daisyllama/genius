@@ -1,0 +1,570 @@
+title,artist,region,language,topic,topic_probability,dominant_emotion,emotion_anger,emotion_neutral,emotion_joy,emotion_fear,emotion_disgust,emotion_sadness,emotion_surprise
+Las Muñequitas,"Mr Plata, El Americano 4KT",Colombia,es,6,,neutral,0.0921684205532074,0.312728650867939,0.0,0.0,0.0,0.0,0.0
+CHÉVERE (premium_remix),"ARIA VEGA, Ryan Castro",Colombia,es,1,,joy,0.0,0.11790745705366135,0.36473090946674347,0.0,0.0,0.0,0.0
+LA VILLA,"Ryan Castro, Kapo, Gangsta",Colombia,es,-1,,neutral,0.0,0.2786506513754527,0.15375595291455588,0.0,0.0,0.0,0.0
+LA VILLA,"Ryan Castro, Kapo, Gangsta",Colombia,es,-1,,neutral,0.0,0.2786506513754527,0.15375595291455588,0.0,0.0,0.0,0.0
+GANAS,Kris R.,Colombia,es,1,,neutral,0.0,0.3140869041283925,0.0,0.13039690256118774,0.0,0.0,0.0
+La Plena - W Sound 05,"W Sound, Beéle, Ovy On The Drums",Colombia,en,26,,joy,0.0,0.16720592975616455,0.369269331296285,0.0,0.0,0.0,0.0
+La Plena - W Sound 05,"W Sound, Beéle, Ovy On The Drums",Colombia,en,26,,joy,0.0,0.16720592975616455,0.369269331296285,0.0,0.0,0.0,0.0
+no tiene sentido,Beéle,Colombia,es,1,,neutral,0.0,0.4893631786108017,0.0,0.0,0.0,0.0,0.0
+Tonto,"J Balvin, Ryan Castro, DJ Snake",Colombia,es,6,,neutral,0.0,0.6681517660617828,0.0,0.0,0.0,0.0,0.0
+quédate,Beéle,Colombia,es,-1,,neutral,0.0,0.4861629456281662,0.0,0.0,0.0,0.0,0.0
+El Beneficio De La Duda,Grupo Firme,Colombia,es,1,,neutral,0.0,0.5302174836397171,0.0,0.0,0.0,0.0,0.0
+Destino Final,"Yeison Jimenez, Luis Alfonso",Colombia,es,28,,fear,0.1382489651441574,0.0,0.0,0.1458250731229782,0.0,0.0,0.0
+NUEVA YORK,"Blessd, Los Money Makers, Prodmonja",Colombia,es,1,,neutral,0.0,0.19060554107030234,0.0,0.16480028629302979,0.0,0.0,0.0
+YOGURCITO,Blessd,Colombia,es,19,,neutral,0.0,0.25562270482381183,0.0,0.09321117401123047,0.0,0.0,0.0
+mi refe,"Beéle, Ovy On The Drums",Colombia,es,1,,joy,0.0,0.0,0.3257639408111572,0.0,0.0,0.0,0.0
+BAILE INoLVIDABLE,Bad Bunny,Colombia,es,27,,fear,0.0989420215288798,0.1663496990998586,0.0,0.25771180788675946,0.0,0.0,0.0
+BAILE INoLVIDABLE,Bad Bunny,Colombia,es,27,,fear,0.0989420215288798,0.1663496990998586,0.0,0.25771180788675946,0.0,0.0,0.0
+BAILE INoLVIDABLE,Bad Bunny,Colombia,es,27,,fear,0.0989420215288798,0.1663496990998586,0.0,0.25771180788675946,0.0,0.0,0.0
+FOREVER TU GANTEL,"Omar Courtz, Ñengo Flow",Colombia,es,6,,neutral,0.0,0.48043034970760345,0.0,0.0,0.0,0.0,0.0
+AMISTA,"Blessd, Ovy On The Drums",Colombia,es,1,,neutral,0.0,0.4909067650636037,0.0,0.0,0.0,0.0,0.0
+"YOGURCITO REMIX (feat. Kris R., ROA)","Blessd, Anuel AA, Yan Block, Luar La L, Kris R., ROA",Colombia,he,18,,disgust,0.0,0.0,0.0,0.0,0.4916224231322606,0.0,0.0
+Por Qué la Envidia,Yeison Jimenez,Colombia,es,1,,neutral,0.0,0.4484645873308182,0.0,0.0,0.0,0.0,0.0
+COQUETA,"Fuerza Regida, Grupo Frontera",Colombia,es,1,,neutral,0.0,0.29142458240191144,0.0,0.10080480575561523,0.0,0.0,0.0
+"""EMHDM""","Blessd, Ovy On The Drums",Colombia,es,6,,neutral,0.10142914454142253,0.3187241852283478,0.0,0.0,0.0,0.0,0.0
+SANKA,"Ryan Castro, Dongo",Colombia,es,-1,,neutral,0.0,0.4595613479614258,0.12498175104459126,0.0,0.0,0.0,0.0
+DtMF,Bad Bunny,Colombia,es,19,,neutral,0.14421416322390238,0.2856918176015218,0.0,0.0,0.0,0.0,0.0
+DtMF,Bad Bunny,Colombia,es,19,,neutral,0.14421416322390238,0.2856918176015218,0.0,0.0,0.0,0.0,0.0
+DtMF,Bad Bunny,Colombia,es,19,,neutral,0.14421416322390238,0.2856918176015218,0.0,0.0,0.0,0.0,0.0
+DÓNDE,"Kapo, Ryan Castro",Colombia,es,6,,neutral,0.0,0.33813562989234924,0.0,0.0,0.0,0.0,0.0
+LA CANCIÓN,"J Balvin, Bad Bunny",Colombia,es,-1,,neutral,0.0,0.5184565981229147,0.0,0.0,0.0,0.0,0.0
+LA CANCIÓN,"J Balvin, Bad Bunny",Colombia,es,-1,,neutral,0.0,0.5184565981229147,0.0,0.0,0.0,0.0,0.0
+POR SI MAÑANA NO ESTOY,Omar Courtz,Colombia,es,6,,sadness,0.0,0.08463393896818161,0.11543653905391693,0.0,0.0,0.4649765342473984,0.0
+Por Amar A Ciegas,Arcángel,Colombia,es,1,,neutral,0.0,0.469211682677269,0.0,0.0,0.0,0.0,0.0
+UWAIE,Kapo,Colombia,es,1,,neutral,0.0,0.3757072240114212,0.0,0.0,0.0,0.0,0.0
+Vete,Yeison Jimenez,Colombia,es,1,,fear,0.0,0.16317684948444366,0.0,0.2002401351928711,0.0,0.0,0.0
+Todo Lo Fue,Lenin Ramírez,Colombia,es,28,,neutral,0.0,0.38476574420928955,0.0,0.0,0.0,0.0,0.0
+Todo Lo Fue,Lenin Ramírez,Colombia,es,28,,neutral,0.0,0.38476574420928955,0.0,0.0,0.0,0.0,0.0
+EoO,Bad Bunny,Colombia,es,25,,neutral,0.0,0.48366352915763855,0.0,0.0,0.0,0.0,0.0
+EoO,Bad Bunny,Colombia,es,25,,neutral,0.0,0.48366352915763855,0.0,0.0,0.0,0.0,0.0
+EoO,Bad Bunny,Colombia,es,25,,neutral,0.0,0.48366352915763855,0.0,0.0,0.0,0.0,0.0
+CHÉVERE (joesón_type_beat),ARIA VEGA,Colombia,es,1,,joy,0.0,0.13743507862091064,0.2896630863348643,0.0,0.0,0.0,0.0
+Hasta Aquí Llegué,"Nanpa Básico, Beéle",Colombia,es,6,,neutral,0.0,0.25909316539764404,0.20252254605293274,0.0,0.0,0.0,0.0
+YO y TÚ,"Ovy On The Drums, Quevedo, Beéle",Colombia,es,-1,,neutral,0.0,0.3141842782497406,0.0,0.0,0.0,0.2150964935620626,0.0
+Ba Ba Bad Remix,"Kybba, Sean Paul, Ryan Castro, Busy Signal",Colombia,es,-1,,joy,0.0,0.11571450034777324,0.3342556258042653,0.0,0.0,0.0,0.0
+El Teléfono,"Héctor ""El Father"", Wisin & Yandel",Colombia,es,1,,neutral,0.0,0.2554951111475627,0.0,0.14846697449684143,0.0,0.0,0.0
+Ya Borracho,Herencia De Grandes,Colombia,es,-1,,fear,0.0,0.2402026653289795,0.0,0.44339659810066223,0.0,0.0,0.0
+Ya Borracho,Herencia De Grandes,Colombia,es,-1,,fear,0.0,0.2402026653289795,0.0,0.44339659810066223,0.0,0.0,0.0
+NO ME QUIERO CASAR,Bad Bunny,Colombia,es,6,,neutral,0.0,0.27689334750175476,0.0,0.0,0.0,0.1677312652269999,0.0
+top diesel,Beéle,Colombia,es,19,,surprise,0.0,0.15758419036865234,0.0,0.0,0.0,0.0,0.2181262969970703
+VeLDÁ,"Bad Bunny, Omar Courtz, Dei V",Colombia,en,23,,surprise,0.0,0.0,0.2596282437443733,0.0,0.0,0.0,0.269787460565567
+VeLDÁ,"Bad Bunny, Omar Courtz, Dei V",Colombia,en,23,,surprise,0.0,0.0,0.2596282437443733,0.0,0.0,0.0,0.269787460565567
+Un Perro Enamorado,Yeison Jimenez,Colombia,es,-1,,fear,0.0,0.0,0.0,0.35353611409664154,0.0,0.0,0.0
+Pa' Que La Pases Bien,Arcángel,Colombia,es,1,,joy,0.0,0.10979623595873515,0.3727333943049113,0.0,0.0,0.0,0.0
+Cuando No Era Cantante,"El Bogueto, Yung Beef",Colombia,es,-1,,neutral,0.0,0.4583841661612193,0.0,0.0,0.0,0.0,0.0
+Cuando No Era Cantante,"El Bogueto, Yung Beef",Colombia,es,-1,,neutral,0.0,0.4583841661612193,0.0,0.0,0.0,0.0,0.0
+Diles,"Bad Bunny, Ozuna, Farruko, Arcángel, Ñengo Flow, DJ Luian, Mambo Kingz",Colombia,es,1,,neutral,0.0,0.3666077107191086,0.0,0.0,0.0,0.0,0.0
+VOY A LLeVARTE PA PR,Bad Bunny,Colombia,es,12,,neutral,0.10704679290453593,0.23838509122530618,0.0,0.0,0.0,0.0,0.0
+VOY A LLeVARTE PA PR,Bad Bunny,Colombia,es,12,,neutral,0.10704679290453593,0.23838509122530618,0.0,0.0,0.0,0.0,0.0
+VOY A LLeVARTE PA PR,Bad Bunny,Colombia,es,12,,neutral,0.10704679290453593,0.23838509122530618,0.0,0.0,0.0,0.0,0.0
+Hace Mucho Tiempo,Arcángel,Colombia,es,28,,neutral,0.0,0.5893518726030985,0.0,0.0,0.0,0.0,0.0
+LUNA,"Feid, ATL Jacob",Colombia,en,0,,fear,0.0,0.0,0.0,0.4735647737979889,0.0,0.42495739459991455,0.0
+MIL D AURA,Kris R.,Colombia,es,28,,neutral,0.0,0.5688523252805074,0.0,0.0,0.0,0.0,0.0
+COMO OREO,"Blessd, Fuerza Regida, Ovy On The Drums",Colombia,es,1,,neutral,0.0,0.4136508007844289,0.0,0.0,0.0,0.0,0.0
+Es un Secreto,Plan B,Colombia,es,-1,,neutral,0.09122846523920695,0.118691752354304,0.0,0.1080450713634491,0.0,0.0,0.0
+MLP,Yeison Jimenez,Colombia,es,-1,,fear,0.0,0.20516034960746765,0.0,0.25294768810272217,0.0,0.0,0.0
+URUS BLUE,"Blessd, Los Money Makers, Prodmonja",Colombia,es,1,,neutral,0.0,0.33805906772613525,0.0,0.09752318263053894,0.0,0.0,0.0
+"Cuatro Babys (feat. Trap Capos, Noriel, Bryant Myers & Juhn)","Maluma, Trap Capos, Noriel, Bryant Myers, Juhn",Colombia,es,25,,neutral,0.0,0.6039772778749466,0.0,0.0,0.0,0.0,0.0
+Imagínate,"Danny Ocean, Kapo",Colombia,es,6,,neutral,0.0,0.3366974393526713,0.11076573530832927,0.0,0.0,0.0,0.0
+Esclava - Remix,"Bryant Myers, Anuel AA, Anonimus, Almighty",Colombia,es,-1,,neutral,0.1494150996208191,0.30007741451263426,0.0,0.0,0.0,0.0,0.0
+MUSA,"CARABIN3, SVNTI",Colombia,es,6,,neutral,0.0,0.5119068473577499,0.0,0.0,0.0,0.0,0.0
+Me Prefieres A Mi,Arcángel,Colombia,es,1,,anger,0.46762335300445557,0.0,0.0,0.0,0.0,0.0,0.0
+DIOMEDEZ,"Blessd, GeezyDee",Colombia,es,28,,neutral,0.0,0.43292638659477234,0.0,0.0,0.0,0.0,0.0
+NUEVAYoL,Bad Bunny,Colombia,es,29,,neutral,0.0,0.3654826283454895,0.10342777768770854,0.0,0.0,0.0,0.0
+NUEVAYoL,Bad Bunny,Colombia,es,29,,neutral,0.0,0.3654826283454895,0.10342777768770854,0.0,0.0,0.0,0.0
+NUEVAYoL,Bad Bunny,Colombia,es,29,,neutral,0.0,0.3654826283454895,0.10342777768770854,0.0,0.0,0.0,0.0
+PASIÓN Y SEXO,"Kris R., ROA",Colombia,es,1,,neutral,0.0,0.42416611313819885,0.0,0.0,0.0,0.0,0.0
+NO CRY,Kapo,Colombia,es,25,,neutral,0.0,0.4030487388372421,0.0,0.0,0.0,0.0,0.0
+TU VAS SIN (fav),Rels B,Colombia,es,27,,neutral,0.0,0.5047098994255066,0.0,0.0,0.0,0.0,0.0
+FANÁTICO,"Blessd, J Alvarez",Colombia,es,1,,neutral,0.0,0.4794599711894989,0.0,0.0,0.0,0.0,0.0
+Mírame,"Blessd, Ovy On The Drums",Colombia,es,-1,,neutral,0.0,0.31164903938770294,0.0,0.0,0.0,0.0,0.0
+En Las Noches Frias,Ñengo Flow,Colombia,es,6,,neutral,0.0,0.3555367961525917,0.0,0.23332920670509338,0.0,0.0,0.0
+Solos,"Tony Dize, Plan B",Colombia,es,1,,neutral,0.0,0.5021152396996816,0.0,0.0,0.0,0.0,0.0
+Verano Rosa,"KAROL G, Feid",Colombia,es,1,,neutral,0.0,0.3461065391699473,0.0,0.0,0.0,0.0,0.14699077606201172
+Me Rehúso,Danny Ocean,Colombia,es,1,,neutral,0.0,0.27549925446510315,0.0,0.0,0.1559692621231079,0.0,0.0
+444,"Yan Block, Panda Black",Colombia,es,6,,neutral,0.0,0.5429052213827769,0.0,0.0,0.0,0.0,0.0
+Soltera - W Sound 01,"W Sound, Blessd, Ovy On The Drums",Colombia,en,-1,,anger,0.5397863388061523,0.0,0.0,0.0,0.0,0.0,0.0
+Idilio,Willie Colón,Colombia,es,1,,neutral,0.07603148619333903,0.11607421437899272,0.0,0.10851383209228516,0.0,0.0,0.0
+Talento,"Yan Block, Panda Black",Colombia,es,6,,neutral,0.0,0.3381088376045227,0.0,0.0,0.0,0.0,0.0
+Qué Pasaría...,"Rauw Alejandro, Bad Bunny",Colombia,es,6,,neutral,0.0,0.15693744023640951,0.13844135403633118,0.12922264138857523,0.0,0.0,0.0
+Qué Pasaría...,"Rauw Alejandro, Bad Bunny",Colombia,es,6,,neutral,0.0,0.15693744023640951,0.13844135403633118,0.12922264138857523,0.0,0.0,0.0
+orióN,"Boza, ELENA ROSE",Colombia,en,14,,neutral,0.0,0.3033626973628998,0.0,0.0,0.0,0.12074439972639084,0.09639117866754532
+Mal Amor,Luis Alberto Posada,Colombia,es,1,,fear,0.0,0.0,0.0,0.31673291325569153,0.0,0.0,0.0
+Ganas De Ti,Arcángel,Colombia,es,1,,neutral,0.0,0.4705038070678711,0.0,0.0,0.0,0.0,0.0
+Imitadora,Romeo Santos,Colombia,es,-1,,fear,0.0,0.18696923553943634,0.0,0.2410709410905838,0.0,0.0,0.0
+Borro Cassette,Maluma,Colombia,es,1,,neutral,0.0,0.23626959323883057,0.0,0.14121368527412415,0.0,0.0,0.0
+Yo sé,"Yan Block, TORRRES",Colombia,es,-1,,neutral,0.0,0.2915302515029907,0.20965151488780975,0.0,0.0,0.0,0.0
+The Flow's Son Black!,"El Americano 4KT, Kobby",Colombia,es,6,,sadness,0.0,0.24007572730382284,0.0,0.0,0.0,0.6251803437868754,0.0
+Dile a Tu Amiga,Dalmata,Colombia,es,1,,neutral,0.0,0.30296552181243896,0.0,0.0,0.0,0.0,0.0
+WO OH OH,"Omar Courtz, ROA",Colombia,es,1,,joy,0.0,0.08312561611334483,0.21907328565915427,0.0,0.0,0.0,0.0
+Ya No Mi Amor,Yeison Jimenez,Colombia,es,1,,fear,0.0,0.1794116348028183,0.0,0.19346338510513306,0.0,0.0,0.0
+SI ESTÁS CON ALGUIEN,Omar Courtz,Colombia,es,1,,neutral,0.0,0.46497973799705505,0.0,0.0,0.0,0.0,0.0
+Mi Venganza,"Alzate, Yeison Jimenez",Colombia,es,1,,neutral,0.0,0.4137257933616638,0.0,0.0,0.0,0.0,0.0
+Tu No Vive Asi (feat. Mambo Kingz & DJ Luian),"Arcángel, Bad Bunny, Mambo Kingz, DJ Luian",Colombia,es,19,,neutral,0.035948910883494785,0.48473451818738666,0.0,0.0,0.0,0.0,0.0
+CHUCHA,"TURY, CARABIN3",Colombia,es,1,,neutral,0.16446775943040848,0.3187389522790909,0.0,0.0,0.0,0.0,0.0
+KLOuFRENS,Bad Bunny,Colombia,es,1,,neutral,0.0,0.16789346933364868,0.0,0.09705730279286702,0.10819938778877258,0.0,0.0
++57,"KAROL G, Feid, DFZM, Ovy On The Drums, J Balvin, Maluma, Ryan Castro, Blessd",Colombia,en,11,,joy,0.0,0.0,0.535895025730133,0.0,0.11940938234329224,0.0,0.0
+El Mejor Caballo,Yeison Jimenez,Colombia,es,29,,fear,0.0,0.16395330429077148,0.0,0.2174921234448751,0.0,0.0,0.0
+Niño,Milo j,Colombia,es,28,,neutral,0.0,0.4827098846435547,0.0,0.0,0.0,0.0,0.0
+KOKO,Omar Courtz,Colombia,es,19,,neutral,0.0,0.4898354808489482,0.0,0.0,0.0,0.0,0.0
+OHNANA,Kapo,Colombia,es,12,,neutral,0.0,0.4427134692668915,0.0,0.0,0.0,0.0,0.0
+Permítame,"Tony Dize, Yandel",Colombia,es,1,,neutral,0.0,0.4676816016435623,0.0,0.0,0.0,0.0,0.0
+DtMF,Bad Bunny,Global,es,19,,neutral,0.14421416322390238,0.2856918176015218,0.0,0.0,0.0,0.0,0.0
+DtMF,Bad Bunny,Global,es,19,,neutral,0.14421416322390238,0.2856918176015218,0.0,0.0,0.0,0.0,0.0
+DtMF,Bad Bunny,Global,es,19,,neutral,0.14421416322390238,0.2856918176015218,0.0,0.0,0.0,0.0,0.0
+Stateside + Zara Larsson,"PinkPantheress, Zara Larsson",Global,en,17,,surprise,0.0,0.0,0.11723215381304423,0.0,0.0,0.0,0.41912434498469037
+Stateside + Zara Larsson,"PinkPantheress, Zara Larsson",Global,en,17,,surprise,0.0,0.0,0.11723215381304423,0.0,0.0,0.0,0.41912434498469037
+Stateside + Zara Larsson,"PinkPantheress, Zara Larsson",Global,en,17,,surprise,0.0,0.0,0.11723215381304423,0.0,0.0,0.0,0.41912434498469037
+Risk It All,Bruno Mars,Global,en,21,,anger,0.7032333612442017,0.0,0.0,0.0,0.0,0.0,0.0
+Risk It All,Bruno Mars,Global,en,21,,anger,0.7032333612442017,0.0,0.0,0.0,0.0,0.0,0.0
+Risk It All,Bruno Mars,Global,en,21,,anger,0.7032333612442017,0.0,0.0,0.0,0.0,0.0,0.0
+End of Beginning,Djo,Global,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.8239284753799438,0.0
+End of Beginning,Djo,Global,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.8239284753799438,0.0
+End of Beginning,Djo,Global,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.8239284753799438,0.0
+Man I Need,Olivia Dean,Global,en,-1,,fear,0.0,0.1951428254445394,0.0,0.31180475155512494,0.0,0.0,0.19335283835728964
+Man I Need,Olivia Dean,Global,en,-1,,fear,0.0,0.1951428254445394,0.0,0.31180475155512494,0.0,0.0,0.19335283835728964
+The Fate of Ophelia,Taylor Swift,Global,en,0,,sadness,0.0,0.0,0.0,0.0,0.0,0.875088115533193,0.0
+The Fate of Ophelia,Taylor Swift,Global,en,0,,sadness,0.0,0.0,0.0,0.0,0.0,0.875088115533193,0.0
+The Fate of Ophelia,Taylor Swift,Global,en,0,,sadness,0.0,0.0,0.0,0.0,0.0,0.875088115533193,0.0
+So Easy (To Fall In Love),Olivia Dean,Global,en,4,,joy,0.0,0.0,0.8622262179851532,0.0,0.0,0.0,0.0
+So Easy (To Fall In Love),Olivia Dean,Global,en,4,,joy,0.0,0.0,0.8622262179851532,0.0,0.0,0.0,0.0
+So Easy (To Fall In Love),Olivia Dean,Global,en,4,,joy,0.0,0.0,0.8622262179851532,0.0,0.0,0.0,0.0
+BAILE INoLVIDABLE,Bad Bunny,Global,es,27,,fear,0.0989420215288798,0.1663496990998586,0.0,0.25771180788675946,0.0,0.0,0.0
+BAILE INoLVIDABLE,Bad Bunny,Global,es,27,,fear,0.0989420215288798,0.1663496990998586,0.0,0.25771180788675946,0.0,0.0,0.0
+BAILE INoLVIDABLE,Bad Bunny,Global,es,27,,fear,0.0989420215288798,0.1663496990998586,0.0,0.25771180788675946,0.0,0.0,0.0
+I Just Might,Bruno Mars,Global,en,14,,sadness,0.0,0.0,0.16820492347081503,0.0,0.0,0.5228241682052612,0.0
+I Just Might,Bruno Mars,Global,en,14,,sadness,0.0,0.0,0.16820492347081503,0.0,0.0,0.5228241682052612,0.0
+NUEVAYoL,Bad Bunny,Global,es,29,,neutral,0.0,0.3654826283454895,0.10342777768770854,0.0,0.0,0.0,0.0
+NUEVAYoL,Bad Bunny,Global,es,29,,neutral,0.0,0.3654826283454895,0.10342777768770854,0.0,0.0,0.0,0.0
+NUEVAYoL,Bad Bunny,Global,es,29,,neutral,0.0,0.3654826283454895,0.10342777768770854,0.0,0.0,0.0,0.0
+back to friends,sombr,Global,en,5,,fear,0.0,0.0,0.0,0.4692058563232422,0.0,0.0,0.38449016213417053
+back to friends,sombr,Global,en,5,,fear,0.0,0.0,0.0,0.4692058563232422,0.0,0.0,0.38449016213417053
+back to friends,sombr,Global,en,5,,fear,0.0,0.0,0.0,0.4692058563232422,0.0,0.0,0.38449016213417053
+Babydoll,Dominic Fike,Global,en,24,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.5096461176872253
+Babydoll,Dominic Fike,Global,en,24,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.5096461176872253
+WHERE IS MY HUSBAND!,RAYE,Global,en,-1,,fear,0.0,0.0,0.0,0.3088373616337776,0.0,0.0,0.23078563064336777
+WHERE IS MY HUSBAND!,RAYE,Global,en,-1,,fear,0.0,0.0,0.0,0.3088373616337776,0.0,0.0,0.23078563064336777
+Raindance (feat. Tems),"Dave, Tems",Global,pt,1,,joy,0.0,0.0,0.34078216552734375,0.07976489514112473,0.0,0.0,0.0
+Tití Me Preguntó,Bad Bunny,Global,es,12,,neutral,0.0,0.29594669739405316,0.0,0.0,0.0,0.265002965927124,0.0
+Tití Me Preguntó,Bad Bunny,Global,es,12,,neutral,0.0,0.29594669739405316,0.0,0.0,0.0,0.265002965927124,0.0
+Lush Life,Zara Larsson,Global,en,0,,sadness,0.20214885473251343,0.0,0.0,0.0,0.0,0.46192439397176105,0.0
+Lush Life,Zara Larsson,Global,en,0,,sadness,0.20214885473251343,0.0,0.0,0.0,0.0,0.46192439397176105,0.0
+Ordinary,Alex Warren,Global,en,0,,anger,0.29649028182029724,0.0,0.0,0.0,0.0,0.0,0.24476021528244019
+Ordinary,Alex Warren,Global,en,0,,anger,0.29649028182029724,0.0,0.0,0.0,0.0,0.0,0.24476021528244019
+Golden,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Global,en,13,,joy,0.0,0.0,0.4776703119277954,0.0,0.0,0.4214116632938385,0.0
+Golden,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Global,en,13,,joy,0.0,0.0,0.4776703119277954,0.0,0.0,0.4214116632938385,0.0
+Golden,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Global,en,13,,joy,0.0,0.0,0.4776703119277954,0.0,0.0,0.4214116632938385,0.0
+EoO,Bad Bunny,Global,es,25,,neutral,0.0,0.48366352915763855,0.0,0.0,0.0,0.0,0.0
+EoO,Bad Bunny,Global,es,25,,neutral,0.0,0.48366352915763855,0.0,0.0,0.0,0.0,0.0
+EoO,Bad Bunny,Global,es,25,,neutral,0.0,0.48366352915763855,0.0,0.0,0.0,0.0,0.0
+Die With A Smile,"Lady Gaga, Bruno Mars",Global,en,3,,sadness,0.0,0.0,0.2144453078508377,0.0,0.0,0.38056811690330505,0.0
+Die With A Smile,"Lady Gaga, Bruno Mars",Global,en,3,,sadness,0.0,0.0,0.2144453078508377,0.0,0.0,0.38056811690330505,0.0
+Die With A Smile,"Lady Gaga, Bruno Mars",Global,en,3,,sadness,0.0,0.0,0.2144453078508377,0.0,0.0,0.38056811690330505,0.0
+FEVER DREAM,Alex Warren,Global,en,22,,sadness,0.0,0.0,0.0,0.34746432304382324,0.0,0.45831558108329773,0.0
+FEVER DREAM,Alex Warren,Global,en,22,,sadness,0.0,0.0,0.0,0.34746432304382324,0.0,0.45831558108329773,0.0
+Die On This Hill,SIENNA SPIRO,Global,en,21,,anger,0.4942407011985779,0.0,0.48665106296539307,0.0,0.0,0.0,0.0
+Die On This Hill,SIENNA SPIRO,Global,en,21,,anger,0.4942407011985779,0.0,0.48665106296539307,0.0,0.0,0.0,0.0
+GO,BLACKPINK,Global,en,9,,sadness,0.21073012053966522,0.0,0.0,0.0,0.0,0.4865480065345764,0.0
+GO,BLACKPINK,Global,en,9,,sadness,0.21073012053966522,0.0,0.0,0.0,0.0,0.4865480065345764,0.0
+Iris,The Goo Goo Dolls,Global,en,16,,sadness,0.0,0.0,0.0,0.0,0.0,0.6561304926872253,0.0
+Iris,The Goo Goo Dolls,Global,en,16,,sadness,0.0,0.0,0.0,0.0,0.0,0.6561304926872253,0.0
+Homewrecker,sombr,Global,en,4,,sadness,0.0,0.0,0.0,0.0,0.0,0.7105556130409241,0.0
+Homewrecker,sombr,Global,en,4,,sadness,0.0,0.0,0.0,0.0,0.0,0.7105556130409241,0.0
+BIRDS OF A FEATHER,Billie Eilish,Global,en,3,,surprise,0.0,0.0,0.0,0.0,0.0,0.45399045944213867,0.49312734603881836
+BIRDS OF A FEATHER,Billie Eilish,Global,en,3,,surprise,0.0,0.0,0.0,0.0,0.0,0.45399045944213867,0.49312734603881836
+Every Breath You Take,The Police,Global,en,8,,anger,0.3941066265106201,0.29441853364308673,0.0,0.0,0.0,0.0,0.0
+Every Breath You Take,The Police,Global,en,8,,anger,0.3941066265106201,0.29441853364308673,0.0,0.0,0.0,0.0,0.0
+Love Me Not,Ravyn Lenae,Global,en,4,,sadness,0.0,0.0,0.0,0.0,0.0,0.8598646521568298,0.0
+Love Me Not,Ravyn Lenae,Global,en,4,,sadness,0.0,0.0,0.0,0.0,0.0,0.8598646521568298,0.0
+I Thought I Saw Your Face Today,She & Him,Global,en,20,,sadness,0.0,0.0,0.0,0.0,0.0,0.4025292694568634,0.37009626626968384
+I Thought I Saw Your Face Today,She & Him,Global,en,20,,sadness,0.0,0.0,0.0,0.0,0.0,0.4025292694568634,0.37009626626968384
+Manchild,Sabrina Carpenter,Global,en,15,,anger,0.3371105492115021,0.0,0.0,0.0,0.0,0.0,0.23219959437847137
+Manchild,Sabrina Carpenter,Global,en,15,,anger,0.3371105492115021,0.0,0.0,0.0,0.0,0.0,0.23219959437847137
+VOY A LLeVARTE PA PR,Bad Bunny,Global,es,12,,neutral,0.10704679290453593,0.23838509122530618,0.0,0.0,0.0,0.0,0.0
+VOY A LLeVARTE PA PR,Bad Bunny,Global,es,12,,neutral,0.10704679290453593,0.23838509122530618,0.0,0.0,0.0,0.0,0.0
+VOY A LLeVARTE PA PR,Bad Bunny,Global,es,12,,neutral,0.10704679290453593,0.23838509122530618,0.0,0.0,0.0,0.0,0.0
+12 to 12,sombr,Global,en,0,,sadness,0.0,0.0,0.0,0.2123883217573166,0.0,0.4937702715396881,0.0
+12 to 12,sombr,Global,en,0,,sadness,0.0,0.0,0.0,0.2123883217573166,0.0,0.4937702715396881,0.0
+Sailor Song,Gigi Perez,Global,en,5,,anger,0.7488568425178528,0.0,0.0,0.0,0.0,0.0,0.0
+Sailor Song,Gigi Perez,Global,en,5,,anger,0.7488568425178528,0.0,0.0,0.0,0.0,0.0,0.0
+Opalite,Taylor Swift,Global,en,0,,sadness,0.0,0.0,0.0,0.21168110768000284,0.0,0.2633255521456401,0.21011106173197427
+Opalite,Taylor Swift,Global,en,0,,sadness,0.0,0.0,0.0,0.21168110768000284,0.0,0.2633255521456401,0.21011106173197427
+Opalite,Taylor Swift,Global,en,0,,sadness,0.0,0.0,0.0,0.21168110768000284,0.0,0.2633255521456401,0.21011106173197427
+iloveitiloveitiloveit,Bella Kay,Global,en,3,,surprise,0.0,0.0,0.09911864002545674,0.0,0.0,0.18470684687296549,0.1902106006940206
+iloveitiloveitiloveit,Bella Kay,Global,en,3,,surprise,0.0,0.0,0.09911864002545674,0.0,0.0,0.18470684687296549,0.1902106006940206
+Sweater Weather,The Neighbourhood,Global,en,15,,sadness,0.0,0.0,0.0,0.0,0.0,0.4454822540283203,0.0
+Sweater Weather,The Neighbourhood,Global,en,15,,sadness,0.0,0.0,0.0,0.0,0.0,0.4454822540283203,0.0
+WILDFLOWER,Billie Eilish,Global,en,3,,surprise,0.0,0.0,0.0,0.0,0.0,0.3275735080242157,0.47405147552490234
+Creep,Radiohead,Global,en,17,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6566457748413086
+Creep,Radiohead,Global,en,17,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6566457748413086
+That's What I Like,Bruno Mars,Global,en,11,,joy,0.0,0.0,0.5428837935129801,0.0,0.0,0.0,0.0
+That's What I Like,Bruno Mars,Global,en,11,,joy,0.0,0.0,0.5428837935129801,0.0,0.0,0.0,0.0
+LA CANCIÓN,"J Balvin, Bad Bunny",Global,es,-1,,neutral,0.0,0.5184565981229147,0.0,0.0,0.0,0.0,0.0
+LA CANCIÓN,"J Balvin, Bad Bunny",Global,es,-1,,neutral,0.0,0.5184565981229147,0.0,0.0,0.0,0.0,0.0
+No Broke Boys,"Disco Lines, Tinashe",Global,en,15,,sadness,0.2359910011291504,0.0,0.0,0.0,0.0,0.5570460359255472,0.0
+No Broke Boys,"Disco Lines, Tinashe",Global,en,15,,sadness,0.2359910011291504,0.0,0.0,0.0,0.0,0.5570460359255472,0.0
+One Dance,"Drake, Wizkid, Kyla",Global,tr,18,,neutral,0.0,0.43560200929641724,0.0,0.0,0.0,0.0,0.0
+One Dance,"Drake, Wizkid, Kyla",Global,tr,18,,neutral,0.0,0.43560200929641724,0.0,0.0,0.0,0.0,0.0
+Beautiful Things,Benson Boone,Global,en,20,,fear,0.0,0.0,0.0,0.4970416724681854,0.0,0.44497886300086975,0.0
+Beautiful Things,Benson Boone,Global,en,20,,fear,0.0,0.0,0.0,0.4970416724681854,0.0,0.44497886300086975,0.0
+Choosin' Texas,Ella Langley,Global,en,14,,sadness,0.0,0.21713010966777802,0.0,0.0,0.0,0.48314350843429565,0.0
+Choosin' Texas,Ella Langley,Global,en,14,,sadness,0.0,0.21713010966777802,0.0,0.0,0.0,0.48314350843429565,0.0
+Cha Cha Cha,Bruno Mars,Global,en,23,,fear,0.0,0.0,0.0,0.45884495973587036,0.0,0.3133609890937805,0.0
+Cha Cha Cha,Bruno Mars,Global,en,23,,fear,0.0,0.0,0.0,0.45884495973587036,0.0,0.3133609890937805,0.0
+E85,Don Toliver,Global,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.6912108063697815,0.0
+E85,Don Toliver,Global,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.6912108063697815,0.0
+Locked out of Heaven,Bruno Mars,Global,en,26,,sadness,0.0,0.0,0.0,0.0,0.0,0.8550266623497009,0.0
+Locked out of Heaven,Bruno Mars,Global,en,26,,sadness,0.0,0.0,0.0,0.0,0.0,0.8550266623497009,0.0
+Don’t Say You Love Me,Jin,Global,en,14,,sadness,0.0,0.0,0.0,0.0,0.0,0.7123828828334808,0.0
+Don’t Say You Love Me,Jin,Global,en,14,,sadness,0.0,0.0,0.0,0.0,0.0,0.7123828828334808,0.0
+I Wanna Be Yours,Arctic Monkeys,Global,en,8,,neutral,0.13978803157806396,0.23261380195617676,0.0,0.0,0.0,0.0,0.0
+Mr. Brightside,The Killers,Global,en,5,,sadness,0.0,0.0,0.19079935550689697,0.0,0.0,0.26432082056999207,0.0
+Mr. Brightside,The Killers,Global,en,5,,sadness,0.0,0.0,0.19079935550689697,0.0,0.0,0.26432082056999207,0.0
+(When You Gonna) Give It Up to Me - Radio Version,"Sean Paul, Keyshia Cole",Global,en,9,,sadness,0.06874937534332276,0.023584187030792236,0.12519213795661926,0.11829489429791769,0.0,0.2152774385611216,0.032900992631912235
+"One Of The Girls (with JENNIE, Lily Rose Depp)","The Weeknd, JENNIE, Lily-Rose Depp",Global,en,9,,fear,0.0,0.0,0.0,0.8891510963439941,0.0,0.0,0.0
+Yellow,Coldplay,Global,en,26,,neutral,0.0,0.2853351831436157,0.21585078537464142,0.0,0.0,0.0,0.0
+God Was Showing Off,Bruno Mars,Global,en,0,,surprise,0.0,0.0,0.16952796777089438,0.0,0.0,0.0,0.2780621647834778
+God Was Showing Off,Bruno Mars,Global,en,0,,surprise,0.0,0.0,0.16952796777089438,0.0,0.0,0.0,0.2780621647834778
+Qué Pasaría...,"Rauw Alejandro, Bad Bunny",Global,es,6,,neutral,0.0,0.15693744023640951,0.13844135403633118,0.12922264138857523,0.0,0.0,0.0
+Qué Pasaría...,"Rauw Alejandro, Bad Bunny",Global,es,6,,neutral,0.0,0.15693744023640951,0.13844135403633118,0.12922264138857523,0.0,0.0,0.0
+Cuando No Era Cantante,"El Bogueto, Yung Beef",Global,es,-1,,neutral,0.0,0.4583841661612193,0.0,0.0,0.0,0.0,0.0
+Cuando No Era Cantante,"El Bogueto, Yung Beef",Global,es,-1,,neutral,0.0,0.4583841661612193,0.0,0.0,0.0,0.0,0.0
+Espresso,Sabrina Carpenter,Global,en,-1,,neutral,0.0,0.35866205890973407,0.0,0.0,0.0,0.0,0.2657519578933716
+Gabriela,KATSEYE,Global,en,8,,neutral,0.0,0.3863416314125061,0.0,0.0,0.0,0.0,0.34051650762557983
+Dreams - 2004 Remaster,Fleetwood Mac,Global,it,9,,sadness,0.0,0.0,0.0,0.09847371776898702,0.0,0.5054911573727926,0.0
+Dreams - 2004 Remaster,Fleetwood Mac,Global,it,9,,sadness,0.0,0.0,0.0,0.09847371776898702,0.0,0.5054911573727926,0.0
+Who,Jimin,Global,en,16,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6864519417285919
+Who,Jimin,Global,en,16,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6864519417285919
+dopamina,"Peso Pluma, Tito Double P",Global,es,6,,neutral,0.0,0.4143208712339401,0.0,0.0,0.0,0.0,0.0
+JUMP,BLACKPINK,Global,en,13,,joy,0.0,0.2524612247943878,0.3624098300933838,0.0,0.0,0.0,0.0
+JUMP,BLACKPINK,Global,en,13,,joy,0.0,0.2524612247943878,0.3624098300933838,0.0,0.0,0.0,0.0
+Starboy,"The Weeknd, Daft Punk",Global,tr,18,,neutral,0.0,0.528258353471756,0.0,0.0,0.0,0.0,0.0
+Sparks,Coldplay,Global,en,4,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6453679800033569
+Sparks,Coldplay,Global,en,4,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6453679800033569
+LA VILLA,"Ryan Castro, Kapo, Gangsta",Global,es,-1,,neutral,0.0,0.2786506513754527,0.15375595291455588,0.0,0.0,0.0,0.0
+LA VILLA,"Ryan Castro, Kapo, Gangsta",Global,es,-1,,neutral,0.0,0.2786506513754527,0.15375595291455588,0.0,0.0,0.0,0.0
+As It Was,Harry Styles,Global,en,24,,neutral,0.0,0.3600774109363556,0.0,0.0,0.0,0.33547109365463257,0.0
+APT.,"ROSÉ, Bruno Mars",Global,en,24,,sadness,0.0,0.20530959963798523,0.0,0.0,0.0,0.35449665784835815,0.0
+APT.,"ROSÉ, Bruno Mars",Global,en,24,,sadness,0.0,0.20530959963798523,0.0,0.0,0.0,0.35449665784835815,0.0
+White Keys,Dominic Fike,Global,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.40054088830947876,0.26189127564430237
+White Keys,Dominic Fike,Global,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.40054088830947876,0.26189127564430237
+VeLDÁ,"Bad Bunny, Omar Courtz, Dei V",Global,en,23,,surprise,0.0,0.0,0.2596282437443733,0.0,0.0,0.0,0.269787460565567
+VeLDÁ,"Bad Bunny, Omar Courtz, Dei V",Global,en,23,,surprise,0.0,0.0,0.2596282437443733,0.0,0.0,0.0,0.269787460565567
+Lose Control,Teddy Swims,Global,en,5,,sadness,0.0,0.0,0.0,0.0,0.0,0.7592611312866211,0.0
+Lose Control,Teddy Swims,Global,en,5,,sadness,0.0,0.0,0.0,0.0,0.0,0.7592611312866211,0.0
+Feel Good Inc.,"Gorillaz, De La Soul",Global,en,4,,joy,0.0,0.0,0.629552404085795,0.0,0.0,0.18675655126571655,0.0
+"All The Stars (with SZA) - From ""Black Panther: The Album""","Kendrick Lamar, SZA",Global,en,9,,fear,0.06314396858215332,0.0,0.12960695723692575,0.2323723832766215,0.0,0.04378433028856913,0.0
+"All The Stars (with SZA) - From ""Black Panther: The Album""","Kendrick Lamar, SZA",Global,en,9,,fear,0.06314396858215332,0.0,0.12960695723692575,0.2323723832766215,0.0,0.04378433028856913,0.0
+Riptide,Vance Joy,Global,en,7,,fear,0.0,0.0,0.0,0.45637014508247375,0.0,0.3873290419578552,0.0
+505,Arctic Monkeys,Global,en,22,,fear,0.0,0.0,0.4581581950187683,0.4951002299785614,0.0,0.0,0.0
+505,Arctic Monkeys,Global,en,22,,fear,0.0,0.0,0.4581581950187683,0.4951002299785614,0.0,0.0,0.0
+Who Knows,Daniel Caesar,Global,en,16,,sadness,0.0,0.0,0.294624924659729,0.0,0.0,0.3693090081214905,0.0
+Who Knows,Daniel Caesar,Global,en,16,,sadness,0.0,0.0,0.294624924659729,0.0,0.0,0.3693090081214905,0.0
+undressed,sombr,Global,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.825486034154892,0.0
+Why You Wanna Fight?,Bruno Mars,Global,en,-1,,sadness,0.0,0.0,0.0,0.0,0.0,0.6954692304134369,0.0
+Why You Wanna Fight?,Bruno Mars,Global,en,-1,,sadness,0.0,0.0,0.0,0.0,0.0,0.6954692304134369,0.0
+Fame is a Gun,Addison Rae,Global,en,7,,joy,0.0,0.0,0.4573415517807007,0.0,0.0,0.25075089931488037,0.0
+Fame is a Gun,Addison Rae,Global,en,7,,joy,0.0,0.0,0.4573415517807007,0.0,0.0,0.25075089931488037,0.0
+Ya Borracho,Herencia De Grandes,Global,es,-1,,fear,0.0,0.2402026653289795,0.0,0.44339659810066223,0.0,0.0,0.0
+Ya Borracho,Herencia De Grandes,Global,es,-1,,fear,0.0,0.2402026653289795,0.0,0.44339659810066223,0.0,0.0,0.0
+In the End,Linkin Park,Global,en,3,,surprise,0.0,0.0,0.13158883651097616,0.0,0.0,0.0,0.5454210241635641
+Seven (feat. Latto) (Explicit Ver.),"Jung Kook, Latto",Global,ru,18,,neutral,0.0,0.4238702555497487,0.0,0.0,0.0,0.0,0.0
+Dance With Me,Bruno Mars,Global,en,8,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.35970214009284973
+Dance With Me,Bruno Mars,Global,en,8,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.35970214009284973
+Billie Jean,Michael Jackson,Global,en,11,,neutral,0.0,0.40887779742479324,0.0,0.0,0.0,0.0,0.10827494412660599
+kota ini tak sama tanpamu,Nadhif Basalamah,Global,id,18,,neutral,0.0,0.7494639754295349,0.0,0.0,0.0,0.0,0.0
+The Night We Met,Lord Huron,Global,en,0,,fear,0.0,0.0,0.0,0.4094948172569275,0.0,0.0,0.314374715089798
+daño,"Peso Pluma, Tito Double P",Global,es,1,,neutral,0.0,0.39445820450782776,0.0,0.0,0.0,0.0,0.19679264724254608
+Just the Way You Are,Bruno Mars,Global,en,26,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.49531517922878265
+Pvta Luna,Neton Vega,Global,es,12,,neutral,0.0,0.5594208836555481,0.0,0.0,0.0,0.0,0.0
+That’s So True,Gracie Abrams,Global,en,17,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6752895414829254
+La Plena - W Sound 05,"W Sound, Beéle, Ovy On The Drums",Global,en,26,,joy,0.0,0.16720592975616455,0.369269331296285,0.0,0.0,0.0,0.0
+La Plena - W Sound 05,"W Sound, Beéle, Ovy On The Drums",Global,en,26,,joy,0.0,0.16720592975616455,0.369269331296285,0.0,0.0,0.0,0.0
+No One Noticed,The Marías,Global,en,22,,sadness,0.0,0.0,0.19219689071178436,0.0,0.0,0.38067618012428284,0.0
+No One Noticed,The Marías,Global,en,22,,sadness,0.0,0.0,0.19219689071178436,0.0,0.0,0.38067618012428284,0.0
+Champion,BLACKPINK,Global,en,8,,anger,0.45185983180999756,0.0,0.0,0.0,0.0,0.2033892422914505,0.0
+Champion,BLACKPINK,Global,en,8,,anger,0.45185983180999756,0.0,0.0,0.0,0.0,0.2033892422914505,0.0
+7-3,"Peso Pluma, Tito Double P",Global,es,1,,neutral,0.0,0.34289780259132385,0.0,0.205680251121521,0.0,0.0,0.0
+Body,Don Toliver,Global,en,11,,sadness,0.0,0.0,0.0,0.0,0.0,0.30953840414683026,0.21614831686019897
+Body,Don Toliver,Global,en,11,,sadness,0.0,0.0,0.0,0.0,0.0,0.30953840414683026,0.21614831686019897
+Todo Lo Fue,Lenin Ramírez,Global,es,28,,neutral,0.0,0.38476574420928955,0.0,0.0,0.0,0.0,0.0
+Todo Lo Fue,Lenin Ramírez,Global,es,28,,neutral,0.0,0.38476574420928955,0.0,0.0,0.0,0.0,0.0
+Timeless (feat Playboi Carti),"The Weeknd, Playboi Carti",Global,tr,18,,neutral,0.0,0.5801328420639038,0.0,0.0,0.0,0.0,0.0
+Timeless (feat Playboi Carti),"The Weeknd, Playboi Carti",Global,tr,18,,neutral,0.0,0.5801328420639038,0.0,0.0,0.0,0.0,0.0
+Viva La Vida,Coldplay,Global,en,0,,fear,0.0,0.0,0.0,0.4943251609802246,0.0,0.0,0.3180676996707916
+What You Saying,Lil Uzi Vert,Global,en,23,,neutral,0.0,0.2377249002456665,0.14724978804588318,0.0,0.0,0.0,0.0
+What You Saying,Lil Uzi Vert,Global,en,23,,neutral,0.0,0.2377249002456665,0.14724978804588318,0.0,0.0,0.0,0.0
+On My Soul,Bruno Mars,Global,en,8,,sadness,0.0,0.0,0.0,0.0,0.0,0.4668457806110382,0.0
+On My Soul,Bruno Mars,Global,en,8,,sadness,0.0,0.0,0.0,0.0,0.0,0.4668457806110382,0.0
+Winter Ahead (with PARK HYO SHIN),"V, Park Hyo Shin",Taiwan,en,9,,joy,0.0,0.0,0.41898807883262634,0.0,0.0,0.0,0.0
+GO,BLACKPINK,Taiwan,en,9,,sadness,0.21073012053966522,0.0,0.0,0.0,0.0,0.4865480065345764,0.0
+GO,BLACKPINK,Taiwan,en,9,,sadness,0.21073012053966522,0.0,0.0,0.0,0.0,0.4865480065345764,0.0
+Don’t Say You Love Me,Jin,Taiwan,en,14,,sadness,0.0,0.0,0.0,0.0,0.0,0.7123828828334808,0.0
+Don’t Say You Love Me,Jin,Taiwan,en,14,,sadness,0.0,0.0,0.0,0.0,0.0,0.7123828828334808,0.0
+Who,Jimin,Taiwan,en,16,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6864519417285919
+Who,Jimin,Taiwan,en,16,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6864519417285919
+太陽與地球,Crowd Lu,Taiwan,zh,2,,neutral,0.0,0.48324063420295715,0.0,0.0,0.0,0.0,0.0
+RUDE!,Hearts2Hearts,Taiwan,en,10,,anger,0.5648484031359354,0.0,0.17308825254440308,0.0,0.0,0.0,0.0
+BANG BANG,IVE,Taiwan,ko,10,,fear,0.2638050317764282,0.0,0.0,0.4728754460811615,0.0,0.0,0.0
+Champion,BLACKPINK,Taiwan,en,8,,anger,0.45185983180999756,0.0,0.0,0.0,0.0,0.2033892422914505,0.0
+Champion,BLACKPINK,Taiwan,en,8,,anger,0.45185983180999756,0.0,0.0,0.0,0.0,0.2033892422914505,0.0
+特別的人,Khalil Fong,Taiwan,zh,2,,neutral,0.0,0.3783208131790161,0.0,0.0,0.0,0.0,0.0
+JUMP,BLACKPINK,Taiwan,en,13,,joy,0.0,0.2524612247943878,0.3624098300933838,0.0,0.0,0.0,0.0
+JUMP,BLACKPINK,Taiwan,en,13,,joy,0.0,0.2524612247943878,0.3624098300933838,0.0,0.0,0.0,0.0
+Slow Dancing,V,Taiwan,ko,10,,neutral,0.0,0.6066862344741821,0.0,0.0,0.0,0.0,0.0
+一半一半,"Top Barry, INDEcompany",Taiwan,zh,2,,neutral,0.0,0.4455874562263489,0.0,0.0,0.0,0.0,0.0
+Love Me Again,V,Taiwan,ko,10,,sadness,0.0,0.0,0.0,0.0,0.0,0.9598818123340607,0.0
+Good Goodbye,HWASA,Taiwan,ko,10,,sadness,0.0,0.0,0.0,0.0,0.0,0.6034257411956787,0.0
+Golden,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Taiwan,en,13,,joy,0.0,0.0,0.4776703119277954,0.0,0.0,0.4214116632938385,0.0
+Golden,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Taiwan,en,13,,joy,0.0,0.0,0.4776703119277954,0.0,0.0,0.4214116632938385,0.0
+Golden,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Taiwan,en,13,,joy,0.0,0.0,0.4776703119277954,0.0,0.0,0.4214116632938385,0.0
+Fxxxboy,BLACKPINK,Taiwan,en,24,,sadness,0.1572099228700002,0.0,0.0,0.0,0.0,0.40696100393931073,0.0
+BLACKHOLE,IVE,Taiwan,ko,10,,joy,0.0,0.22972992062568665,0.3004533052444458,0.0,0.0,0.0,0.0
+若無你我欲去佗位,黃奇斌,Taiwan,zh,2,,neutral,0.0,0.44242405891418457,0.0,0.0,0.0,0.0,0.0
+左轉燈 (1000 Times+1),"Patrick Brasca, mac ova seas",Taiwan,zh,2,,neutral,0.0,0.46832361817359924,0.0,0.0,0.0,0.0,0.0
+擱淺,Jay Chou,Taiwan,zh,2,,neutral,0.0,0.5667054057121277,0.0,0.0,0.0,0.0,0.0
+Me and my,BLACKPINK,Taiwan,en,11,,neutral,0.0,0.26938478151957196,0.17759106556574503,0.0,0.0,0.0,0.0
+404 (New Era),KiiiKiii,Taiwan,ko,10,,neutral,0.0,0.49058731396993,0.23583058516184488,0.0,0.0,0.0,0.0
+離開的一路上,Bestards,Taiwan,zh,2,,neutral,0.0,0.5090607404708862,0.0,0.0,0.0,0.0,0.0
+一夜一夜一夜,Crowd Lu,Taiwan,zh,2,,neutral,0.0,0.373286634683609,0.0,0.0,0.0,0.0,0.0
+like JENNIE,JENNIE,Taiwan,en,10,,sadness,0.0,0.0,0.0,0.0,0.0,0.49645812809467316,0.0
+Mono (feat. skaiwater),"i-dle, skaiwater",Taiwan,ru,18,,neutral,0.0,0.2379588931798935,0.0,0.17308409512043,0.0,0.0,0.0
+閣愛妳一擺,EggPlantEgg,Taiwan,zh,2,,neutral,0.0,0.4533442258834839,0.0,0.0,0.0,0.0,0.0
+遇見,Stefanie Sun,Taiwan,zh,2,,neutral,0.0,0.4745578467845917,0.0,0.0,0.0,0.0,0.0
+GO!,CORTIS,Taiwan,ko,10,,neutral,0.0,0.5069431364536285,0.0,0.0,0.0,0.0,0.0
+我懷念的,Stefanie Sun,Taiwan,zh,2,,neutral,0.0,0.47225674986839294,0.0,0.0,0.0,0.0,0.0
+toxic till the end,ROSÉ,Taiwan,en,24,,anger,0.32351210713386536,0.0,0.0,0.0,0.0,0.32189083099365234,0.0
+PSYCHO,BABYMONSTER,Taiwan,ko,10,,fear,0.0,0.16372384130954742,0.0,0.29679471254348755,0.0,0.0,0.0
+愛愛愛,Khalil Fong,Taiwan,zh,2,,neutral,0.0,0.48693639039993286,0.0,0.0,0.0,0.0,0.0
+SPAGHETTI,"LE SSERAFIM, j-hope",Taiwan,en,26,,joy,0.0,0.14658628900845846,0.5367602109909058,0.0,0.0,0.0,0.0
+不是因為天氣晴朗才愛你,Bestards,Taiwan,zh,2,,neutral,0.0,0.40651431679725647,0.0,0.0,0.0,0.0,0.0
+Whiplash,aespa,Taiwan,en,10,,neutral,0.20667804777622223,0.24838772416114807,0.0,0.0,0.0,0.0,0.0
+愛情的大壞蛋,Amazing Show,Taiwan,zh,2,,neutral,0.0,0.522404134273529,0.0,0.0,0.0,0.0,0.0
+晴天,Jay Chou,Taiwan,zh,2,,neutral,0.0,0.4453168511390686,0.0,0.0,0.0,0.0,0.0
+WE GO UP,BABYMONSTER,Taiwan,en,13,,neutral,0.0,0.3644402474164963,0.0,0.0,0.0,0.0,0.0
+珊瑚海,"Jay Chou, Lara Liang",Taiwan,vi,2,,disgust,0.0,0.0,0.0,0.0,0.27501554787158966,0.0,0.0
+NOT CUTE ANYMORE,ILLIT,Taiwan,ko,10,,fear,0.0,0.0,0.0,0.9490129351615906,0.0,0.0,0.0
+看着我的眼睛说,张远,Taiwan,zh,2,,neutral,0.0,0.49459707736968994,0.0,0.0,0.0,0.0,0.0
+開始懂了,Stefanie Sun,Taiwan,zh,2,,neutral,0.0,0.4134930968284607,0.0,0.0,0.0,0.0,0.0
+Jumping Machine (跳楼机),LBI利比,Taiwan,zh,2,,neutral,0.0,0.4306122362613678,0.0,0.0,0.0,0.0,0.0
+Risk It All,Bruno Mars,Taiwan,en,21,,anger,0.7032333612442017,0.0,0.0,0.0,0.0,0.0,0.0
+Risk It All,Bruno Mars,Taiwan,en,21,,anger,0.7032333612442017,0.0,0.0,0.0,0.0,0.0,0.0
+Risk It All,Bruno Mars,Taiwan,en,21,,anger,0.7032333612442017,0.0,0.0,0.0,0.0,0.0,0.0
+浪流連,EggPlantEgg,Taiwan,zh,2,,neutral,0.0,0.5740728974342346,0.0,0.0,0.0,0.0,0.0
+End of Beginning,Djo,Taiwan,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.8239284753799438,0.0
+End of Beginning,Djo,Taiwan,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.8239284753799438,0.0
+End of Beginning,Djo,Taiwan,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.8239284753799438,0.0
+Stateside + Zara Larsson,"PinkPantheress, Zara Larsson",Taiwan,en,17,,surprise,0.0,0.0,0.11723215381304423,0.0,0.0,0.0,0.41912434498469037
+Stateside + Zara Larsson,"PinkPantheress, Zara Larsson",Taiwan,en,17,,surprise,0.0,0.0,0.11723215381304423,0.0,0.0,0.0,0.41912434498469037
+Stateside + Zara Larsson,"PinkPantheress, Zara Larsson",Taiwan,en,17,,surprise,0.0,0.0,0.11723215381304423,0.0,0.0,0.0,0.41912434498469037
+在加納共和國離婚,"Firdhaus, DIOR 大穎",Taiwan,zh,2,,neutral,0.0,0.41262951493263245,0.0,0.0,0.0,0.0,0.0
+楓,Jay Chou,Taiwan,gd,2,,disgust,0.0,0.0,0.0,0.0,0.2864369601011276,0.0,0.0
+The Fate of Ophelia,Taylor Swift,Taiwan,en,0,,sadness,0.0,0.0,0.0,0.0,0.0,0.875088115533193,0.0
+The Fate of Ophelia,Taylor Swift,Taiwan,en,0,,sadness,0.0,0.0,0.0,0.0,0.0,0.875088115533193,0.0
+The Fate of Ophelia,Taylor Swift,Taiwan,en,0,,sadness,0.0,0.0,0.0,0.0,0.0,0.875088115533193,0.0
+Moonwalkin',LNGSHOT,Taiwan,ko,10,,sadness,0.0,0.0,0.2003622849782308,0.0,0.0,0.2676088809967041,0.0
+APT.,"ROSÉ, Bruno Mars",Taiwan,en,24,,sadness,0.0,0.20530959963798523,0.0,0.0,0.0,0.35449665784835815,0.0
+APT.,"ROSÉ, Bruno Mars",Taiwan,en,24,,sadness,0.0,0.20530959963798523,0.0,0.0,0.0,0.35449665784835815,0.0
+多遠都要在一起,G.E.M.,Taiwan,zh,2,,neutral,0.0,0.4811081290245056,0.0,0.0,0.0,0.0,0.0
+演员,Joker Xue,Taiwan,zh,2,,neutral,0.0,0.35718467831611633,0.0,0.0,0.0,0.0,0.0
+嘉賓,张远,Taiwan,zh,2,,neutral,0.0,0.350780725479126,0.0,0.0,0.0,0.0,0.0
+FaSHioN,CORTIS,Taiwan,ko,10,,joy,0.0,0.1644802689552307,0.2548369765281677,0.0,0.0,0.0,0.0
+Opalite,Taylor Swift,Taiwan,en,0,,sadness,0.0,0.0,0.0,0.21168110768000284,0.0,0.2633255521456401,0.21011106173197427
+Opalite,Taylor Swift,Taiwan,en,0,,sadness,0.0,0.0,0.0,0.21168110768000284,0.0,0.2633255521456401,0.21011106173197427
+Opalite,Taylor Swift,Taiwan,en,0,,sadness,0.0,0.0,0.0,0.21168110768000284,0.0,0.2633255521456401,0.21011106173197427
+back to friends,sombr,Taiwan,en,5,,fear,0.0,0.0,0.0,0.4692058563232422,0.0,0.0,0.38449016213417053
+back to friends,sombr,Taiwan,en,5,,fear,0.0,0.0,0.0,0.4692058563232422,0.0,0.0,0.38449016213417053
+back to friends,sombr,Taiwan,en,5,,fear,0.0,0.0,0.0,0.4692058563232422,0.0,0.0,0.38449016213417053
+DRIP,BABYMONSTER,Taiwan,en,10,,neutral,0.0,0.33638615409533185,0.0,0.0,0.0,0.14798561731974283,0.0
+So Easy (To Fall In Love),Olivia Dean,Taiwan,en,4,,joy,0.0,0.0,0.8622262179851532,0.0,0.0,0.0,0.0
+So Easy (To Fall In Love),Olivia Dean,Taiwan,en,4,,joy,0.0,0.0,0.8622262179851532,0.0,0.0,0.0,0.0
+So Easy (To Fall In Love),Olivia Dean,Taiwan,en,4,,joy,0.0,0.0,0.8622262179851532,0.0,0.0,0.0,0.0
+手放開,Sam Lee,Taiwan,en,2,,fear,0.06483992508479527,0.0,0.0,0.5791972364698138,0.0,0.0,0.0
+IRIS OUT,Kenshi Yonezu,Taiwan,ja,2,,neutral,0.0,0.5328366756439209,0.0,0.0,0.0,0.0,0.0
+"Mention Me - From The Movie ""GOAT""",CORTIS,Taiwan,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.3709421058495839,0.14578843116760254
+月牙灣,F.I.R.,Taiwan,zh,2,,neutral,0.0,0.5068592429161072,0.0,0.0,0.0,0.0,0.0
+Die With A Smile,"Lady Gaga, Bruno Mars",Taiwan,en,3,,sadness,0.0,0.0,0.2144453078508377,0.0,0.0,0.38056811690330505,0.0
+Die With A Smile,"Lady Gaga, Bruno Mars",Taiwan,en,3,,sadness,0.0,0.0,0.2144453078508377,0.0,0.0,0.38056811690330505,0.0
+Die With A Smile,"Lady Gaga, Bruno Mars",Taiwan,en,3,,sadness,0.0,0.0,0.2144453078508377,0.0,0.0,0.38056811690330505,0.0
+Magnetic,ILLIT,Taiwan,ko,10,,surprise,0.0,0.0,0.18787263333797455,0.0,0.0,0.0,0.23832745850086212
+number one girl,ROSÉ,Taiwan,en,16,,joy,0.0,0.14191622535387674,0.38157767057418823,0.0,0.0,0.0,0.0
+就是愛妳,David Tao,Taiwan,en,2,,joy,0.0,0.0,0.6437354882558187,0.0,0.0,0.12580644090970358,0.0
+其实,Joker Xue,Taiwan,zh,2,,neutral,0.0,0.4786398112773895,0.0,0.0,0.0,0.0,0.0
+FOCUS,Hearts2Hearts,Taiwan,en,-1,,sadness,0.0,0.0,0.0,0.0,0.0,0.4418494403362274,0.24698644876480103
+偷偷愛,Amazing Show,Taiwan,zh,2,,neutral,0.0,0.5176893472671509,0.0,0.0,0.0,0.0,0.0
+Zoo,"Disney, Shakira",Taiwan,en,0,,joy,0.0,0.0,0.7616663575172424,0.0,0.0,0.0,0.0
+慢冷,Fish Leong,Taiwan,zh,2,,neutral,0.0,0.44790029525756836,0.0,0.0,0.0,0.0,0.0
+Rich Man,aespa,Taiwan,en,10,,joy,0.0,0.0,0.8138721883296967,0.0,0.0,0.0,0.0
+Risk It All,Bruno Mars,USA,en,21,,anger,0.7032333612442017,0.0,0.0,0.0,0.0,0.0,0.0
+Risk It All,Bruno Mars,USA,en,21,,anger,0.7032333612442017,0.0,0.0,0.0,0.0,0.0,0.0
+Risk It All,Bruno Mars,USA,en,21,,anger,0.7032333612442017,0.0,0.0,0.0,0.0,0.0,0.0
+Stateside + Zara Larsson,"PinkPantheress, Zara Larsson",USA,en,17,,surprise,0.0,0.0,0.11723215381304423,0.0,0.0,0.0,0.41912434498469037
+Stateside + Zara Larsson,"PinkPantheress, Zara Larsson",USA,en,17,,surprise,0.0,0.0,0.11723215381304423,0.0,0.0,0.0,0.41912434498469037
+Stateside + Zara Larsson,"PinkPantheress, Zara Larsson",USA,en,17,,surprise,0.0,0.0,0.11723215381304423,0.0,0.0,0.0,0.41912434498469037
+Choosin' Texas,Ella Langley,USA,en,14,,sadness,0.0,0.21713010966777802,0.0,0.0,0.0,0.48314350843429565,0.0
+Choosin' Texas,Ella Langley,USA,en,14,,sadness,0.0,0.21713010966777802,0.0,0.0,0.0,0.48314350843429565,0.0
+I Just Might,Bruno Mars,USA,en,14,,sadness,0.0,0.0,0.16820492347081503,0.0,0.0,0.5228241682052612,0.0
+I Just Might,Bruno Mars,USA,en,14,,sadness,0.0,0.0,0.16820492347081503,0.0,0.0,0.5228241682052612,0.0
+DtMF,Bad Bunny,USA,es,19,,neutral,0.14421416322390238,0.2856918176015218,0.0,0.0,0.0,0.0,0.0
+DtMF,Bad Bunny,USA,es,19,,neutral,0.14421416322390238,0.2856918176015218,0.0,0.0,0.0,0.0,0.0
+DtMF,Bad Bunny,USA,es,19,,neutral,0.14421416322390238,0.2856918176015218,0.0,0.0,0.0,0.0,0.0
+Man I Need,Olivia Dean,USA,en,-1,,fear,0.0,0.1951428254445394,0.0,0.31180475155512494,0.0,0.0,0.19335283835728964
+Man I Need,Olivia Dean,USA,en,-1,,fear,0.0,0.1951428254445394,0.0,0.31180475155512494,0.0,0.0,0.19335283835728964
+Babydoll,Dominic Fike,USA,en,24,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.5096461176872253
+Babydoll,Dominic Fike,USA,en,24,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.5096461176872253
+E85,Don Toliver,USA,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.6912108063697815,0.0
+E85,Don Toliver,USA,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.6912108063697815,0.0
+So Easy (To Fall In Love),Olivia Dean,USA,en,4,,joy,0.0,0.0,0.8622262179851532,0.0,0.0,0.0,0.0
+So Easy (To Fall In Love),Olivia Dean,USA,en,4,,joy,0.0,0.0,0.8622262179851532,0.0,0.0,0.0,0.0
+So Easy (To Fall In Love),Olivia Dean,USA,en,4,,joy,0.0,0.0,0.8622262179851532,0.0,0.0,0.0,0.0
+BAILE INoLVIDABLE,Bad Bunny,USA,es,27,,fear,0.0989420215288798,0.1663496990998586,0.0,0.25771180788675946,0.0,0.0,0.0
+BAILE INoLVIDABLE,Bad Bunny,USA,es,27,,fear,0.0989420215288798,0.1663496990998586,0.0,0.25771180788675946,0.0,0.0,0.0
+BAILE INoLVIDABLE,Bad Bunny,USA,es,27,,fear,0.0989420215288798,0.1663496990998586,0.0,0.25771180788675946,0.0,0.0,0.0
+Tití Me Preguntó,Bad Bunny,USA,es,12,,neutral,0.0,0.29594669739405316,0.0,0.0,0.0,0.265002965927124,0.0
+Tití Me Preguntó,Bad Bunny,USA,es,12,,neutral,0.0,0.29594669739405316,0.0,0.0,0.0,0.265002965927124,0.0
+NUEVAYoL,Bad Bunny,USA,es,29,,neutral,0.0,0.3654826283454895,0.10342777768770854,0.0,0.0,0.0,0.0
+NUEVAYoL,Bad Bunny,USA,es,29,,neutral,0.0,0.3654826283454895,0.10342777768770854,0.0,0.0,0.0,0.0
+NUEVAYoL,Bad Bunny,USA,es,29,,neutral,0.0,0.3654826283454895,0.10342777768770854,0.0,0.0,0.0,0.0
+Cha Cha Cha,Bruno Mars,USA,en,23,,fear,0.0,0.0,0.0,0.45884495973587036,0.0,0.3133609890937805,0.0
+Cha Cha Cha,Bruno Mars,USA,en,23,,fear,0.0,0.0,0.0,0.45884495973587036,0.0,0.3133609890937805,0.0
+End of Beginning,Djo,USA,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.8239284753799438,0.0
+End of Beginning,Djo,USA,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.8239284753799438,0.0
+End of Beginning,Djo,USA,en,3,,sadness,0.0,0.0,0.0,0.0,0.0,0.8239284753799438,0.0
+Body,Don Toliver,USA,en,11,,sadness,0.0,0.0,0.0,0.0,0.0,0.30953840414683026,0.21614831686019897
+Body,Don Toliver,USA,en,11,,sadness,0.0,0.0,0.0,0.0,0.0,0.30953840414683026,0.21614831686019897
+God Was Showing Off,Bruno Mars,USA,en,0,,surprise,0.0,0.0,0.16952796777089438,0.0,0.0,0.0,0.2780621647834778
+God Was Showing Off,Bruno Mars,USA,en,0,,surprise,0.0,0.0,0.16952796777089438,0.0,0.0,0.0,0.2780621647834778
+FEVER DREAM,Alex Warren,USA,en,22,,sadness,0.0,0.0,0.0,0.34746432304382324,0.0,0.45831558108329773,0.0
+FEVER DREAM,Alex Warren,USA,en,22,,sadness,0.0,0.0,0.0,0.34746432304382324,0.0,0.45831558108329773,0.0
+Ordinary,Alex Warren,USA,en,0,,anger,0.29649028182029724,0.0,0.0,0.0,0.0,0.0,0.24476021528244019
+Ordinary,Alex Warren,USA,en,0,,anger,0.29649028182029724,0.0,0.0,0.0,0.0,0.0,0.24476021528244019
+EoO,Bad Bunny,USA,es,25,,neutral,0.0,0.48366352915763855,0.0,0.0,0.0,0.0,0.0
+EoO,Bad Bunny,USA,es,25,,neutral,0.0,0.48366352915763855,0.0,0.0,0.0,0.0,0.0
+EoO,Bad Bunny,USA,es,25,,neutral,0.0,0.48366352915763855,0.0,0.0,0.0,0.0,0.0
+iloveitiloveitiloveit,Bella Kay,USA,en,3,,surprise,0.0,0.0,0.09911864002545674,0.0,0.0,0.18470684687296549,0.1902106006940206
+iloveitiloveitiloveit,Bella Kay,USA,en,3,,surprise,0.0,0.0,0.09911864002545674,0.0,0.0,0.18470684687296549,0.1902106006940206
+Mr. Brightside,The Killers,USA,en,5,,sadness,0.0,0.0,0.19079935550689697,0.0,0.0,0.26432082056999207,0.0
+Mr. Brightside,The Killers,USA,en,5,,sadness,0.0,0.0,0.19079935550689697,0.0,0.0,0.26432082056999207,0.0
+Homewrecker,sombr,USA,en,4,,sadness,0.0,0.0,0.0,0.0,0.0,0.7105556130409241,0.0
+Homewrecker,sombr,USA,en,4,,sadness,0.0,0.0,0.0,0.0,0.0,0.7105556130409241,0.0
+back to friends,sombr,USA,en,5,,fear,0.0,0.0,0.0,0.4692058563232422,0.0,0.0,0.38449016213417053
+back to friends,sombr,USA,en,5,,fear,0.0,0.0,0.0,0.4692058563232422,0.0,0.0,0.38449016213417053
+back to friends,sombr,USA,en,5,,fear,0.0,0.0,0.0,0.4692058563232422,0.0,0.0,0.38449016213417053
+Golden,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",USA,en,13,,joy,0.0,0.0,0.4776703119277954,0.0,0.0,0.4214116632938385,0.0
+Golden,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",USA,en,13,,joy,0.0,0.0,0.4776703119277954,0.0,0.0,0.4214116632938385,0.0
+Golden,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",USA,en,13,,joy,0.0,0.0,0.4776703119277954,0.0,0.0,0.4214116632938385,0.0
+The Fate of Ophelia,Taylor Swift,USA,en,0,,sadness,0.0,0.0,0.0,0.0,0.0,0.875088115533193,0.0
+The Fate of Ophelia,Taylor Swift,USA,en,0,,sadness,0.0,0.0,0.0,0.0,0.0,0.875088115533193,0.0
+The Fate of Ophelia,Taylor Swift,USA,en,0,,sadness,0.0,0.0,0.0,0.0,0.0,0.875088115533193,0.0
+Dreams - 2004 Remaster,Fleetwood Mac,USA,it,9,,sadness,0.0,0.0,0.0,0.09847371776898702,0.0,0.5054911573727926,0.0
+Dreams - 2004 Remaster,Fleetwood Mac,USA,it,9,,sadness,0.0,0.0,0.0,0.09847371776898702,0.0,0.5054911573727926,0.0
+Why You Wanna Fight?,Bruno Mars,USA,en,-1,,sadness,0.0,0.0,0.0,0.0,0.0,0.6954692304134369,0.0
+Why You Wanna Fight?,Bruno Mars,USA,en,-1,,sadness,0.0,0.0,0.0,0.0,0.0,0.6954692304134369,0.0
+Be Her,Ella Langley,USA,en,5,,sadness,0.0,0.0,0.0,0.0,0.0,0.946839451789856,0.0
+weren't for the wind,Ella Langley,USA,en,3,,surprise,0.0,0.2300357073545456,0.0,0.0,0.0,0.0,0.2759154438972473
+Dance With Me,Bruno Mars,USA,en,8,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.35970214009284973
+Dance With Me,Bruno Mars,USA,en,8,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.35970214009284973
+Be By You,Luke Combs,USA,en,4,,joy,0.0,0.23173828423023224,0.289608895778656,0.0,0.0,0.0,0.0
+I Got Better,Morgan Wallen,USA,en,0,,joy,0.0,0.0,0.46943601965904236,0.0,0.0,0.0,0.0
+WHERE IS MY HUSBAND!,RAYE,USA,en,-1,,fear,0.0,0.0,0.0,0.3088373616337776,0.0,0.0,0.23078563064336777
+WHERE IS MY HUSBAND!,RAYE,USA,en,-1,,fear,0.0,0.0,0.0,0.3088373616337776,0.0,0.0,0.23078563064336777
+On My Soul,Bruno Mars,USA,en,8,,sadness,0.0,0.0,0.0,0.0,0.0,0.4668457806110382,0.0
+On My Soul,Bruno Mars,USA,en,8,,sadness,0.0,0.0,0.0,0.0,0.0,0.4668457806110382,0.0
+Creep,Radiohead,USA,en,17,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6566457748413086
+Creep,Radiohead,USA,en,17,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6566457748413086
+Iris,The Goo Goo Dolls,USA,en,16,,sadness,0.0,0.0,0.0,0.0,0.0,0.6561304926872253,0.0
+Iris,The Goo Goo Dolls,USA,en,16,,sadness,0.0,0.0,0.0,0.0,0.0,0.6561304926872253,0.0
+What You Saying,Lil Uzi Vert,USA,en,23,,neutral,0.0,0.2377249002456665,0.14724978804588318,0.0,0.0,0.0,0.0
+What You Saying,Lil Uzi Vert,USA,en,23,,neutral,0.0,0.2377249002456665,0.14724978804588318,0.0,0.0,0.0,0.0
+Die On This Hill,SIENNA SPIRO,USA,en,21,,anger,0.4942407011985779,0.0,0.48665106296539307,0.0,0.0,0.0,0.0
+Die On This Hill,SIENNA SPIRO,USA,en,21,,anger,0.4942407011985779,0.0,0.48665106296539307,0.0,0.0,0.0,0.0
+Lush Life,Zara Larsson,USA,en,0,,sadness,0.20214885473251343,0.0,0.0,0.0,0.0,0.46192439397176105,0.0
+Lush Life,Zara Larsson,USA,en,0,,sadness,0.20214885473251343,0.0,0.0,0.0,0.0,0.46192439397176105,0.0
+505,Arctic Monkeys,USA,en,22,,fear,0.0,0.0,0.4581581950187683,0.4951002299785614,0.0,0.0,0.0
+505,Arctic Monkeys,USA,en,22,,fear,0.0,0.0,0.4581581950187683,0.4951002299785614,0.0,0.0,0.0
+Sweater Weather,The Neighbourhood,USA,en,15,,sadness,0.0,0.0,0.0,0.0,0.0,0.4454822540283203,0.0
+Sweater Weather,The Neighbourhood,USA,en,15,,sadness,0.0,0.0,0.0,0.0,0.0,0.4454822540283203,0.0
+Opalite,Taylor Swift,USA,en,0,,sadness,0.0,0.0,0.0,0.21168110768000284,0.0,0.2633255521456401,0.21011106173197427
+Opalite,Taylor Swift,USA,en,0,,sadness,0.0,0.0,0.0,0.21168110768000284,0.0,0.2633255521456401,0.21011106173197427
+Opalite,Taylor Swift,USA,en,0,,sadness,0.0,0.0,0.0,0.21168110768000284,0.0,0.2633255521456401,0.21011106173197427
+The Great Divide,Noah Kahan,USA,en,15,,fear,0.2099791963895162,0.0,0.0,0.5474708676338196,0.0,0.0,0.0
+I Thought I Saw Your Face Today,She & Him,USA,en,20,,sadness,0.0,0.0,0.0,0.0,0.0,0.4025292694568634,0.37009626626968384
+I Thought I Saw Your Face Today,She & Him,USA,en,20,,sadness,0.0,0.0,0.0,0.0,0.0,0.4025292694568634,0.37009626626968384
+No Pole,Don Toliver,USA,en,11,,neutral,0.10829436779022217,0.1581739882628123,0.0,0.0,0.0,0.0,0.15092459321022034
+Something Serious,Bruno Mars,USA,en,8,,joy,0.0,0.0,0.2614903151988983,0.0,0.0,0.22222554683685303,0.0
+12 to 12,sombr,USA,en,0,,sadness,0.0,0.0,0.0,0.2123883217573166,0.0,0.4937702715396881,0.0
+12 to 12,sombr,USA,en,0,,sadness,0.0,0.0,0.0,0.2123883217573166,0.0,0.4937702715396881,0.0
+Die With A Smile,"Lady Gaga, Bruno Mars",USA,en,3,,sadness,0.0,0.0,0.2144453078508377,0.0,0.0,0.38056811690330505,0.0
+Die With A Smile,"Lady Gaga, Bruno Mars",USA,en,3,,sadness,0.0,0.0,0.2144453078508377,0.0,0.0,0.38056811690330505,0.0
+Die With A Smile,"Lady Gaga, Bruno Mars",USA,en,3,,sadness,0.0,0.0,0.2144453078508377,0.0,0.0,0.38056811690330505,0.0
+Nothing Left,Bruno Mars,USA,en,20,,sadness,0.0,0.0,0.0,0.0,0.0,0.9098629057407379,0.0
+White Keys,Dominic Fike,USA,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.40054088830947876,0.26189127564430237
+White Keys,Dominic Fike,USA,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.40054088830947876,0.26189127564430237
+No Hands (feat. Roscoe Dash & Wale),"Waka Flocka Flame, Roscoe Dash, Wale",USA,en,9,,sadness,0.0,0.0,0.14868359764417013,0.1544941564400991,0.0,0.22004300355911255,0.13801743586858115
+Hell At Night (feat. Ella Langley),"BigXthaPlug, Ella Langley",USA,en,14,,sadness,0.0,0.0,0.0,0.3148322105407715,0.0,0.3278778592745463,0.0
+Broken Window Serenade,Whiskey Myers,USA,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.7499730587005615,0.0
+Headlines,Drake,USA,en,7,,sadness,0.06683847308158875,0.10888222853342693,0.0,0.0,0.0,0.1922536293665568,0.0
+A Couple Minutes,Olivia Dean,USA,en,-1,,joy,0.0,0.19632486999034882,0.3767181634902954,0.0,0.0,0.0,0.0
+Manchild,Sabrina Carpenter,USA,en,15,,anger,0.3371105492115021,0.0,0.0,0.0,0.0,0.0,0.23219959437847137
+Manchild,Sabrina Carpenter,USA,en,15,,anger,0.3371105492115021,0.0,0.0,0.0,0.0,0.0,0.23219959437847137
+That's What I Like,Bruno Mars,USA,en,11,,joy,0.0,0.0,0.5428837935129801,0.0,0.0,0.0,0.0
+That's What I Like,Bruno Mars,USA,en,11,,joy,0.0,0.0,0.5428837935129801,0.0,0.0,0.0,0.0
+The Spins,"Mac Miller, Empire Of The Sun",USA,en,11,,surprise,0.11637843648592631,0.0,0.10652860999107361,0.0,0.0,0.0,0.117281973361969
+Love Me Not,Ravyn Lenae,USA,en,4,,sadness,0.0,0.0,0.0,0.0,0.0,0.8598646521568298,0.0
+Love Me Not,Ravyn Lenae,USA,en,4,,sadness,0.0,0.0,0.0,0.0,0.0,0.8598646521568298,0.0
+BIRDS OF A FEATHER,Billie Eilish,USA,en,3,,surprise,0.0,0.0,0.0,0.0,0.0,0.45399045944213867,0.49312734603881836
+BIRDS OF A FEATHER,Billie Eilish,USA,en,3,,surprise,0.0,0.0,0.0,0.0,0.0,0.45399045944213867,0.49312734603881836
+Sailor Song,Gigi Perez,USA,en,5,,anger,0.7488568425178528,0.0,0.0,0.0,0.0,0.0,0.0
+Sailor Song,Gigi Perez,USA,en,5,,anger,0.7488568425178528,0.0,0.0,0.0,0.0,0.0,0.0
+Earrings,Malcolm Todd,USA,en,20,,fear,0.0,0.0,0.0,0.4513995945453644,0.0,0.24387814104557037,0.0
+No One Noticed,The Marías,USA,en,22,,sadness,0.0,0.0,0.19219689071178436,0.0,0.0,0.38067618012428284,0.0
+No One Noticed,The Marías,USA,en,22,,sadness,0.0,0.0,0.19219689071178436,0.0,0.0,0.38067618012428284,0.0
+4 Raws,EsDeeKid,USA,en,7,,sadness,0.0,0.0,0.0,0.0,0.0,0.6572328309218088,0.0
+Fame is a Gun,Addison Rae,USA,en,7,,joy,0.0,0.0,0.4573415517807007,0.0,0.0,0.25075089931488037,0.0
+Fame is a Gun,Addison Rae,USA,en,7,,joy,0.0,0.0,0.4573415517807007,0.0,0.0,0.25075089931488037,0.0
+I Remember Everything (feat. Kacey Musgraves),"Zach Bryan, Kacey Musgraves",USA,ja,2,,neutral,0.0,0.5018110871315002,0.0,0.0,0.0,0.0,0.0
+Trap Queen,Fetty Wap,USA,en,11,,anger,0.22780741751194,0.0,0.21547813713550568,0.0,0.0,0.0,0.11926842480897903
+The Less I Know The Better,Tame Impala,USA,en,4,,surprise,0.23000863194465637,0.0,0.0,0.0,0.0,0.0,0.35386037826538086
+One Dance,"Drake, Wizkid, Kyla",USA,tr,18,,neutral,0.0,0.43560200929641724,0.0,0.0,0.0,0.0,0.0
+One Dance,"Drake, Wizkid, Kyla",USA,tr,18,,neutral,0.0,0.43560200929641724,0.0,0.0,0.0,0.0,0.0
+I'm The Problem,Morgan Wallen,USA,en,5,,anger,0.3206060826778412,0.0,0.0,0.0,0.16791991889476776,0.0,0.0
+VOY A LLeVARTE PA PR,Bad Bunny,USA,es,12,,neutral,0.10704679290453593,0.23838509122530618,0.0,0.0,0.0,0.0,0.0
+VOY A LLeVARTE PA PR,Bad Bunny,USA,es,12,,neutral,0.10704679290453593,0.23838509122530618,0.0,0.0,0.0,0.0,0.0
+VOY A LLeVARTE PA PR,Bad Bunny,USA,es,12,,neutral,0.10704679290453593,0.23838509122530618,0.0,0.0,0.0,0.0,0.0
+butterflies.,Brent Faiyaz,USA,en,20,,fear,0.0,0.0,0.23156031966209412,0.3019905984401703,0.0,0.0,0.0
+Who Knows,Daniel Caesar,USA,en,16,,sadness,0.0,0.0,0.294624924659729,0.0,0.0,0.3693090081214905,0.0
+Who Knows,Daniel Caesar,USA,en,16,,sadness,0.0,0.0,0.294624924659729,0.0,0.0,0.3693090081214905,0.0
+"All The Stars (with SZA) - From ""Black Panther: The Album""","Kendrick Lamar, SZA",USA,en,9,,fear,0.06314396858215332,0.0,0.12960695723692575,0.2323723832766215,0.0,0.04378433028856913,0.0
+"All The Stars (with SZA) - From ""Black Panther: The Album""","Kendrick Lamar, SZA",USA,en,9,,fear,0.06314396858215332,0.0,0.12960695723692575,0.2323723832766215,0.0,0.04378433028856913,0.0
+No Role Modelz,J. Cole,USA,en,7,,sadness,0.11235630512237549,0.0,0.0,0.0,0.0,0.6197604298591614,0.0
+Dracula,Tame Impala,USA,en,0,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6652417480945587
+Beautiful Things,Benson Boone,USA,en,20,,fear,0.0,0.0,0.0,0.4970416724681854,0.0,0.44497886300086975,0.0
+Beautiful Things,Benson Boone,USA,en,20,,fear,0.0,0.0,0.0,0.4970416724681854,0.0,0.44497886300086975,0.0
+Pink Pony Club,Chappell Roan,USA,en,11,,joy,0.0,0.0,0.4790887435277303,0.0,0.0,0.0,0.17303397258122763
+Nights,Frank Ocean,USA,en,15,,sadness,0.11167923361063004,0.0,0.0,0.10415207594633102,0.0,0.23099285364151,0.13529320061206818
+My Own Worst Enemy,Lit,USA,en,-1,,surprise,0.29754331707954407,0.0,0.0,0.0,0.0,0.0,0.3809414803981781
+Timeless (feat Playboi Carti),"The Weeknd, Playboi Carti",USA,tr,18,,neutral,0.0,0.5801328420639038,0.0,0.0,0.0,0.0,0.0
+Timeless (feat Playboi Carti),"The Weeknd, Playboi Carti",USA,tr,18,,neutral,0.0,0.5801328420639038,0.0,0.0,0.0,0.0,0.0
+I Had Some Help (Feat. Morgan Wallen),"Post Malone, Morgan Wallen",USA,pt,12,,anger,0.15959005057811737,0.1469588726758957,0.0,0.0,0.0,0.0,0.0
+No Broke Boys,"Disco Lines, Tinashe",USA,en,15,,sadness,0.2359910011291504,0.0,0.0,0.0,0.0,0.5570460359255472,0.0
+No Broke Boys,"Disco Lines, Tinashe",USA,en,15,,sadness,0.2359910011291504,0.0,0.0,0.0,0.0,0.5570460359255472,0.0
+Something in the Orange,Zach Bryan,USA,en,3,,fear,0.2659739553928375,0.0,0.0,0.34722331166267395,0.0,0.0,0.0
+Sparks,Coldplay,USA,en,4,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6453679800033569
+Sparks,Coldplay,USA,en,4,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.6453679800033569
+Everlong,Foo Fighters,USA,en,20,,surprise,0.0,0.0,0.0,0.0,0.0,0.0,0.765399307012558
+Lose Control,Teddy Swims,USA,en,5,,sadness,0.0,0.0,0.0,0.0,0.0,0.7592611312866211,0.0
+Lose Control,Teddy Swims,USA,en,5,,sadness,0.0,0.0,0.0,0.0,0.0,0.7592611312866211,0.0
+You Should Probably Leave,Chris Stapleton,USA,en,3,,neutral,0.0,0.2747389078140259,0.0,0.17822976410388947,0.0,0.0,0.0
+Les,Childish Gambino,USA,en,11,,sadness,0.08412727117538452,0.0,0.0,0.0,0.12337849140167237,0.23876534700393676,0.06300166249275208
+Passionfruit,Drake,USA,en,7,,anger,0.8564340472221375,0.0,0.0,0.0,0.0,0.0,0.0
+Promiscuous,"Nelly Furtado, Timbaland",USA,de,-1,,neutral,0.0,0.39772702753543854,0.0,0.0,0.0,0.0,0.0
+Flashing Lights,"Kanye West, Dwele",USA,es,28,,neutral,0.0,0.345692902803421,0.0,0.0,0.0,0.0,0.0
+The Chain - 2004 Remaster,Fleetwood Mac,USA,en,4,,anger,0.44659623503685,0.0,0.0,0.0,0.0,0.22871942818164825,0.0
+Landslide,Fleetwood Mac,USA,en,20,,fear,0.0,0.0,0.0,0.8331882953643799,0.0,0.0,0.0
+Don't Stop The Music,Rihanna,USA,en,9,,sadness,0.07412808388471603,0.0,0.0,0.18812228739261627,0.0,0.25179600715637207,0.0
+"Good Luck, Babe!",Chappell Roan,USA,en,16,,joy,0.0,0.0,0.6150005161762238,0.0,0.0,0.0,0.0
+Locked out of Heaven,Bruno Mars,USA,en,26,,sadness,0.0,0.0,0.0,0.0,0.0,0.8550266623497009,0.0
+Locked out of Heaven,Bruno Mars,USA,en,26,,sadness,0.0,0.0,0.0,0.0,0.0,0.8550266623497009,0.0
+Every Breath You Take,The Police,USA,en,8,,anger,0.3941066265106201,0.29441853364308673,0.0,0.0,0.0,0.0,0.0
+Every Breath You Take,The Police,USA,en,8,,anger,0.3941066265106201,0.29441853364308673,0.0,0.0,0.0,0.0,0.0

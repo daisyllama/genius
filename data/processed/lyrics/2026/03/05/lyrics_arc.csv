@@ -1,5 +1,5 @@
-rank,artist,title,region,spotify_uri,lyrics
-1,"Mr Plata, El Americano 4KT",Las Muñequitas,Colombia,4nJJCRYru4QQakCiUA155f,"(Dímelo, ¿me vas a dar lo que yo pido?)
+rank,artist,title,region,language,spotify_uri,streams,weeks_on_chart,peak_rank,lyrics
+1,"Mr Plata, El Americano 4KT",Las Muñequitas,Colombia,latin,4nJJCRYru4QQakCiUA155f,1990353,9,1,"(Dímelo, ¿me vas a dar lo que yo pido?)
 Dame tu amor, tu corazón
 Enchapado en oro y en billetes, mi amor (Omarion King Beat)
 Hazme volar, pero en avión
@@ -84,7 +84,7 @@ Andamos con Mr Plata y los TFG
 ¿Qué lo qué?
 Jaja
 Blows Duvaaan (A todas las muñequita' le gustan los hombres malo')"
-2,"ARIA VEGA, Ryan Castro",CHÉVERE (premium_remix),Colombia,3CBEVPwR3kUXDoTx1lqFUQ,"ARIA VEGA, Ryan Castro
+2,"ARIA VEGA, Ryan Castro",CHÉVERE (premium_remix),Colombia,latin,3CBEVPwR3kUXDoTx1lqFUQ,1793988,3,2,"ARIA VEGA, Ryan Castro
 La costeñita premium y el Awoo
 Qué chimba, SOG
 CHÉVERE Remix
@@ -168,7 +168,7 @@ Dí-Dí-Dímelo, HOKAI BEATS
 Awoo
 Cule vibe
 La Nena de Quilla"
-3,"Ryan Castro, Kapo, Gangsta",LA VILLA,Colombia,2ZyrAym0sRLwt4PhGotHuI,"Kapo, Ryan Castro, Gangsta
+3,"Ryan Castro, Kapo, Gangsta",LA VILLA,Colombia,latin,2ZyrAym0sRLwt4PhGotHuI,1662672,18,1,"Kapo, Ryan Castro, Gangsta
 Qué chimba, SOG
 The real combination one more time
 Again and again and again
@@ -243,7 +243,7 @@ Sexy gyal, tú anda' suelta, mami, lo sé to'
 Su mini, mini a mí me hipnotizó
 
 Yo, Gangsta"
-4,Kris R.,GANAS,Colombia,4KE9Ne3hgh18B3Th4xcylg,"Yeah, yeah
+4,Kris R.,GANAS,Colombia,latin,4KE9Ne3hgh18B3Th4xcylg,1555655,7,2,"Yeah, yeah
 Yeah, yeah
 
 Mi amor, culeemos como si me mataran mañana
@@ -306,7 +306,7 @@ Es pa' que la escuche, me piense
 Y me pegue la llamadita, jajaja
 Háblales, OG
 Háblales, Magic"
-5,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,Colombia,6iOndD4OFo7GkaDypWQIou,"O-O-Ovy On The Drums
+5,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,Colombia,latin,6iOndD4OFo7GkaDypWQIou,1187848,54,1,"O-O-Ovy On The Drums
 You're the apple of my eye, you
 Are everything I want
 A beer to quench the thirst? Nah
@@ -358,7 +358,7 @@ Ovy On The Rasta Drums
 W Sound
 Aye
 Alright"
-6,Beéle,no tiene sentido,Colombia,1HEwEN64NjgTaHmo7LfkX8,"(¡Uh-wu-wu-wu-wu-wu-wu-wu!)
+6,Beéle,no tiene sentido,Colombia,latin,1HEwEN64NjgTaHmo7LfkX8,1147408,42,2,"(¡Uh-wu-wu-wu-wu-wu-wu-wu!)
 Baby, ¿Qué tú espera'? (Ah-ah)
 Si tú y yo conectamo' la primera vez que nos vimo' a los ojo'
 No hay manera (Óyelo), de que me olvide de esa piel canela
@@ -405,7 +405,7 @@ Eso no tiene sentido (No; wuh-wuh-wuh)
 Eso no tiene sentido (No; aye)
 No tiene sentido (No; alright, wu-wu-wu-wu)
 No tiene sentido (No; óyelo)"
-7,"J Balvin, Ryan Castro, DJ Snake",Tonto,Colombia,7mU1fei7P9h4mpjP2Otdw5,"No se puede decir grosería'
+7,"J Balvin, Ryan Castro, DJ Snake",Tonto,Colombia,latin,7mU1fei7P9h4mpjP2Otdw5,1138980,1,7,"No se puede decir grosería'
 Soy Godzilla y presento
 DJ Snake
 SOG
@@ -467,7 +467,7 @@ Yah
 Yah
 Yah
 Wikiri-wikiri-wikiri-wa"
-8,Beéle,quédate,Colombia,6VfL3MEuYeJbDlD8m011HR,"¿Cómo le explico al corazón que quieres irte?
+8,Beéle,quédate,Colombia,latin,6VfL3MEuYeJbDlD8m011HR,1124708,42,2,"¿Cómo le explico al corazón que quieres irte?
 Si tienes dudas, mami, no te estoy mintiendo
 Mira mis ojos mientras mi alma se desviste
 Los que miras justo cuando me estoy viniendo
@@ -514,7 +514,7 @@ Oh, no-no-no
 Oh, no-no-no
 Quédate (alright, alright)
 No puedo estar sin ti"
-9,Grupo Firme,El Beneficio De La Duda,Colombia,5yXt80BNZGbmHFd0NHZHNn,"Sé que ahora lo último que quieres es saber cómo me encuentro
+9,Grupo Firme,El Beneficio De La Duda,Colombia,latin,5yXt80BNZGbmHFd0NHZHNn,1105825,54,3,"Sé que ahora lo último que quieres es saber cómo me encuentro
 Pero, por si acaso llegas a pensar en mí un momento
 Quiero que sepas que yo también estoy pensando en ti
 Y también me queda claro que no te interesan mis historias
@@ -558,7 +558,7 @@ Y no te vas a arrepentir
 (La-ra-la)
 (La-ra-la)
 (La-ra-la, ah-ah)"
-10,"Yeison Jimenez, Luis Alfonso",Destino Final,Colombia,2E4TYekUduml1DWIqQWNcj,"Y cántele lindo, ¡señorazo!
+10,"Yeison Jimenez, Luis Alfonso",Destino Final,Colombia,latin,2E4TYekUduml1DWIqQWNcj,1099832,13,1,"Y cántele lindo, ¡señorazo!
 
 Yo sé que algún día, el día en que me muera tendrá que llegar
 Yo no quiero honores, ni llantos ni flores, quiero descansar
@@ -599,7 +599,7 @@ Que el último beso sea el de mi madre
 Que la Virgencita me los acompañe
 Que sean mis caballos los que a mí me lleven
 Al destino final"
-11,"Blessd, Los Money Makers, Prodmonja",NUEVA YORK,Colombia,5U3sC7aA5NxoMSeI1kmO2n,"(¿Sabe qué, mi amor?)
+11,"Blessd, Los Money Makers, Prodmonja",NUEVA YORK,Colombia,latin,5U3sC7aA5NxoMSeI1kmO2n,1051785,40,8,"(¿Sabe qué, mi amor?)
 Pensando en ti, aunque somos tal para cual
 Yo no te leí, pero el corazón sí
 Y yo no voy a aceptar que me vayas a olvidar
@@ -662,7 +662,7 @@ Este talento que nadie se compara
 Toby, prende la guitarra
 Money Makers (Money Makers)
 Ey, Jose, candela"
-12,Blessd,YOGURCITO,Colombia,6rZno3nqeT7hv2PnSWRuYS,"Uy
+12,Blessd,YOGURCITO,Colombia,latin,6rZno3nqeT7hv2PnSWRuYS,1046173,79,4,"Uy
 Mmm, mmm
 Escuche pues
 The Prodigiez
@@ -723,7 +723,7 @@ Dímelo, Jara
 The-The-The Prodigiez
 Junto a El Bendito
 Mi amor, usted sabe, en cualquier puto ritmito"
-13,"Beéle, Ovy On The Drums",mi refe,Colombia,4zhk2RS2EZODmBW6il55Qj,"To' el mundo ya supone que tú y yo somo' algo (Oh-oh)
+13,"Beéle, Ovy On The Drums",mi refe,Colombia,latin,4zhk2RS2EZODmBW6il55Qj,985479,65,1,"To' el mundo ya supone que tú y yo somo' algo (Oh-oh)
 Confirman en la calle que contigo es que salgo (Uh-uh)
 ¿Entonce' pa' qué mentirno' más? (Ah)
 No sé pa' qué seguir disimulando más (No)
@@ -760,7 +760,7 @@ Delante de la gente bésame
 ¿Pa' qué putas esconderno'?
 
 O-O-Ovy On The Drums"
-14,Bad Bunny,BAILE INoLVIDABLE,Colombia,2lTm559tuIvatlT1u0JYG2,"Pensaba que contigo iba a envejecer
+14,Bad Bunny,BAILE INoLVIDABLE,Colombia,latin,2lTm559tuIvatlT1u0JYG2,944937,61,1,"Pensaba que contigo iba a envejecer
 En otra vida, en otro mundo podrá ser
 En esta solo queda irme un día
 Y solamente verte en el atardecer
@@ -840,7 +840,7 @@ Ya no tengo mi sol, me paso en la luna
 Si te pienso, me tiro de una
 Eh-eh, mi diabla, mi ángel, mi loquita
 Mi diabla, mi ángel, mi loquita, eh-eh"
-15,"Omar Courtz, Ñengo Flow",FOREVER TU GANTEL,Colombia,1YAWMfsmduIrpqrjP45pFn,"Voy a darte duro, mami, pa' que lo sienta'
+15,"Omar Courtz, Ñengo Flow",FOREVER TU GANTEL,Colombia,latin,1YAWMfsmduIrpqrjP45pFn,923751,2,15,"Voy a darte duro, mami, pa' que lo sienta'
 En las noche' frías sé que mi nombre piensas
 Jajajaja
 Bri-ba-ba-ba-bai-ba
@@ -919,7 +919,7 @@ Nosotro' estamo' poniendo los culo' a retumbar desde ante' de que ustede' nacier
 Real G4 Life foreva (Jajajaja)
 Ousi
 Ja"
-16,"Blessd, Ovy On The Drums",AMISTA,Colombia,1kJyDcBrZ7rSKnFtKc82vm,"Oh
+16,"Blessd, Ovy On The Drums",AMISTA,Colombia,latin,1kJyDcBrZ7rSKnFtKc82vm,921870,45,2,"Oh
 Ovy On The Drums
 (O-O-Ovy On The Drums)
 
@@ -977,7 +977,7 @@ Dímelo, Jara
 Desde el Barrio Antioquia
 Siempre Blessd
 Ey, Jose, candela"
-17,"Blessd, Anuel AA, Yan Block, Luar La L, Kris R., ROA","YOGURCITO REMIX (feat. Kris R., ROA)",Colombia,7nrd0eIftH3NQLfgk20Qp9,"יה, יה
+17,"Blessd, Anuel AA, Yan Block, Luar La L, Kris R., ROA","YOGURCITO REMIX (feat. Kris R., ROA)",Colombia,latin,7nrd0eIftH3NQLfgk20Qp9,902099,28,1,"יה, יה
 אני כבר חמוש ומקליט את האלבום באמצע סיבוב הופעות
 
 אה-אה-אה, את עומדת לחשוב עליי
@@ -1119,7 +1119,7 @@ Mejor dicho, Los Money Makers (איפה שלא תהיי)
 Prime, Deezy (איפה שלא תהיי)
 Money Makers (משקרת לעצמך, לא משנה כמה שואלים)
 (אם אני איתך)"
-18,Yeison Jimenez,Por Qué la Envidia,Colombia,433eYQkvCgJKXh1o7LtplV,"Que vienen a decirme a mí que quieren criticarme
+18,Yeison Jimenez,Por Qué la Envidia,Colombia,latin,433eYQkvCgJKXh1o7LtplV,871538,18,3,"Que vienen a decirme a mí que quieren criticarme
 Comprendan que yo no soy Dios y puedo equivocarme
 Les es muy fácil difamar sin importarles nada
 Solo les interesa hablar cuando no saben nada
@@ -1149,7 +1149,7 @@ Pero la envidia
 Eso humilla y les molesta y se quedan callados
 Cuando ven que un ser humilde triunfa en todos lados
 Están es asustados"
-19,"Fuerza Regida, Grupo Frontera",COQUETA,Colombia,1PREzVLuDT6PSE9sej4wnV,"Otra de más, de las cumbias originales
+19,"Fuerza Regida, Grupo Frontera",COQUETA,Colombia,latin,1PREzVLuDT6PSE9sej4wnV,871350,44,16,"Otra de más, de las cumbias originales
 Sus compas de Fuerza Regida y Grupo Frontera
 Vuélvale a marcar, compa Carlos
 
@@ -1222,7 +1222,7 @@ Dame, dame un besito, mami
 Dale, ¿cómo no quieres que me clave?
 De mi cel ahí te va la clave, que yo no hablo con nadie
 Nomás contigo"
-20,"Blessd, Ovy On The Drums","""EMHDM""",Colombia,5NbIHx26LyFkW2oSNSCYBV,"O-O-Ovy On The Drums
+20,"Blessd, Ovy On The Drums","""EMHDM""",Colombia,latin,5NbIHx26LyFkW2oSNSCYBV,870491,2,12,"O-O-Ovy On The Drums
 
 Yo te veía mi futuro y tú te dejaste llevar de mi pasado
 Sé que el amor nunca es seguro, pero te juro que tenía preparado
@@ -1281,7 +1281,7 @@ Ave María, mi amor
 Uste' sabe que uno no se puede defender cuando la vida de uno es ser artista, ¿sí sabe?
 Yo respondo con musica, además usted me entiende, me quiere y sabe cómo soy yo
 Y pa' rematar, esa no es mi letra, mi vida"
-21,"Ryan Castro, Dongo",SANKA,Colombia,46ufabZP6oK3ixmN6Gd753,"Awo, awo
+21,"Ryan Castro, Dongo",SANKA,Colombia,latin,46ufabZP6oK3ixmN6Gd753,870384,39,7,"Awo, awo
 Hopi sende nos ta sua, lag'i hode
 Kompleto, kandela (Mami)
 Brr
@@ -1336,7 +1336,7 @@ Awo (Yo, Gangsta)
 Aja
 Salta, salta, salta, salta
 Tú tiene' grande ese culo, salta, salta, salta, salta"
-22,Bad Bunny,DtMF,Colombia,3sK8wGT43QFpWrvNQsrQya,"Eh, eh, eh, eh
+22,Bad Bunny,DtMF,Colombia,latin,3sK8wGT43QFpWrvNQsrQya,863486,61,1,"Eh, eh, eh, eh
 
 Otro sunset bonito que veo en San Juan
 Disfrutando de todas esas cosas que extrañan los que se van
@@ -1401,7 +1401,7 @@ Debí darte más besos y abrazo' las veces que pude
 Ojalá que los mío' nunca se muden
 Y que tú me envíe' más nude'
 Y si hoy me emborracho, que Beno me ayude"
-23,"Kapo, Ryan Castro",DÓNDE,Colombia,4zqFA9MOG86u7uugR8QFDU,"Zaga, babe
+23,"Kapo, Ryan Castro",DÓNDE,Colombia,latin,4zqFA9MOG86u7uugR8QFDU,856437,35,13,"Zaga, babe
 And the real combination
 Kapo Gangsta and Ryan Castro
 Plo, plo, plo, plo
@@ -1470,7 +1470,7 @@ Mi amor, si a usted gusta el dancehall o le gusta el party
 Tiene que llamar a Kapo, tiene que llamar a Ryan
 Tiene que llamar a Gangsta
 Pa' que baile, pa' que mueva ese booty"
-24,"J Balvin, Bad Bunny",LA CANCIÓN,Colombia,0fea68AdmYNygeTGI4RC18,"Yeh, yeh, yeh
+24,"J Balvin, Bad Bunny",LA CANCIÓN,Colombia,latin,0fea68AdmYNygeTGI4RC18,822393,349,2,"Yeh, yeh, yeh
 
 Pensaba que te había olvida'o, eh
 Pero pusieron la canción, eh, eh, eh
@@ -1538,7 +1538,7 @@ Sin sentimiento', el corazón desierto
 Y yo pensaba que tu nombre estaba muerto
 Pero te soñé despierto
 Hoy salí pa' la calle sueltoSin sentimiento', el corazón desierto"
-25,Omar Courtz,POR SI MAÑANA NO ESTOY,Colombia,595wwjQiad6e6lSTScmXvz,"Baby, por la noche, I wanna kiss you
+25,Omar Courtz,POR SI MAÑANA NO ESTOY,Colombia,latin,595wwjQiad6e6lSTScmXvz,806198,2,25,"Baby, por la noche, I wanna kiss you
 Aunque sea por FaceTime, I wanna fuck you
 Cuando tú no está', me siento lonely
 Me cuesta admitirte that I miss you
@@ -1619,7 +1619,7 @@ Esta la hice por si ma—, ey
 Por si mañana me voy, si mañana me voy
 Nadie va a quererte, baby, como yo
 Si mañana me voy"
-26,Arcángel,Por Amar A Ciegas,Colombia,2BrfJdTXohQRtWBKsBTIp0,"Yo le pregunté a un pastor del amor
+26,Arcángel,Por Amar A Ciegas,Colombia,latin,2BrfJdTXohQRtWBKsBTIp0,796575,7,26,"Yo le pregunté a un pastor del amor
 Y él me dijo que se lo entregara a Dios
 Que no me sintiera solo
 Que estar solo era mejor que vivir de una ilusión
@@ -1657,7 +1657,7 @@ Que ella tenía razón
 Y ahora que no te tengo pienso en todo el tiempo perdido, que perdí contigo
 Pues, por amarte a ciegas, yo no escuché y me lancé al vacío por amor
 Todos me dijeron, todos me advertían que hay flores que tienen espinas"
-27,Kapo,UWAIE,Colombia,0fMjldiEpgjbWQ4bBQwVzH,"(Yo, Gangsta) Bebé
+27,Kapo,UWAIE,Colombia,latin,0fMjldiEpgjbWQ4bBQwVzH,795099,81,1,"(Yo, Gangsta) Bebé
 Where you at?
 
 Ay, me he inventado cosa' pa' llamar la atención de ti
@@ -1704,7 +1704,7 @@ De ti me gustan cosa' (Uwaie), la verdad, todo (Uwaie)
 (Ay, yo soy tu Kapo, baby)
 (Bebé, yeah, yo)
 La Industria Inc"
-28,Yeison Jimenez,Vete,Colombia,6cZcn282SIMmuO8FHN8634,"¿Qué pasó con aquella promesa que me hacías?
+28,Yeison Jimenez,Vete,Colombia,latin,6cZcn282SIMmuO8FHN8634,794801,19,10,"¿Qué pasó con aquella promesa que me hacías?
 Cada día cuando me juraste que me amabas
 Y que Dios nunca separaría nuestras vidas
 ¿Qué nos pasó?
@@ -1736,7 +1736,7 @@ Si te di todo de mí para que fueras feliz
 Y hasta al mundo me enfrenté cuando hablaron mal de ti
 Y ahora me pagas así, alejándote de mí
 Si ya no te importo, entonces vete"
-29,Lenin Ramírez,Todo Lo Fue,Colombia,0Sa8aRfGckW0qUGLrBwoBG,"Yo sé que en el amor no tienes interés
+29,Lenin Ramírez,Todo Lo Fue,Colombia,latin,0Sa8aRfGckW0qUGLrBwoBG,789203,4,27,"Yo sé que en el amor no tienes interés
 Fui un cero a la izquierda y tiraste a la mierda lo que pudo ser
 Una historia tan bonita de rosas de cartas y mil serenatas
 Te invertí mi dinero y te fuiste mujer
@@ -1761,7 +1761,7 @@ Llevo las cuatros estaciones del año en lo mismo
 Si me ven con otra mora es puro fanatismo
 Quiero sacarte de mi mente y que ya no me afecte lo que un dia vivimos
 Y mandarte a la mierda a ti y a tu madre también"
-30,Bad Bunny,EoO,Colombia,6J5kc12BW5HuP3d7C3vvx8,"Ella viene por ahí y nunca llega sola, so-so-so-so—
+30,Bad Bunny,EoO,Colombia,latin,6J5kc12BW5HuP3d7C3vvx8,777344,61,7,"Ella viene por ahí y nunca llega sola, so-so-so-so—
 Ella nunca llega sola
 To' los bandi-bandido' le sueltan las pistola', pa-pa-pa-pa—
 Esta es noche lo que hay-hay-hay-hay-hay (Dice)
@@ -1849,7 +1849,7 @@ Yeah-yeah-yeah-yeah, yeah-yeah-yeah-yeah
 Bad Bunny, baby, Bad Bunny, baby, eh
 Tainy, Tainy, Tainy, Tainy
 Chequéate la historia"
-31,ARIA VEGA,CHÉVERE (joesón_type_beat),Colombia,5OQCghydcEeA76eGdJ6GEa,"Yeah-yeah
+31,ARIA VEGA,CHÉVERE (joesón_type_beat),Colombia,latin,5OQCghydcEeA76eGdJ6GEa,772648,7,12,"Yeah-yeah
 Oh, yeah
 
 Yo a ti no te quiero pa' un rato
@@ -1914,7 +1914,7 @@ Ay, ay, ay-ay-ay
 Está pa' bailarlo en una sola baldosa
 Oh, que te lo digo yo, yo
 La Nena de Quilla"
-32,"Nanpa Básico, Beéle",Hasta Aquí Llegué,Colombia,0Qe2g06yzLBuuSvVmFiweP,"(Oh, ye-yeah)
+32,"Nanpa Básico, Beéle",Hasta Aquí Llegué,Colombia,latin,0Qe2g06yzLBuuSvVmFiweP,767136,85,3,"(Oh, ye-yeah)
 Alright
 
 Si sigo con esto, no acabará, me siento hablando con la pared
@@ -1966,7 +1966,7 @@ Beéle
 Nanpa
 Super Da
 Soundbwoy"
-33,"Ovy On The Drums, Quevedo, Beéle",YO y TÚ,Colombia,7koAf6aZgjO6TS7bipfPD0,"You give me sweet love, babe
+33,"Ovy On The Drums, Quevedo, Beéle",YO y TÚ,Colombia,latin,7koAf6aZgjO6TS7bipfPD0,747831,38,2,"You give me sweet love, babe
 O-O-Ovy On The Drums
 Or you give me sweet heartbreak
 
@@ -2046,7 +2046,7 @@ Beéle, eh-eh, KEITYN
 Alright
 The Kristoman
 Óyelo, Súper Da"
-34,"Kybba, Sean Paul, Ryan Castro, Busy Signal",Ba Ba Bad Remix,Colombia,0lMafSfME2iJEE972bsQaK,"Awoo-woo, awoo-woo
+34,"Kybba, Sean Paul, Ryan Castro, Busy Signal",Ba Ba Bad Remix,Colombia,latin,0lMafSfME2iJEE972bsQaK,739865,36,2,"Awoo-woo, awoo-woo
 Kybba, how you bad suh
 
 Medellín, háblame, fai
@@ -2111,7 +2111,7 @@ And we turn it up, turn it up every time (Every time)
 And we bust it up, bust it up, watch it hype (Watch it hype), ha
 
 Kybba, how you bad suh"
-35,"Héctor ""El Father"", Wisin & Yandel",El Teléfono,Colombia,614NVFo5csQqRnryl4jXs2,"Eh (W), eh-eh (Y)
+35,"Héctor ""El Father"", Wisin & Yandel",El Teléfono,Colombia,latin,614NVFo5csQqRnryl4jXs2,716593,31,19,"Eh (W), eh-eh (Y)
 Eh (El Father), eh-eh (Haces falta)
 ¡Los Rompe Discotekas!
 
@@ -2187,7 +2187,7 @@ Héctor ""El Father""
 Oye, bebé, tranquila que no va a haber rebuleo
 ¿Okey?
 Usted anda conmigo, ¡hah!"
-36,Herencia De Grandes,Ya Borracho,Colombia,4NyUIohBa3CEMGcXURYSOh,"Me enamoré y creo que me fui de paso
+36,Herencia De Grandes,Ya Borracho,Colombia,latin,4NyUIohBa3CEMGcXURYSOh,714760,9,36,"Me enamoré y creo que me fui de paso
 Hoy me declaro un loco obsesionado
 Y no te espantes pues no es nada malo
 Pero es que tú eres mi amor anhelado
@@ -2215,8 +2215,8 @@ Y puedo describir lo mucho que me encantas
 Decirte que me siento muy feliz y emocionado por tenerte a ti
 Espero que quieras estar aquí enamorada mirándome a mí
 Mirándome a mí"
-37,"Yeison Jimenez, Chayín Rubio",El Mejor - Remix,Colombia,1xRRW5ZrL7I9EG8CGZrXHE,
-38,Bad Bunny,NO ME QUIERO CASAR,Colombia,39L3LdlHS3gqB62HPWaJRg,"Y si tu man te quiere parar, dile que no
+37,"Yeison Jimenez, Chayín Rubio",El Mejor - Remix,Colombia,latin,1xRRW5ZrL7I9EG8CGZrXHE,711034,8,8,
+38,Bad Bunny,NO ME QUIERO CASAR,Colombia,latin,39L3LdlHS3gqB62HPWaJRg,701742,79,19,"Y si tu man te quiere parar, dile que no
 Modélale y corre a la disco, yeah
 Porque tu man, ah, porque tu man, ah
 Porque tu, porque tu, porque tu—
@@ -2298,7 +2298,7 @@ Oah
 Oah
 Oh, oah
 Oah"
-39,Beéle,top diesel,Colombia,2QP041AcWg8PwPIWP95RKN,"Aye
+39,Beéle,top diesel,Colombia,latin,2QP041AcWg8PwPIWP95RKN,688171,42,3,"Aye
 Uh-uh-uh-uh-uh-uh
 Uh
 
@@ -2349,7 +2349,7 @@ Ah, no, no, no, no, no, no, no, no
 Ah, no, no, no, no, no, no, no, no
 Ah, no, no, no, no, no, no, no, no
 Ah, no, no, no, no, no, no, no, no"
-40,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Colombia,7d6yK8v8J484SWH5prIQiE,"Freaky girl
+40,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Colombia,latin,7d6yK8v8J484SWH5prIQiE,680800,61,5,"Freaky girl
 Freaky girl
 Eh
 Ayo, it's Ousi
@@ -2447,8 +2447,8 @@ Close your eyes and think of me, hey
 I'm drinking and blazing too
 She wants a message that says, ""Come over""
 I spend my time staring at that booty online"
-41,"Luister La Voz, maikol el insoportable",Ozono,Colombia,4acvrfbXrDPFQNNDnFZnpC,
-42,Yeison Jimenez,Un Perro Enamorado,Colombia,3kcr3teEgyTOVIAxMPOPeO,"Esto se llama ""Un Perro Enamorado""
+41,"Luister La Voz, maikol el insoportable",Ozono,Colombia,latin,4acvrfbXrDPFQNNDnFZnpC,678942,3,41,
+42,Yeison Jimenez,Un Perro Enamorado,Colombia,latin,3kcr3teEgyTOVIAxMPOPeO,668288,8,21,"Esto se llama ""Un Perro Enamorado""
 Para ti, mi vida, dice así
 
 Es la primera vez que me enamoro así
@@ -2491,7 +2491,7 @@ Salucita, salucita
 Oiga, me empezó a hacer esta güevonada
 Ahí sí me preocupa
 Como hoy"
-43,Arcángel,Pa' Que La Pases Bien,Colombia,1pLCpA1RN8avJxSD3ZCwhj,"(Pa' que la—Pa' que la pases bien)
+43,Arcángel,Pa' Que La Pases Bien,Colombia,latin,1pLCpA1RN8avJxSD3ZCwhj,661883,165,23,"(Pa' que la—Pa' que la pases bien)
 Sí, jaja
 Oye, yo le pregunté and she said ""yes"", ¡wow!
 (Pa' que la—Pa' que la pases bien)
@@ -2574,7 +2574,7 @@ Siempre con la calidad (Ajá)
 Hyde, Jorgy, jaja, prr
 Artillery, ajá, jaja, ah
 (Bien, bien-bien, bien-bien-bien-bien-bien-bien-bien-bien-bien-bien-bien-bien—Pa' que la, pa' que la pases bien)"
-44,"El Bogueto, Yung Beef",Cuando No Era Cantante,Colombia,6N2iccqxRInhTLHc2Fu3W0,"Jajajajaja
+44,"El Bogueto, Yung Beef",Cuando No Era Cantante,Colombia,latin,6N2iccqxRInhTLHc2Fu3W0,660043,18,22,"Jajajajaja
 Jaja, QueHicisteBella
 
 Como antes, baby, vamo' a hacerlo como antes
@@ -2651,7 +2651,7 @@ Antes de ponerte eso' implante'
 
 Jajajajaja
 Jaja, QueHicisteBella"
-45,"Bad Bunny, Ozuna, Farruko, Arcángel, Ñengo Flow, DJ Luian, Mambo Kingz",Diles,Colombia,6C1RD7YQVvt3YQj0CmuTeu,"(Prende otro phillie, bebé)
+45,"Bad Bunny, Ozuna, Farruko, Arcángel, Ñengo Flow, DJ Luian, Mambo Kingz",Diles,Colombia,latin,6C1RD7YQVvt3YQj0CmuTeu,659861,300,20,"(Prende otro phillie, bebé)
 
 Prende otro phillie, bebé, que ya mismo este se apaga (Ey, yo')
 Vamos para el cuarto polvo, ya esto es una saga (Jajaja)
@@ -2749,7 +2749,7 @@ Ozuna
 Ñengo Flow
 Arcángel
 (ELGENERO.COM)"
-46,Bad Bunny,VOY A LLeVARTE PA PR,Colombia,59D4DOkspUbWyMmbAPQkxZ,"Acho, PR es otra cosa
+46,Bad Bunny,VOY A LLeVARTE PA PR,Colombia,latin,59D4DOkspUbWyMmbAPQkxZ,653297,61,4,"Acho, PR es otra cosa
 Yo la conocí en Miami, en Brickell
 Ella sabe que aquí hay ticket
 Quiere que yo se la aplique
@@ -2805,7 +2805,7 @@ Que bailen toa' las gata', nos fuimo' algarete
 Dale, mami, suéltate el grillete
 Ponte en cuatro, que te vo'a dar fuete
 Ponte en cuatro, que te vo'a dar fue—"
-47,Arcángel,Hace Mucho Tiempo,Colombia,0a6ogDrZBvYgDjILgsQVaJ,"Uh, uh-uh-uh
+47,Arcángel,Hace Mucho Tiempo,Colombia,latin,0a6ogDrZBvYgDjILgsQVaJ,652301,122,47,"Uh, uh-uh-uh
 Uh, uh-uh-uh, uh, uh
 
 Hace mucho tiempo que quiero conocerte (Yes)
@@ -2862,7 +2862,7 @@ Yep, ahora sí, bien hecho
 Yo soy y seguiré siendo ""La Maravilla""
 La Marash (Arca)
 Sentimiento, Elegancia y Maldad"
-48,"Feid, ATL Jacob",LUNA,Colombia,7bywjHOc0wSjGGbj04XbVi,"Yeah, yeah, yeah
+48,"Feid, ATL Jacob",LUNA,Colombia,latin,7bywjHOc0wSjGGbj04XbVi,650903,118,1,"Yeah, yeah, yeah
 ATL Jacob, ATL Jacob
 
 I'm looking for you and I don't know where you are, I'm looking for answers
@@ -2912,8 +2912,8 @@ I didn't know what day you forgot about me
 
 Yeah
 Ah-ah-ah"
-49,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,Colombia,2pbSCYzxrG0wa6qcj8IyiE,
-50,Kris R.,MIL D AURA,Colombia,0LvxvoeJmdhkxRIC4orlJ3,"Eh
+49,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,Colombia,latin,2pbSCYzxrG0wa6qcj8IyiE,646278,12,36,
+50,Kris R.,MIL D AURA,Colombia,latin,0LvxvoeJmdhkxRIC4orlJ3,645266,3,21,"Eh
 Hola, bebé
 Sé que de pronto es muy tarde y me dan ganas de ir a buscarte
 Y que no soy bienvenido en tu casa, dijeron tus padre'
@@ -2984,7 +2984,7 @@ Nelsen
 En la melodía, en el lápiz
 Mor, tú sabes que esta combi es pa' ti, jajaja
 Yeah"
-51,"Blessd, Fuerza Regida, Ovy On The Drums",COMO OREO,Colombia,7sRXb5IgYWwVv1DaavHSNs,"Jaja, Ave María, mi amor
+51,"Blessd, Fuerza Regida, Ovy On The Drums",COMO OREO,Colombia,latin,7sRXb5IgYWwVv1DaavHSNs,643436,27,1,"Jaja, Ave María, mi amor
 O-O-Ovy On The Drums
 Como Oreo de fresita tiene esa carita
 Y me puse malote y quiero una mordidita
@@ -3061,7 +3061,7 @@ Arriba la Empresa SM, viejo
 Jaja
 Fuerza Regida
 Ovy On The Drums"
-52,Plan B,Es un Secreto,Colombia,3KZCP2StVGdWkOKyRZNWA4,"Será cuestión de tiempo (Presentimiento)
+52,Plan B,Es un Secreto,Colombia,latin,3KZCP2StVGdWkOKyRZNWA4,641795,266,18,"Será cuestión de tiempo (Presentimiento)
 De un lugar, de un momento
 Conozco tu debilidad, cómo haces para envolverte
 Si no es hoy, mañana tal vez, pero algún día voy a tenerte
@@ -3112,7 +3112,7 @@ Plan B, Pina
 La Casa del Placer
 (Es un secreto de tu mirada y la mía)
 (Un presentimiento)"
-53,Yeison Jimenez,MLP,Colombia,4DAMvNqHt0s8zJr6JwOoye,"Dicen que es suerte
+53,Yeison Jimenez,MLP,Colombia,latin,4DAMvNqHt0s8zJr6JwOoye,641764,12,8,"Dicen que es suerte
 Pero no saben toda la que me he comido
 Algunos dicen que yo soy un presumido
 Yo los entiendo y sé que hay muchos ofendidos
@@ -3155,7 +3155,7 @@ Pa' todo el que le duele ver un pobre progresando en la vida
 Camino de frente, yo sigo en lo mío
 ¿De dónde es que sale?
 *Silbido*"
-54,"Blessd, Los Money Makers, Prodmonja",URUS BLUE,Colombia,4sTnItbNUAcS5KDG6vTA5B,"¿Y usted qué va a hacer con esa plata?
+54,"Blessd, Los Money Makers, Prodmonja",URUS BLUE,Colombia,latin,4sTnItbNUAcS5KDG6vTA5B,632957,40,22,"¿Y usted qué va a hacer con esa plata?
 Pa' llevarla a usted a ver los alumbrados, al pueblito paisa
 
 ¿Entonces qué, mi amor? (Jaja)
@@ -3231,7 +3231,7 @@ Monja (Don't got mercy on these niggas)
 Ah-ah-ah
 Ave María, mi amor, si usted supiera
 Ay, que vuelva a escuchar la canción"
-55,"Maluma, Trap Capos, Noriel, Bryant Myers, Juhn","Cuatro Babys (feat. Trap Capos, Noriel, Bryant Myers & Juhn)",Colombia,0JoHqmlqE0W0i9prt6kcHR,"Ya no sé qué hacer
+55,"Maluma, Trap Capos, Noriel, Bryant Myers, Juhn","Cuatro Babys (feat. Trap Capos, Noriel, Bryant Myers & Juhn)",Colombia,latin,0JoHqmlqE0W0i9prt6kcHR,625925,133,16,"Ya no sé qué hacer
 No sé con cuál quedarme
 Todas saben en la cama maltratarme
 Me tienen bien, de sexo me tienen bien
@@ -3333,7 +3333,7 @@ Bryant Myers
 Dímelo, All Star, baby
 Mera Juhn
 Dímelo, Ganda"
-56,"Danny Ocean, Kapo",Imagínate,Colombia,7ns16ylM6sbxo9ZWIwyE5d,"Ba-Ba-Babylon girl, ba-ba-babylon girl, ba-ba-babylon girl
+56,"Danny Ocean, Kapo",Imagínate,Colombia,latin,7ns16ylM6sbxo9ZWIwyE5d,611905,69,1,"Ba-Ba-Babylon girl, ba-ba-babylon girl, ba-ba-babylon girl
 
 Imagínate en la playa los do'
 Con ninguna tendrás que competir
@@ -3383,7 +3383,7 @@ Quiero caerte a beso', beso' y bailar toda la noche
 
 ¿Te vas con Kapo, te vas pa' Cali hoy por la noche?
 ¿O te vas conmigo, te vas con Danny para Los Roques?"
-57,"Bryant Myers, Anuel AA, Anonimus, Almighty",Esclava - Remix,Colombia,2Mgur7BKnpr7OG3izSNFTA,"¡La versión oficial del tema estará disponible pronto!
+57,"Bryant Myers, Anuel AA, Anonimus, Almighty",Esclava - Remix,Colombia,latin,2Mgur7BKnpr7OG3izSNFTA,607020,69,46,"¡La versión oficial del tema estará disponible pronto!
 
 Qué bellaquera me da
 Baby, yo no la aguanto
@@ -3502,7 +3502,7 @@ Mera, dime, Bryant
 Ey, La Oscuridad
 Los que pegaron el trap
 Los diose' del trap, ¿oí'te, bebecita?"
-58,"CARABIN3, SVNTI",MUSA,Colombia,0QuHK1VvIZ1Kt2GfqRrdVo,"(Con tu cara en la pared)
+58,"CARABIN3, SVNTI",MUSA,Colombia,latin,0QuHK1VvIZ1Kt2GfqRrdVo,605951,13,36,"(Con tu cara en la pared)
 (Por el humo ya nada se ve)
 (El Nuevo Amanecer)
 Grr-paw
@@ -3552,7 +3552,7 @@ No soy cualquiera, estás con el #1
 A tu novio en un Backwood me lo fumo
 Si-si estoy down cojo musa de ese culo
 Yo soy la estrella y ellos solo son el humo, ma"
-59,Arcángel,Me Prefieres A Mi,Colombia,3GhmL9fuM8jwGcHCFbeo3v,"Si tú te vuelves loca por mí (Ajá)
+59,Arcángel,Me Prefieres A Mi,Colombia,latin,3GhmL9fuM8jwGcHCFbeo3v,601608,118,42,"Si tú te vuelves loca por mí (Ajá)
 Y yo me vuelvo loco por ti (Baby)
 Entonces, mami, deja el novio que tú tiene' (Muak)
 Dile que tú no lo quiere', que me prefieres a mí (Okay)
@@ -3614,7 +3614,7 @@ A la realidad despiertas
 Mambo Kingz
 Díselo, Luian
 Flow Factory, alright"
-60,"Blessd, GeezyDee",DIOMEDEZ,Colombia,6qDTm2QbRSLlSmaUSJE6bF,"Yeah
+60,"Blessd, GeezyDee",DIOMEDEZ,Colombia,latin,6qDTm2QbRSLlSmaUSJE6bF,601518,19,1,"Yeah
 Tiene que sacarle la arena antes de
 Porque hoy vamos a tirar la hijueputa volqueta al río, mami
 Hágale, pues
@@ -3692,7 +3692,7 @@ Ey, abajo lo están esperando unos negros
 Don't got mercy on these niggas
 Jajaja
 Ey, Monja, don't got mercy on these niggas"
-61,Bad Bunny,NUEVAYoL,Colombia,5TFD2bmFKGhoCRbX61nXY5,"¡
+61,Bad Bunny,NUEVAYoL,Colombia,latin,5TFD2bmFKGhoCRbX61nXY5,597070,61,3,"¡
 Nueva
  Yol
 !
@@ -3774,7 +3774,7 @@ Lo tiene' que move'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'
 Lo tiene' que move'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'
 Lo tiene' que move'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'
 Shh"
-62,"Kris R., ROA",PASIÓN Y SEXO,Colombia,4pjkZyNZnOJEPpBmzOqTC2,"Quedaron cosas pendiente' (Sisas), entre tú y yo (Mami, usted sabe)
+62,"Kris R., ROA",PASIÓN Y SEXO,Colombia,latin,4pjkZyNZnOJEPpBmzOqTC2,595855,1,62,"Quedaron cosas pendiente' (Sisas), entre tú y yo (Mami, usted sabe)
 Dime lo que te hice, si lo único que hice fue hacerte el amor
 Tú a mí no me olvida'
 Tenemo' una conexión que va a durar to'a la vida
@@ -3851,7 +3851,7 @@ Con Los Rudeboyz (Rudeboyz)
 Kevin ADG, Chan El Genio, ah
 Ah, sí
 Mi lucerito"
-63,Kapo,NO CRY,Colombia,4YM3IYESNKXWYHbPXvMMVD,"Que no funciona, es evidente
+63,Kapo,NO CRY,Colombia,latin,4YM3IYESNKXWYHbPXvMMVD,595539,15,47,"Que no funciona, es evidente
 Se nos complica la verdad (Sí, sí, sí)
 Nadando contra la corriente se suma el ruido de la gente
 Haciéndome dudar al punto que te suelte
@@ -3916,7 +3916,7 @@ No, baby, no cry
 (Please, baby, no cry)
 (No, baby, no cry)
 (No más, no más)"
-64,Rels B,TU VAS SIN (fav),Colombia,6uiQ0DqbXTBc8tl0AUKZkR,"Ve-Ve-Vente y no te quites, que tú vas sin
+64,Rels B,TU VAS SIN (fav),Colombia,latin,6uiQ0DqbXTBc8tl0AUKZkR,593688,35,14,"Ve-Ve-Vente y no te quites, que tú vas sin
 Me dijo un man, que tú eres mi señora
 Se la tiro de que sí, y ahora le toca que sí
 No tengo miedo si te tengo enfrente
@@ -3960,7 +3960,7 @@ Una varita diseñó su cuerpo
 Y la verdad, si está más buena, explota
 Ella tiene el truquito, el pasito de baile
 Yo me la pegué pa' que baile, me baile"
-65,"Blessd, J Alvarez",FANÁTICO,Colombia,0e3d2UZRjtvviXWWMRYGQo,"Money Makers
+65,"Blessd, J Alvarez",FANÁTICO,Colombia,latin,0e3d2UZRjtvviXWWMRYGQo,586346,5,17,"Money Makers
 Siempre Blessd
 Qué linda estás (Qué linda estás)
 Qué vuelta que te tenga que encontrar aquí, en este lugar (Este lugar)
@@ -4048,7 +4048,7 @@ Indica, Blessd
 (Yo sé tu precio y hoy lo voy a pagar)
 Lo de nosotros no caduca
 On Top Of The World Music"
-66,"Blessd, Ovy On The Drums",Mírame,Colombia,2btNsI4OvcVl7SAHQQDHFB,"Ovy On The Drums
+66,"Blessd, Ovy On The Drums",Mírame,Colombia,latin,2btNsI4OvcVl7SAHQQDHFB,585082,98,1,"Ovy On The Drums
 O-O-Ovy On The Drums (Es que uste' es una mamacita, uste' sabe)
 Mírame fijo a la cara si no sientes lo mismo (Jaja, Ave María, mi amor)
 Que yo entenderé, no cualquiera puede aguantar mi ritmo (Yo sé)
@@ -4099,7 +4099,7 @@ Tú sabes quién
 Ovy On The Drums, El Bendito y KEITYN
 Jaja
 Dímelo, Jara (Desde el Barrio Antioquia)"
-67,Ñengo Flow,En Las Noches Frias,Colombia,0a0JiZejbYYem1W31fldde,"Real G4 Life
+67,Ñengo Flow,En Las Noches Frias,Colombia,latin,0a0JiZejbYYem1W31fldde,583111,44,67,"Real G4 Life
 Tú sabe', Lester
 Gotay
 Pain Digital, Pain Digital
@@ -4189,7 +4189,7 @@ Dándole duro, bien duro
 Dándole duro, mai, como se supone (Dice, dice, dice, dice)
 Voy a darte duro, mami, pa' que lo sienta'
 En las noches frías sé que mi nombre mientas"
-68,"Tony Dize, Plan B",Solos,Colombia,3CbiuLMBPM6uV4a7HvkOib,"Me dijo: ""Se hizo tarde, ya no se ve el sol"" (So?)
+68,"Tony Dize, Plan B",Solos,Colombia,latin,3CbiuLMBPM6uV4a7HvkOib,579835,177,29,"Me dijo: ""Se hizo tarde, ya no se ve el sol"" (So?)
 Y que le hiciera un favor, oh-oh-oh
 De llevarla a su casa a conseguir alcohol (Pina Records)
 A conocernos mejor
@@ -4257,7 +4257,7 @@ En la pista, el Haze
 Todo era cuestión de tiempo
 Dilo tú (Pina)
 House of Pleasure comin' soon"
-69,"KAROL G, Feid",Verano Rosa,Colombia,0nafF9MxcXJBQWv3BTKtdF,"Estoy a ley de una señal, márcame al celular
+69,"KAROL G, Feid",Verano Rosa,Colombia,latin,0nafF9MxcXJBQWv3BTKtdF,574978,37,5,"Estoy a ley de una señal, márcame al celular
 Que estoy caliente y sin ti me vo'a quemar
 Dime qué era lo que tú hacía' con ella en vez de llegar
 Este party no es lo mismo si no estás
@@ -4308,7 +4308,7 @@ Hoy las botellas son a tu nombre
 Hoy hago lo que sea por mirarte
 Así lo haya intentado con otros hombres
 Nadie lo hace como tú lo haces"
-70,Danny Ocean,Me Rehúso,Colombia,6ifUES3keWjwXgae8pXI3o,"Ba-Ba-Babylon girl, Ba-Ba-Babylon girl
+70,Danny Ocean,Me Rehúso,Colombia,latin,6ifUES3keWjwXgae8pXI3o,564230,477,1,"Ba-Ba-Babylon girl, Ba-Ba-Babylon girl
 Para todos aquellos amore' que
 Que fueron obligao' a ser separao'
 Ba-Ba-Babylon girl, Ba-Ba-Babylon girl
@@ -4373,7 +4373,7 @@ Me rehúso a darte un último beso, así que guárdalo (Guárdalo)
 Para que la próxima ve' te lo dé haciéndolo
 Haciéndotelo así, así
 Así como te gusta, baby"
-71,"Yan Block, Panda Black",444,Colombia,1o4xkdBe0RjSf2u6VXi4OI,"Panda Black on the beat
+71,"Yan Block, Panda Black",444,Colombia,latin,1o4xkdBe0RjSf2u6VXi4OI,557269,85,25,"Panda Black on the beat
 
 Aunque no esté' aquí y esté' allá
 Mami, tú 'tás clara que siempre te vo'a clavar
@@ -4431,7 +4431,7 @@ Me enchulé de tus defecto' imperfectamente perfecto'
 Le contesto en to' momento, monumento e' ese cuerpo, ma
 ¿Cuándo vamo' a verno'? Que el infierno está viniendo
 Y me quiero morir viniéndome, metiéndote"
-72,"W Sound, Blessd, Ovy On The Drums",Soltera - W Sound 01,Colombia,13BDiikG6y5o5cQTK0HpW6,"Baby
+72,"W Sound, Blessd, Ovy On The Drums",Soltera - W Sound 01,Colombia,latin,13BDiikG6y5o5cQTK0HpW6,554673,83,1,"Baby
 Ovy On The Drums, W Sound
 
 You're in a relationship, I'm not
@@ -4475,7 +4475,7 @@ From the Barrio Antioquía
 Ey, Jose, fire, haha
 Gotex
 O-O-Ovy On The Drums"
-73,Willie Colón,Idilio,Colombia,5iwgEFKEktjBBZV3C9TTZj,"Solo me alienta el deseo divino de hacerte mía
+73,Willie Colón,Idilio,Colombia,latin,5iwgEFKEktjBBZV3C9TTZj,553715,13,22,"Solo me alienta el deseo divino de hacerte mía
 Más me destruye la incertidumbre que estoy pasando
 Es que la nieve cruel de los años mi cuerpo enfría
 Y se me agota ya la paciencia por ti esperando
@@ -4523,7 +4523,7 @@ Pero el tiempo va volando, ven y calma mi pasión
 Soñando contigo, queriendo que se cumpla nuestro idilio
 Y así, muy juntos, volver a sentir que se funden tu alma y la mía
 En un abrazo, un idilio de amor"
-74,"Yan Block, Panda Black",Talento,Colombia,7sChwC2NZjGc2Kdni3hlDg,"Panda Black, Panda Black
+74,"Yan Block, Panda Black",Talento,Colombia,latin,7sChwC2NZjGc2Kdni3hlDg,547310,12,68,"Panda Black, Panda Black
 Me lo mama y despué' lo quiere adentro
 ¿Qué e' esto? Tú tiene' un—
 
@@ -4568,7 +4568,7 @@ Me josea, tiene ticket, tiene un Benzo
 
 El Rolex es de colore', yeah-yeah-yeah
 Te mando flore', espero que no te enamore'"
-75,"Rauw Alejandro, Bad Bunny",Qué Pasaría...,Colombia,0l0vcZMU7AOeQmUIREoI2U,"¿Qué pasaría si volvieran esas noche' dentro de ti?
+75,"Rauw Alejandro, Bad Bunny",Qué Pasaría...,Colombia,latin,0l0vcZMU7AOeQmUIREoI2U,547077,68,11,"¿Qué pasaría si volvieran esas noche' dentro de ti?
 Qué rico fue cuando te metí
 Tú sabe' lo que hicimo'
 Y ahora sin buscarno' en la disco nos vimo'
@@ -4630,7 +4630,7 @@ Eh-eh-eh, eh-eh-eh, eh-eh-eh, mmm
 Dime, MAG, ponle más
 Dime, MAG, ponle más
 Ey, ey, ey, ja"
-76,"Boza, ELENA ROSE",orióN,Colombia,4feh4Ak3ZJfC6ibxkNzlkE,"But tell me, what's the secret you’re keeping
+76,"Boza, ELENA ROSE",orióN,Colombia,latin,4feh4Ak3ZJfC6ibxkNzlkE,546964,90,6,"But tell me, what's the secret you’re keeping
 That no one has found
 And it's got me fascinated
 If you ask me to wait, I'll wait sitting down
@@ -4712,7 +4712,7 @@ And with my wounds, I don't want to hurt you
 Venezuela and Panama
 Tell me, Boza
 Elena"
-77,Luis Alberto Posada,Mal Amor,Colombia,1j4XwpoLvqdkWllikDu7Rm,"¿A qué volviste, amor perdido?
+77,Luis Alberto Posada,Mal Amor,Colombia,latin,1j4XwpoLvqdkWllikDu7Rm,546247,18,32,"¿A qué volviste, amor perdido?
 Ya te cansaste de vagar, ¿a qué has venido?
 Me utilizaste, me diste olvido
 Me acostumbré a querer y nunca ser querido
@@ -4738,7 +4738,7 @@ No te das cuenta que ya no te necesito en mi vivir
 El invierno llegó sin tu presencia, no, no
 No quiero verte, por favor, date la vuelta
 Mal amor"
-78,Arcángel,Ganas De Ti,Colombia,71w26UK674tLfGtJFfDSjE,"Jaja, ey
+78,Arcángel,Ganas De Ti,Colombia,latin,71w26UK674tLfGtJFfDSjE,546114,55,78,"Jaja, ey
 La Maravilla
 Quiero llevarte y hacerte el amor
 Déjame tocarte (Uh-uh), tu cuerpo está pidiéndolo
@@ -4782,7 +4782,7 @@ Me desespero si no estás aquí (Wuh, ah, ah, ah)
 Regresa que no puedo más (Wuh)
 
 La Maravilla"
-79,Romeo Santos,Imitadora,Colombia,6r46lnXFbE9fr2d3KNaGbe,"Hey
+79,Romeo Santos,Imitadora,Colombia,latin,6r46lnXFbE9fr2d3KNaGbe,539798,114,29,"Hey
 Who are you?
 
 Mi memoria ha conservado lo que se ha llevado el viento
@@ -4839,7 +4839,7 @@ Tell me where she's at?
 Yo la extraño ¿a dónde se me perdió?
 Tell me where she's at?
 Que regrese mi amada porque tú, no eres tú"
-80,Maluma,Borro Cassette,Colombia,6DUdDIRgLqCGq1DwkNWQTN,"Sabemos lo tuyo (Rudeboyz)
+80,Maluma,Borro Cassette,Colombia,latin,6DUdDIRgLqCGq1DwkNWQTN,533885,169,23,"Sabemos lo tuyo (Rudeboyz)
 
 Ayer me besaste y no podías parar, y me bailaste hasta el amanecer
 Cuando desperté yo te quise llamar, y ahora me dice que borró cassette
@@ -4896,7 +4896,7 @@ Rudeboyz, Bull Nene, Atlantik music
 ¿Qué hubo mi reina? (Pretty Boy), ¿cómo así que no se acuerda?
 Que hicimos el amor, la pasamos bien, ¿y me va a decir que borró cassete?
 ¡Nah!"
-81,"Yan Block, TORRRES",Yo sé,Colombia,5DdLSEyKh8zgCrJq2hFj92,"Es Lucifer, oeh, oeh, oeh (Eh)
+81,"Yan Block, TORRRES",Yo sé,Colombia,latin,5DdLSEyKh8zgCrJq2hFj92,532115,61,42,"Es Lucifer, oeh, oeh, oeh (Eh)
 Tú 'tás bellaca, eso, eso, eso e'
 Me-Me-Me vo'a empastillar pa' martillarte como e' (Eh)
 Bandida fina, que bajen la Moët (Eh)
@@ -4937,7 +4937,7 @@ BM charcoal gray, la movie te pongo en play
 Esa carita angelical me hace pecar en 4K
 
 Quedó esto hijueputa, ¿verda'?"
-82,"El Americano 4KT, Kobby",The Flow's Son Black!,Colombia,6uLcqYE347zlvXD6rhiM4J,"Dímelo, Kobby, ¿klk? ¿Klk? Where you at, Kobby?
+82,"El Americano 4KT, Kobby",The Flow's Son Black!,Colombia,latin,6uLcqYE347zlvXD6rhiM4J,530895,6,74,"Dímelo, Kobby, ¿klk? ¿Klk? Where you at, Kobby?
 Where you at? What’s up, bro?
 Americano is back
 Por cantar me mandan pack
@@ -4988,7 +4988,7 @@ To' los flow son black, la ID's black is back
 En un BM mataron a 2pac
 Ronaldo es cabra, Messi es winner cap
 Los beat son happy, mis letras son sad"
-83,Dalmata,Dile a Tu Amiga,Colombia,3u2jlo9kygiIAq7SPVuw6S,"Y yo contigo solo quiero misionar
+83,Dalmata,Dile a Tu Amiga,Colombia,latin,3u2jlo9kygiIAq7SPVuw6S,530815,126,25,"Y yo contigo solo quiero misionar
 No lo coja' personal, no lo coja' personal
 No te vaya' a enamorar, no lo coja' personal
 Que esto no es pa' en serio
@@ -5053,8 +5053,8 @@ El Da-Da-Dalmation
 Road To Riches (Wuh-uh)
 Artillery
 (Jaja)"
-84,"Kris R., GeezyDee, Prodmonja",BOBADITA,Colombia,52IeC2QBiJqk9jAR5gbe14,
-85,"Omar Courtz, ROA",WO OH OH,Colombia,0h54mLixODOqU6vTcZMqVM,"[Intro: 
+84,"Kris R., GeezyDee, Prodmonja",BOBADITA,Colombia,latin,52IeC2QBiJqk9jAR5gbe14,529677,18,15,
+85,"Omar Courtz, ROA",WO OH OH,Colombia,latin,0h54mLixODOqU6vTcZMqVM,526842,2,75,"[Intro: 
 Bad Bunny
 ]
 Pero yo estoy con ella y tú estás con él
@@ -5131,7 +5131,7 @@ Pero yo estoy con ella y tú estás con él
 Sabiendo que yo siempre te voy a querer
 Yeah, si tú lo dejas, yo la dejo (Yo la dejo)
 Yeah, si tú lo dejas, yo la dejo"
-86,Yeison Jimenez,Ya No Mi Amor,Colombia,7qbPQqOYYMPdQqRqv7bNin,"Pues ya que te vas
+86,Yeison Jimenez,Ya No Mi Amor,Colombia,latin,7qbPQqOYYMPdQqRqv7bNin,526682,16,9,"Pues ya que te vas
 Déjame decirte: ""que te vaya bien""
 Pues ya que no quieres seguir más conmigo
 Me pasa lo mismo y tú lo sabes bien
@@ -5172,7 +5172,7 @@ Pues ya no mi amor y me paro en la raya
 No voy a seguir humillando mi alma
 Si algún día te dije que sin ti moría
 Pues ya no, mi amor"
-87,Omar Courtz,SI ESTÁS CON ALGUIEN,Colombia,7nyk5uxevcijIfl1FlJgmA,"Yo me acuerdo aquel día, tú y yo, tú encima
+87,Omar Courtz,SI ESTÁS CON ALGUIEN,Colombia,latin,7nyk5uxevcijIfl1FlJgmA,526155,2,87,"Yo me acuerdo aquel día, tú y yo, tú encima
 Dos cuerpo' a escondida', bebé, la noche era de los do'
 ¿Dónde estás metía'? De la disco sale 'e día
 Ojalá que te acuerdes, mi amor
@@ -5236,7 +5236,7 @@ Así que si no va a estar el que yo conocí al principio
 No lo quiero
 Yo creo que ya
 Ya yo me rindo"
-88,"Alzate, Yeison Jimenez",Mi Venganza,Colombia,3f4AsGGYt94t7g1lHcsa8D,"Puede que me haga el pendejo
+88,"Alzate, Yeison Jimenez",Mi Venganza,Colombia,latin,3f4AsGGYt94t7g1lHcsa8D,523499,62,11,"Puede que me haga el pendejo
 Pero ¿sabes?
 Ya sé que me eres infiel
 La verdad
@@ -5283,7 +5283,7 @@ Y no, no va a pasar
 Ayy
 Con el corazón
 Papá"
-89,"Arcángel, Bad Bunny, Mambo Kingz, DJ Luian",Tu No Vive Asi (feat. Mambo Kingz & DJ Luian),Colombia,6NSMQFKgjpQb0KkjMDYIK0,"Ye-eh, ye-eh
+89,"Arcángel, Bad Bunny, Mambo Kingz, DJ Luian",Tu No Vive Asi (feat. Mambo Kingz & DJ Luian),Colombia,latin,6NSMQFKgjpQb0KkjMDYIK0,521583,206,64,"Ye-eh, ye-eh
 Tú estás buena, bebé, y sin mandarte a hacer
 Quiero fumar y darte hasta el amanecer
 Te juro que me gusta to' de ti, todo de ti
@@ -5426,7 +5426,7 @@ Mami yo sé que tú estabas esperando que yo mencionara el bicho
 ¿O que tú quieres, que te hable de rifles y de pistola'?
 Si a última hora lo que yo te voy a meter es el bicho (¡Uh!)
 La Industria de los Inmortales"
-90,"TURY, CARABIN3",CHUCHA,Colombia,01dFxiEOMTTzim5J3kytjA,"Pero yo a uste' la amo (Prr)
+90,"TURY, CARABIN3",CHUCHA,Colombia,latin,01dFxiEOMTTzim5J3kytjA,519145,2,90,"Pero yo a uste' la amo (Prr)
 Cuando la vea pa' que le peguemo' al peluche, mi amor
 Y le voy a tirar a preñar, pa' que sepa, mi amor
 Sabelona (Ey)
@@ -5507,7 +5507,7 @@ Con el nene de Pedre, gas
 Directamente desde la 24
 Dímelo, Jara, ¿si sabe?
 Grosero"
-91,Bad Bunny,KLOuFRENS,Colombia,4MUrUT38U98olfnyzMBCzm,"¿Cómo diablos vo'a olvidarte si ya te vi sin ropa?
+91,Bad Bunny,KLOuFRENS,Colombia,latin,4MUrUT38U98olfnyzMBCzm,517358,59,15,"¿Cómo diablos vo'a olvidarte si ya te vi sin ropa?
 Wow, qué obra de arte, sé que prometí que iba a alejarme
 
 ¿Pero cómo quiere' que me vaya bien?
@@ -5559,7 +5559,7 @@ Y ya nadie sabrá lo que tú y yo pudo ser
 Qué triste, no conocerá' esa parte de mí que yo sé que te iba a gustar
 Y nadie sabrá lo que tú y yo pudo ser
 Qué triste, no conocerás esa parte de mí que yo a nadie le suelo mostrar"
-92,"KAROL G, Feid, DFZM, Ovy On The Drums, J Balvin, Maluma, Ryan Castro, Blessd",+57,Colombia,3mg9jYNC1NihbthlglzrWP,"Colombia gang
+92,"KAROL G, Feid, DFZM, Ovy On The Drums, J Balvin, Maluma, Ryan Castro, Blessd",+57,Colombia,latin,3mg9jYNC1NihbthlglzrWP,516832,69,1,"Colombia gang
 O-O-Ovy On The Drums
 Woah
 
@@ -5670,7 +5670,7 @@ Colombia gang, gang, yeah
 Ay, eh, Ave María
 Ah
 So great"
-93,Yeison Jimenez,El Mejor Caballo,Colombia,4Udf3NPZZVggwmVXHcjuqA,"Y hasta el cielo, aventurero papa
+93,Yeison Jimenez,El Mejor Caballo,Colombia,latin,4Udf3NPZZVggwmVXHcjuqA,514955,8,20,"Y hasta el cielo, aventurero papa
 Ay, mi Yeison, ¡qué dolor, qué dolor!
 Y a beber, voy a llamar a todo el combo para que alisten un caballo
 Voy a sacar el mejor, una despedida con farra
@@ -5715,8 +5715,8 @@ Que retumbe aventurero allá en el cielo, Que aquí en tu nombre cantamos
 ¡Ya no, mi amor!
 
 Yeison Jiménez, con el corazón"
-94,"Yeison Maje, Ciro Quiñonez, Luis Alfonso, Yeison Jimenez",El Embustero RMX,Colombia,72q1JMsCJbKNbWgzipGi6x,
-95,Milo j,Niño,Colombia,4aDbrgm1ZaebS1Bb2dOXac,"¿Cómo estarán en la ensenada, el viejo ceibal
+94,"Yeison Maje, Ciro Quiñonez, Luis Alfonso, Yeison Jimenez",El Embustero RMX,Colombia,latin,72q1JMsCJbKNbWgzipGi6x,514823,8,40,
+95,Milo j,Niño,Colombia,latin,4aDbrgm1ZaebS1Bb2dOXac,511758,23,73,"¿Cómo estarán en la ensenada, el viejo ceibal
 Los jazmineros y orquídeas en flor?
 Donde cantó dulcemente el zorzal
 Quiero volver a contemplarme en tus ojos cambá
@@ -5753,9 +5753,9 @@ Hijo, me robaron tus ojitos los momentos que perdí
 Pedí tiempo a mi destino, y dijo: ""Hoy te toca a ti""
 Sé que un día serás grande, sé que un día entenderás
 Los consejos de tu viejo, estoy descansando en paz"
-96,"Yan Block, De La Rose, Hades66, Ñengo Flow",444 - Remix,Colombia,5AK6QqM8aUXXTk6oY00ZRh,
-97,"La Combinación Vallenata, Jean Carlos Centeno",Ayer Y Hoy,Colombia,5HCk7iruzhQ1FbxyS3igmM,
-98,Omar Courtz,KOKO,Colombia,1tz7RZirwiuaJw2p0jbdHb,"Bellaquita
+96,"Yan Block, De La Rose, Hades66, Ñengo Flow",444 - Remix,Colombia,latin,5AK6QqM8aUXXTk6oY00ZRh,509711,16,34,
+97,"La Combinación Vallenata, Jean Carlos Centeno",Ayer Y Hoy,Colombia,latin,5HCk7iruzhQ1FbxyS3igmM,505110,27,47,
+98,Omar Courtz,KOKO,Colombia,latin,1tz7RZirwiuaJw2p0jbdHb,500240,1,98,"Bellaquita
 Bellaquita
 Uh-uh
 
@@ -5831,7 +5831,7 @@ Uah, uah (Uah)
 Tú va' a ser mía, tú verá'
 Esa notita, sube, súbela (Ah)
 Cuando la toco siento la humedad en su cuerpo"
-99,Kapo,OHNANA,Colombia,482PEx8hfMHSsuGtHd960A,"Oh-na-na, oh-na-na
+99,Kapo,OHNANA,Colombia,latin,482PEx8hfMHSsuGtHd960A,499078,90,3,"Oh-na-na, oh-na-na
 Ay, mami
 
 Ey, aquí estoy yo (Aquí estoy yo)
@@ -5882,7 +5882,7 @@ En estos tiempos no se ve
 (Oh-na-na, oh-na-na)
 Una historia tan hermosa en esto' tiempo' no se ve
 (Mira la luna y siente que estoy al oído susurrando)"
-100,"Tony Dize, Yandel",Permítame,Colombia,6OaGIYcVzx5c7aEKkuYS1M,"Me preguntó como si no supiera nada (Oh, oh, oh; nada, nada)
+100,"Tony Dize, Yandel",Permítame,Colombia,latin,6OaGIYcVzx5c7aEKkuYS1M,499007,204,59,"Me preguntó como si no supiera nada (Oh, oh, oh; nada, nada)
 Que cuál era mi nombre y temblaba (Oh, oh, oh)
 Y yo le dije: ""Yandel"" (Oh, oh, oh)
 Ella dijo: ""No puede ser
@@ -5935,7 +5935,7 @@ El que a los dieciséis año' anda en Mercede', más na' te digo (Oh, oh)
 MarioSo (Oh, oh)
 ""La melodía de la calle"", Tony Dize
 Oye, las mentes de nosotros son superiores a las de ustedes"
-1,Bad Bunny,DtMF,Global,3sK8wGT43QFpWrvNQsrQya,"Eh, eh, eh, eh
+1,Bad Bunny,DtMF,Global,latin,3sK8wGT43QFpWrvNQsrQya,39131995,61,1,"Eh, eh, eh, eh
 
 Otro sunset bonito que veo en San Juan
 Disfrutando de todas esas cosas que extrañan los que se van
@@ -6000,7 +6000,7 @@ Debí darte más besos y abrazo' las veces que pude
 Ojalá que los mío' nunca se muden
 Y que tú me envíe' más nude'
 Y si hoy me emborracho, que Beno me ayude"
-2,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Global,1DwscornXpj8fmOmYVlqZt,"(Ah-ah-ah)
+2,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Global,latin,1DwscornXpj8fmOmYVlqZt,38913426,8,2,"(Ah-ah-ah)
 I'm freezing outside, I feel my skin tight
 My coat is inside, but I look up at you
 I tracked your plane ride for when you're in tonight
@@ -6080,7 +6080,7 @@ But you're nice, so I'll stay
 Never met a Swedish girl, you say?
 No one treats me this way
 Are all boys out here the same?"
-3,Bruno Mars,Risk It All,Global,5y2ijHECwFYWqcAHKTZgzD,"For just the chance to win your heart
+3,Bruno Mars,Risk It All,Global,latin,5y2ijHECwFYWqcAHKTZgzD,36569896,1,3,"For just the chance to win your heart
 You could set the bar beyond the stars
 I'll do anything, anything you ask me to
 
@@ -6122,7 +6122,7 @@ I'd risk it all for you
 It's crazy, but it's true
 There's nothing I won't do
 I'd risk it all for you"
-4,Djo,End of Beginning,Global,3qhlB30KknSejmIvZZLjOD,"Just one more tear to cry, one teardrop from my eye
+4,Djo,End of Beginning,Global,latin,3qhlB30KknSejmIvZZLjOD,31777044,107,1,"Just one more tear to cry, one teardrop from my eye
 You better save it for
 The middle of the night when things aren't black and white
 Enter, Troubadour
@@ -6152,7 +6152,7 @@ And when I'm back in Chicago, I feel it
 Another version of me, I was in it
 Oh, I wave goodbye to the end of beginning
 (Goodbye, goodbye)"
-5,Olivia Dean,Man I Need,Global,1qbmS6ep2hbBRaEZFpn7BX,"Talk to me, talk to me
+5,Olivia Dean,Man I Need,Global,latin,1qbmS6ep2hbBRaEZFpn7BX,31301570,28,3,"Talk to me, talk to me
 Talk to me, talk to me
 Hm
 
@@ -6217,7 +6217,7 @@ Mm
 Mm-mm, mm-mm, mm
 Mm-mm, mm
 Mm-mm, mm-mm, mm-mm, mm-mm, mm"
-6,Taylor Swift,The Fate of Ophelia,Global,53iuhJlwXhSER5J2IYYv1W,"I heard you calling on the megaphone
+6,Taylor Swift,The Fate of Ophelia,Global,latin,53iuhJlwXhSER5J2IYYv1W,29888205,22,1,"I heard you calling on the megaphone
 You wanna see me all alone
 As legend has it, you are quite the pyro
 You light the match to watch it blow
@@ -6292,7 +6292,7 @@ It's 'bout to be the sleepless night you've been dreaming of
 The fate of Ophelia
 
 You saved my heart from the fate of Ophelia"
-7,Olivia Dean,So Easy (To Fall In Love),Global,6sGIMrtIzQjdzNndVxe397,"I could be the twist, the one to make you stop
+7,Olivia Dean,So Easy (To Fall In Love),Global,latin,6sGIMrtIzQjdzNndVxe397,29678009,23,6,"I could be the twist, the one to make you stop
 The icing on your cake, the cherry on the top
 There's Heaven in my heart, and we could find you some space, mm
 I could be the world to you, the missing piece
@@ -6336,7 +6336,7 @@ I'm the perfect mix of Saturday night and the rest of your life
 Anyone with a heart would agree
 It's so easy
 To fall in love with me"
-8,Bad Bunny,BAILE INoLVIDABLE,Global,2lTm559tuIvatlT1u0JYG2,"Pensaba que contigo iba a envejecer
+8,Bad Bunny,BAILE INoLVIDABLE,Global,latin,2lTm559tuIvatlT1u0JYG2,29165614,61,2,"Pensaba que contigo iba a envejecer
 En otra vida, en otro mundo podrá ser
 En esta solo queda irme un día
 Y solamente verte en el atardecer
@@ -6416,7 +6416,7 @@ Ya no tengo mi sol, me paso en la luna
 Si te pienso, me tiro de una
 Eh-eh, mi diabla, mi ángel, mi loquita
 Mi diabla, mi ángel, mi loquita, eh-eh"
-9,Bruno Mars,I Just Might,Global,6f68Ac5tt5BQOpwr0BV9oN,"One, two, three, four
+9,Bruno Mars,I Just Might,Global,latin,6f68Ac5tt5BQOpwr0BV9oN,28933106,8,3,"One, two, three, four
 Doo-doo, doo-doo, doo-doo, doo-doo-doo
 Doo-doo, doo-doo, doo-doo, doo-doo-doo
 
@@ -6483,7 +6483,7 @@ Doo-doo, doo-doo, doo-doo, doo-doo-doo
 I just might
 Doo-doo, doo-doo, doo-doo, doo-doo-doo
 Oh, I just might"
-10,Bad Bunny,NUEVAYoL,Global,5TFD2bmFKGhoCRbX61nXY5,"¡
+10,Bad Bunny,NUEVAYoL,Global,latin,5TFD2bmFKGhoCRbX61nXY5,28499978,61,3,"¡
 Nueva
  Yol
 !
@@ -6565,7 +6565,7 @@ Lo tiene' que move'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'
 Lo tiene' que move'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'
 Lo tiene' que move'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'
 Shh"
-11,sombr,back to friends,Global,7qjZnBKE73H4Oxkopwulqe,"Touch my body tender
+11,sombr,back to friends,Global,latin,7qjZnBKE73H4Oxkopwulqe,27034485,50,1,"Touch my body tender
 'Cause the feeling makes me weak
 Kicking off the covers
 I see the ceiling while you're looking down at me
@@ -6602,7 +6602,7 @@ How can you look at me and pretend
 I'm someone you've never met?
 
 I'm someone you've never met (Yeah)"
-12,Dominic Fike,Babydoll,Global,7yNf9YjeO5JXUE3JEBgnYc,"And I can't move on, babydoll
+12,Dominic Fike,Babydoll,Global,latin,7yNf9YjeO5JXUE3JEBgnYc,26488917,16,12,"And I can't move on, babydoll
 Waitin' on calls, flippin' through stations
 I'm outclassed and it's outrageous (Ooh)
 And I'll take it all, babydoll
@@ -6626,7 +6626,7 @@ Waitin' on calls, flippin' through stations
 I'm outclassed and it's outrageous (Ooh)
 And I'll take it all, babydoll
 Whatever's been weighin' you down"
-13,RAYE,WHERE IS MY HUSBAND!,Global,55lijDD6OAjLFFUHU9tcDm,"Baby (Woo-hoo), where the hell is my husband? (Woo-hoo)
+13,RAYE,WHERE IS MY HUSBAND!,Global,latin,55lijDD6OAjLFFUHU9tcDm,25025673,24,6,"Baby (Woo-hoo), where the hell is my husband? (Woo-hoo)
 What is takin' him so long to find me? (Woo-hoo)
 Oh, baby, where the hell is my lover?
 Getting down with another? (Woo-hoo, yeah)
@@ -6717,7 +6717,7 @@ I would like a diamond ring on my wedding finger
 I would like a big and shiny (Woo)
 Diamond (Yes), diamond (Yes), diamond (Yes), diamond (Yes), diamond (Yes), oh (Oh)
 Where is my husband? (Ah)"
-14,"Dave, Tems",Raindance (feat. Tems),Global,3oTuTpF1F3A7rEC6RKsMRz,"Vamos começar a festa
+14,"Dave, Tems",Raindance (feat. Tems),Global,latin,3oTuTpF1F3A7rEC6RKsMRz,24542605,14,11,"Vamos começar a festa
 Te vi no bar, você quase não falava
 Foi aí que eu soube que seu coração tava marcado
 De amigos pra amantes, precisando de um papel pra estrelar, tipo “Espera, amor”
@@ -6806,7 +6806,7 @@ Shimmy-shimmy, yay, shimmy, shimmy-shimmy, yah
 Um e setenta e cinco, olhos castanhos, e ela tá den—
 Shimmy-shimmy, yay, shimmy, shimmy-shimmy, yah
 Um e setenta e cinco, olhos castanhos"
-15,Bad Bunny,Tití Me Preguntó,Global,1IHWl5LamUGEuP4ozKQSXZ,"Ey
+15,Bad Bunny,Tití Me Preguntó,Global,latin,1IHWl5LamUGEuP4ozKQSXZ,24477910,66,4,"Ey
 
 Tití me preguntó si tengo mucha' novia', mucha' novia'
 Hoy tengo a una, mañana otra, ey, pero no hay boda
@@ -6889,7 +6889,7 @@ No te enamore' de mí (No)
 No te enamore' de mí (No), no
 Sorry, yo soy así
 Ya no quiero ser así, no"
-16,Zara Larsson,Lush Life,Global,1rIKgCH4H52lrvDcz50hS8,"I live my day as if it was the last
+16,Zara Larsson,Lush Life,Global,latin,1rIKgCH4H52lrvDcz50hS8,23649072,28,7,"I live my day as if it was the last
 Live my day as if there was no past
 Doin' it all night, all summer
 Doin' it the way I wanna
@@ -6971,7 +6971,7 @@ Now I've found another crush
 The lush life's givin' me a rush
 Had one chance to make me blush
 Second time is one too late"
-17,Alex Warren,Ordinary,Global,2RkZ5LkEzeHGRsmDqKwmaJ,"They say, ""The holy water's watered down
+17,Alex Warren,Ordinary,Global,latin,2RkZ5LkEzeHGRsmDqKwmaJ,23230306,56,1,"They say, ""The holy water's watered down
 And this town's lost its faith
 Our colors will fade eventually""
 So, if our time is runnin' out
@@ -7022,7 +7022,7 @@ Somethin' so out (Out) of the ordinary
 You got me kissing the ground (Ground) of your sanctuary (Sanctuary)
 Shatter me with your touch, oh, Lord, return me to dust
 The angels up in the clouds are jealous knowin' we found"
-18,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,Global,1CPZ5BxNNd0n0nF4Orb9JS,"[Verse: Rumi, 
+18,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,Global,latin,1CPZ5BxNNd0n0nF4Orb9JS,22704416,37,1,"[Verse: Rumi, 
 Zoey
 , 
 Mira
@@ -7099,7 +7099,7 @@ Oh
 Born to be, born to be glowin', 밝게 빛나는 우리
 You know that it's our time, no fears, no lies (Oh)
 That's who we're born to be"
-19,Bad Bunny,EoO,Global,6J5kc12BW5HuP3d7C3vvx8,"Ella viene por ahí y nunca llega sola, so-so-so-so—
+19,Bad Bunny,EoO,Global,latin,6J5kc12BW5HuP3d7C3vvx8,22635430,61,4,"Ella viene por ahí y nunca llega sola, so-so-so-so—
 Ella nunca llega sola
 To' los bandi-bandido' le sueltan las pistola', pa-pa-pa-pa—
 Esta es noche lo que hay-hay-hay-hay-hay (Dice)
@@ -7187,7 +7187,7 @@ Yeah-yeah-yeah-yeah, yeah-yeah-yeah-yeah
 Bad Bunny, baby, Bad Bunny, baby, eh
 Tainy, Tainy, Tainy, Tainy
 Chequéate la historia"
-20,"Lady Gaga, Bruno Mars",Die With A Smile,Global,7so0lgd0zP2Sbgs2d7a1SZ,"(Ooh, ooh)
+20,"Lady Gaga, Bruno Mars",Die With A Smile,Global,latin,7so0lgd0zP2Sbgs2d7a1SZ,20370215,81,1,"(Ooh, ooh)
 
 I, I just woke up from a dream
 Where you and I had to say goodbye
@@ -7246,7 +7246,7 @@ I'd wanna be next to you
 
 (Ooh, ooh)
 I'd wanna be next to you"
-21,Alex Warren,FEVER DREAM,Global,7ogpGbKc4Io6NCU6ydxXwZ,"How did you know
+21,Alex Warren,FEVER DREAM,Global,latin,7ogpGbKc4Io6NCU6ydxXwZ,20313162,1,21,"How did you know
 I was hoping for a sign?
 My heart was so
 Close to closing time
@@ -7286,7 +7286,7 @@ Like our shadows dancing us out of our clothes
 I'll be damned if you love me, damned if you don't
 
 Oh, if you don't"
-22,SIENNA SPIRO,Die On This Hill,Global,2gYTC8DsplN3RNdpdBcCOQ,"Got me to stay, said that you need me
+22,SIENNA SPIRO,Die On This Hill,Global,latin,2gYTC8DsplN3RNdpdBcCOQ,19583021,12,9,"Got me to stay, said that you need me
 Starved 'cause these words don't have a meaning
 No, they don't, at least not to me
 There'll be a day, I'll be more creative
@@ -7323,7 +7323,7 @@ Know I'm not blind, just seeing it through
 You'd take my life just for the thrill
 I'll take tonight and die on this hill
 I always, always, I always will"
-23,BLACKPINK,GO,Global,3FZPp9lBUvhsxFxKJi3VkB,"(You ready? Ready? Ready?)
+23,BLACKPINK,GO,Global,latin,3FZPp9lBUvhsxFxKJi3VkB,19179998,1,23,"(You ready? Ready? Ready?)
 
 I'm on a mission, I'm in control
 I want your body, I want your soul
@@ -7389,7 +7389,7 @@ BLACKPINK, BLACKPINK
 BLACKPINK, BLACKPINK
 BLACKPINK, BLACKPINK
 BLACKPINK, BLACKPINK"
-24,The Goo Goo Dolls,Iris,Global,6Qyc6fS4DsZjB2mRW9DsQs,"And I'd give up forever to touch you
+24,The Goo Goo Dolls,Iris,Global,latin,6Qyc6fS4DsZjB2mRW9DsQs,19060939,131,12,"And I'd give up forever to touch you
 'Cause I know that you feel me somehow
 You're the closest to heaven that I'll ever be
 And I don't wanna go home right now
@@ -7426,7 +7426,7 @@ I just want you to know who I am
 I just want you to know who I am
 I just want you to know who I am
 I just want you to know who I am"
-25,sombr,Homewrecker,Global,7tICCrK3CcyRFKza7yrR0z,"Ooh-ooh-ooh, ooh-ooh-ooh
+25,sombr,Homewrecker,Global,latin,7tICCrK3CcyRFKza7yrR0z,18232386,4,21,"Ooh-ooh-ooh, ooh-ooh-ooh
 Ooh-ooh-ooh, ooh-ooh-ooh
 Ooh-ooh-ooh, ooh-ooh-ooh, ooh
 
@@ -7490,7 +7490,7 @@ Ooh-ooh-ooh, ooh-ooh-ooh (Oh-oh)
 Ooh-ooh-ooh, ooh-ooh-ooh (Oh-oh)
 Ooh-ooh-ooh, ooh-ooh-ooh (Oh-oh)
 Ooh-ooh-ooh, ooh-ooh-ooh"
-26,Billie Eilish,BIRDS OF A FEATHER,Global,6dOtVTDdiauQNBQEDOtlAB,"(But I wanna stay)
+26,Billie Eilish,BIRDS OF A FEATHER,Global,latin,6dOtVTDdiauQNBQEDOtlAB,18085107,94,1,"(But I wanna stay)
 
 I want you to stay
 'Til I'm in the grave
@@ -7537,7 +7537,7 @@ But if it's forever, it's even better
 I knew you in another life
 You had that same look in your eyes
 I love you, don't act so surprised"
-27,The Police,Every Breath You Take,Global,1JSTJqkT5qHq8MDJnJbRE1,"Every breath you take
+27,The Police,Every Breath You Take,Global,latin,1JSTJqkT5qHq8MDJnJbRE1,17874535,221,8,"Every breath you take
 And every move you make
 Every bond you break, every step you take
 I'll be watching you
@@ -7606,7 +7606,7 @@ I'll be watching you
 (Every breath you take, every move you make)
 (Every bond you break, every step you take)
 I'll be watching..."
-28,Ravyn Lenae,Love Me Not,Global,4WFgvKVfEhb3IUAFGrutTR,"See, right now, I need you, I'll meet you somewhere now
+28,Ravyn Lenae,Love Me Not,Global,latin,4WFgvKVfEhb3IUAFGrutTR,17646413,50,8,"See, right now, I need you, I'll meet you somewhere now
 You up now, I see you, I get you, take care now
 Slow down, be cool, I miss you, come here now
 It's yours now, keep it, I'll hold out until now
@@ -7664,7 +7664,7 @@ And, oh, it's hard to see you, but I wish you were right here (I'm losing my min
 Oh, it's hard to leave you when I get you everywhere
 All this time I'm thinking, I'm strong enough to sink it
 Oh, no, I don't need you, but I miss you, come here"
-29,She & Him,I Thought I Saw Your Face Today,Global,0myRViRgmQ3J8izICXEAVO,"I thought I saw your face today
+29,She & Him,I Thought I Saw Your Face Today,Global,latin,0myRViRgmQ3J8izICXEAVO,17006777,13,14,"I thought I saw your face today
 But I just turned my head away
 Your face against the trees
 But I just see the memories as they come, as they come
@@ -7698,7 +7698,7 @@ No, I couldn't help but fall in love again
 No, I couldn't help but fall in love again
 No, I couldn't help but fall in love again
 No, I couldn't help but fall in love again"
-30,Sabrina Carpenter,Manchild,Global,2BwO5K8Q7EPAJSGze3AAh9,"Oh boy
+30,Sabrina Carpenter,Manchild,Global,latin,2BwO5K8Q7EPAJSGze3AAh9,16507726,39,1,"Oh boy
 
 You said your phone was broken, just forgot to charge it
 Whole outfit you're wearing, God, I hope it's ironic
@@ -7751,7 +7751,7 @@ Oh, I like my boys playing hard to get (Play hard to get)
 And I like my men all incompetent (Incompetent)
 And I swear they choose me, I'm not choosing them (Not choosing them)
 Amen (Amen), hey, men (Hey, men)"
-31,Bad Bunny,VOY A LLeVARTE PA PR,Global,59D4DOkspUbWyMmbAPQkxZ,"Acho, PR es otra cosa
+31,Bad Bunny,VOY A LLeVARTE PA PR,Global,latin,59D4DOkspUbWyMmbAPQkxZ,16414264,53,8,"Acho, PR es otra cosa
 Yo la conocí en Miami, en Brickell
 Ella sabe que aquí hay ticket
 Quiere que yo se la aplique
@@ -7807,7 +7807,7 @@ Que bailen toa' las gata', nos fuimo' algarete
 Dale, mami, suéltate el grillete
 Ponte en cuatro, que te vo'a dar fuete
 Ponte en cuatro, que te vo'a dar fue—"
-32,sombr,12 to 12,Global,05od2qm2MTSKCHxy1GBp5W,"I don't want anyone else
+32,sombr,12 to 12,Global,latin,05od2qm2MTSKCHxy1GBp5W,16403974,32,14,"I don't want anyone else
 From the hours of 12 to 12
 I am not the least compelled
 By anyone but yourself
@@ -7859,7 +7859,7 @@ In a room full of people, I look for you
 Would you avoid me or would you see me through?
 Tell me, is our story through? (Through)
 Or do our hearts still beat in tune?"
-33,Gigi Perez,Sailor Song,Global,21IYMdzTrzSe191Cy5eMap,"I saw her in the rightest way
+33,Gigi Perez,Sailor Song,Global,latin,21IYMdzTrzSe191Cy5eMap,16293188,81,7,"I saw her in the rightest way
 Looking like Anne Hathaway
 Laughing while she hit her pen and coughed, and coughed
 And then she came up to my knees
@@ -7893,7 +7893,7 @@ And we can run away to the walls inside your house
 I can be the cat, baby, you can be the mouse
 And we can laugh off things that we know nothing about
 We can go forever or until you wanna sit it out"
-34,Taylor Swift,Opalite,Global,3yWuTOYDztXjZxdE2cIRUa,"I had a bad habit
+34,Taylor Swift,Opalite,Global,latin,3yWuTOYDztXjZxdE2cIRUa,16221369,22,2,"I had a bad habit
 Of missing lovers past
 My brother used to call it
 ""Eating out of the trash""
@@ -7961,7 +7961,7 @@ Oh, my Lord
 Never met no one like you before (No)
 You had to make your own sunshine
 But now, the sky is opalite, oh-oh, oh, oh, oh, oh"
-35,Bella Kay,iloveitiloveitiloveit,Global,5IMpnpD0tQVcqWlVIgtAtV,"I like being used, it means I have a purpose
+35,Bella Kay,iloveitiloveitiloveit,Global,latin,5IMpnpD0tQVcqWlVIgtAtV,16210197,2,35,"I like being used, it means I have a purpose
 It's the little things you do, at least you're being earnest
 Oh, maybe I'm too fragile
 But maybe you're too mean
@@ -8013,7 +8013,7 @@ Yeah, I, I loved it, I, I loved it, I
 I'd be lying if I said I didn't love it, 'cause I do
 I'm a couple minutes out from relapsing into you, oh, fuck it
 I only love it 'cause it's you"
-36,The Neighbourhood,Sweater Weather,Global,0cQVqPuHQP4KEwc7ZUQmj6,"And all I am is a man
+36,The Neighbourhood,Sweater Weather,Global,latin,0cQVqPuHQP4KEwc7ZUQmj6,16178529,288,16,"And all I am is a man
 I want the world in my hands
 I hate the beach, but I stand
 In California with my toes in the sand
@@ -8073,7 +8073,7 @@ Let me hold both your hands in the holes of my sweater
 
 And it's too cold, it's too cold
 The holes of my sweater"
-37,Billie Eilish,WILDFLOWER,Global,3QaPy1KgI7nu9FJEQUgn6h,"Things fall apart
+37,Billie Eilish,WILDFLOWER,Global,latin,3QaPy1KgI7nu9FJEQUgn6h,15256615,94,9,"Things fall apart
 And time breaks your heart
 I wasn't there, but I know
 She was your girl
@@ -8120,7 +8120,7 @@ You say no one knows you so well
 But every time you touch me, I just wonder how she felt
 Valentine's Day, cryin' in the hotel
 I know you didn’t mean to hurt me, so I kept it to myself"
-38,Radiohead,Creep,Global,70LcF31zb1H0PyJoS1Sx1r,"When you were here before
+38,Radiohead,Creep,Global,latin,70LcF31zb1H0PyJoS1Sx1r,15052471,118,27,"When you were here before
 Couldn't look you in the eye
 You're just like an angel
 Your skin makes me cry
@@ -8164,7 +8164,7 @@ I'm a weirdo
 What the hell am I doin' here?
 I don't belong here
 I don't belong here"
-39,Bruno Mars,That's What I Like,Global,0KKkJNfGyhkQ5aFogxQAPU,"Ayy, ayy, ayy
+39,Bruno Mars,That's What I Like,Global,latin,0KKkJNfGyhkQ5aFogxQAPU,14902211,175,6,"Ayy, ayy, ayy
 I got a condo in Manhattan
 Baby girl, what's happenin'?
 You and your ass invited
@@ -8245,7 +8245,7 @@ Sex by the fire at night
 Silk sheets and diamonds all white (All white)
 Lucky for you, that's what I like, that's what I like (That's what I like, babe)
 Lucky for you, that's what I like, that's what I like (Ooh, ooh, ooh)"
-40,"J Balvin, Bad Bunny",LA CANCIÓN,Global,0fea68AdmYNygeTGI4RC18,"Yeh, yeh, yeh
+40,"J Balvin, Bad Bunny",LA CANCIÓN,Global,latin,0fea68AdmYNygeTGI4RC18,14418462,141,11,"Yeh, yeh, yeh
 
 Pensaba que te había olvida'o, eh
 Pero pusieron la canción, eh, eh, eh
@@ -8313,7 +8313,7 @@ Sin sentimiento', el corazón desierto
 Y yo pensaba que tu nombre estaba muerto
 Pero te soñé despierto
 Hoy salí pa' la calle sueltoSin sentimiento', el corazón desierto"
-41,"Disco Lines, Tinashe",No Broke Boys,Global,3cZajhyr8LmtPfHZ9296tj,"No, that, no, that, no, that (Disco)
+41,"Disco Lines, Tinashe",No Broke Boys,Global,latin,3cZajhyr8LmtPfHZ9296tj,14288536,36,13,"No, that, no, that, no, that (Disco)
 
 Ex on the line, just as I suspected
 No one really gets over me
@@ -8382,7 +8382,7 @@ No broke boys, no new friends
 
 (No, that, no, that, no, that, no, that)
 No, that, no, that, no, that, no, that"
-42,"Drake, Wizkid, Kyla",One Dance,Global,1zi7xx7UVEFkmKfv06H8x0,"Senin tarzını seviyorum bebek
+42,"Drake, Wizkid, Kyla",One Dance,Global,latin,1zi7xx7UVEFkmKfv06H8x0,14191693,268,12,"Senin tarzını seviyorum bebek
 
 Eller belde
 Öne ve arkaya
@@ -8466,7 +8466,7 @@ Yüksek güçler beni tutuyor
 İki ""N"" ve iki ""S"" koyuyorum, böyle mi? Hen... Henn... Henn...
 Kesinlikle çıkmıyor
 ""Hennessy""nin iki tane ""S""i olduğundan eminim, o yüzden ""N""lerden birini çıkaracağım"
-43,Benson Boone,Beautiful Things,Global,3xkHsmpQCBMytMJNiDf3Ii,"For a while there, it was rough
+43,Benson Boone,Beautiful Things,Global,latin,3xkHsmpQCBMytMJNiDf3Ii,14153921,111,1,"For a while there, it was rough
 But lately, I've been doin' better
 Than the last four cold Decembers I recall
 And I see my family every month
@@ -8511,7 +8511,7 @@ Please stay
 I want you, I need you, oh God
 I need
 These beautiful things that I've got"
-44,Ella Langley,Choosin' Texas,Global,65DbTqJKhbwqYbZ1Okr0rc,"Just when I thought I got him to fall in love with Tennessee
+44,Ella Langley,Choosin' Texas,Global,latin,65DbTqJKhbwqYbZ1Okr0rc,14143729,9,44,"Just when I thought I got him to fall in love with Tennessee
 I should've known better than to take him back to Abilene
 I put him right back into her arms
 I wasn't a match for that kind of spark
@@ -8558,8 +8558,8 @@ He's choosin' Texas, I can tell
 Come on, baby
 Oh yeah
 Just when I thought I got him to fall in love with Tennessee"
-45,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,Global,2pbSCYzxrG0wa6qcj8IyiE,
-46,Bruno Mars,Cha Cha Cha,Global,6QletrrmpkUpeJkipX9pgf,"You got me drinkin', spendin' my money
+45,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,Global,latin,2pbSCYzxrG0wa6qcj8IyiE,14113572,12,30,
+46,Bruno Mars,Cha Cha Cha,Global,latin,6QletrrmpkUpeJkipX9pgf,14113224,1,46,"You got me drinkin', spendin' my money
 Got my lemon pepper steppers on, ooh, girl, you in trouble tonight
 Uh, I feel like dancin' (I feel like dancin')
 Little mama, you turn me on (Little mama, you turn me on)
@@ -8606,7 +8606,7 @@ Uh, uh, I like it like that, she workin' that back
 I don't know how to act, ooh-ooh-ooh-ooh
 
 Uh"
-47,Don Toliver,E85,Global,3B4cjvGlPvyBLNG3AzEgkZ,"(
+47,Don Toliver,E85,Global,latin,3B4cjvGlPvyBLNG3AzEgkZ,13967375,5,47,"(
 I love
 )
 (I've been tryin', tryin', tryin', tryin')
@@ -8652,7 +8652,7 @@ I love
 
 I've been tryin', tryin', tryin', tryin'
 I've been cryin', cryin', cry—"
-48,Bruno Mars,Locked out of Heaven,Global,5g7sDjBhZ4I3gcFIpkrLuI,"(One, two, one, two, three)
+48,Bruno Mars,Locked out of Heaven,Global,latin,5g7sDjBhZ4I3gcFIpkrLuI,13930898,187,18,"(One, two, one, two, three)
 Aw, yeah, yeah
 Aw, yeah, yeah, yeah, yeah (Uh)
 Aw, yeah, yeah
@@ -8721,7 +8721,7 @@ For too long
 Aw, yeah, yeah, yeah, yeah (Uh)
 Aw, yeah, yeah
 Aw, yeah, yeah, yeah, yeah (Uh)"
-49,Jin,Don’t Say You Love Me,Global,27xkOIER6uDLKALIelHylZ,"I really thought I made up my mind
+49,Jin,Don’t Say You Love Me,Global,latin,27xkOIER6uDLKALIelHylZ,13917142,42,2,"I really thought I made up my mind
 Hopped in the car and put it in drive
 I tried to leave like a hundred times
 But something's stopping me every time, oh-ho
@@ -8760,7 +8760,7 @@ Gotta let me go
 Gotta let me
 Don't say that you love me 'cause it hurts the most
 You just gotta let me go"
-50,Arctic Monkeys,I Wanna Be Yours,Global,5XeFesFbtLpXzIVDNQP22n,"I wanna be your vacuum cleaner
+50,Arctic Monkeys,I Wanna Be Yours,Global,latin,5XeFesFbtLpXzIVDNQP22n,13643006,191,15,"I wanna be your vacuum cleaner
 Breathin' in your dust
 I wanna be your Ford Cortina
 I will never rust
@@ -8810,7 +8810,7 @@ I will never rust (Wanna be yours)
 I just wanna be yours (Wanna be yours)
 I just wanna be yours (Wanna be yours)
 I just wanna be yours (Wanna be yours)"
-51,The Killers,Mr. Brightside,Global,003vvx7Niy0yvhvHt4a68B,"Comin' out of my cage and I've been doin' just fine
+51,The Killers,Mr. Brightside,Global,latin,003vvx7Niy0yvhvHt4a68B,13628626,210,50,"Comin' out of my cage and I've been doin' just fine
 Gotta, gotta be down because I want it all
 It started out with a kiss, how did it end up like this?
 It was only a kiss, it was only a kiss
@@ -8864,7 +8864,7 @@ I never
 I never
 I never
 I never"
-52,"Sean Paul, Keyshia Cole",(When You Gonna) Give It Up to Me - Radio Version,Global,5nEdwtSv0qqeE0l4o1lR4q,"Last updated: 10/6/2018, 5:16PM MSTOctoberOctober 6Jesse Powell — 
+52,"Sean Paul, Keyshia Cole",(When You Gonna) Give It Up to Me - Radio Version,Global,latin,5nEdwtSv0qqeE0l4o1lR4q,13586077,7,52,"Last updated: 10/6/2018, 5:16PM MSTOctoberOctober 6Jesse Powell — 
 Jesse Powell
  (1996)October 5girl in red — 
 chapter 1
@@ -12013,7 +12013,7 @@ Salute Me or Shoot Me 2.5
 Chris Brown — 
 In My Zone: Rhythm & Streets
  (2010)"
-53,"The Weeknd, JENNIE, Lily-Rose Depp","One Of The Girls (with JENNIE, Lily Rose Depp)",Global,7CyPwkp0oE8Ro9Dd5CUDjW,"2012The Knowing
+53,"The Weeknd, JENNIE, Lily-Rose Depp","One Of The Girls (with JENNIE, Lily Rose Depp)",Global,latin,7CyPwkp0oE8Ro9Dd5CUDjW,13352698,126,3,"2012The Knowing
 Rolling Stone
 Wicked Games
 The Zone (feat. Drake)2013Kiss Land
@@ -12055,7 +12055,7 @@ Hurry Up Tomorrow
 Open Hearts
 One Week Until Tomorrow
 Red Terror"
-54,Coldplay,Yellow,Global,3AJwUDP919kvQ9QcozQPxg,"Look at the stars
+54,Coldplay,Yellow,Global,latin,3AJwUDP919kvQ9QcozQPxg,13323933,272,19,"Look at the stars
 Look how they shine for you
 And everything you do
 Yeah, they were all yellow
@@ -12105,7 +12105,7 @@ Look how they shine
 Look at the stars
 Look how they shine for you
 And all the things that you do"
-55,Bruno Mars,God Was Showing Off,Global,1sVBT215CDmVJvfy1E2OCU,"Uno, dos, tres, y otra vez
+55,Bruno Mars,God Was Showing Off,Global,latin,1sVBT215CDmVJvfy1E2OCU,13189931,1,55,"Uno, dos, tres, y otra vez
 Hey, oh, ooh
 
 Is it your eyes that light my sky?
@@ -12178,7 +12178,7 @@ Come on, rock with me, baby
 (Rock, rock) Yeah
 (Rock, rock)
 (Rock, rock)"
-56,"Rauw Alejandro, Bad Bunny",Qué Pasaría...,Global,0l0vcZMU7AOeQmUIREoI2U,"¿Qué pasaría si volvieran esas noche' dentro de ti?
+56,"Rauw Alejandro, Bad Bunny",Qué Pasaría...,Global,latin,0l0vcZMU7AOeQmUIREoI2U,13152234,60,17,"¿Qué pasaría si volvieran esas noche' dentro de ti?
 Qué rico fue cuando te metí
 Tú sabe' lo que hicimo'
 Y ahora sin buscarno' en la disco nos vimo'
@@ -12240,7 +12240,7 @@ Eh-eh-eh, eh-eh-eh, eh-eh-eh, mmm
 Dime, MAG, ponle más
 Dime, MAG, ponle más
 Ey, ey, ey, ja"
-57,"El Bogueto, Yung Beef",Cuando No Era Cantante,Global,6N2iccqxRInhTLHc2Fu3W0,"Jajajajaja
+57,"El Bogueto, Yung Beef",Cuando No Era Cantante,Global,latin,6N2iccqxRInhTLHc2Fu3W0,13125639,20,18,"Jajajajaja
 Jaja, QueHicisteBella
 
 Como antes, baby, vamo' a hacerlo como antes
@@ -12317,7 +12317,7 @@ Antes de ponerte eso' implante'
 
 Jajajajaja
 Jaja, QueHicisteBella"
-58,Sabrina Carpenter,Espresso,Global,2HRqTpkrJO5ggZyyK6NPWz,"Now he's thinkin' 'bout me every night, oh
+58,Sabrina Carpenter,Espresso,Global,latin,2HRqTpkrJO5ggZyyK6NPWz,13085654,99,1,"Now he's thinkin' 'bout me every night, oh
 Is it that sweet? I guess so
 Say you can't sleep, baby, I know
 That's that me espresso
@@ -12381,7 +12381,7 @@ That's that me espresso
 
 Is it that sweet? I guess so
 Mm, that's that me espresso"
-59,KATSEYE,Gabriela,Global,1xOqGUkyxGQRdCvGpvWKmL,"Hot like a bullet
+59,KATSEYE,Gabriela,Global,latin,1xOqGUkyxGQRdCvGpvWKmL,13084946,37,10,"Hot like a bullet
 Flying too fast, I couldn't catch it
 Heart in the casket
 You always knew it
@@ -12456,7 +12456,7 @@ La-la-la-la (La-la-la-la)
 La-la-la-la (La-la-la-la)
 La-la-la-la
 (Back off, back off, back off)"
-60,Fleetwood Mac,Dreams - 2004 Remaster,Global,0ofHAoxe9vBkTCp2UQIavz,"Stevie Nicks - Edge of Seventeen (2016 Remaster)
+60,Fleetwood Mac,Dreams - 2004 Remaster,Global,latin,0ofHAoxe9vBkTCp2UQIavz,12938199,144,20,"Stevie Nicks - Edge of Seventeen (2016 Remaster)
 Joan Jett & The Blackhearts - I Love Rock 'N Roll
 Blondie - One Way Or Another
 The Cranberries - Zombie
@@ -12548,7 +12548,7 @@ Kate Bush - This Woman's Work
 BLOXX - Curtains
 The Regrettes - California Friends
 Liz Phair - Never Said (Remastered)"
-61,Jimin,Who,Global,7tI8dRuH2Yc6RuoTjxo4dU,"We never met, but she's all I see at night
+61,Jimin,Who,Global,latin,7tI8dRuH2Yc6RuoTjxo4dU,12716099,85,1,"We never met, but she's all I see at night
 Never met, but she's always on my mind
 Wanna give her the world and so much more
 Who is my heart waiting for?
@@ -12598,7 +12598,7 @@ Is she someone that I see every day?
 Is she somewhere a thousand miles away?
 Wanna give her the world and so much more
 Who is my heart waiting for?"
-62,"Peso Pluma, Tito Double P",dopamina,Global,3e32UUqXzrI4g2y5kNZrwC,"Mmm-mmm-mmm
+62,"Peso Pluma, Tito Double P",dopamina,Global,latin,3e32UUqXzrI4g2y5kNZrwC,12605852,10,13,"Mmm-mmm-mmm
 Mmm-mmm-mmm
 Mmm-mmm-mmm
 Oh-oh
@@ -12645,7 +12645,7 @@ In my veins
 Dopamine
 Dopamine
 Ah"
-63,BLACKPINK,JUMP,Global,5H1sKFMzDeMtXwND3V6hRY,"I'm not that easy to tame
+63,BLACKPINK,JUMP,Global,latin,5H1sKFMzDeMtXwND3V6hRY,12463397,27,1,"I'm not that easy to tame
 You should see me under these lights, all my tears turn to ice
 That's the sweetest escape
 Every time the feeling kicks in, I might stay through the night
@@ -12708,7 +12708,7 @@ Wanna see you bumpin', baby, bouncin' to the bass
 BLACKPINK in your area
 뛰어
 뛰어"
-64,"The Weeknd, Daft Punk",Starboy,Global,7MXVkk9YMctZqd1Srtv4MB,"Seni en kötü ruh haline sokmaya çalışıyorum, ah
+64,"The Weeknd, Daft Punk",Starboy,Global,latin,7MXVkk9YMctZqd1Srtv4MB,12423058,283,1,"Seni en kötü ruh haline sokmaya çalışıyorum, ah
 P1 arabam senin kilise ayakkabılarından daha temiz, ah
 Ona verdiğim bir nokta iki milyon dolar sadece canını yakmak içindi, ah
 Tüm sahip olduğum Lamborghini'ler sadece seni kızdırmak için, ah
@@ -12780,7 +12780,7 @@ Ben lanet olası bir Starboy'um
 Ben lanet olası bir Starboy'um
 Şu yaptığınıza bir bakın
 Ben lanet olası bir Starboy'um"
-65,Coldplay,Sparks,Global,7D0RhFcb3CrfPuTJ0obrod,"Did I drive you away?
+65,Coldplay,Sparks,Global,latin,7D0RhFcb3CrfPuTJ0obrod,12292423,80,30,"Did I drive you away?
 I know what you'll say
 You say, ""Oh, sing one we know""
 But I promise you this
@@ -12810,7 +12810,7 @@ La-la-la-la, oh-oh
 La-la-la-la, oh-oh
 La-la-la-la, oh-oh
 La-la-la-la, oh-oh"
-66,"Ryan Castro, Kapo, Gangsta",LA VILLA,Global,2ZyrAym0sRLwt4PhGotHuI,"Kapo, Ryan Castro, Gangsta
+66,"Ryan Castro, Kapo, Gangsta",LA VILLA,Global,latin,2ZyrAym0sRLwt4PhGotHuI,12264278,8,47,"Kapo, Ryan Castro, Gangsta
 Qué chimba, SOG
 The real combination one more time
 Again and again and again
@@ -12885,7 +12885,7 @@ Sexy gyal, tú anda' suelta, mami, lo sé to'
 Su mini, mini a mí me hipnotizó
 
 Yo, Gangsta"
-67,Harry Styles,As It Was,Global,4Dvkj6JhhA12EX05fT7y2e,"Come on, Harry, we wanna say goodnight to you
+67,Harry Styles,As It Was,Global,latin,4Dvkj6JhhA12EX05fT7y2e,12147204,198,1,"Come on, Harry, we wanna say goodnight to you
 
 Holdin' me back
 Gravity's holdin' me back
@@ -12928,7 +12928,7 @@ I don't wanna talk about who's doin' it first
 As it was
 You know it's not the same as it was
 As it was, as it was"
-68,"ROSÉ, Bruno Mars",APT.,Global,4wJ5Qq0jBN4ajy7ouZIV1c,"Chaeyoung-iga joahaneun
+68,"ROSÉ, Bruno Mars",APT.,Global,latin,4wJ5Qq0jBN4ajy7ouZIV1c,12123491,72,1,"Chaeyoung-iga joahaneun
 Random game
 Random game
 Game start
@@ -13020,7 +13020,7 @@ Apateu, apateu
 Apateu, apateu
 Apateu, apateu
 Uh, uh-huh, uh-huh"
-69,Dominic Fike,White Keys,Global,5ViLKrbyL3HD6wsq3AB9eI,"Ayy, pitch black Chevy antique, I was seventeen
+69,Dominic Fike,White Keys,Global,latin,5ViLKrbyL3HD6wsq3AB9eI,12031641,2,69,"Ayy, pitch black Chevy antique, I was seventeen
 I ain't have nothing but some tees and a pair of jeans
 Pine trees, but it smell like weed in the front seat
 You was en route to being famous and everything
@@ -13061,7 +13061,7 @@ I never knew (Oh)
 It was because of you (Oh, oh, oh, oh, ooh)
 I never knew (Oh, oh, oh, ooh)
 Oh, I guess I never— (Woah)"
-70,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Global,7d6yK8v8J484SWH5prIQiE,"Freaky girl
+70,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Global,latin,7d6yK8v8J484SWH5prIQiE,12023336,54,9,"Freaky girl
 Freaky girl
 Eh
 Ayo, it's Ousi
@@ -13159,7 +13159,7 @@ Close your eyes and think of me, hey
 I'm drinking and blazing too
 She wants a message that says, ""Come over""
 I spend my time staring at that booty online"
-71,Teddy Swims,Lose Control,Global,17phhZDn6oGtzMe56NuWvj,"Something's got a hold of me lately
+71,Teddy Swims,Lose Control,Global,latin,17phhZDn6oGtzMe56NuWvj,11961040,121,5,"Something's got a hold of me lately
 No, I don’t know myself anymore
 Feels like the walls are all closin' in
 And the devil's knockin’ at my door, woah
@@ -13203,7 +13203,7 @@ I lose control
 When you're not here with me, mhm
 Yeah, you're breakin' my heart, baby
 You make a mess of me"
-72,"Gorillaz, De La Soul",Feel Good Inc.,Global,0d28khcov6AiegSCpG5TuT,"Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-haa
+72,"Gorillaz, De La Soul",Feel Good Inc.,Global,latin,0d28khcov6AiegSCpG5TuT,11811702,63,46,"Ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-ha-haa
 Feel good
 Sha-ba, sha-ba, sha-ba-da-ba, feel good
 Sha-ba, sha-ba, sha-ba-da-ba, feel good
@@ -13281,7 +13281,7 @@ Sha-ba, sha-ba, sha-ba-da-ba, feel good (Haa-ha-ha!)
 Sha-ba, sha-ba, sha-ba-da-ba, feel good (Haa-ha-ha!)
 Sha-ba, sha-ba, sha-ba-da-ba, feel good (Haa-ha-ha-ha-ha!)
 Sha-ba, sha-ba, sha-ba-da-ba, feel good (Haa-ha-ha-ha-ha-ha!)"
-73,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",Global,3GCdLUSnKSMJhs4Tj6CV3s,"Meanings of Categories:10: A+ (GOAT - Can be multiple GOAT albums)
+73,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",Global,latin,3GCdLUSnKSMJhs4Tj6CV3s,11794881,142,2,"Meanings of Categories:10: A+ (GOAT - Can be multiple GOAT albums)
 9-9.9: A (Classic)
 8-9: B+ (Amazing / Essentials)
 7-8: B (Great)
@@ -13443,7 +13443,7 @@ Gunna & Lil Baby: Drip Harder - 4.1
 Gunna: The Last Wun - 4.03-4Kanye West: Donda 2 - 3.9
 Rae Sremmurd: Sremm 4 Life - 3.6
 Lil Uzi Vert: Eternal Atake 2 - 3.4"
-74,Vance Joy,Riptide,Global,2uXlHCUbq9OMUwx3hrk06o,"I was scared of dentists and the dark
+74,Vance Joy,Riptide,Global,latin,2uXlHCUbq9OMUwx3hrk06o,11727269,264,30,"I was scared of dentists and the dark
 I was scared of pretty girls and starting conversations
 Oh, all my friends are turnin' green
 You're the magician's assistant in their dream
@@ -13501,7 +13501,7 @@ I got a lump in my throat 'cause
 You're gonna sing the words wrong, yeah
 I got a lump in my throat 'cause
 You're gonna sing the words wrong"
-75,Arctic Monkeys,505,Global,58ge6dfP91o9oXMzq3XkIS,"I'm going back to 505
+75,Arctic Monkeys,505,Global,latin,58ge6dfP91o9oXMzq3XkIS,11632654,217,43,"I'm going back to 505
 If it's a seven hour flight or a forty-five minute drive
 In my imagination, you're waitin' lyin' on your side
 With your hands between your thighs
@@ -13534,7 +13534,7 @@ I'm going back to 505
 If it's a seven hour flight or a forty-five minute drive
 In my imagination, you're waitin' lyin' on your side
 With your hands between your thighs and a smile"
-76,Daniel Caesar,Who Knows,Global,6DH13QYXK7lKkYHSU88N48,"I'll probably be a waste of your time, but who knows?
+76,Daniel Caesar,Who Knows,Global,latin,6DH13QYXK7lKkYHSU88N48,11563110,15,58,"I'll probably be a waste of your time, but who knows?
 Chances are I'll step out of line, but who knows?
 Lately, you've set up in my mind
 Yeah, girl, you, and I like that
@@ -13563,7 +13563,7 @@ Maybe we get married one day, but who knows?
 Think I'll take that thought to the grave, but who knows?
 I know that I'll love you always
 Yeah, girl you, and I'd like that"
-77,sombr,undressed,Global,0TFTAtCYhp2tQ9KcJIZb55,"You had a dream, you wanted better
+77,sombr,undressed,Global,latin,0TFTAtCYhp2tQ9KcJIZb55,11497773,49,6,"You had a dream, you wanted better
 You were sick of all the holes in your sweater
 You looked to me and wondered whether
 I was the lamppost to which you were tethered
@@ -13606,7 +13606,7 @@ And have to pretend it's yours instead
 
 I don't wanna get undressed
 For a new person all over again"
-78,Bruno Mars,Why You Wanna Fight?,Global,3Ac4AjYkqsvop2ydbSAhTX,"Ooh-woo (Ooh)
+78,Bruno Mars,Why You Wanna Fight?,Global,latin,3Ac4AjYkqsvop2ydbSAhTX,11492627,1,78,"Ooh-woo (Ooh)
 Woo
 Woo (Ooh)
 Ah
@@ -13658,7 +13658,7 @@ Sweet, tender love
 Why, why, why, why, why, why, why? (Why you wanna fight?)
 Let me show you I can make it right
 Oh, I can make it right tonight"
-79,Addison Rae,Fame is a Gun,Global,7B3BwNecBhKvNwSMOOl7Gk,"Tell me who I am, do I provoke you with my tone of innocence?
+79,Addison Rae,Fame is a Gun,Global,latin,7B3BwNecBhKvNwSMOOl7Gk,11438050,15,56,"Tell me who I am, do I provoke you with my tone of innocence?
 Don't ask too many questions, that is my one suggestion
 You know I keep it real, I live for the appeal
 Knew it from the start, it was the only way to mend my broken heart
@@ -13706,7 +13706,7 @@ I got a taste of the glamorous life (Uh-huh)
 
 I got a taste of the glamorous life (Uh-huh)
 I got a taste of the glamorous life"
-80,Herencia De Grandes,Ya Borracho,Global,4NyUIohBa3CEMGcXURYSOh,"Me enamoré y creo que me fui de paso
+80,Herencia De Grandes,Ya Borracho,Global,latin,4NyUIohBa3CEMGcXURYSOh,11367657,15,66,"Me enamoré y creo que me fui de paso
 Hoy me declaro un loco obsesionado
 Y no te espantes pues no es nada malo
 Pero es que tú eres mi amor anhelado
@@ -13734,7 +13734,7 @@ Y puedo describir lo mucho que me encantas
 Decirte que me siento muy feliz y emocionado por tenerte a ti
 Espero que quieras estar aquí enamorada mirándome a mí
 Mirándome a mí"
-81,Linkin Park,In the End,Global,60a0Rd6pjrkxjPbaKzXjfq,"It starts with one
+81,Linkin Park,In the End,Global,latin,60a0Rd6pjrkxjPbaKzXjfq,11366387,133,22,"It starts with one
 
 One thing, I don't know why
 It doesn't even matter how hard you try
@@ -13794,7 +13794,7 @@ I tried so hard and got so far
 But in the end, it doesn't even matter
 I had to fall to lose it all
 But in the end, it doesn't even matter"
-82,"Jung Kook, Latto",Seven (feat. Latto) (Explicit Ver.),Global,2HRgqmZQC0MC7GeNuDIXHN,"Вес мира на твоих плечах
+82,"Jung Kook, Latto",Seven (feat. Latto) (Explicit Ver.),Global,latin,2HRgqmZQC0MC7GeNuDIXHN,11360421,138,1,"Вес мира на твоих плечах
 Я целую твою талию и успокаиваю твой разум
 Мне должно быть повезло узнать тебя
 Я беру свои руки и прослеживаю твои линии
@@ -13879,7 +13879,7 @@ But in the end, it doesn't even matter"
 Ты знаешь, ночь за ночью
 Я буду трахать тебя правильно
 Семь дней в неделю"
-83,Bruno Mars,Dance With Me,Global,1myZ6GQewhAzMH2dKtKSWK,"Ooh-ooh-ooh, ooh, ooh, ooh, ooh (Mm)
+83,Bruno Mars,Dance With Me,Global,latin,1myZ6GQewhAzMH2dKtKSWK,11345856,1,83,"Ooh-ooh-ooh, ooh, ooh, ooh, ooh (Mm)
 Ooh-ooh-ooh, ooh, ooh, ooh
 
 Dance with me, darling
@@ -13924,7 +13924,7 @@ And I don't wanna dance with nobody, nobody, nobody but you (Dance with me, darl
 Nobody but you (Dance with me, darling, dance with me just one more time)
 Ooh (Dance with me, darling, dance with me just one more time)
 Ooh-ooh, ooh"
-84,Michael Jackson,Billie Jean,Global,7J1uxwnxfQLu4APicE5Rnj,"She was more like a beauty queen from a movie scene, uh
+84,Michael Jackson,Billie Jean,Global,latin,7J1uxwnxfQLu4APicE5Rnj,11275762,41,48,"She was more like a beauty queen from a movie scene, uh
 I said, ""Don't mind, but what do you mean, I am the one?
 Who will dance on the floor in the round?""
 She said I am the one
@@ -13996,7 +13996,7 @@ Yeah, Billie Jean is not my lover, uh (She is just a girl; don't call me Billie 
 Billie Jean is not my lover, uh (She is just a girl; she's not at the scene)
 Billie Jean is not (Hee), aaow, ooh
 Yeah, Billie Jean is"
-85,Nadhif Basalamah,kota ini tak sama tanpamu,Global,13CwOTXUgBugeBByE9oIWb,"Perjalanan melintasi kota ini
+85,Nadhif Basalamah,kota ini tak sama tanpamu,Global,latin,13CwOTXUgBugeBByE9oIWb,11254940,9,48,"Perjalanan melintasi kota ini
 Dua langit, dua hari kau temani aku di sini
 Jatuh cinta memang manis
 Tak mau waktu ini habis
@@ -14036,7 +14036,7 @@ Mungkin tiga atau empat hari lagi, oh
 Atau mungkin selamanya?
 Rumahku hanyalah kita
 Kau dan aku sempurna di mana-mana"
-86,Lord Huron,The Night We Met,Global,5yJaXWIErrrsjQ3J0eR5aK,"(Ooh, ooh, ooh)
+86,Lord Huron,The Night We Met,Global,latin,5yJaXWIErrrsjQ3J0eR5aK,11131031,176,15,"(Ooh, ooh, ooh)
 (Ooh, ooh, ooh)
 (Ooh, ooh, ooh)
 (Ooh, ooh, ooh)
@@ -14068,7 +14068,7 @@ Take me back to the night we met
 I don't know what I'm supposed to do
 Haunted by the ghost of you
 Take me back to the night we met"
-87,"Peso Pluma, Tito Double P",daño,Global,136BeIIoBGrrU9fI1jbcDR,"Daño, daño, daño, daño
+87,"Peso Pluma, Tito Double P",daño,Global,latin,136BeIIoBGrrU9fI1jbcDR,11125907,10,32,"Daño, daño, daño, daño
 Daño, daño, daño, daño
 Daño, daño
 Daño, daño
@@ -14116,7 +14116,7 @@ Daño, daño, daño, daño
 Daño, daño
 Daño, daño
 Daño"
-88,Bruno Mars,Just the Way You Are,Global,7BqBn9nzAq8spo5e7cZ0dJ,"Oh
+88,Bruno Mars,Just the Way You Are,Global,latin,7BqBn9nzAq8spo5e7cZ0dJ,11104954,162,34,"Oh
 Oh
 Oh
 Oh
@@ -14172,7 +14172,7 @@ The whole world stops and stares for a while
 'Cause, girl, you're amazing
 Just the way you are
 Yeah"
-89,Neton Vega,Pvta Luna,Global,33MeEaRCeIQMSRyFTr5ZJU,"Yo no soy romántico, pero contigo, neta, la cagué
+89,Neton Vega,Pvta Luna,Global,latin,33MeEaRCeIQMSRyFTr5ZJU,11087297,16,61,"Yo no soy romántico, pero contigo, neta, la cagué
 Por andar de loco, y tú querías hasta puta luna de miel
 Nunca hubo flores, rosas, serenatas, yo poco cambié
 Siempre en mi desmadre, más ya no aguantaste
@@ -14193,7 +14193,7 @@ Así como tú quieres, yo no sé querer
 Tú bajaste del cielo y pa' allá nunca iré
 Las fotitos privadas, ¿quién te las tomará?
 Ese culito fue mío y ya no volverá"
-90,Gracie Abrams,That’s So True,Global,7ne4VBA60CxGM75vw0EYad,"I could go and read your mind
+90,Gracie Abrams,That’s So True,Global,latin,7ne4VBA60CxGM75vw0EYad,11028253,72,3,"I could go and read your mind
 Think about your dumb face all the time
 Living in your glass house, I'm outside, uh
 Looking in her big blue eyes
@@ -14241,7 +14241,7 @@ Wait, I think I've been there too, ooh
 Ooh, you've got me thinking, ""She's so cool""
 But I know what I know, and you're just another dude
 Ooh, that's so true, ooh-ooh, oh"
-91,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,Global,6iOndD4OFo7GkaDypWQIou,"O-O-Ovy On The Drums
+91,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,Global,latin,6iOndD4OFo7GkaDypWQIou,10974470,53,5,"O-O-Ovy On The Drums
 You're the apple of my eye, you
 Are everything I want
 A beer to quench the thirst? Nah
@@ -14293,7 +14293,7 @@ Ovy On The Rasta Drums
 W Sound
 Aye
 Alright"
-92,The Marías,No One Noticed,Global,3siwsiaEoU4Kuuc9WKMUy5,"Maybe I
+92,The Marías,No One Noticed,Global,latin,3siwsiaEoU4Kuuc9WKMUy5,10941851,68,37,"Maybe I
 Lost my mind
 No one noticed
 No one noticed
@@ -14334,7 +14334,7 @@ I'd kinda like it if you'd call me
 (It's not right) 'Cause I'm so over bein' lonely
 (Make you mine) I need a virtual connection
 (Take our time) Be my video obsession"
-93,BLACKPINK,Champion,Global,43BJVWcBzHRIDaQCg7abnX,"Ain't quitting, I trust my intuition (Okay)
+93,BLACKPINK,Champion,Global,latin,43BJVWcBzHRIDaQCg7abnX,10936765,1,93,"Ain't quitting, I trust my intuition (Okay)
 Time ticking, but they don't see the vision (Okay)
 I ain't giving up, no, I ain't willing (Okay)
 I be winning like it's an addiction
@@ -14376,7 +14376,7 @@ If I ever, ever fall down one time
 I'ma keep going on, 'cause I know I'm a champion
 And if I take a, take a L, I'll still fight
 'Til the bitter end, I'm strong, 'cause I know I'm a champion"
-94,"Peso Pluma, Tito Double P",7-3,Global,4lzo6zPM2paqyP8oBp3DOs,"Me llama y me dice que no tiene nada que hacer
+94,"Peso Pluma, Tito Double P",7-3,Global,latin,4lzo6zPM2paqyP8oBp3DOs,10893482,10,42,"Me llama y me dice que no tiene nada que hacer
 Supe que volviste con el pendejo de tu ex
 ¿Que ya te aburriste? O ¿por qué me llamas otra vez?
 Quieres que te pise, ese loco no te da placer
@@ -14413,7 +14413,7 @@ No considero delito el poder echarte la manoTu jefa dice que soy drogadicto
 Yo le digo que poquito, porque el polvo no es tan malo
 No es tan malo como tú, que me dejaste el cora' bien dañado
 No es tan malo como tú, que teniendo novio buscas a otro vato"
-95,Don Toliver,Body,Global,0FlcmZ13DGRmscCroro9GO,"Wanna rock your body
+95,Don Toliver,Body,Global,latin,0FlcmZ13DGRmscCroro9GO,10848483,5,34,"Wanna rock your body
 Body (
 Oh my God, Jaasu, can I try on your glasses?
 )
@@ -14488,7 +14488,7 @@ Body
 Oh, I'll go crazy about her body
 Body
 Wanna rock your body"
-96,Lenin Ramírez,Todo Lo Fue,Global,0Sa8aRfGckW0qUGLrBwoBG,"Yo sé que en el amor no tienes interés
+96,Lenin Ramírez,Todo Lo Fue,Global,latin,0Sa8aRfGckW0qUGLrBwoBG,10798503,6,85,"Yo sé que en el amor no tienes interés
 Fui un cero a la izquierda y tiraste a la mierda lo que pudo ser
 Una historia tan bonita de rosas de cartas y mil serenatas
 Te invertí mi dinero y te fuiste mujer
@@ -14513,7 +14513,7 @@ Llevo las cuatros estaciones del año en lo mismo
 Si me ven con otra mora es puro fanatismo
 Quiero sacarte de mi mente y que ya no me afecte lo que un dia vivimos
 Y mandarte a la mierda a ti y a tu madre también"
-97,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),Global,0FIDCNYYjNvPVimz5icugS,"Güneş parlıyor, sona erdi
+97,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),Global,latin,0FIDCNYYjNvPVimz5icugS,10778352,75,3,"Güneş parlıyor, sona erdi
 Yarın oldu
 Kendini ışıkta, aşkında yıka
 XO
@@ -14599,7 +14599,7 @@ Zamansız, zamansız, zamansız (Evet), zamansız
 Zamansız (Evet), zamansız, zamansız, zamansızız, oh
 Oh (Blatt)
 Oh (Yuh, yakıyor)"
-98,Coldplay,Viva La Vida,Global,1mea3bSkSGXuIRvnydlB5b,"I used to rule the world
+98,Coldplay,Viva La Vida,Global,latin,1mea3bSkSGXuIRvnydlB5b,10775710,184,31,"I used to rule the world
 Seas would rise when I gave the word
 Now in the mornin', I sleep alone
 Sweep the streets I used to own
@@ -14670,7 +14670,7 @@ But that was when I ruled the world
 Mmm, mmm, mmm, mmm
 Mmm, mmm, mmm, mmm
 Mmm, mmm"
-99,Lil Uzi Vert,What You Saying,Global,7cjoZVmWe2xsGR4wcXiV2v,"(
+99,Lil Uzi Vert,What You Saying,Global,latin,7cjoZVmWe2xsGR4wcXiV2v,10766325,9,38,"(
 MC, make another hit
 )
 
@@ -14721,7 +14721,7 @@ And she gon' perform it
 Look the same in morning (Woah)
 She don't stop, keep going (Keep going)
 I don't even know what she said but this what I hear in my head"
-100,Bruno Mars,On My Soul,Global,4i4BVY2JiH4mDSLIBdNGKD,"Ooh
+100,Bruno Mars,On My Soul,Global,latin,4i4BVY2JiH4mDSLIBdNGKD,10766096,1,100,"Ooh
 Oh-oh, oh-oh, oh
 Mmm
 
@@ -14775,7 +14775,7 @@ Put it on my soul, ooh
 I'ma love you like you've never been loved before
 Oh, put it on anything, put it on everything
 On my soul, on my soul"
-1,"V, Park Hyo Shin",Winter Ahead (with PARK HYO SHIN),Taiwan,7G7mSV4BebkoHWwKTDvXu9,"For V's works with BTS, refer to 
+1,"V, Park Hyo Shin",Winter Ahead (with PARK HYO SHIN),Taiwan,latin,7G7mSV4BebkoHWwKTDvXu9,1453217,66,1,"For V's works with BTS, refer to 
 BTS DiscographyALBUMSLayover
 September 8, 2023 | debut album
 Romanization
@@ -14852,7 +14852,7 @@ MAP OF THE SOUL : 7
 Romanization
  | 
 English Translation"
-2,BLACKPINK,GO,Taiwan,3FZPp9lBUvhsxFxKJi3VkB,"(You ready? Ready? Ready?)
+2,BLACKPINK,GO,Taiwan,latin,3FZPp9lBUvhsxFxKJi3VkB,514680,1,2,"(You ready? Ready? Ready?)
 
 I'm on a mission, I'm in control
 I want your body, I want your soul
@@ -14918,7 +14918,7 @@ BLACKPINK, BLACKPINK
 BLACKPINK, BLACKPINK
 BLACKPINK, BLACKPINK
 BLACKPINK, BLACKPINK"
-3,Jin,Don’t Say You Love Me,Taiwan,27xkOIER6uDLKALIelHylZ,"I really thought I made up my mind
+3,Jin,Don’t Say You Love Me,Taiwan,latin,27xkOIER6uDLKALIelHylZ,508081,42,2,"I really thought I made up my mind
 Hopped in the car and put it in drive
 I tried to leave like a hundred times
 But something's stopping me every time, oh-ho
@@ -14957,8 +14957,8 @@ Gotta let me go
 Gotta let me
 Don't say that you love me 'cause it hurts the most
 You just gotta let me go"
-4,A-Lin,幸福在歌唱 - 電影《陽光女子合唱團》幸福版主題曲,Taiwan,3VHi5bCUek6XdiDmqqrirs,
-5,Jimin,Who,Taiwan,7tI8dRuH2Yc6RuoTjxo4dU,"We never met, but she's all I see at night
+4,A-Lin,幸福在歌唱 - 電影《陽光女子合唱團》幸福版主題曲,Taiwan,zh,3VHi5bCUek6XdiDmqqrirs,497996,9,2,
+5,Jimin,Who,Taiwan,latin,7tI8dRuH2Yc6RuoTjxo4dU,431173,85,1,"We never met, but she's all I see at night
 Never met, but she's always on my mind
 Wanna give her the world and so much more
 Who is my heart waiting for?
@@ -15008,7 +15008,7 @@ Is she someone that I see every day?
 Is she somewhere a thousand miles away?
 Wanna give her the world and so much more
 Who is my heart waiting for?"
-6,Crowd Lu,太陽與地球,Taiwan,0bQSWXtpau3VkNI1ZcXTQA,"想守護你所有
+6,Crowd Lu,太陽與地球,Taiwan,zh,0bQSWXtpau3VkNI1ZcXTQA,412787,24,2,"想守護你所有
 回應你包容的溫柔
 想用盡一生 陪在你左右是我
 曙光和暮暉的夢
@@ -15045,8 +15045,8 @@ Who is my heart waiting for?"
 以為徹底分開 徹底放手 不曾離開過
 我們只是錯過  誰都沒錯都努力愛過
 最遙遠的我們  別回頭往幸福一直走"
-7,Pei-Yu Hung,再見的時候 - 電影〈陽光女子合唱團〉主題曲-再見版,Taiwan,3IBYp3fKyydZ5dDtirLY6P,
-8,Hearts2Hearts,RUDE!,Taiwan,0WA27lZzPKFJKAbiDRmQDc,"Rude
+7,Pei-Yu Hung,再見的時候 - 電影〈陽光女子合唱團〉主題曲-再見版,Taiwan,zh,3IBYp3fKyydZ5dDtirLY6P,398234,7,3,
+8,Hearts2Hearts,RUDE!,Taiwan,latin,0WA27lZzPKFJKAbiDRmQDc,369145,2,8,"Rude
 이랬다저랬다, no rule
 꽤나 뻔뻔한 attitude, I'm not bad
 You can't make me act right (Yeah, let's go)
@@ -15138,7 +15138,7 @@ Make me act right (Yeah, yeah)
 내 멋대로 move (Yeah, you know that I've been crazy)
 (Ah, ah, ah, ah, ah)
 Make me act right"
-9,IVE,BANG BANG,Taiwan,7pBE8YpFoZ9ankC2Ci5z9X,"It's a new scene, it's aggressive
+9,IVE,BANG BANG,Taiwan,latin,7pBE8YpFoZ9ankC2Ci5z9X,351618,4,7,"It's a new scene, it's aggressive
 이미 알아차렸겠지, 그치, 언니?
 모든 소문 속의 problem, yeah, I'm 걔지
 벽에 붙은 나의 picture, 아래 wanted (Yeah, 아래 wanted)
@@ -15197,7 +15197,7 @@ I be going out with a bang, bang
 (I be going out with a bang) Bang, bang
 (Yeah, yeah, yeah) Bang, bang
 (I be going out with a bang) Bang, bang"
-10,BLACKPINK,Champion,Taiwan,43BJVWcBzHRIDaQCg7abnX,"Ain't quitting, I trust my intuition (Okay)
+10,BLACKPINK,Champion,Taiwan,latin,43BJVWcBzHRIDaQCg7abnX,348554,1,10,"Ain't quitting, I trust my intuition (Okay)
 Time ticking, but they don't see the vision (Okay)
 I ain't giving up, no, I ain't willing (Okay)
 I be winning like it's an addiction
@@ -15239,7 +15239,7 @@ If I ever, ever fall down one time
 I'ma keep going on, 'cause I know I'm a champion
 And if I take a, take a L, I'll still fight
 'Til the bitter end, I'm strong, 'cause I know I'm a champion"
-11,Khalil Fong,特別的人,Taiwan,0VTzUEuHYD8s7CgQ15cDPo,"愛一個人或許要慷慨
+11,Khalil Fong,特別的人,Taiwan,zh,0VTzUEuHYD8s7CgQ15cDPo,341263,53,4,"愛一個人或許要慷慨
 若只想要被愛
 最後沒有了對白
 必須有你我的情真
@@ -15297,7 +15297,7 @@ And if I take a, take a L, I'll still fight
 生命中有萬事的可能
 你就是我要遇見的
 特別的人"
-12,BLACKPINK,JUMP,Taiwan,5H1sKFMzDeMtXwND3V6hRY,"I'm not that easy to tame
+12,BLACKPINK,JUMP,Taiwan,latin,5H1sKFMzDeMtXwND3V6hRY,330617,34,2,"I'm not that easy to tame
 You should see me under these lights, all my tears turn to ice
 That's the sweetest escape
 Every time the feeling kicks in, I might stay through the night
@@ -15360,7 +15360,7 @@ Wanna see you bumpin', baby, bouncin' to the bass
 BLACKPINK in your area
 뛰어
 뛰어"
-13,V,Slow Dancing,Taiwan,5h1BN75CEh8wdSwE1xrbSe,"It's about time we get it straight
+13,V,Slow Dancing,Taiwan,latin,5h1BN75CEh8wdSwE1xrbSe,320972,118,5,"It's about time we get it straight
 Gimme a minute if it ain't too late
 대충 무리였나봐, babe
 애먼 기분만 해친 채
@@ -15389,8 +15389,8 @@ Slow dancing
 Until the morning
 We could be romancing
 The night away"
-14,Patrick Brasca,單程票,Taiwan,3woBOD3Ldh81fAwpsnD8yC,
-15,"Top Barry, INDEcompany",一半一半,Taiwan,21x0N6lu6D9kO8rVtTU3mH,"无力感在把眼泪一点一点吞噬
+14,Patrick Brasca,單程票,Taiwan,zh,3woBOD3Ldh81fAwpsnD8yC,302182,3,11,
+15,"Top Barry, INDEcompany",一半一半,Taiwan,zh,21x0N6lu6D9kO8rVtTU3mH,294312,7,15,"无力感在把眼泪一点一点吞噬
 空旷的街道早没了一点声
 那天回到我们俩熟悉的城市
 马路上关闭的灯有一半熟悉一半生
@@ -15469,7 +15469,7 @@ So please don’t calling my phone
 我深陷在一边喜欢一边离开
 他们问我丢掉了太多遗不遗憾
 一半一半"
-16,V,Love Me Again,Taiwan,2N0SPREDYqILVEFSsWF5N5,"추억도 의미 없이
+16,V,Love Me Again,Taiwan,latin,2N0SPREDYqILVEFSsWF5N5,290752,134,1,"추억도 의미 없이
 내게 넌 사라지고
 이쯤에도 I can't let you go, let you go
 그 말이 다인 거니?
@@ -15519,7 +15519,7 @@ I wish you could love me again, again
 I wish you would love me again
 No, I don't want nobody else
 I wish you could love me again, again"
-17,HWASA,Good Goodbye,Taiwan,3cLXrotzCjYCkN73PewALM,"나를 그냥 짓밟고 가
+17,HWASA,Good Goodbye,Taiwan,latin,3cLXrotzCjYCkN73PewALM,287401,16,2,"나를 그냥 짓밟고 가
 괜찮아 돌아보지 마
 내가 아파봤자 너만 하겠니
 이젠 너를 헤아려봐
@@ -15571,7 +15571,7 @@ By-ye-ye, ya-ya-ye (By-y-ye)
 By-ye-ye, ya-ya-ye
 By-ye-ye-ye-ye
 후회조차도 goodby-y-ye"
-18,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,Taiwan,1CPZ5BxNNd0n0nF4Orb9JS,"[Verse: Rumi, 
+18,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,Taiwan,latin,1CPZ5BxNNd0n0nF4Orb9JS,273979,37,2,"[Verse: Rumi, 
 Zoey
 , 
 Mira
@@ -15648,8 +15648,8 @@ Oh
 Born to be, born to be glowin', 밝게 빛나는 우리
 You know that it's our time, no fears, no lies (Oh)
 That's who we're born to be"
-19,Evangeline Wong,離開我的依賴,Taiwan,23WLgtD54AeluEPRr5muHo,
-20,BLACKPINK,Fxxxboy,Taiwan,7m0duH1vdTNxM2g8BLfR0F,"Everybody needs love
+19,Evangeline Wong,離開我的依賴,Taiwan,zh,23WLgtD54AeluEPRr5muHo,270868,32,10,
+20,BLACKPINK,Fxxxboy,Taiwan,latin,7m0duH1vdTNxM2g8BLfR0F,263113,1,20,"Everybody needs love
 Do you, do you really wanna go down that road tonight?
 Do you, do you? We already tried it once or twice (Twice, twice, twice)
 Just to end up hitting the wall, mm (Oh-oh-oh-oh)
@@ -15715,7 +15715,7 @@ Should've won a prize for the stories you told
 Oh, oh, oh, oh
 Played your game, but I kept the score (I did, I did, I did, I did)
 How's it feel? Now I'm the fuckboy"
-21,IVE,BLACKHOLE,Taiwan,2ytQFMxdreEFPPZTtyDdqM,"Shall it all be sung, be done like this, this, this, this
+21,IVE,BLACKHOLE,Taiwan,latin,2ytQFMxdreEFPPZTtyDdqM,257958,2,21,"Shall it all be sung, be done like this, this, this, this
 This, this, this
 
 너의 심장 위에
@@ -15783,7 +15783,7 @@ Oh, oh
 Look at me (Now), look at me (Now)
 Oh, oh
 Look at you (Now), look at you"
-22,黃奇斌,若無你我欲去佗位,Taiwan,76EfpqmO6JUL2TTR1SIGwz,"若無你我欲去佗位
+22,黃奇斌,若無你我欲去佗位,Taiwan,zh,76EfpqmO6JUL2TTR1SIGwz,256579,34,5,"若無你我欲去佗位
 我愛你毋但彼當時
 我盡力習慣沒有你
 卻無法放過我自己
@@ -15820,7 +15820,7 @@ Look at you (Now), look at you"
 若無你我欲去佗位
 我愛你毋但彼當時
 我盡力習慣沒有你"
-23,"Patrick Brasca, mac ova seas",左轉燈 (1000 Times+1),Taiwan,4UwZyC0wEV6XDEAr9kaQhi,"回憶 降落沒訊號的地方
+23,"Patrick Brasca, mac ova seas",左轉燈 (1000 Times+1),Taiwan,zh,4UwZyC0wEV6XDEAr9kaQhi,254362,20,10,"回憶 降落沒訊號的地方
 心入境 在空無一人的機場
 留下的謊話 就寫成小說 好嗎
 筆下的我是什麼模樣
@@ -15874,7 +15874,7 @@ Woah-oh-oh
 
 在路口打著向左邊轉彎的燈
 向右轉"
-24,Jay Chou,擱淺,Taiwan,0cOMncRq4cmDLO4tPQnkBF,"久未放晴的天空
+24,Jay Chou,擱淺,Taiwan,zh,0cOMncRq4cmDLO4tPQnkBF,248595,237,11,"久未放晴的天空
 依舊留著你的笑容
 哭過 卻無法掩埋歉疚
 風箏在陰天擱淺
@@ -15920,7 +15920,7 @@ Woah-oh-oh
 我睜開雙眼看著空白
 忘記你對我的期待
 讀完了依賴 我很快就離開"
-25,BLACKPINK,Me and my,Taiwan,5MXcM263QvCTWriH3nVusc,"We outside every night, just me and my girls, ayy
+25,BLACKPINK,Me and my,Taiwan,latin,5MXcM263QvCTWriH3nVusc,238234,1,25,"We outside every night, just me and my girls, ayy
 Way too fine every time, just me and my girls, ayy
 Hide your man, we ain't playin', just me and my girls, ayy
 Droppin' it, poppin' it, just me and my girls, ayy, ayy
@@ -15974,7 +15974,7 @@ Just me and my girls, ayy, ayy
 Just me and my girls, ayy, ayy
 Just me and my girls, ayy, ayy
 Just me and my girls"
-26,KiiiKiii,404 (New Era),Taiwan,24rDDbSlFY9OHrlJb48CRh,"It's your boys, LDN Noise
+26,KiiiKiii,404 (New Era),Taiwan,latin,24rDDbSlFY9OHrlJb48CRh,236384,5,24,"It's your boys, LDN Noise
 
 404, not found in the system
 404, the new era, era
@@ -16053,7 +16053,7 @@ Ooh, ah
 Ooh, ooh
 404, not found in the system
 404, the new era, era"
-27,Bestards,離開的一路上,Taiwan,1NoDTQhJsrd5rnpb6PQthK,"背影逐漸拉開距離
+27,Bestards,離開的一路上,Taiwan,zh,1NoDTQhJsrd5rnpb6PQthK,234602,122,1,"背影逐漸拉開距離
 告別所有與你有關的風景
 我很努力
 回憶的雨裡忍住淚向前進
@@ -16097,7 +16097,7 @@ Ooh, ooh
 對彼此許下過什麼天真的美麗
 今後誰也別提起
 誰也別提起"
-28,Crowd Lu,一夜一夜一夜,Taiwan,3wofqqt5YJWdhLI9IFaX39,"不關燈就不怕天黑
+28,Crowd Lu,一夜一夜一夜,Taiwan,zh,3wofqqt5YJWdhLI9IFaX39,230631,28,6,"不關燈就不怕天黑
 不看訊息就不怕失眠
 再夜長夢多都是思念作祟
 不聽歌就不會流淚
@@ -16147,7 +16147,7 @@ Ooh, ooh
 
 不關燈就不怕天黑
 不聽歌就不會流淚"
-29,JENNIE,like JENNIE,Taiwan,0fK7ie6XwGxQTIkpFoWkd1,"Ha, c'mon, it's gon' be fucking hard
+29,JENNIE,like JENNIE,Taiwan,latin,0fK7ie6XwGxQTIkpFoWkd1,229663,52,3,"Ha, c'mon, it's gon' be fucking hard
 
 Special edition and your AI couldn't copy
 I'm leaving clues in the fittin' room and it's hot tea
@@ -16203,8 +16203,8 @@ But have you ever met JENNIE?
 But have you ever met?
 JENNIE, JENNIE, JENNIE
 It's JENNIE, JENNIE, JENNIE, JENNIE"
-30,Crowd Lu,幾分之幾 - 電影<花甲大人轉男孩>主題曲,Taiwan,4F7ZAsndEIJXyFzJUHNlRu,
-31,"i-dle, skaiwater",Mono (feat. skaiwater),Taiwan,3VxmXJ4FdtbWI27p3Gx4Wh,"У, у
+30,Crowd Lu,幾分之幾 - 電影<花甲大人轉男孩>主題曲,Taiwan,zh,4F7ZAsndEIJXyFzJUHNlRu,226829,322,4,
+31,"i-dle, skaiwater",Mono (feat. skaiwater),Taiwan,latin,3VxmXJ4FdtbWI27p3Gx4Wh,226683,6,3,"У, у
 Мм, а, о
 
 Совсем не важно во что они играют
@@ -16281,7 +16281,7 @@ It's JENNIE, JENNIE, JENNIE, JENNIE"
 Танцуй под свой настоящий вайб
 Убавь эффекты (Убавь)
 Пусть всё затихнет и весь мир заиграет в «моно»"
-32,EggPlantEgg,閣愛妳一擺,Taiwan,4Zwn8WxD61diTwqv9hyTQA,"過了盈暗 欲和別人結婚
+32,EggPlantEgg,閣愛妳一擺,Taiwan,zh,4Zwn8WxD61diTwqv9hyTQA,223328,221,2,"過了盈暗 欲和別人結婚
 聽講妳已經有 別人的子孫
 結果嘛是行到最後一步
 著是妳有翁 我猶袂有某
@@ -16328,7 +16328,7 @@ It's JENNIE, JENNIE, JENNIE, JENNIE"
 閣愛妳一擺 閣愛妳一擺 閣愛妳一擺
 閣愛妳一擺 閣愛妳一擺 閣愛妳一擺
 閣愛妳一擺 閣愛妳一擺 閣愛妳一擺"
-33,Stefanie Sun,遇見,Taiwan,3xJK8ywApYVEYIDhymYMC6,"聽見 冬天 的離開
+33,Stefanie Sun,遇見,Taiwan,zh,3xJK8ywApYVEYIDhymYMC6,217175,254,26,"聽見 冬天 的離開
 我在某年某月醒過來
 我想 我等 我期待
 未來卻不能因此安排
@@ -16359,7 +16359,7 @@ It's JENNIE, JENNIE, JENNIE, JENNIE"
 我遇見你 是最美麗的意外
 
 總有一天 我的謎底會揭開"
-34,CORTIS,GO!,Taiwan,6OWWZtNQORY1McaZmOrwhc,"우린 필요 없어 다른 sign
+34,CORTIS,GO!,Taiwan,latin,6OWWZtNQORY1McaZmOrwhc,215315,26,4,"우린 필요 없어 다른 sign
 Paint the town, 초록색의 lights
 페달에 발을 올려, 마치 bike
 
@@ -16431,7 +16431,7 @@ I just gotta get it
 가져와 new hit
 가져와 new sheet
 I'm on the new shit"
-35,Stefanie Sun,我懷念的,Taiwan,7z2M7DsEjZjwXBkWG3zd21,"我問為什麼 那女孩傳簡訊給我
+35,Stefanie Sun,我懷念的,Taiwan,zh,7z2M7DsEjZjwXBkWG3zd21,211975,196,11,"我問為什麼 那女孩傳簡訊給我
 而你為什麼 不解釋低著頭沉默
 我該相信你很愛我 不願意敷衍我
 還是明白你已不想挽回什麼
@@ -16495,7 +16495,7 @@ Woah, ooh, woah
 所以我
 沒有哭
 沒有說"
-36,ROSÉ,toxic till the end,Taiwan,1z5ebC9238uGoBgzYyvGpQ,"Call us what we are, toxic from the start
+36,ROSÉ,toxic till the end,Taiwan,latin,1z5ebC9238uGoBgzYyvGpQ,211695,65,3,"Call us what we are, toxic from the start
 Can't pretend that I was in the dark
 When you met my friends, didn't even try with them
 I should've known right then
@@ -16551,7 +16551,7 @@ You heard, ""Baby, can you pull me in closer?""
 You were plotting how to stay in my head
 We were toxic till the end, end, end
 We were toxic till the end, end, end"
-37,BABYMONSTER,PSYCHO,Taiwan,491ca80N1C63tpoLvAsLKb,"BABYMON (Hashtag)
+37,BABYMONSTER,PSYCHO,Taiwan,latin,491ca80N1C63tpoLvAsLKb,207229,18,22,"BABYMON (Hashtag)
 
 Move, you don't want no problems in that
 Mood, 너는 너무 말이 많아
@@ -16614,7 +16614,7 @@ Na-na-na-na-na-na-na-na (Psy-psy-psy-psycho)
 Na-na-na-na-na-na-na-na (Psy-psy-psy-psycho)
 Na-na-na-na-na-na-na-na (Psy-psy-psy-psycho)
 Na-na-na-na-na-na-na, we are the psychos"
-38,Khalil Fong,愛愛愛,Taiwan,59lBAMCis4C6NsPdUV35Vz,"在 哪裡記載 第一個桃花賊
+38,Khalil Fong,愛愛愛,Taiwan,zh,59lBAMCis4C6NsPdUV35Vz,205591,54,3,"在 哪裡記載 第一個桃花賊
 誰在 哪裡典賣 第一支紫玉釵
 我在 這裡見怪更怪
 見過電影裡面人家的海 更想去看海
@@ -16658,7 +16658,7 @@ Oh, oh, oh, oh, oh, oh
 愛 還是會期待
 還是覺得孤單太失敗 Woah
 我愛故我在 (Hey yeah, hoo) Ooh, hoo"
-39,"LE SSERAFIM, j-hope",SPAGHETTI,Taiwan,2N9miXnewVmUrgl6JSK1FI,"This is a hot spot
+39,"LE SSERAFIM, j-hope",SPAGHETTI,Taiwan,latin,2N9miXnewVmUrgl6JSK1FI,205460,19,7,"This is a hot spot
 It's your go-to meal
 Now you're a regular and fall in love
 Can't get enough of that taste
@@ -16734,8 +16734,8 @@ Eat it up, eat it, eat it (Woah)
 Eat it up, eat it up
 Eat it up, eat it, eat it
 Eat it up, eat it, eat it up"
-40,"Patrick Brasca, 陳華",你沒等我去的舊金山,Taiwan,1aNVW0fujBVx7JTorTO1jn,
-41,Bestards,不是因為天氣晴朗才愛你,Taiwan,2VEt42QSQxILgEf9B50xxm,"不是因為天氣晴朗才愛你
+40,"Patrick Brasca, 陳華",你沒等我去的舊金山,Taiwan,zh,1aNVW0fujBVx7JTorTO1jn,195800,10,9,
+41,Bestards,不是因為天氣晴朗才愛你,Taiwan,zh,2VEt42QSQxILgEf9B50xxm,195563,332,5,"不是因為天氣晴朗才愛你
 不是因為看見星星才想你
 不是因為剛好沒有別的事
 才一直 一直 一直
@@ -16766,7 +16766,7 @@ Eat it up, eat it, eat it up"
 牽著你走過 大雨盛開水花的路口
 也是我一樣喜歡的夢
 Mm"
-42,aespa,Whiplash,Taiwan,7Cnpb1vBbC46RgVyyKLH7p,"Yeah
+42,aespa,Whiplash,Taiwan,latin,7Cnpb1vBbC46RgVyyKLH7p,193989,72,4,"Yeah
 
 One look, give 'em whiplash
 Beat drop with a big flash
@@ -16851,7 +16851,7 @@ Whip-whiplash
 Whip-whiplash
 
 One look, give 'em whiplash"
-43,Amazing Show,愛情的大壞蛋,Taiwan,5HVq8nS0pbM6G7YK8M7DY4,"我在情歌的尾奏 落在琴聲的最後
+43,Amazing Show,愛情的大壞蛋,Taiwan,zh,5HVq8nS0pbM6G7YK8M7DY4,192347,74,14,"我在情歌的尾奏 落在琴聲的最後
 活該今生的罪疚 默哀硬撐著淚流
 想要夢見你 重建你 容顏已走遠
 在不真實的空間裡好好再愛一遍
@@ -16893,7 +16893,7 @@ Oh, 或許這就是所謂心痛
 讓他飛到銀河
 就當我沒愛過 就當我沒愛過
 我不配你愛我 我不配你愛我"
-44,Jay Chou,晴天,Taiwan,5pIcwtJYNJx93l420oR2Vm,"故事的小黄花
+44,Jay Chou,晴天,Taiwan,zh,5pIcwtJYNJx93l420oR2Vm,191021,326,12,"故事的小黄花
 从出生那年就飘着
 童年的荡秋千
 随记忆一直晃到现在
@@ -16934,9 +16934,9 @@ Oh, 或許這就是所謂心痛
 
 偏偏风渐渐把距离吹得好远
 好不容易又能再多爱一天"
-45,A-Mei Chang,連名帶姓,Taiwan,3LlQoKvVnkVvq3KC8anUn8,
-46,陳粒,小半,Taiwan,3QxWTqyIT4O9bokIZlNDpo,
-47,BABYMONSTER,WE GO UP,Taiwan,1tonXoW6dcb7GGNpec3PTl,"Yeah
+45,A-Mei Chang,連名帶姓,Taiwan,zh,3LlQoKvVnkVvq3KC8anUn8,187416,275,2,
+46,陳粒,小半,Taiwan,zh,3QxWTqyIT4O9bokIZlNDpo,184729,9,46,
+47,BABYMONSTER,WE GO UP,Taiwan,latin,1tonXoW6dcb7GGNpec3PTl,184216,21,8,"Yeah
 Uh-huh
 Yeah, this ain't a game and you know we don't play
 Yeah
@@ -17007,7 +17007,7 @@ Up high for me, baby, high for me, baby, woah
 This is how we do it, we go, woah, oh, oh, oh
 
 We go up"
-48,"Jay Chou, Lara Liang",珊瑚海,Taiwan,3Qj9Fy8BPbWmICTiNkuqB7,"Hǎi píngmiàn yuǎnfāng kāishǐ yīnmái
+48,"Jay Chou, Lara Liang",珊瑚海,Taiwan,zh,3Qj9Fy8BPbWmICTiNkuqB7,181385,227,28,"Hǎi píngmiàn yuǎnfāng kāishǐ yīnmái
 Bēishāng yào zěnme píngjìng chúnbái
 Wǒ de liǎn shàng shǐzhōng xié dài
 Yīmǒ qiǎn qiǎn de wúnài
@@ -17055,8 +17055,8 @@ Dāngchū bǐcǐ (nǐ wǒ dōu)
 Bùgòu chéngshú tǎnbái  (bù yìng gāi)
 Rèqíng bù zài (nǐ de)xiàoróng miǎnqiáng bù lái
 Ài shēn mái shānhú hǎi"
-49,Pets Tseng,一個人想著一個人,Taiwan,3n3zzFH7zzO0gJNaw4RKSm,
-50,ILLIT,NOT CUTE ANYMORE,Taiwan,1k0JAiH11gHL9dc5dfQjQr,"용감한 내 가방
+49,Pets Tseng,一個人想著一個人,Taiwan,zh,3n3zzFH7zzO0gJNaw4RKSm,180479,75,26,
+50,ILLIT,NOT CUTE ANYMORE,Taiwan,latin,1k0JAiH11gHL9dc5dfQjQr,180057,15,9,"용감한 내 가방
 No keyring, no hand mirror
 Oh, rock will never die
 Linda Linda, 자장가
@@ -17093,7 +17093,7 @@ I'm not cute anymore (Uh-uh)
 강아지보단
 난 느슨한 해파리가 좋아 (Uh-uh)
 'Cause I'm not cute anymore"
-51,张远,看着我的眼睛说,Taiwan,7d6eShN6yVeR4Y2Md9uCA4,"今天你生日我準備了好多
+51,张远,看着我的眼睛说,Taiwan,zh,7d6eShN6yVeR4Y2Md9uCA4,177365,40,5,"今天你生日我準備了好多
 也把驚喜偷偷藏口袋左側
 只等你回家 我就陪你過
 再把準備很久的話對你說
@@ -17151,7 +17151,7 @@ I'm not cute anymore (Uh-uh)
 只是差了一個結局
 請記得我曾認認真真的愛過
 該遺憾的不是我"
-52,Stefanie Sun,開始懂了,Taiwan,68tZwwRuo9ip5gRQFG1XWF,"我竟然沒有調頭 最殘忍那一刻
+52,Stefanie Sun,開始懂了,Taiwan,zh,68tZwwRuo9ip5gRQFG1XWF,173168,78,29,"我竟然沒有調頭 最殘忍那一刻
 靜靜看你走 一點都不像我
 原來人會變得溫柔 是透徹的懂了
 愛情是流動的 不由人的 何必激動著要理由
@@ -17179,8 +17179,8 @@ I'm not cute anymore (Uh-uh)
 用心酸微笑去原諒了
 也翻越了 有昨天還是好的
 但明天是自己的 開始懂了 快樂是選擇"
-53,David Tao,愛我還是他,Taiwan,13bw75oRjvxMv9VGIeM32i,
-54,LBI利比,Jumping Machine (跳楼机),Taiwan,1XZE0InCx3SdCnLpVsPpZl,"风走了 只留下一条街的叶落
+53,David Tao,愛我還是他,Taiwan,zh,13bw75oRjvxMv9VGIeM32i,170449,96,13,
+54,LBI利比,Jumping Machine (跳楼机),Taiwan,zh,1XZE0InCx3SdCnLpVsPpZl,168736,58,2,"风走了 只留下一条街的叶落
 你走了 只留下我双眼的红
 逼着自己早点睡
 能不能再做一个有你的美梦
@@ -17240,7 +17240,7 @@ Baby 我们的感情好像跳楼机
 说中你的心
 就承认还是在意吧
 哪怕骗骗我也可以"
-55,Bruno Mars,Risk It All,Taiwan,5y2ijHECwFYWqcAHKTZgzD,"For just the chance to win your heart
+55,Bruno Mars,Risk It All,Taiwan,latin,5y2ijHECwFYWqcAHKTZgzD,167349,1,55,"For just the chance to win your heart
 You could set the bar beyond the stars
 I'll do anything, anything you ask me to
 
@@ -17282,8 +17282,8 @@ I'd risk it all for you
 It's crazy, but it's true
 There's nothing I won't do
 I'd risk it all for you"
-56,JOLIN,布拉格廣場 - JOLIN Version/ 星宇航空布拉格開航主題曲,Taiwan,0HnESxAFR5lTHioAlI7wo3,
-57,EggPlantEgg,浪流連,Taiwan,1IS0WFyiVpwsATeSzjEvpI,"這個風風雨雨的社會
+56,JOLIN,布拉格廣場 - JOLIN Version/ 星宇航空布拉格開航主題曲,Taiwan,zh,0HnESxAFR5lTHioAlI7wo3,164039,1,56,
+57,EggPlantEgg,浪流連,Taiwan,zh,1IS0WFyiVpwsATeSzjEvpI,157780,377,1,"這個風風雨雨的社會
 欲怎樣開花
 少年家怎樣落地
 咱攏是為著愛情來浪流連
@@ -17300,8 +17300,8 @@ I'd risk it all for you"
 猶原會記得我少年時所偷偷烏白寫的願望
 彼當陣我已經當做這世界我早著已經看破
 後世人 袂閣為著你來 浪流連"
-58,Sam Lee,痴心絕對,Taiwan,0D0n4q2o54VTOmDJdL6ikY,
-59,Djo,End of Beginning,Taiwan,3qhlB30KknSejmIvZZLjOD,"Just one more tear to cry, one teardrop from my eye
+58,Sam Lee,痴心絕對,Taiwan,zh,0D0n4q2o54VTOmDJdL6ikY,151921,33,58,
+59,Djo,End of Beginning,Taiwan,latin,3qhlB30KknSejmIvZZLjOD,151551,13,11,"Just one more tear to cry, one teardrop from my eye
 You better save it for
 The middle of the night when things aren't black and white
 Enter, Troubadour
@@ -17331,7 +17331,7 @@ And when I'm back in Chicago, I feel it
 Another version of me, I was in it
 Oh, I wave goodbye to the end of beginning
 (Goodbye, goodbye)"
-60,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Taiwan,1DwscornXpj8fmOmYVlqZt,"(Ah-ah-ah)
+60,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Taiwan,latin,1DwscornXpj8fmOmYVlqZt,149663,1,60,"(Ah-ah-ah)
 I'm freezing outside, I feel my skin tight
 My coat is inside, but I look up at you
 I tracked your plane ride for when you're in tonight
@@ -17411,8 +17411,8 @@ But you're nice, so I'll stay
 Never met a Swedish girl, you say?
 No one treats me this way
 Are all boys out here the same?"
-61,EggPlantEgg,愛情你比我想的閣較偉大 (《當男人戀愛時》電影主題曲),Taiwan,6m2I6ZyWRkxjBrrLVQILfl,
-62,"Firdhaus, DIOR 大穎",在加納共和國離婚,Taiwan,6GyUt7yJ0sOktc5HjvVnFh,"沒想到 只能 走到這
+61,EggPlantEgg,愛情你比我想的閣較偉大 (《當男人戀愛時》電影主題曲),Taiwan,zh,6m2I6ZyWRkxjBrrLVQILfl,149108,255,1,
+62,"Firdhaus, DIOR 大穎",在加納共和國離婚,Taiwan,zh,6GyUt7yJ0sOktc5HjvVnFh,147897,112,1,"沒想到 只能 走到這
 看你濕了眼 我到底該說什麼
 總以為 還有一輩子的時間
 慢慢跟你說 再見
@@ -17443,8 +17443,8 @@ Are all boys out here the same?"
 你懂我會不爭氣想回到你身旁
 原來一輩子 它真的很遙遠
 抵達一輩子的時候 你已不在身邊"
-63,icyball 冰球樂團,不在乎,Taiwan,1t2mpO9GpLjRHDDX6SFWRn,
-64,Jay Chou,楓,Taiwan,1pALOIA4ytESmhl7Fxjdic,"Wūyún zài wǒmen xīnlǐ gē xià yīkuài yīnyǐng
+63,icyball 冰球樂團,不在乎,Taiwan,zh,1t2mpO9GpLjRHDDX6SFWRn,147054,12,25,
+64,Jay Chou,楓,Taiwan,zh,1pALOIA4ytESmhl7Fxjdic,146255,129,15,"Wūyún zài wǒmen xīnlǐ gē xià yīkuài yīnyǐng
 Wǒ  língtīng chénjì yǐ jiǔ de xīnqíng
 Qīngxī  tòumíng jiù xiàng měilì de fēngjǐng
 Zǒng zài huíyì lǐ cái kàn de qīng
@@ -17488,9 +17488,9 @@ Wèihé wǎnhuí yào gǎn zài dōngtiān lái zhīqián
 Liǎng háng láizì qiūmò de yǎnlèi
 Ràng ài shèntòule dìmiàn
 Wǒ yào de zhǐshì nǐ zài wǒ shēnbiān"
-65,"马也_Crabbit, Cole先生",海屿你,Taiwan,6UO9nrihAk6sFGvVHDVTz8,
-66,艾薇 Ivy,天使借的溫柔,Taiwan,3ITUmRLMjxf3ZqCPSDD2gk,
-67,Taylor Swift,The Fate of Ophelia,Taiwan,53iuhJlwXhSER5J2IYYv1W,"I heard you calling on the megaphone
+65,"马也_Crabbit, Cole先生",海屿你,Taiwan,zh,6UO9nrihAk6sFGvVHDVTz8,146179,3,65,
+66,艾薇 Ivy,天使借的溫柔,Taiwan,zh,3ITUmRLMjxf3ZqCPSDD2gk,145942,22,47,
+67,Taylor Swift,The Fate of Ophelia,Taiwan,latin,53iuhJlwXhSER5J2IYYv1W,144351,22,7,"I heard you calling on the megaphone
 You wanna see me all alone
 As legend has it, you are quite the pyro
 You light the match to watch it blow
@@ -17565,7 +17565,7 @@ It's 'bout to be the sleepless night you've been dreaming of
 The fate of Ophelia
 
 You saved my heart from the fate of Ophelia"
-68,LNGSHOT,Moonwalkin',Taiwan,46V2ciN6F5bxjQWityNhkY,"Moonwalkin'
+68,LNGSHOT,Moonwalkin',Taiwan,latin,46V2ciN6F5bxjQWityNhkY,142959,7,11,"Moonwalkin'
 
 시간은 계속 tick-tockin', 우린 아마도 계속 moonwalkin' (Woo)
 난 이대로도 괜찮지만 너의 대답은 아직 불확실
@@ -17648,7 +17648,7 @@ Yeah (Oh, oh-oh, oh)
 Moonwalkin' (Oh, oh-oh, oh)
 Moonwalkin' (Oh, oh-oh, oh)
 Moonwalkin' (Oh, oh, oh)"
-69,"ROSÉ, Bruno Mars",APT.,Taiwan,4wJ5Qq0jBN4ajy7ouZIV1c,"Chaeyoung-iga joahaneun
+69,"ROSÉ, Bruno Mars",APT.,Taiwan,latin,4wJ5Qq0jBN4ajy7ouZIV1c,142839,72,1,"Chaeyoung-iga joahaneun
 Random game
 Random game
 Game start
@@ -17740,7 +17740,7 @@ Apateu, apateu
 Apateu, apateu
 Apateu, apateu
 Uh, uh-huh, uh-huh"
-70,G.E.M.,多遠都要在一起,Taiwan,55d0jw269HE9pbOt5ntCo8,"想聽你聽過的音樂 想看你看過的小說
+70,G.E.M.,多遠都要在一起,Taiwan,zh,55d0jw269HE9pbOt5ntCo8,140678,173,56,"想聽你聽過的音樂 想看你看過的小說
 我想收集每一刻  我想看到你眼裡的世界
 想到你到過的地方  和你曾渡過的時光
 不想錯過每一刻 多希望我一直在你身旁
@@ -17765,7 +17765,7 @@ Uh, uh-huh, uh-huh"
 愛能克服遠距離 多遠都要在一起
 你已經不再存在我世界裡 請不要離開我的回憶
 請不要離開 不要離開 我的回憶"
-71,Joker Xue,演员,Taiwan,5Sib99jpYybZAicUMETb3h,"简单点
+71,Joker Xue,演员,Taiwan,zh,5Sib99jpYybZAicUMETb3h,139187,314,8,"简单点
 说话的方式简单点
 递进的情绪请省略 你又不是个演员
 别设计那些情节
@@ -17813,7 +17813,7 @@ Uh, uh-huh, uh-huh"
 可你曾经那么爱我 干嘛演出细节
 不在意的样子是我最后的表演
 是因为爱你我才选择表演 这种成全"
-72,张远,嘉賓,Taiwan,5jAmIkIpskwu2hRz2YaEHi,"分手后第几个冬季
+72,张远,嘉賓,Taiwan,zh,5jAmIkIpskwu2hRz2YaEHi,137993,188,6,"分手后第几个冬季
 今天是星期几
 偶尔会想起你
 你突如其来的简讯
@@ -17885,7 +17885,7 @@ Uh, uh-huh, uh-huh"
 见证你们爱情的嘉宾
 遇见你的他真的好幸运
 但愿他会比我更爱你"
-73,CORTIS,FaSHioN,Taiwan,4ecdsGz3Hg6TKPwQ0ZOdJz,"내 티, five bucks, 바지는 만원
+73,CORTIS,FaSHioN,Taiwan,latin,4ecdsGz3Hg6TKPwQ0ZOdJz,137446,26,11,"내 티, five bucks, 바지는 만원
 My vision 몇 억s, 몇 조s, Bezos
 동묘, wassup? 홍대
  (What?), wassup? (Woah-woah)
@@ -17951,7 +17951,7 @@ Fashion, fashion, fashion, fashion (What?; Let's go)
 Fashion, fashion, fashion, fashion
 Fashion, fashion, fashion, fashion
 Fashion, fashion, fashion, fashion"
-74,Taylor Swift,Opalite,Taiwan,3yWuTOYDztXjZxdE2cIRUa,"I had a bad habit
+74,Taylor Swift,Opalite,Taiwan,latin,3yWuTOYDztXjZxdE2cIRUa,134471,22,11,"I had a bad habit
 Of missing lovers past
 My brother used to call it
 ""Eating out of the trash""
@@ -18019,8 +18019,8 @@ Oh, my Lord
 Never met no one like you before (No)
 You had to make your own sunshine
 But now, the sky is opalite, oh-oh, oh, oh, oh, oh"
-75,A-Mei Chang,人質,Taiwan,6OAUhxFZzaRHHC8XiuIkvb,
-76,sombr,back to friends,Taiwan,7qjZnBKE73H4Oxkopwulqe,"Touch my body tender
+75,A-Mei Chang,人質,Taiwan,zh,6OAUhxFZzaRHHC8XiuIkvb,133424,177,47,
+76,sombr,back to friends,Taiwan,latin,7qjZnBKE73H4Oxkopwulqe,133225,37,71,"Touch my body tender
 'Cause the feeling makes me weak
 Kicking off the covers
 I see the ceiling while you're looking down at me
@@ -18057,7 +18057,7 @@ How can you look at me and pretend
 I'm someone you've never met?
 
 I'm someone you've never met (Yeah)"
-77,BABYMONSTER,DRIP,Taiwan,1MUZitHRpmng5NevrvNx4T,"Yeah
+77,BABYMONSTER,DRIP,Taiwan,latin,1MUZitHRpmng5NevrvNx4T,132399,70,5,"Yeah
 
 When I dress, I don't think so much
 I could be the GOAT, I don't need too much
@@ -18172,8 +18172,8 @@ Drip, drip, drip (Drip, drip, drip, drip)
 Baby, got, baby, got, baby, got (Drip, drip, drip, drip)
 Drip, drip, drip (Drip, drip)
 Got that drip, yeah"
-78,Richael Liu,两三句,Taiwan,0BkBM5rY934yzHViRhd8Em,
-79,Olivia Dean,So Easy (To Fall In Love),Taiwan,6sGIMrtIzQjdzNndVxe397,"I could be the twist, the one to make you stop
+78,Richael Liu,两三句,Taiwan,zh,0BkBM5rY934yzHViRhd8Em,132329,14,59,
+79,Olivia Dean,So Easy (To Fall In Love),Taiwan,latin,6sGIMrtIzQjdzNndVxe397,132236,20,72,"I could be the twist, the one to make you stop
 The icing on your cake, the cherry on the top
 There's Heaven in my heart, and we could find you some space, mm
 I could be the world to you, the missing piece
@@ -18217,8 +18217,8 @@ I'm the perfect mix of Saturday night and the rest of your life
 Anyone with a heart would agree
 It's so easy
 To fall in love with me"
-80,"Jay Chou, A-Mei Chang",不該,Taiwan,5miH0BWhRVTvHAwmnoeyXH,
-81,Sam Lee,手放開,Taiwan,2Dd9EXYXI2NNrLG61OtWQv,"Yo, yo, follow me
+80,"Jay Chou, A-Mei Chang",不該,Taiwan,zh,5miH0BWhRVTvHAwmnoeyXH,131533,93,80,
+81,Sam Lee,手放開,Taiwan,zh,2Dd9EXYXI2NNrLG61OtWQv,130682,8,81,"Yo, yo, follow me
 跟我一起
 Come with me to the dark side of the force
 堕入原力的黑暗面
@@ -18433,7 +18433,7 @@ Where do they go? God only knows
 他们去了哪儿？只有上帝才知道
 (Stay wide awake)
 （保持清醒）"
-82,Kenshi Yonezu,IRIS OUT,Taiwan,59hVbgr8rfYkDbHfr8RcGI,"(Ah, ah, ah, ah, ah, ah)
+82,Kenshi Yonezu,IRIS OUT,Taiwan,latin,59hVbgr8rfYkDbHfr8RcGI,129664,25,5,"(Ah, ah, ah, ah, ah, ah)
 (Ah, ah, ah, ah, ah, ah)
 Ha-ha-ha
 (Ah, ah, ah, ah, ah, ah)
@@ -18495,7 +18495,7 @@ Ha-ha-ha
 ダーリン (ベイビー) ダーリン (Ha-ha-ha)
 
 Rra"
-83,CORTIS,"Mention Me - From The Movie ""GOAT""",Taiwan,3f0OEJd7mlPNhmH3fUOrqy,"I'm drinkin’, I'm leanin', I’m on like a 3 today
+83,CORTIS,"Mention Me - From The Movie ""GOAT""",Taiwan,latin,3f0OEJd7mlPNhmH3fUOrqy,128443,3,26,"I'm drinkin’, I'm leanin', I’m on like a 3 today
 Alright, alright, bet, say less
 Where my drink?
 Hello, look
@@ -18563,7 +18563,7 @@ Ooh, oh-oh-oh
 Oh, oh
 Ooh, oh-oh
 I think she feelin' Bway"
-84,F.I.R.,月牙灣,Taiwan,1b5IRT3iraxjHOsKZx93sW,"敦煌天空的沙礫
+84,F.I.R.,月牙灣,Taiwan,zh,1b5IRT3iraxjHOsKZx93sW,128179,80,68,"敦煌天空的沙礫
 帶著我們的記憶
 我從半路看回去
 這情關漫漫好彎曲
@@ -18611,7 +18611,7 @@ I think she feelin' Bway"
 輕聲呼喚就讓我融化
 每一滴雨水演化成我翅膀
 向著我愛的人追吧"
-85,"Lady Gaga, Bruno Mars",Die With A Smile,Taiwan,7so0lgd0zP2Sbgs2d7a1SZ,"(Ooh, ooh)
+85,"Lady Gaga, Bruno Mars",Die With A Smile,Taiwan,latin,7so0lgd0zP2Sbgs2d7a1SZ,127954,81,3,"(Ooh, ooh)
 
 I, I just woke up from a dream
 Where you and I had to say goodbye
@@ -18670,7 +18670,7 @@ I'd wanna be next to you
 
 (Ooh, ooh)
 I'd wanna be next to you"
-86,ILLIT,Magnetic,Taiwan,1aKvZDoLGkNMxoRYgkckZG,"Baby
+86,ILLIT,Magnetic,Taiwan,latin,1aKvZDoLGkNMxoRYgkckZG,127720,102,1,"Baby
 I'm just trying to play it cool
 But I just can't hide that
 I want you
@@ -18726,8 +18726,8 @@ Bae, bae, bae, bae, bae, bae, bae, bae, bae
 Dash-da-da, dash-da-da, dash-da, like it's magnetic
 Bae, bae, bae, bae, bae, bae, bae, bae, bae
 Dash-da-da, dash-da-da, baby, don't say no"
-87,PIZZALI,做我的初戀,Taiwan,4flk8ZgDFry6o2t0SdKsnB,
-88,ROSÉ,number one girl,Taiwan,1lcBt7LoEikqYmhUoa2cez,"Tell me that I'm special, tell me I look pretty
+87,PIZZALI,做我的初戀,Taiwan,zh,4flk8ZgDFry6o2t0SdKsnB,127235,33,22,
+88,ROSÉ,number one girl,Taiwan,latin,1lcBt7LoEikqYmhUoa2cez,126923,67,4,"Tell me that I'm special, tell me I look pretty
 Tell me I'm a little angel, sweetheart of your city
 Say what I'm dying to hear
 'Cause I'm dying to hear you
@@ -18781,8 +18781,8 @@ So what's it gon' take for you to want me?
 I'd give it all up if you told me that I'd be
 The number one girl in your eyes
 The number one girl in your eyes"
-89,A-Lin,給我一個理由忘記,Taiwan,2DcmVSLAg0ZzfOQxDshZHY,
-90,David Tao,就是愛妳,Taiwan,73eCSQ1DxQbaOnzy8PhKx3,"Yeah~ Woah~ Yeah~ Da da da
+89,A-Lin,給我一個理由忘記,Taiwan,zh,2DcmVSLAg0ZzfOQxDshZHY,125664,70,46,
+90,David Tao,就是愛妳,Taiwan,zh,73eCSQ1DxQbaOnzy8PhKx3,125278,31,70,"Yeah~ Woah~ Yeah~ Da da da
 我 一直都想对你说
 Wǒ yīzhí dōu xiǎng duì nǐ shuō
 I’ve always wanted to tell you
@@ -18884,7 +18884,7 @@ I just love you, loving you
 Yào wǒmen zài yīqǐ
 I want us to be together
 Repeat **"
-91,Joker Xue,其实,Taiwan,6Mmdzst5fLkrKjhdkGhLpe,"不需要借口
+91,Joker Xue,其实,Taiwan,zh,6Mmdzst5fLkrKjhdkGhLpe,124859,21,65,"不需要借口
 爱淡了就放手
 我不想听
 你也没说平静的交错
@@ -18917,8 +18917,8 @@ Repeat **"
 其实我没你不能活
 其实我给你的爱比你想的多
 其实我爱你比你想的多得多"
-92,DIOR 大穎,人的這一生,Taiwan,2Jox8DFhnUpJZJWLsVAsAR,
-93,Hearts2Hearts,FOCUS,Taiwan,6jYiHr12NVKLzn0X7K8aSK,"I cannot focus, you're all I'm needing
+92,DIOR 大穎,人的這一生,Taiwan,zh,2Jox8DFhnUpJZJWLsVAsAR,124571,1,92,
+93,Hearts2Hearts,FOCUS,Taiwan,latin,6jYiHr12NVKLzn0X7K8aSK,124554,17,53,"I cannot focus, you're all I'm needing
 I cannot focus, you're all I'm seeing
 
 I cannot focus on anything but you, baby
@@ -18973,8 +18973,8 @@ I cannot focus, you're all I'm needing
 I cannot focus, you're all I'm seeing
 I cannot focus, you're all I'm needing
 I cannot focus, you're all I'm seeing"
-94,Silence Wang,像晴天像雨天（电视剧《难哄》心动曲）,Taiwan,1zFuSla4RQ5qAJwDIQYixW,
-95,Amazing Show,偷偷愛,Taiwan,0L7R4dmkwk46DEZgqx1fF7,"天空有時會 想起那一年的倦
+94,Silence Wang,像晴天像雨天（电视剧《难哄》心动曲）,Taiwan,zh,1zFuSla4RQ5qAJwDIQYixW,124451,54,4,
+95,Amazing Show,偷偷愛,Taiwan,zh,0L7R4dmkwk46DEZgqx1fF7,124306,63,34,"天空有時會 想起那一年的倦
 隨風兒消遣 彷彿不曾掉眼淚
 捲起的歲月 潮濕卻很香甜
 將你無聲吹遠
@@ -19030,7 +19030,7 @@ La-la-la, la-la-la-la, la-la-la
 偷偷愛 再苦笑著把自己給騙過
 幻想著 你有天會對我心動
 你的一顰一笑 一舉一動 能否給我"
-96,"Disney, Shakira",Zoo,Taiwan,3vJIaiTIHxHhYafTSPNiH4,"Come on, get on up
+96,"Disney, Shakira",Zoo,Taiwan,latin,3vJIaiTIHxHhYafTSPNiH4,123909,14,11,"Come on, get on up
 We're wild and we can't be tamed
 And we're turnin' the floor into
 A zoo, ooh, ooh
@@ -19116,7 +19116,7 @@ Come on, keep it up
 It's fun if you're down to play
 And we're turnin' the floor into
 A zoo, ooh, ooh"
-97,Fish Leong,慢冷,Taiwan,3NNDJfWMGHuNpvHWTImmlW,"說完了 好像話都說完了
+97,Fish Leong,慢冷,Taiwan,zh,3NNDJfWMGHuNpvHWTImmlW,121360,353,12,"說完了 好像話都說完了
 總是沉默對坐著
 眼裡是濃濃夜色
 感情是偏執的 越愛越是偏執的
@@ -19153,9 +19153,9 @@ A zoo, ooh, ooh"
 衝動的人向來聽不見挽留
 這世界大得讓你很難不旅遊
 浪漫讓你溫柔 也讓你最惹人 淚流"
-98,WeiBird,"如果可以 - 電影""月老""主題曲",Taiwan,72OVnXDzugvrCU25lMi9au,
-99,Ronghao Li,"不將就 (電影""何以笙簫默""片尾曲)",Taiwan,5DH8nF7aWoXXg5Sm3gjCWD,
-100,aespa,Rich Man,Taiwan,1sUjTLLCJzcxC15GUBrOlg,"My mom said to me
+98,WeiBird,"如果可以 - 電影""月老""主題曲",Taiwan,zh,72OVnXDzugvrCU25lMi9au,120883,226,1,
+99,Ronghao Li,"不將就 (電影""何以笙簫默""片尾曲)",Taiwan,zh,5DH8nF7aWoXXg5Sm3gjCWD,120655,205,62,
+100,aespa,Rich Man,Taiwan,latin,1sUjTLLCJzcxC15GUBrOlg,120062,26,5,"My mom said to me
 ""Find someone who can give you everything""
 And I said, ""Mom, I already have everything""
 I am a rich man, I am a rich man (
@@ -19258,7 +19258,7 @@ I am a rich man
 I am what I am
 (La-la, la-la, la, ah-ah)
 I am a rich man"
-1,Bruno Mars,Risk It All,USA,5y2ijHECwFYWqcAHKTZgzD,"For just the chance to win your heart
+1,Bruno Mars,Risk It All,USA,latin,5y2ijHECwFYWqcAHKTZgzD,12884594,1,1,"For just the chance to win your heart
 You could set the bar beyond the stars
 I'll do anything, anything you ask me to
 
@@ -19300,7 +19300,7 @@ I'd risk it all for you
 It's crazy, but it's true
 There's nothing I won't do
 I'd risk it all for you"
-2,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,USA,1DwscornXpj8fmOmYVlqZt,"(Ah-ah-ah)
+2,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,USA,latin,1DwscornXpj8fmOmYVlqZt,11706010,9,2,"(Ah-ah-ah)
 I'm freezing outside, I feel my skin tight
 My coat is inside, but I look up at you
 I tracked your plane ride for when you're in tonight
@@ -19380,7 +19380,7 @@ But you're nice, so I'll stay
 Never met a Swedish girl, you say?
 No one treats me this way
 Are all boys out here the same?"
-3,Ella Langley,Choosin' Texas,USA,65DbTqJKhbwqYbZ1Okr0rc,"Just when I thought I got him to fall in love with Tennessee
+3,Ella Langley,Choosin' Texas,USA,latin,65DbTqJKhbwqYbZ1Okr0rc,9528820,20,2,"Just when I thought I got him to fall in love with Tennessee
 I should've known better than to take him back to Abilene
 I put him right back into her arms
 I wasn't a match for that kind of spark
@@ -19427,7 +19427,7 @@ He's choosin' Texas, I can tell
 Come on, baby
 Oh yeah
 Just when I thought I got him to fall in love with Tennessee"
-4,Bruno Mars,I Just Might,USA,6f68Ac5tt5BQOpwr0BV9oN,"One, two, three, four
+4,Bruno Mars,I Just Might,USA,latin,6f68Ac5tt5BQOpwr0BV9oN,9391514,8,1,"One, two, three, four
 Doo-doo, doo-doo, doo-doo, doo-doo-doo
 Doo-doo, doo-doo, doo-doo, doo-doo-doo
 
@@ -19494,7 +19494,7 @@ Doo-doo, doo-doo, doo-doo, doo-doo-doo
 I just might
 Doo-doo, doo-doo, doo-doo, doo-doo-doo
 Oh, I just might"
-5,Bad Bunny,DtMF,USA,3sK8wGT43QFpWrvNQsrQya,"Eh, eh, eh, eh
+5,Bad Bunny,DtMF,USA,latin,3sK8wGT43QFpWrvNQsrQya,9107715,61,1,"Eh, eh, eh, eh
 
 Otro sunset bonito que veo en San Juan
 Disfrutando de todas esas cosas que extrañan los que se van
@@ -19559,7 +19559,7 @@ Debí darte más besos y abrazo' las veces que pude
 Ojalá que los mío' nunca se muden
 Y que tú me envíe' más nude'
 Y si hoy me emborracho, que Beno me ayude"
-6,Olivia Dean,Man I Need,USA,1qbmS6ep2hbBRaEZFpn7BX,"Talk to me, talk to me
+6,Olivia Dean,Man I Need,USA,latin,1qbmS6ep2hbBRaEZFpn7BX,8110625,28,2,"Talk to me, talk to me
 Talk to me, talk to me
 Hm
 
@@ -19624,7 +19624,7 @@ Mm
 Mm-mm, mm-mm, mm
 Mm-mm, mm
 Mm-mm, mm-mm, mm-mm, mm-mm, mm"
-7,Dominic Fike,Babydoll,USA,7yNf9YjeO5JXUE3JEBgnYc,"And I can't move on, babydoll
+7,Dominic Fike,Babydoll,USA,latin,7yNf9YjeO5JXUE3JEBgnYc,7586014,37,7,"And I can't move on, babydoll
 Waitin' on calls, flippin' through stations
 I'm outclassed and it's outrageous (Ooh)
 And I'll take it all, babydoll
@@ -19648,7 +19648,7 @@ Waitin' on calls, flippin' through stations
 I'm outclassed and it's outrageous (Ooh)
 And I'll take it all, babydoll
 Whatever's been weighin' you down"
-8,Don Toliver,E85,USA,3B4cjvGlPvyBLNG3AzEgkZ,"(
+8,Don Toliver,E85,USA,latin,3B4cjvGlPvyBLNG3AzEgkZ,7469414,5,7,"(
 I love
 )
 (I've been tryin', tryin', tryin', tryin')
@@ -19694,7 +19694,7 @@ I love
 
 I've been tryin', tryin', tryin', tryin'
 I've been cryin', cryin', cry—"
-9,Olivia Dean,So Easy (To Fall In Love),USA,6sGIMrtIzQjdzNndVxe397,"I could be the twist, the one to make you stop
+9,Olivia Dean,So Easy (To Fall In Love),USA,latin,6sGIMrtIzQjdzNndVxe397,7185247,23,4,"I could be the twist, the one to make you stop
 The icing on your cake, the cherry on the top
 There's Heaven in my heart, and we could find you some space, mm
 I could be the world to you, the missing piece
@@ -19738,7 +19738,7 @@ I'm the perfect mix of Saturday night and the rest of your life
 Anyone with a heart would agree
 It's so easy
 To fall in love with me"
-10,Bad Bunny,BAILE INoLVIDABLE,USA,2lTm559tuIvatlT1u0JYG2,"Pensaba que contigo iba a envejecer
+10,Bad Bunny,BAILE INoLVIDABLE,USA,latin,2lTm559tuIvatlT1u0JYG2,6446001,61,2,"Pensaba que contigo iba a envejecer
 En otra vida, en otro mundo podrá ser
 En esta solo queda irme un día
 Y solamente verte en el atardecer
@@ -19818,7 +19818,7 @@ Ya no tengo mi sol, me paso en la luna
 Si te pienso, me tiro de una
 Eh-eh, mi diabla, mi ángel, mi loquita
 Mi diabla, mi ángel, mi loquita, eh-eh"
-11,Bad Bunny,Tití Me Preguntó,USA,1IHWl5LamUGEuP4ozKQSXZ,"Ey
+11,Bad Bunny,Tití Me Preguntó,USA,latin,1IHWl5LamUGEuP4ozKQSXZ,6414499,68,2,"Ey
 
 Tití me preguntó si tengo mucha' novia', mucha' novia'
 Hoy tengo a una, mañana otra, ey, pero no hay boda
@@ -19901,7 +19901,7 @@ No te enamore' de mí (No)
 No te enamore' de mí (No), no
 Sorry, yo soy así
 Ya no quiero ser así, no"
-12,Bad Bunny,NUEVAYoL,USA,5TFD2bmFKGhoCRbX61nXY5,"¡
+12,Bad Bunny,NUEVAYoL,USA,latin,5TFD2bmFKGhoCRbX61nXY5,6277332,59,3,"¡
 Nueva
  Yol
 !
@@ -19983,7 +19983,7 @@ Lo tiene' que move'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'
 Lo tiene' que move'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'
 Lo tiene' que move'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'-ve'
 Shh"
-13,Bruno Mars,Cha Cha Cha,USA,6QletrrmpkUpeJkipX9pgf,"You got me drinkin', spendin' my money
+13,Bruno Mars,Cha Cha Cha,USA,latin,6QletrrmpkUpeJkipX9pgf,6057711,1,13,"You got me drinkin', spendin' my money
 Got my lemon pepper steppers on, ooh, girl, you in trouble tonight
 Uh, I feel like dancin' (I feel like dancin')
 Little mama, you turn me on (Little mama, you turn me on)
@@ -20030,7 +20030,7 @@ Uh, uh, I like it like that, she workin' that back
 I don't know how to act, ooh-ooh-ooh-ooh
 
 Uh"
-14,Djo,End of Beginning,USA,3qhlB30KknSejmIvZZLjOD,"Just one more tear to cry, one teardrop from my eye
+14,Djo,End of Beginning,USA,latin,3qhlB30KknSejmIvZZLjOD,5964511,93,1,"Just one more tear to cry, one teardrop from my eye
 You better save it for
 The middle of the night when things aren't black and white
 Enter, Troubadour
@@ -20060,7 +20060,7 @@ And when I'm back in Chicago, I feel it
 Another version of me, I was in it
 Oh, I wave goodbye to the end of beginning
 (Goodbye, goodbye)"
-15,Don Toliver,Body,USA,0FlcmZ13DGRmscCroro9GO,"Wanna rock your body
+15,Don Toliver,Body,USA,latin,0FlcmZ13DGRmscCroro9GO,5909573,5,5,"Wanna rock your body
 Body (
 Oh my God, Jaasu, can I try on your glasses?
 )
@@ -20135,7 +20135,7 @@ Body
 Oh, I'll go crazy about her body
 Body
 Wanna rock your body"
-16,Bruno Mars,God Was Showing Off,USA,1sVBT215CDmVJvfy1E2OCU,"Uno, dos, tres, y otra vez
+16,Bruno Mars,God Was Showing Off,USA,latin,1sVBT215CDmVJvfy1E2OCU,5718926,1,16,"Uno, dos, tres, y otra vez
 Hey, oh, ooh
 
 Is it your eyes that light my sky?
@@ -20208,7 +20208,7 @@ Come on, rock with me, baby
 (Rock, rock) Yeah
 (Rock, rock)
 (Rock, rock)"
-17,Alex Warren,FEVER DREAM,USA,7ogpGbKc4Io6NCU6ydxXwZ,"How did you know
+17,Alex Warren,FEVER DREAM,USA,latin,7ogpGbKc4Io6NCU6ydxXwZ,5626564,1,17,"How did you know
 I was hoping for a sign?
 My heart was so
 Close to closing time
@@ -20248,7 +20248,7 @@ Like our shadows dancing us out of our clothes
 I'll be damned if you love me, damned if you don't
 
 Oh, if you don't"
-18,Alex Warren,Ordinary,USA,2RkZ5LkEzeHGRsmDqKwmaJ,"They say, ""The holy water's watered down
+18,Alex Warren,Ordinary,USA,latin,2RkZ5LkEzeHGRsmDqKwmaJ,5504835,56,1,"They say, ""The holy water's watered down
 And this town's lost its faith
 Our colors will fade eventually""
 So, if our time is runnin' out
@@ -20299,7 +20299,7 @@ Somethin' so out (Out) of the ordinary
 You got me kissing the ground (Ground) of your sanctuary (Sanctuary)
 Shatter me with your touch, oh, Lord, return me to dust
 The angels up in the clouds are jealous knowin' we found"
-19,Bad Bunny,EoO,USA,6J5kc12BW5HuP3d7C3vvx8,"Ella viene por ahí y nunca llega sola, so-so-so-so—
+19,Bad Bunny,EoO,USA,latin,6J5kc12BW5HuP3d7C3vvx8,5343477,52,4,"Ella viene por ahí y nunca llega sola, so-so-so-so—
 Ella nunca llega sola
 To' los bandi-bandido' le sueltan las pistola', pa-pa-pa-pa—
 Esta es noche lo que hay-hay-hay-hay-hay (Dice)
@@ -20387,7 +20387,7 @@ Yeah-yeah-yeah-yeah, yeah-yeah-yeah-yeah
 Bad Bunny, baby, Bad Bunny, baby, eh
 Tainy, Tainy, Tainy, Tainy
 Chequéate la historia"
-20,Bella Kay,iloveitiloveitiloveit,USA,5IMpnpD0tQVcqWlVIgtAtV,"I like being used, it means I have a purpose
+20,Bella Kay,iloveitiloveitiloveit,USA,latin,5IMpnpD0tQVcqWlVIgtAtV,5324572,3,20,"I like being used, it means I have a purpose
 It's the little things you do, at least you're being earnest
 Oh, maybe I'm too fragile
 But maybe you're too mean
@@ -20439,7 +20439,7 @@ Yeah, I, I loved it, I, I loved it, I
 I'd be lying if I said I didn't love it, 'cause I do
 I'm a couple minutes out from relapsing into you, oh, fuck it
 I only love it 'cause it's you"
-21,The Killers,Mr. Brightside,USA,003vvx7Niy0yvhvHt4a68B,"Comin' out of my cage and I've been doin' just fine
+21,The Killers,Mr. Brightside,USA,latin,003vvx7Niy0yvhvHt4a68B,5322691,284,16,"Comin' out of my cage and I've been doin' just fine
 Gotta, gotta be down because I want it all
 It started out with a kiss, how did it end up like this?
 It was only a kiss, it was only a kiss
@@ -20493,7 +20493,7 @@ I never
 I never
 I never
 I never"
-22,sombr,Homewrecker,USA,7tICCrK3CcyRFKza7yrR0z,"Ooh-ooh-ooh, ooh-ooh-ooh
+22,sombr,Homewrecker,USA,latin,7tICCrK3CcyRFKza7yrR0z,5283234,4,12,"Ooh-ooh-ooh, ooh-ooh-ooh
 Ooh-ooh-ooh, ooh-ooh-ooh
 Ooh-ooh-ooh, ooh-ooh-ooh, ooh
 
@@ -20557,7 +20557,7 @@ Ooh-ooh-ooh, ooh-ooh-ooh (Oh-oh)
 Ooh-ooh-ooh, ooh-ooh-ooh (Oh-oh)
 Ooh-ooh-ooh, ooh-ooh-ooh (Oh-oh)
 Ooh-ooh-ooh, ooh-ooh-ooh"
-23,sombr,back to friends,USA,7qjZnBKE73H4Oxkopwulqe,"Touch my body tender
+23,sombr,back to friends,USA,latin,7qjZnBKE73H4Oxkopwulqe,5188435,50,2,"Touch my body tender
 'Cause the feeling makes me weak
 Kicking off the covers
 I see the ceiling while you're looking down at me
@@ -20594,7 +20594,7 @@ How can you look at me and pretend
 I'm someone you've never met?
 
 I'm someone you've never met (Yeah)"
-24,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,USA,1CPZ5BxNNd0n0nF4Orb9JS,"[Verse: Rumi, 
+24,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,USA,latin,1CPZ5BxNNd0n0nF4Orb9JS,5165888,37,1,"[Verse: Rumi, 
 Zoey
 , 
 Mira
@@ -20671,7 +20671,7 @@ Oh
 Born to be, born to be glowin', 밝게 빛나는 우리
 You know that it's our time, no fears, no lies (Oh)
 That's who we're born to be"
-25,Taylor Swift,The Fate of Ophelia,USA,53iuhJlwXhSER5J2IYYv1W,"I heard you calling on the megaphone
+25,Taylor Swift,The Fate of Ophelia,USA,latin,53iuhJlwXhSER5J2IYYv1W,5146569,22,1,"I heard you calling on the megaphone
 You wanna see me all alone
 As legend has it, you are quite the pyro
 You light the match to watch it blow
@@ -20746,7 +20746,7 @@ It's 'bout to be the sleepless night you've been dreaming of
 The fate of Ophelia
 
 You saved my heart from the fate of Ophelia"
-26,Fleetwood Mac,Dreams - 2004 Remaster,USA,0ofHAoxe9vBkTCp2UQIavz,"Stevie Nicks - Edge of Seventeen (2016 Remaster)
+26,Fleetwood Mac,Dreams - 2004 Remaster,USA,latin,0ofHAoxe9vBkTCp2UQIavz,5038615,267,6,"Stevie Nicks - Edge of Seventeen (2016 Remaster)
 Joan Jett & The Blackhearts - I Love Rock 'N Roll
 Blondie - One Way Or Another
 The Cranberries - Zombie
@@ -20838,7 +20838,7 @@ Kate Bush - This Woman's Work
 BLOXX - Curtains
 The Regrettes - California Friends
 Liz Phair - Never Said (Remastered)"
-27,Bruno Mars,Why You Wanna Fight?,USA,3Ac4AjYkqsvop2ydbSAhTX,"Ooh-woo (Ooh)
+27,Bruno Mars,Why You Wanna Fight?,USA,latin,3Ac4AjYkqsvop2ydbSAhTX,4968802,1,27,"Ooh-woo (Ooh)
 Woo
 Woo (Ooh)
 Ah
@@ -20890,7 +20890,7 @@ Sweet, tender love
 Why, why, why, why, why, why, why? (Why you wanna fight?)
 Let me show you I can make it right
 Oh, I can make it right tonight"
-28,Ella Langley,Be Her,USA,05CjWFAcAlY6O9po6Qwakk,"She drinks wine by the glass, not by the bottle
+28,Ella Langley,Be Her,USA,latin,05CjWFAcAlY6O9po6Qwakk,4907065,3,23,"She drinks wine by the glass, not by the bottle
 She ain't stuck on the past, ain't worried about tomorrow
 She's a lover, a mother, a sister, and wife
 She rolls over in the morning to the love of her life
@@ -20932,7 +20932,7 @@ It hurts so bad
 
 I just wanna be her, I just wanna be her so bad
 Yeah, it hurts so bad"
-29,Ella Langley,weren't for the wind,USA,2A22iI0x4EYAVXNpKPhNEM,"I wouldn't paint me as a heartbreaker
+29,Ella Langley,weren't for the wind,USA,latin,2A22iI0x4EYAVXNpKPhNEM,4806197,46,15,"I wouldn't paint me as a heartbreaker
 But I've said a few goodbyes
 I'd make a promise but I know later
 I'm bound to change my mind
@@ -20985,7 +20985,7 @@ It wouldn't be the rearview lookin' in
 If it weren't for the wind
 
 If it weren't for the wind"
-30,Bruno Mars,Dance With Me,USA,1myZ6GQewhAzMH2dKtKSWK,"Ooh-ooh-ooh, ooh, ooh, ooh, ooh (Mm)
+30,Bruno Mars,Dance With Me,USA,latin,1myZ6GQewhAzMH2dKtKSWK,4806053,1,30,"Ooh-ooh-ooh, ooh, ooh, ooh, ooh (Mm)
 Ooh-ooh-ooh, ooh, ooh, ooh
 
 Dance with me, darling
@@ -21030,7 +21030,7 @@ And I don't wanna dance with nobody, nobody, nobody but you (Dance with me, darl
 Nobody but you (Dance with me, darling, dance with me just one more time)
 Ooh (Dance with me, darling, dance with me just one more time)
 Ooh-ooh, ooh"
-31,Luke Combs,Be By You,USA,7aLndReanHBzpTGE5Am9H8,"Kinda like an old jon boat on some large mouth water
+31,Luke Combs,Be By You,USA,latin,7aLndReanHBzpTGE5Am9H8,4755976,3,13,"Kinda like an old jon boat on some large mouth water
 Kinda like that breeze that blows through a sweet home holler
 I can't leave your lovin' alone
 Where you are is where I belong
@@ -21066,7 +21066,7 @@ I just wanna make love, wake up next to you
 No makeup, baby, nothing beats that view
 I guess what it comes down to
 Is I just wanna be by you"
-32,Morgan Wallen,I Got Better,USA,4gfrYDtaRmp6HPvN80V2ob,"Everything's still pretty much the same 'round here
+32,Morgan Wallen,I Got Better,USA,latin,4gfrYDtaRmp6HPvN80V2ob,4736574,42,3,"Everything's still pretty much the same 'round here
 Neighbors still shootin' all of next year's deer
 Boys still lose 'less they're playin' at home
 But I got better since you got gone
@@ -21113,7 +21113,7 @@ Wasn't no tellin' who I'd turn into
 But it turns out me and you together's why it took so long
 'Cause I got better since you got gone
 Yeah, baby, since you got gone"
-33,RAYE,WHERE IS MY HUSBAND!,USA,55lijDD6OAjLFFUHU9tcDm,"Baby (Woo-hoo), where the hell is my husband? (Woo-hoo)
+33,RAYE,WHERE IS MY HUSBAND!,USA,latin,55lijDD6OAjLFFUHU9tcDm,4721327,24,10,"Baby (Woo-hoo), where the hell is my husband? (Woo-hoo)
 What is takin' him so long to find me? (Woo-hoo)
 Oh, baby, where the hell is my lover?
 Getting down with another? (Woo-hoo, yeah)
@@ -21204,7 +21204,7 @@ I would like a diamond ring on my wedding finger
 I would like a big and shiny (Woo)
 Diamond (Yes), diamond (Yes), diamond (Yes), diamond (Yes), diamond (Yes), oh (Oh)
 Where is my husband? (Ah)"
-34,Bruno Mars,On My Soul,USA,4i4BVY2JiH4mDSLIBdNGKD,"Ooh
+34,Bruno Mars,On My Soul,USA,latin,4i4BVY2JiH4mDSLIBdNGKD,4685414,1,34,"Ooh
 Oh-oh, oh-oh, oh
 Mmm
 
@@ -21258,7 +21258,7 @@ Put it on my soul, ooh
 I'ma love you like you've never been loved before
 Oh, put it on anything, put it on everything
 On my soul, on my soul"
-35,Radiohead,Creep,USA,70LcF31zb1H0PyJoS1Sx1r,"When you were here before
+35,Radiohead,Creep,USA,latin,70LcF31zb1H0PyJoS1Sx1r,4377046,95,12,"When you were here before
 Couldn't look you in the eye
 You're just like an angel
 Your skin makes me cry
@@ -21302,7 +21302,7 @@ I'm a weirdo
 What the hell am I doin' here?
 I don't belong here
 I don't belong here"
-36,The Goo Goo Dolls,Iris,USA,6Qyc6fS4DsZjB2mRW9DsQs,"And I'd give up forever to touch you
+36,The Goo Goo Dolls,Iris,USA,latin,6Qyc6fS4DsZjB2mRW9DsQs,4334230,106,13,"And I'd give up forever to touch you
 'Cause I know that you feel me somehow
 You're the closest to heaven that I'll ever be
 And I don't wanna go home right now
@@ -21339,7 +21339,7 @@ I just want you to know who I am
 I just want you to know who I am
 I just want you to know who I am
 I just want you to know who I am"
-37,Lil Uzi Vert,What You Saying,USA,7cjoZVmWe2xsGR4wcXiV2v,"(
+37,Lil Uzi Vert,What You Saying,USA,latin,7cjoZVmWe2xsGR4wcXiV2v,4140951,10,6,"(
 MC, make another hit
 )
 
@@ -21390,7 +21390,7 @@ And she gon' perform it
 Look the same in morning (Woah)
 She don't stop, keep going (Keep going)
 I don't even know what she said but this what I hear in my head"
-38,SIENNA SPIRO,Die On This Hill,USA,2gYTC8DsplN3RNdpdBcCOQ,"Got me to stay, said that you need me
+38,SIENNA SPIRO,Die On This Hill,USA,latin,2gYTC8DsplN3RNdpdBcCOQ,4125887,10,15,"Got me to stay, said that you need me
 Starved 'cause these words don't have a meaning
 No, they don't, at least not to me
 There'll be a day, I'll be more creative
@@ -21427,7 +21427,7 @@ Know I'm not blind, just seeing it through
 You'd take my life just for the thrill
 I'll take tonight and die on this hill
 I always, always, I always will"
-39,Zara Larsson,Lush Life,USA,1rIKgCH4H52lrvDcz50hS8,"I live my day as if it was the last
+39,Zara Larsson,Lush Life,USA,latin,1rIKgCH4H52lrvDcz50hS8,4063841,10,19,"I live my day as if it was the last
 Live my day as if there was no past
 Doin' it all night, all summer
 Doin' it the way I wanna
@@ -21509,7 +21509,7 @@ Now I've found another crush
 The lush life's givin' me a rush
 Had one chance to make me blush
 Second time is one too late"
-40,Arctic Monkeys,505,USA,58ge6dfP91o9oXMzq3XkIS,"I'm going back to 505
+40,Arctic Monkeys,505,USA,latin,58ge6dfP91o9oXMzq3XkIS,4049567,267,18,"I'm going back to 505
 If it's a seven hour flight or a forty-five minute drive
 In my imagination, you're waitin' lyin' on your side
 With your hands between your thighs
@@ -21542,7 +21542,7 @@ I'm going back to 505
 If it's a seven hour flight or a forty-five minute drive
 In my imagination, you're waitin' lyin' on your side
 With your hands between your thighs and a smile"
-41,The Neighbourhood,Sweater Weather,USA,0cQVqPuHQP4KEwc7ZUQmj6,"And all I am is a man
+41,The Neighbourhood,Sweater Weather,USA,latin,0cQVqPuHQP4KEwc7ZUQmj6,4018932,289,8,"And all I am is a man
 I want the world in my hands
 I hate the beach, but I stand
 In California with my toes in the sand
@@ -21602,7 +21602,7 @@ Let me hold both your hands in the holes of my sweater
 
 And it's too cold, it's too cold
 The holes of my sweater"
-42,Taylor Swift,Opalite,USA,3yWuTOYDztXjZxdE2cIRUa,"I had a bad habit
+42,Taylor Swift,Opalite,USA,latin,3yWuTOYDztXjZxdE2cIRUa,4017919,22,2,"I had a bad habit
 Of missing lovers past
 My brother used to call it
 ""Eating out of the trash""
@@ -21670,7 +21670,7 @@ Oh, my Lord
 Never met no one like you before (No)
 You had to make your own sunshine
 But now, the sky is opalite, oh-oh, oh, oh, oh, oh"
-43,Noah Kahan,The Great Divide,USA,77zqs8ucHCSk5jh9TYec4b,"I can't recall the last time that we talked
+43,Noah Kahan,The Great Divide,USA,latin,77zqs8ucHCSk5jh9TYec4b,4015208,5,1,"I can't recall the last time that we talked
 About anything but looking out for cops
 We got cigarette burns in the same side of our hands, we ain't friends
 We're just morons, who broke skin in the same spot
@@ -21737,7 +21737,7 @@ I hope you threw a brick right into that stained glass
 I hope you're with someone who isn't scared to ask
 I hope that you're not losing sleep about what's next
 Or about your soul and what He might do with it"
-44,She & Him,I Thought I Saw Your Face Today,USA,0myRViRgmQ3J8izICXEAVO,"I thought I saw your face today
+44,She & Him,I Thought I Saw Your Face Today,USA,latin,0myRViRgmQ3J8izICXEAVO,3964137,14,8,"I thought I saw your face today
 But I just turned my head away
 Your face against the trees
 But I just see the memories as they come, as they come
@@ -21771,7 +21771,7 @@ No, I couldn't help but fall in love again
 No, I couldn't help but fall in love again
 No, I couldn't help but fall in love again
 No, I couldn't help but fall in love again"
-45,Don Toliver,No Pole,USA,0eaVIYo2zeOaGJeqZ5TwYz,"Yeah, uh-uh, uh-uh
+45,Don Toliver,No Pole,USA,latin,0eaVIYo2zeOaGJeqZ5TwYz,3943567,72,25,"Yeah, uh-uh, uh-uh
 Uh-uh, yeah-yeah, yeah-yeah
 Uh-uh, yeah
 
@@ -21827,7 +21827,7 @@ Pull out, sent her on her way
 She don't wanna hit the strip club, no, no
 She don't wanna go strip, no, no
 She don't wanna go strip, no way"
-46,Bruno Mars,Something Serious,USA,0PV4VQCmE6Ujssr1bnswdF,"Ooh, I got it bad for ya
+46,Bruno Mars,Something Serious,USA,latin,0PV4VQCmE6Ujssr1bnswdF,3934958,1,46,"Ooh, I got it bad for ya
 You've got to understand
 You should be my boo thang, my boo thang
 I should be your mans
@@ -21871,7 +21871,7 @@ Come on, come on, come on, baby, yeah (Ooh, yeah, yeah, yeah)
 Come on, come on, come on, baby, yeah (Ooh, yeah, yeah, yeah)
 Let's talk about me and you (Ooh, yeah, yeah, yeah)
 Talk about you and me (Ooh, yeah, yeah, yeah)"
-47,sombr,12 to 12,USA,05od2qm2MTSKCHxy1GBp5W,"I don't want anyone else
+47,sombr,12 to 12,USA,latin,05od2qm2MTSKCHxy1GBp5W,3880260,32,12,"I don't want anyone else
 From the hours of 12 to 12
 I am not the least compelled
 By anyone but yourself
@@ -21923,7 +21923,7 @@ In a room full of people, I look for you
 Would you avoid me or would you see me through?
 Tell me, is our story through? (Through)
 Or do our hearts still beat in tune?"
-48,"Lady Gaga, Bruno Mars",Die With A Smile,USA,7so0lgd0zP2Sbgs2d7a1SZ,"(Ooh, ooh)
+48,"Lady Gaga, Bruno Mars",Die With A Smile,USA,latin,7so0lgd0zP2Sbgs2d7a1SZ,3863584,81,1,"(Ooh, ooh)
 
 I, I just woke up from a dream
 Where you and I had to say goodbye
@@ -21982,7 +21982,7 @@ I'd wanna be next to you
 
 (Ooh, ooh)
 I'd wanna be next to you"
-49,Bruno Mars,Nothing Left,USA,0Sq6JK9kyC4MQa3KrJj5CB,"You used to light up when I called to say, ""I love you""
+49,Bruno Mars,Nothing Left,USA,latin,0Sq6JK9kyC4MQa3KrJj5CB,3828060,1,49,"You used to light up when I called to say, ""I love you""
 But these days, maybe those words don't hit the same, uh
 All alone in this home that we built just thinking of you
 Thought our light would never fade away
@@ -22020,7 +22020,7 @@ We can't let our love slip away
 I'm reaching out for you, baby
 I need you to reach out and do the same, come on
 Ooh-ooh-ooh, oh-oh, ah-ah-ah, ah-ah"
-50,Dominic Fike,White Keys,USA,5ViLKrbyL3HD6wsq3AB9eI,"Ayy, pitch black Chevy antique, I was seventeen
+50,Dominic Fike,White Keys,USA,latin,5ViLKrbyL3HD6wsq3AB9eI,3797860,3,50,"Ayy, pitch black Chevy antique, I was seventeen
 I ain't have nothing but some tees and a pair of jeans
 Pine trees, but it smell like weed in the front seat
 You was en route to being famous and everything
@@ -22061,7 +22061,7 @@ I never knew (Oh)
 It was because of you (Oh, oh, oh, oh, ooh)
 I never knew (Oh, oh, oh, ooh)
 Oh, I guess I never— (Woah)"
-51,"Waka Flocka Flame, Roscoe Dash, Wale",No Hands (feat. Roscoe Dash & Wale),USA,03tqyYWC9Um2ZqU0ZN849H,"To honor the 25th anniversary of Billboard's Hot Rap Songs chart, we’re counting down the tally's top 100 tracks ever
+51,"Waka Flocka Flame, Roscoe Dash, Wale",No Hands (feat. Roscoe Dash & Wale),USA,latin,03tqyYWC9Um2ZqU0ZN849H,3740245,46,32,"To honor the 25th anniversary of Billboard's Hot Rap Songs chart, we’re counting down the tally's top 100 tracks ever
 Rap is a victorious genre. Having built its history on songs of overcoming the harshest of hard-knock lives, in addition to observances of all of life's nuances, rap is more than just dope beats and rhymes. Its lyrics tell stories with insights and uncommon honesty, traits that have ultimately taken the genre from niched inner-city beginnings to a longstanding place at the heart of pop culture
 So it was fitting for Billboard to create a chart, in 1989, dedicated to the then-rising genre, birthed out of hip-hop. At the time, MTV's influential ""Yo! MTV Raps"" was only a few months old, and acts like Ice-T and N.W.A were not only ruling rap but beginning to enter the mainstream music conversation
 While rap has evolved, there’s no denying its ever-growing power. To celebrate the 25th anniversary of the Billboard’s Hot Rap Songs chart, we’re counting down the top 100 songs in the tally’s quarter-century history. From Salt-N-Pepa to Macklemore, we've got the genre's past quarter-century covered
@@ -22165,7 +22165,7 @@ While rap has evolved, there’s no denying its ever-growing power. To celebrate
 3. ""Hot Boyz"" - Missy ""Misdemeanor"" Elliot feat. Nas, Eve, & Q-Tip
 2. ""Tootsee Roll"" - 69 Boyz
 1. ""Thrift Shop"" - Macklemore & Ryan Lewis feat. Wanz"
-52,"BigXthaPlug, Ella Langley",Hell At Night (feat. Ella Langley),USA,3pAVk6Ydn0dcGpG8gDyxSJ,"Heartbreak's a funny thing
+52,"BigXthaPlug, Ella Langley",Hell At Night (feat. Ella Langley),USA,latin,3pAVk6Ydn0dcGpG8gDyxSJ,3717552,29,19,"Heartbreak's a funny thing
 How it makes you think, what it makes you want
 Why, when it ends, does gettin' revenge
 Sound better than movin' on?
@@ -22219,7 +22219,7 @@ And just can't ignore it
 Tossin' and turnin'
 I hope it's hell at night
 And my memory's burnin', burnin'"
-53,Whiskey Myers,Broken Window Serenade,USA,1VOSSXuWRcBj2rpfxNdX9v,"A couple of pretty flowers
+53,Whiskey Myers,Broken Window Serenade,USA,latin,1VOSSXuWRcBj2rpfxNdX9v,3709236,31,52,"A couple of pretty flowers
 That's what I brought to you
 I saw you through a broken window
 With a different point of view
@@ -22277,7 +22277,7 @@ A couple of pretty flowers
 That's what I brought to you
 I saw you through a broken window
 With a different point of view"
-54,Drake,Headlines,USA,6LxSe8YmdPxy095Ux6znaQ,"I might be too strung out on compliments
+54,Drake,Headlines,USA,latin,6LxSe8YmdPxy095Ux6znaQ,3678273,53,28,"I might be too strung out on compliments
 Overdosed on confidence
 Started not to give a fuck and stopped fearin' the consequence
 Drinkin' every night because we drink to my accomplishments
@@ -22342,7 +22342,7 @@ They know
 They know, they know, they know
 They know, they know, they know
 They know, they know, they know (Yeah)"
-55,Olivia Dean,A Couple Minutes,USA,312z6PZ8wwREck8613PkJk,"Turn around
+55,Olivia Dean,A Couple Minutes,USA,latin,312z6PZ8wwREck8613PkJk,3604047,17,27,"Turn around
 Since when are you smoking now?
 It's been a while
 Let me know, mm
@@ -22387,7 +22387,7 @@ Oh-oh, hey
 Only have a couple minutes, guess we're going back to real life
 Oh-oh, hey
 Have a couple minutes and we're going back to real life"
-56,Sabrina Carpenter,Manchild,USA,2BwO5K8Q7EPAJSGze3AAh9,"Oh boy
+56,Sabrina Carpenter,Manchild,USA,latin,2BwO5K8Q7EPAJSGze3AAh9,3601228,39,1,"Oh boy
 
 You said your phone was broken, just forgot to charge it
 Whole outfit you're wearing, God, I hope it's ironic
@@ -22440,7 +22440,7 @@ Oh, I like my boys playing hard to get (Play hard to get)
 And I like my men all incompetent (Incompetent)
 And I swear they choose me, I'm not choosing them (Not choosing them)
 Amen (Amen), hey, men (Hey, men)"
-57,Bruno Mars,That's What I Like,USA,0KKkJNfGyhkQ5aFogxQAPU,"Ayy, ayy, ayy
+57,Bruno Mars,That's What I Like,USA,latin,0KKkJNfGyhkQ5aFogxQAPU,3454324,108,3,"Ayy, ayy, ayy
 I got a condo in Manhattan
 Baby girl, what's happenin'?
 You and your ass invited
@@ -22521,7 +22521,7 @@ Sex by the fire at night
 Silk sheets and diamonds all white (All white)
 Lucky for you, that's what I like, that's what I like (That's what I like, babe)
 Lucky for you, that's what I like, that's what I like (Ooh, ooh, ooh)"
-58,"Mac Miller, Empire Of The Sun",The Spins,USA,2QGVKiAGTa1YcDqPMhAzF7,"Dope shit like that, Jerm
+58,"Mac Miller, Empire Of The Sun",The Spins,USA,latin,2QGVKiAGTa1YcDqPMhAzF7,3450290,204,58,"Dope shit like that, Jerm
 Oh, hi
 Welcome back to 
 K.I.D.S.
@@ -22603,7 +22603,7 @@ Smile (Uh-huh)
 Baby, don't cry
 I will only fly
 With you by my side"
-59,Ravyn Lenae,Love Me Not,USA,4WFgvKVfEhb3IUAFGrutTR,"See, right now, I need you, I'll meet you somewhere now
+59,Ravyn Lenae,Love Me Not,USA,latin,4WFgvKVfEhb3IUAFGrutTR,3447969,52,5,"See, right now, I need you, I'll meet you somewhere now
 You up now, I see you, I get you, take care now
 Slow down, be cool, I miss you, come here now
 It's yours now, keep it, I'll hold out until now
@@ -22661,7 +22661,7 @@ And, oh, it's hard to see you, but I wish you were right here (I'm losing my min
 Oh, it's hard to leave you when I get you everywhere
 All this time I'm thinking, I'm strong enough to sink it
 Oh, no, I don't need you, but I miss you, come here"
-60,Billie Eilish,BIRDS OF A FEATHER,USA,6dOtVTDdiauQNBQEDOtlAB,"(But I wanna stay)
+60,Billie Eilish,BIRDS OF A FEATHER,USA,latin,6dOtVTDdiauQNBQEDOtlAB,3441993,94,2,"(But I wanna stay)
 
 I want you to stay
 'Til I'm in the grave
@@ -22708,7 +22708,7 @@ But if it's forever, it's even better
 I knew you in another life
 You had that same look in your eyes
 I love you, don't act so surprised"
-61,Gigi Perez,Sailor Song,USA,21IYMdzTrzSe191Cy5eMap,"I saw her in the rightest way
+61,Gigi Perez,Sailor Song,USA,latin,21IYMdzTrzSe191Cy5eMap,3417028,84,3,"I saw her in the rightest way
 Looking like Anne Hathaway
 Laughing while she hit her pen and coughed, and coughed
 And then she came up to my knees
@@ -22742,7 +22742,7 @@ And we can run away to the walls inside your house
 I can be the cat, baby, you can be the mouse
 And we can laugh off things that we know nothing about
 We can go forever or until you wanna sit it out"
-62,Malcolm Todd,Earrings,USA,0eAuGrXyGFYwur9ARUe7LJ,"Her love is in your head
+62,Malcolm Todd,Earrings,USA,latin,0eAuGrXyGFYwur9ARUe7LJ,3390042,9,62,"Her love is in your head
 You lost your earrings in her bed
 You couldn't tell her that you lost 'em
 'Cause you're scared and you're not talking
@@ -22784,8 +22784,8 @@ Malcolm's in his feelings and he can't get out of it
 Can't get out of it, can't get out of it
 
 Okay, well, I hope you like my mixtape"
-63,"Kendrick Lamar, SZA",luther (with sza),USA,2CGNAOSuO1MEFCbBRgUzjd,
-64,The Marías,No One Noticed,USA,3siwsiaEoU4Kuuc9WKMUy5,"Maybe I
+63,"Kendrick Lamar, SZA",luther (with sza),USA,latin,2CGNAOSuO1MEFCbBRgUzjd,3367319,67,1,
+64,The Marías,No One Noticed,USA,latin,3siwsiaEoU4Kuuc9WKMUy5,3366991,81,5,"Maybe I
 Lost my mind
 No one noticed
 No one noticed
@@ -22826,7 +22826,7 @@ I'd kinda like it if you'd call me
 (It's not right) 'Cause I'm so over bein' lonely
 (Make you mine) I need a virtual connection
 (Take our time) Be my video obsession"
-65,EsDeeKid,4 Raws,USA,554qQSs9lpRVq6TlaaiIKT,"(
+65,EsDeeKid,4 Raws,USA,latin,554qQSs9lpRVq6TlaaiIKT,3306676,15,10,"(
 Okay
 )
 (Phew, phew)
@@ -22928,7 +22928,7 @@ Okay
 )
 I'm rotten, I'm sick when I pour fours
 Every time I smoke, I light four Raws"
-66,Addison Rae,Fame is a Gun,USA,7B3BwNecBhKvNwSMOOl7Gk,"Tell me who I am, do I provoke you with my tone of innocence?
+66,Addison Rae,Fame is a Gun,USA,latin,7B3BwNecBhKvNwSMOOl7Gk,3300541,17,32,"Tell me who I am, do I provoke you with my tone of innocence?
 Don't ask too many questions, that is my one suggestion
 You know I keep it real, I live for the appeal
 Knew it from the start, it was the only way to mend my broken heart
@@ -22976,7 +22976,7 @@ I got a taste of the glamorous life (Uh-huh)
 
 I got a taste of the glamorous life (Uh-huh)
 I got a taste of the glamorous life"
-67,"Zach Bryan, Kacey Musgraves",I Remember Everything (feat. Kacey Musgraves),USA,4KULAymBBJcPRpk1yO4dOG,"安物のウイスキーが俺の心を癒してくれる
+67,"Zach Bryan, Kacey Musgraves",I Remember Everything (feat. Kacey Musgraves),USA,latin,4KULAymBBJcPRpk1yO4dOG,3293273,132,1,"安物のウイスキーが俺の心を癒してくれる
 ビーチタオルが物干し竿で揺れている
 俺が君に88年型フォードに乗った君の父さんを思い出させるかい？
 助手席ではラブラドールがくつろいでいる
@@ -23024,7 +23024,7 @@ I got a taste of the glamorous life"
 ビーチタオルが物干し竿で揺れている
 俺が君に88年型フォードに乗った君の父さんを思い出させるかい？
 助手席ではラブラドールがくつろいでいる"
-68,Fetty Wap,Trap Queen,USA,2d8JP84HNLKhmd6IYOoupQ,"RGF Productions
+68,Fetty Wap,Trap Queen,USA,latin,2d8JP84HNLKhmd6IYOoupQ,3280562,20,17,"RGF Productions
 Remy Boyz, yah-ah
 1738, ayy
 
@@ -23102,7 +23102,7 @@ Money out of sight cause fights
 Put up or shut up, huh?
 Nitt Da Gritt, huh, RGF Productions
 Squad"
-69,Tame Impala,The Less I Know The Better,USA,6K4t31amVTZDgR3sKmwUJJ,"Someone said they left together
+69,Tame Impala,The Less I Know The Better,USA,latin,6K4t31amVTZDgR3sKmwUJJ,3227760,172,59,"Someone said they left together
 I ran out the door to get her
 She was holding hands with Trevor
 Not the greatest feeling ever
@@ -23139,7 +23139,7 @@ Oh, sweet darling, where he wants ya
 So, come on, Superman, say your stupid line
 So, come on, Superman, say your stupid line
 So, come on, Superman, say your stupid line"
-70,"Drake, Wizkid, Kyla",One Dance,USA,1zi7xx7UVEFkmKfv06H8x0,"Senin tarzını seviyorum bebek
+70,"Drake, Wizkid, Kyla",One Dance,USA,latin,1zi7xx7UVEFkmKfv06H8x0,3215938,124,13,"Senin tarzını seviyorum bebek
 
 Eller belde
 Öne ve arkaya
@@ -23223,8 +23223,8 @@ Yüksek güçler beni tutuyor
 İki ""N"" ve iki ""S"" koyuyorum, böyle mi? Hen... Henn... Henn...
 Kesinlikle çıkmıyor
 ""Hennessy""nin iki tane ""S""i olduğundan eminim, o yüzden ""N""lerden birini çıkaracağım"
-71,"White Noise Radiance, Rain Sounds","Rain Sounds for Sleeping, Pt. 06 (Continuous No Gaps)",USA,7gF2mPcjipv2hLGHY7bi17,
-72,Morgan Wallen,I'm The Problem,USA,7AeM1BGYM7emrqmQn1PuWv,"You say I'll never change
+71,"White Noise Radiance, Rain Sounds","Rain Sounds for Sleeping, Pt. 06 (Continuous No Gaps)",USA,latin,7gF2mPcjipv2hLGHY7bi17,3214702,5,60,
+72,Morgan Wallen,I'm The Problem,USA,latin,7AeM1BGYM7emrqmQn1PuWv,3213867,57,4,"You say I'll never change
 I'm just a-go around town with some gasoline
 Just tryin' to bum a flame
 Gonna burn the whole place down
@@ -23271,7 +23271,7 @@ Then why you keep on pullin' it off the shelf?
 You hate that when you look at me, you halfway see yourself
 And it got me thinkin'
 If I'm the problem, well, you might be the reason"
-73,Bad Bunny,VOY A LLeVARTE PA PR,USA,59D4DOkspUbWyMmbAPQkxZ,"Acho, PR es otra cosa
+73,Bad Bunny,VOY A LLeVARTE PA PR,USA,latin,59D4DOkspUbWyMmbAPQkxZ,3208901,26,7,"Acho, PR es otra cosa
 Yo la conocí en Miami, en Brickell
 Ella sabe que aquí hay ticket
 Quiere que yo se la aplique
@@ -23327,7 +23327,7 @@ Que bailen toa' las gata', nos fuimo' algarete
 Dale, mami, suéltate el grillete
 Ponte en cuatro, que te vo'a dar fuete
 Ponte en cuatro, que te vo'a dar fue—"
-74,Brent Faiyaz,butterflies.,USA,4jyyma8YdFC4S4llusSFRu,"Maybe it's a little bit rushed, but I'm falling in love
+74,Brent Faiyaz,butterflies.,USA,latin,4jyyma8YdFC4S4llusSFRu,3178817,3,37,"Maybe it's a little bit rushed, but I'm falling in love
 Hope that's not too much, but this isn't a crush
 I've done that enough, girl, I know that it's real
 It's like you fell down from Heaven (Oh, no)
@@ -23373,7 +23373,7 @@ And you're the last of your kind (For what's it's worth, girl, you inspire me)
 Yeah, you know, know, know that you're Superwoman (Somehow you're perfect, but don't try to be)
 You're a dying breed (You're the last of your kind)
 For what it's worth, girl, you inspire me"
-75,Daniel Caesar,Who Knows,USA,6DH13QYXK7lKkYHSU88N48,"I'll probably be a waste of your time, but who knows?
+75,Daniel Caesar,Who Knows,USA,latin,6DH13QYXK7lKkYHSU88N48,3149055,19,34,"I'll probably be a waste of your time, but who knows?
 Chances are I'll step out of line, but who knows?
 Lately, you've set up in my mind
 Yeah, girl, you, and I like that
@@ -23402,7 +23402,7 @@ Maybe we get married one day, but who knows?
 Think I'll take that thought to the grave, but who knows?
 I know that I'll love you always
 Yeah, girl you, and I'd like that"
-76,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",USA,3GCdLUSnKSMJhs4Tj6CV3s,"Meanings of Categories:10: A+ (GOAT - Can be multiple GOAT albums)
+76,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",USA,latin,3GCdLUSnKSMJhs4Tj6CV3s,3143542,182,2,"Meanings of Categories:10: A+ (GOAT - Can be multiple GOAT albums)
 9-9.9: A (Classic)
 8-9: B+ (Amazing / Essentials)
 7-8: B (Great)
@@ -23564,7 +23564,7 @@ Gunna & Lil Baby: Drip Harder - 4.1
 Gunna: The Last Wun - 4.03-4Kanye West: Donda 2 - 3.9
 Rae Sremmurd: Sremm 4 Life - 3.6
 Lil Uzi Vert: Eternal Atake 2 - 3.4"
-77,J. Cole,No Role Modelz,USA,68Dni7IE4VyPkTOH9mRWHr,"First things first: rest in peace, Uncle Phil
+77,J. Cole,No Role Modelz,USA,latin,68Dni7IE4VyPkTOH9mRWHr,3120302,411,10,"First things first: rest in peace, Uncle Phil
 For real
 You the only father that I ever knew
 I get my bitch pregnant, I'ma be a better you
@@ -23669,7 +23669,7 @@ Don't save her, she don't wanna be saved
 Don't save her, she don't wanna be saved
 Don't save her, she don't wanna be saved
 Don't save her, she don't wanna be saved"
-78,Tame Impala,Dracula,USA,1NXbNEAcPvY5G1xvfN57aA,"Oh-oh-oh-oh-oh, oh-oh-oh-oh-oh
+78,Tame Impala,Dracula,USA,latin,1NXbNEAcPvY5G1xvfN57aA,3117318,23,8,"Oh-oh-oh-oh-oh, oh-oh-oh-oh-oh
 Oh-oh-oh-oh-oh, oh-oh-oh-oh-oh
 (Check it out now)
 
@@ -23724,7 +23724,7 @@ Isn't the view spectacular? (Run from the sunlight, Dracula)
 Run from the sunlight, Dracula (Run from the sunlight, Dracula)
 Run from the sunlight, Dracula (Run from the sunlight, Dracula)
 Isn't the view spectacular?"
-79,Benson Boone,Beautiful Things,USA,3xkHsmpQCBMytMJNiDf3Ii,"For a while there, it was rough
+79,Benson Boone,Beautiful Things,USA,latin,3xkHsmpQCBMytMJNiDf3Ii,3112335,111,1,"For a while there, it was rough
 But lately, I've been doin' better
 Than the last four cold Decembers I recall
 And I see my family every month
@@ -23769,7 +23769,7 @@ Please stay
 I want you, I need you, oh God
 I need
 These beautiful things that I've got"
-80,Chappell Roan,Pink Pony Club,USA,6393yGahSJ9slVdOwSxOVR,"I know you wanted me to stay
+80,Chappell Roan,Pink Pony Club,USA,latin,6393yGahSJ9slVdOwSxOVR,3105145,91,8,"I know you wanted me to stay
 But I can't ignore the crazy visions of me in L.A. 
 And I heard that there's a special place
 Where boys and girls can all be queens every single day
@@ -23828,7 +23828,7 @@ Pink Pony Club, Pink Pony Club
 
 I'm gonna keep on dancing
 I'm gonna keep on dancing"
-81,Frank Ocean,Nights,USA,7eqoqGkKwgOaWNNHx90uEZ,"'Round your city, 'round the clock
+81,Frank Ocean,Nights,USA,latin,7eqoqGkKwgOaWNNHx90uEZ,3082354,4,81,"'Round your city, 'round the clock
 Everybody needs you
 No, you can't make everybody equal
 Although you got beaucoup family
@@ -23930,7 +23930,7 @@ Every day shit, every night shit (Every night shit, every day shit)
 Every day shit, every day shit (Every night shit, every night shit)
 Every day shit, every day shit (Every night shit, every night shit)
 Every night shit"
-82,Lit,My Own Worst Enemy,USA,33iv3wnGMrrDugd7GBso1z,"Can we forget about the things I said when I was drunk?
+82,Lit,My Own Worst Enemy,USA,latin,33iv3wnGMrrDugd7GBso1z,3081820,8,82,"Can we forget about the things I said when I was drunk?
 I didn't mean to call you that
 I can't remember what was said or what you threw at me
 Please tell me
@@ -23962,7 +23962,7 @@ I came in through the window last night
 (Ah-ooh) 'Cause every now and then, I kick the livin' shit out of me
 (Ah-ooh) Can we forget about the things I said when I was drunk?
 (Ah-ooh) I didn't mean to call you that (Ooh)"
-83,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),USA,0FIDCNYYjNvPVimz5icugS,"Güneş parlıyor, sona erdi
+83,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),USA,latin,0FIDCNYYjNvPVimz5icugS,3034957,75,1,"Güneş parlıyor, sona erdi
 Yarın oldu
 Kendini ışıkta, aşkında yıka
 XO
@@ -24048,7 +24048,7 @@ Zamansız, zamansız, zamansız (Evet), zamansız
 Zamansız (Evet), zamansız, zamansız, zamansızız, oh
 Oh (Blatt)
 Oh (Yuh, yakıyor)"
-84,"Post Malone, Morgan Wallen",I Had Some Help (Feat. Morgan Wallen),USA,5IZXB5IKAD2qlvTPJYDCFB,"Você tem muita coragem, não tem, querida?
+84,"Post Malone, Morgan Wallen",I Had Some Help (Feat. Morgan Wallen),USA,latin,5IZXB5IKAD2qlvTPJYDCFB,3032828,95,1,"Você tem muita coragem, não tem, querida?
 Eu só encho a cara porque você me faz fazer isso
 Você 'tá dizendo pra todos os seus amigos que eu sou louco
 Como se eu fosse o único
@@ -24100,7 +24100,7 @@ Eles dizem, ""Trabalho em equipe faz o sonho acontecer""
 (Ajuda)
 (Ajuda)
 (Ajuda)"
-85,"Disco Lines, Tinashe",No Broke Boys,USA,3cZajhyr8LmtPfHZ9296tj,"No, that, no, that, no, that (Disco)
+85,"Disco Lines, Tinashe",No Broke Boys,USA,latin,3cZajhyr8LmtPfHZ9296tj,3022409,38,15,"No, that, no, that, no, that (Disco)
 
 Ex on the line, just as I suspected
 No one really gets over me
@@ -24169,7 +24169,7 @@ No broke boys, no new friends
 
 (No, that, no, that, no, that, no, that)
 No, that, no, that, no, that, no, that"
-86,Zach Bryan,Something in the Orange,USA,3WMj8moIAXJhHsyLaqIIHI,"It'll be fine by dusk light, I'm tellin' you, baby
+86,Zach Bryan,Something in the Orange,USA,latin,3WMj8moIAXJhHsyLaqIIHI,3007362,202,4,"It'll be fine by dusk light, I'm tellin' you, baby
 These things eat at your bones and drive your young mind crazy
 But when you place your head between my collar and jaw
 I don't know much, but there's no weight at all
@@ -24203,7 +24203,7 @@ The orange touches all things around
 The grass, trees, and dew, how I just hate you
 Please turn those headlights around
 Please turn those headlights around"
-87,Coldplay,Sparks,USA,7D0RhFcb3CrfPuTJ0obrod,"Did I drive you away?
+87,Coldplay,Sparks,USA,latin,7D0RhFcb3CrfPuTJ0obrod,3005095,83,28,"Did I drive you away?
 I know what you'll say
 You say, ""Oh, sing one we know""
 But I promise you this
@@ -24233,7 +24233,7 @@ La-la-la-la, oh-oh
 La-la-la-la, oh-oh
 La-la-la-la, oh-oh
 La-la-la-la, oh-oh"
-88,Foo Fighters,Everlong,USA,5UWwZ5lm5PKu6eKsHAGxOk,"Hello, I've waited here for you
+88,Foo Fighters,Everlong,USA,latin,5UWwZ5lm5PKu6eKsHAGxOk,3001191,139,60,"Hello, I've waited here for you
 Everlong
 Tonight, I throw myself into
 And out of the red, out of her head, she sang
@@ -24292,7 +24292,7 @@ If everything could ever feel this real forever
 If anything could ever be this good again
 The only thing I'll ever ask of you
 You gotta promise not to stop when I say when"
-89,Teddy Swims,Lose Control,USA,17phhZDn6oGtzMe56NuWvj,"Something's got a hold of me lately
+89,Teddy Swims,Lose Control,USA,latin,17phhZDn6oGtzMe56NuWvj,2997492,121,10,"Something's got a hold of me lately
 No, I don’t know myself anymore
 Feels like the walls are all closin' in
 And the devil's knockin’ at my door, woah
@@ -24336,7 +24336,7 @@ I lose control
 When you're not here with me, mhm
 Yeah, you're breakin' my heart, baby
 You make a mess of me"
-90,Chris Stapleton,You Should Probably Leave,USA,2UikqkwBv7aIvlixeVXHWt,"I know it ain't all that late
+90,Chris Stapleton,You Should Probably Leave,USA,latin,2UikqkwBv7aIvlixeVXHWt,2995435,137,56,"I know it ain't all that late
 But you should probably leave
 And I recognize that look in your eyes
 Yeah, you should probably leave
@@ -24373,7 +24373,7 @@ I want you to stay but you'll probably say
 That you should probably leave
 Yeah, you should probably leave
 Oh, you should probably leave"
-91,Childish Gambino,Les,USA,7ghKr0pCYyPPyp7t1FH8k4,"Baby, you're the baddest
+91,Childish Gambino,Les,USA,latin,7ghKr0pCYyPPyp7t1FH8k4,2983206,40,70,"Baby, you're the baddest
 Baby, you're the baddest girl, and, uh
 Nobody else matters
 Nobody else matters girl, and, uh
@@ -24493,7 +24493,7 @@ We're kissing in the bathroom
 We're kissing in the bathroom girl, and, uh
 I hope nobody catch us
 But I kinda hope they catch us, anyway"
-92,Drake,Passionfruit,USA,5mCPDVBb16L4XQwDdbRUpz,"Hold on, hold on, fuck that
+92,Drake,Passionfruit,USA,latin,5mCPDVBb16L4XQwDdbRUpz,2958127,170,1,"Hold on, hold on, fuck that
 Fuck that shit
 Hold on, I got to start this motherfuckin' record over again, wait a minute
 Fuck that shit
@@ -24539,7 +24539,7 @@ Passin' up on my old ways
 I can't blame you, no, no
 
 Um, trying to think of the right thing to say"
-93,"Nelly Furtado, Timbaland",Promiscuous,USA,2gam98EZKrF9XuOkU13ApN,"Lenk' ich dich ab?
+93,"Nelly Furtado, Timbaland",Promiscuous,USA,latin,2gam98EZKrF9XuOkU13ApN,2948033,48,81,"Lenk' ich dich ab?
 Nein
 Dachte ich mir
 
@@ -24630,7 +24630,7 @@ Mm, mm, mm, mm
 Mm, mm, ah-ah-ah
 Eh-eh, eh-eh, ah-ah-ah
 Eh-eh, eh-eh, ah-ah-ah"
-94,"Kanye West, Dwele",Flashing Lights,USA,5TRPicyLGbAF2LGBFbHGvO,"Luces resplandecientes (Luces, luces)
+94,"Kanye West, Dwele",Flashing Lights,USA,latin,5TRPicyLGbAF2LGBFbHGvO,2944909,148,53,"Luces resplandecientes (Luces, luces)
 Luces resplandecientes (Luces, luces)
 Luces resplandecientes (Luces, luces)
 Luces resplandecientes (Luces, luces)
@@ -24690,7 +24690,7 @@ Luces resplandecientes (Luces, luces)
 ¿Que sé yo? Que sé
 Luces resplandecientes (Luces, luces)
 Luces resplandecientes (Luces, luces, luces, luces...)"
-95,Fleetwood Mac,The Chain - 2004 Remaster,USA,5e9TFTbltYBg2xThimr0rU,"Fuck
+95,Fleetwood Mac,The Chain - 2004 Remaster,USA,latin,5e9TFTbltYBg2xThimr0rU,2932250,39,63,"Fuck
 
 Listen to the wind blow
 Watch the sun rise
@@ -24731,7 +24731,7 @@ You would never break the chain (Never break the chain)
 (Chain, keep us together) Runnin' in the shadow
 (Chain, keep us together) Run in the shadow
 (Chain, keep us together) Run in the shadow"
-96,Fleetwood Mac,Landslide,USA,5ihS6UUlyQAfmp48eSkxuQ,"I took my love, took it down
+96,Fleetwood Mac,Landslide,USA,latin,5ihS6UUlyQAfmp48eSkxuQ,2931845,31,23,"I took my love, took it down
 I climbed a mountain and I turned around
 And I saw my reflection in the snow-covered hills
 'Til the landslide brought me down
@@ -24765,7 +24765,7 @@ Well, the landslide bring it down
 And if you see my reflection in the snow-covered hills
 Well, the landslide will bring it down
 Oh-ohh, the landslide bring it down"
-97,Rihanna,Don't Stop The Music,USA,1Jo0Zg7XlrA6z0mFTZVdkn,"Please don't stop the music
+97,Rihanna,Don't Stop The Music,USA,latin,1Jo0Zg7XlrA6z0mFTZVdkn,2927272,19,81,"Please don't stop the music
 Please don't stop the music
 Please don't stop the music
 Please don't stop the music
@@ -24870,7 +24870,7 @@ Please don't stop the music
 (
 Music, music, music, music, music, music, music
 )"
-98,Chappell Roan,"Good Luck, Babe!",USA,0WbMK4wrZ1wFSty9F7FCgu,"It's fine, it's cool
+98,Chappell Roan,"Good Luck, Babe!",USA,latin,0WbMK4wrZ1wFSty9F7FCgu,2920252,99,1,"It's fine, it's cool
 You can say that we are nothing, but you know the truth
 And guess I'm the fool
 With her arms out like an angel through the car sunroof
@@ -24932,7 +24932,7 @@ You'd have to stop the world just to stop the feeling
 You'd have to stop the world just to stop the feeling
 You'd have to stop the world just to stop the feeling
 You'd have to stop the world just to stop the feeling"
-99,Bruno Mars,Locked out of Heaven,USA,5g7sDjBhZ4I3gcFIpkrLuI,"(One, two, one, two, three)
+99,Bruno Mars,Locked out of Heaven,USA,latin,5g7sDjBhZ4I3gcFIpkrLuI,2917448,57,24,"(One, two, one, two, three)
 Aw, yeah, yeah
 Aw, yeah, yeah, yeah, yeah (Uh)
 Aw, yeah, yeah
@@ -25001,7 +25001,7 @@ For too long
 Aw, yeah, yeah, yeah, yeah (Uh)
 Aw, yeah, yeah
 Aw, yeah, yeah, yeah, yeah (Uh)"
-100,The Police,Every Breath You Take,USA,1JSTJqkT5qHq8MDJnJbRE1,"Every breath you take
+100,The Police,Every Breath You Take,USA,latin,1JSTJqkT5qHq8MDJnJbRE1,2912866,26,22,"Every breath you take
 And every move you make
 Every bond you break, every step you take
 I'll be watching you
