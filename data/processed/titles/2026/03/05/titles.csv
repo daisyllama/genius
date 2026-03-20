@@ -1,401 +1,801 @@
-rank,artist,title,region,language,spotify_uri,streams,weeks_on_chart,peak_rank
-1,"Mr Plata, El Americano 4KT",Las Muñequitas,Colombia,latin,4nJJCRYru4QQakCiUA155f,1990353,9,1
-2,"ARIA VEGA, Ryan Castro",CHÉVERE (premium_remix),Colombia,latin,3CBEVPwR3kUXDoTx1lqFUQ,1793988,3,2
-3,"Ryan Castro, Kapo, Gangsta",LA VILLA,Colombia,latin,2ZyrAym0sRLwt4PhGotHuI,1662672,18,1
-4,Kris R.,GANAS,Colombia,latin,4KE9Ne3hgh18B3Th4xcylg,1555655,7,2
-5,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,Colombia,latin,6iOndD4OFo7GkaDypWQIou,1187848,54,1
-6,Beéle,no tiene sentido,Colombia,latin,1HEwEN64NjgTaHmo7LfkX8,1147408,42,2
-7,"J Balvin, Ryan Castro, DJ Snake",Tonto,Colombia,latin,7mU1fei7P9h4mpjP2Otdw5,1138980,1,7
-8,Beéle,quédate,Colombia,latin,6VfL3MEuYeJbDlD8m011HR,1124708,42,2
-9,Grupo Firme,El Beneficio De La Duda,Colombia,latin,5yXt80BNZGbmHFd0NHZHNn,1105825,54,3
-10,"Yeison Jimenez, Luis Alfonso",Destino Final,Colombia,latin,2E4TYekUduml1DWIqQWNcj,1099832,13,1
-11,"Blessd, Los Money Makers, Prodmonja",NUEVA YORK,Colombia,latin,5U3sC7aA5NxoMSeI1kmO2n,1051785,40,8
-12,Blessd,YOGURCITO,Colombia,latin,6rZno3nqeT7hv2PnSWRuYS,1046173,79,4
-13,"Beéle, Ovy On The Drums",mi refe,Colombia,latin,4zhk2RS2EZODmBW6il55Qj,985479,65,1
-14,Bad Bunny,BAILE INoLVIDABLE,Colombia,latin,2lTm559tuIvatlT1u0JYG2,944937,61,1
-15,"Omar Courtz, Ñengo Flow",FOREVER TU GANTEL,Colombia,latin,1YAWMfsmduIrpqrjP45pFn,923751,2,15
-16,"Blessd, Ovy On The Drums",AMISTA,Colombia,latin,1kJyDcBrZ7rSKnFtKc82vm,921870,45,2
-17,"Blessd, Anuel AA, Yan Block, Luar La L, Kris R., ROA","YOGURCITO REMIX (feat. Kris R., ROA)",Colombia,latin,7nrd0eIftH3NQLfgk20Qp9,902099,28,1
-18,Yeison Jimenez,Por Qué la Envidia,Colombia,latin,433eYQkvCgJKXh1o7LtplV,871538,18,3
-19,"Fuerza Regida, Grupo Frontera",COQUETA,Colombia,latin,1PREzVLuDT6PSE9sej4wnV,871350,44,16
-20,"Blessd, Ovy On The Drums","""EMHDM""",Colombia,latin,5NbIHx26LyFkW2oSNSCYBV,870491,2,12
-21,"Ryan Castro, Dongo",SANKA,Colombia,latin,46ufabZP6oK3ixmN6Gd753,870384,39,7
-22,Bad Bunny,DtMF,Colombia,latin,3sK8wGT43QFpWrvNQsrQya,863486,61,1
-23,"Kapo, Ryan Castro",DÓNDE,Colombia,latin,4zqFA9MOG86u7uugR8QFDU,856437,35,13
-24,"J Balvin, Bad Bunny",LA CANCIÓN,Colombia,latin,0fea68AdmYNygeTGI4RC18,822393,349,2
-25,Omar Courtz,POR SI MAÑANA NO ESTOY,Colombia,latin,595wwjQiad6e6lSTScmXvz,806198,2,25
-26,Arcángel,Por Amar A Ciegas,Colombia,latin,2BrfJdTXohQRtWBKsBTIp0,796575,7,26
-27,Kapo,UWAIE,Colombia,latin,0fMjldiEpgjbWQ4bBQwVzH,795099,81,1
-28,Yeison Jimenez,Vete,Colombia,latin,6cZcn282SIMmuO8FHN8634,794801,19,10
-29,Lenin Ramírez,Todo Lo Fue,Colombia,latin,0Sa8aRfGckW0qUGLrBwoBG,789203,4,27
-30,Bad Bunny,EoO,Colombia,latin,6J5kc12BW5HuP3d7C3vvx8,777344,61,7
-31,ARIA VEGA,CHÉVERE (joesón_type_beat),Colombia,latin,5OQCghydcEeA76eGdJ6GEa,772648,7,12
-32,"Nanpa Básico, Beéle",Hasta Aquí Llegué,Colombia,latin,0Qe2g06yzLBuuSvVmFiweP,767136,85,3
-33,"Ovy On The Drums, Quevedo, Beéle",YO y TÚ,Colombia,latin,7koAf6aZgjO6TS7bipfPD0,747831,38,2
-34,"Kybba, Sean Paul, Ryan Castro, Busy Signal",Ba Ba Bad Remix,Colombia,latin,0lMafSfME2iJEE972bsQaK,739865,36,2
-35,"Héctor ""El Father"", Wisin & Yandel",El Teléfono,Colombia,latin,614NVFo5csQqRnryl4jXs2,716593,31,19
-36,Herencia De Grandes,Ya Borracho,Colombia,latin,4NyUIohBa3CEMGcXURYSOh,714760,9,36
-37,"Yeison Jimenez, Chayín Rubio",El Mejor - Remix,Colombia,latin,1xRRW5ZrL7I9EG8CGZrXHE,711034,8,8
-38,Bad Bunny,NO ME QUIERO CASAR,Colombia,latin,39L3LdlHS3gqB62HPWaJRg,701742,79,19
-39,Beéle,top diesel,Colombia,latin,2QP041AcWg8PwPIWP95RKN,688171,42,3
-40,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Colombia,latin,7d6yK8v8J484SWH5prIQiE,680800,61,5
-41,"Luister La Voz, maikol el insoportable",Ozono,Colombia,latin,4acvrfbXrDPFQNNDnFZnpC,678942,3,41
-42,Yeison Jimenez,Un Perro Enamorado,Colombia,latin,3kcr3teEgyTOVIAxMPOPeO,668288,8,21
-43,Arcángel,Pa' Que La Pases Bien,Colombia,latin,1pLCpA1RN8avJxSD3ZCwhj,661883,165,23
-44,"El Bogueto, Yung Beef",Cuando No Era Cantante,Colombia,latin,6N2iccqxRInhTLHc2Fu3W0,660043,18,22
-45,"Bad Bunny, Ozuna, Farruko, Arcángel, Ñengo Flow, DJ Luian, Mambo Kingz",Diles,Colombia,latin,6C1RD7YQVvt3YQj0CmuTeu,659861,300,20
-46,Bad Bunny,VOY A LLeVARTE PA PR,Colombia,latin,59D4DOkspUbWyMmbAPQkxZ,653297,61,4
-47,Arcángel,Hace Mucho Tiempo,Colombia,latin,0a6ogDrZBvYgDjILgsQVaJ,652301,122,47
-48,"Feid, ATL Jacob",LUNA,Colombia,latin,7bywjHOc0wSjGGbj04XbVi,650903,118,1
-49,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,Colombia,latin,2pbSCYzxrG0wa6qcj8IyiE,646278,12,36
-50,Kris R.,MIL D AURA,Colombia,latin,0LvxvoeJmdhkxRIC4orlJ3,645266,3,21
-51,"Blessd, Fuerza Regida, Ovy On The Drums",COMO OREO,Colombia,latin,7sRXb5IgYWwVv1DaavHSNs,643436,27,1
-52,Plan B,Es un Secreto,Colombia,latin,3KZCP2StVGdWkOKyRZNWA4,641795,266,18
-53,Yeison Jimenez,MLP,Colombia,latin,4DAMvNqHt0s8zJr6JwOoye,641764,12,8
-54,"Blessd, Los Money Makers, Prodmonja",URUS BLUE,Colombia,latin,4sTnItbNUAcS5KDG6vTA5B,632957,40,22
-55,"Maluma, Trap Capos, Noriel, Bryant Myers, Juhn","Cuatro Babys (feat. Trap Capos, Noriel, Bryant Myers & Juhn)",Colombia,latin,0JoHqmlqE0W0i9prt6kcHR,625925,133,16
-56,"Danny Ocean, Kapo",Imagínate,Colombia,latin,7ns16ylM6sbxo9ZWIwyE5d,611905,69,1
-57,"Bryant Myers, Anuel AA, Anonimus, Almighty",Esclava - Remix,Colombia,latin,2Mgur7BKnpr7OG3izSNFTA,607020,69,46
-58,"CARABIN3, SVNTI",MUSA,Colombia,latin,0QuHK1VvIZ1Kt2GfqRrdVo,605951,13,36
-59,Arcángel,Me Prefieres A Mi,Colombia,latin,3GhmL9fuM8jwGcHCFbeo3v,601608,118,42
-60,"Blessd, GeezyDee",DIOMEDEZ,Colombia,latin,6qDTm2QbRSLlSmaUSJE6bF,601518,19,1
-61,Bad Bunny,NUEVAYoL,Colombia,latin,5TFD2bmFKGhoCRbX61nXY5,597070,61,3
-62,"Kris R., ROA",PASIÓN Y SEXO,Colombia,latin,4pjkZyNZnOJEPpBmzOqTC2,595855,1,62
-63,Kapo,NO CRY,Colombia,latin,4YM3IYESNKXWYHbPXvMMVD,595539,15,47
-64,Rels B,TU VAS SIN (fav),Colombia,latin,6uiQ0DqbXTBc8tl0AUKZkR,593688,35,14
-65,"Blessd, J Alvarez",FANÁTICO,Colombia,latin,0e3d2UZRjtvviXWWMRYGQo,586346,5,17
-66,"Blessd, Ovy On The Drums",Mírame,Colombia,latin,2btNsI4OvcVl7SAHQQDHFB,585082,98,1
-67,Ñengo Flow,En Las Noches Frias,Colombia,latin,0a0JiZejbYYem1W31fldde,583111,44,67
-68,"Tony Dize, Plan B",Solos,Colombia,latin,3CbiuLMBPM6uV4a7HvkOib,579835,177,29
-69,"KAROL G, Feid",Verano Rosa,Colombia,latin,0nafF9MxcXJBQWv3BTKtdF,574978,37,5
-70,Danny Ocean,Me Rehúso,Colombia,latin,6ifUES3keWjwXgae8pXI3o,564230,477,1
-71,"Yan Block, Panda Black",444,Colombia,latin,1o4xkdBe0RjSf2u6VXi4OI,557269,85,25
-72,"W Sound, Blessd, Ovy On The Drums",Soltera - W Sound 01,Colombia,latin,13BDiikG6y5o5cQTK0HpW6,554673,83,1
-73,Willie Colón,Idilio,Colombia,latin,5iwgEFKEktjBBZV3C9TTZj,553715,13,22
-74,"Yan Block, Panda Black",Talento,Colombia,latin,7sChwC2NZjGc2Kdni3hlDg,547310,12,68
-75,"Rauw Alejandro, Bad Bunny",Qué Pasaría...,Colombia,latin,0l0vcZMU7AOeQmUIREoI2U,547077,68,11
-76,"Boza, ELENA ROSE",orióN,Colombia,latin,4feh4Ak3ZJfC6ibxkNzlkE,546964,90,6
-77,Luis Alberto Posada,Mal Amor,Colombia,latin,1j4XwpoLvqdkWllikDu7Rm,546247,18,32
-78,Arcángel,Ganas De Ti,Colombia,latin,71w26UK674tLfGtJFfDSjE,546114,55,78
-79,Romeo Santos,Imitadora,Colombia,latin,6r46lnXFbE9fr2d3KNaGbe,539798,114,29
-80,Maluma,Borro Cassette,Colombia,latin,6DUdDIRgLqCGq1DwkNWQTN,533885,169,23
-81,"Yan Block, TORRRES",Yo sé,Colombia,latin,5DdLSEyKh8zgCrJq2hFj92,532115,61,42
-82,"El Americano 4KT, Kobby",The Flow's Son Black!,Colombia,latin,6uLcqYE347zlvXD6rhiM4J,530895,6,74
-83,Dalmata,Dile a Tu Amiga,Colombia,latin,3u2jlo9kygiIAq7SPVuw6S,530815,126,25
-84,"Kris R., GeezyDee, Prodmonja",BOBADITA,Colombia,latin,52IeC2QBiJqk9jAR5gbe14,529677,18,15
-85,"Omar Courtz, ROA",WO OH OH,Colombia,latin,0h54mLixODOqU6vTcZMqVM,526842,2,75
-86,Yeison Jimenez,Ya No Mi Amor,Colombia,latin,7qbPQqOYYMPdQqRqv7bNin,526682,16,9
-87,Omar Courtz,SI ESTÁS CON ALGUIEN,Colombia,latin,7nyk5uxevcijIfl1FlJgmA,526155,2,87
-88,"Alzate, Yeison Jimenez",Mi Venganza,Colombia,latin,3f4AsGGYt94t7g1lHcsa8D,523499,62,11
-89,"Arcángel, Bad Bunny, Mambo Kingz, DJ Luian",Tu No Vive Asi (feat. Mambo Kingz & DJ Luian),Colombia,latin,6NSMQFKgjpQb0KkjMDYIK0,521583,206,64
-90,"TURY, CARABIN3",CHUCHA,Colombia,latin,01dFxiEOMTTzim5J3kytjA,519145,2,90
-91,Bad Bunny,KLOuFRENS,Colombia,latin,4MUrUT38U98olfnyzMBCzm,517358,59,15
-92,"KAROL G, Feid, DFZM, Ovy On The Drums, J Balvin, Maluma, Ryan Castro, Blessd",+57,Colombia,latin,3mg9jYNC1NihbthlglzrWP,516832,69,1
-93,Yeison Jimenez,El Mejor Caballo,Colombia,latin,4Udf3NPZZVggwmVXHcjuqA,514955,8,20
-94,"Yeison Maje, Ciro Quiñonez, Luis Alfonso, Yeison Jimenez",El Embustero RMX,Colombia,latin,72q1JMsCJbKNbWgzipGi6x,514823,8,40
-95,Milo j,Niño,Colombia,latin,4aDbrgm1ZaebS1Bb2dOXac,511758,23,73
-96,"Yan Block, De La Rose, Hades66, Ñengo Flow",444 - Remix,Colombia,latin,5AK6QqM8aUXXTk6oY00ZRh,509711,16,34
-97,"La Combinación Vallenata, Jean Carlos Centeno",Ayer Y Hoy,Colombia,latin,5HCk7iruzhQ1FbxyS3igmM,505110,27,47
-98,Omar Courtz,KOKO,Colombia,latin,1tz7RZirwiuaJw2p0jbdHb,500240,1,98
-99,Kapo,OHNANA,Colombia,latin,482PEx8hfMHSsuGtHd960A,499078,90,3
-100,"Tony Dize, Yandel",Permítame,Colombia,latin,6OaGIYcVzx5c7aEKkuYS1M,499007,204,59
-1,Bad Bunny,DtMF,Global,latin,3sK8wGT43QFpWrvNQsrQya,39131995,61,1
-2,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Global,latin,1DwscornXpj8fmOmYVlqZt,38913426,8,2
-3,Bruno Mars,Risk It All,Global,latin,5y2ijHECwFYWqcAHKTZgzD,36569896,1,3
-4,Djo,End of Beginning,Global,latin,3qhlB30KknSejmIvZZLjOD,31777044,107,1
-5,Olivia Dean,Man I Need,Global,latin,1qbmS6ep2hbBRaEZFpn7BX,31301570,28,3
-6,Taylor Swift,The Fate of Ophelia,Global,latin,53iuhJlwXhSER5J2IYYv1W,29888205,22,1
-7,Olivia Dean,So Easy (To Fall In Love),Global,latin,6sGIMrtIzQjdzNndVxe397,29678009,23,6
-8,Bad Bunny,BAILE INoLVIDABLE,Global,latin,2lTm559tuIvatlT1u0JYG2,29165614,61,2
-9,Bruno Mars,I Just Might,Global,latin,6f68Ac5tt5BQOpwr0BV9oN,28933106,8,3
-10,Bad Bunny,NUEVAYoL,Global,latin,5TFD2bmFKGhoCRbX61nXY5,28499978,61,3
-11,sombr,back to friends,Global,latin,7qjZnBKE73H4Oxkopwulqe,27034485,50,1
-12,Dominic Fike,Babydoll,Global,latin,7yNf9YjeO5JXUE3JEBgnYc,26488917,16,12
-13,RAYE,WHERE IS MY HUSBAND!,Global,latin,55lijDD6OAjLFFUHU9tcDm,25025673,24,6
-14,"Dave, Tems",Raindance (feat. Tems),Global,latin,3oTuTpF1F3A7rEC6RKsMRz,24542605,14,11
-15,Bad Bunny,Tití Me Preguntó,Global,latin,1IHWl5LamUGEuP4ozKQSXZ,24477910,66,4
-16,Zara Larsson,Lush Life,Global,latin,1rIKgCH4H52lrvDcz50hS8,23649072,28,7
-17,Alex Warren,Ordinary,Global,latin,2RkZ5LkEzeHGRsmDqKwmaJ,23230306,56,1
-18,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,Global,latin,1CPZ5BxNNd0n0nF4Orb9JS,22704416,37,1
-19,Bad Bunny,EoO,Global,latin,6J5kc12BW5HuP3d7C3vvx8,22635430,61,4
-20,"Lady Gaga, Bruno Mars",Die With A Smile,Global,latin,7so0lgd0zP2Sbgs2d7a1SZ,20370215,81,1
-21,Alex Warren,FEVER DREAM,Global,latin,7ogpGbKc4Io6NCU6ydxXwZ,20313162,1,21
-22,SIENNA SPIRO,Die On This Hill,Global,latin,2gYTC8DsplN3RNdpdBcCOQ,19583021,12,9
-23,BLACKPINK,GO,Global,latin,3FZPp9lBUvhsxFxKJi3VkB,19179998,1,23
-24,The Goo Goo Dolls,Iris,Global,latin,6Qyc6fS4DsZjB2mRW9DsQs,19060939,131,12
-25,sombr,Homewrecker,Global,latin,7tICCrK3CcyRFKza7yrR0z,18232386,4,21
-26,Billie Eilish,BIRDS OF A FEATHER,Global,latin,6dOtVTDdiauQNBQEDOtlAB,18085107,94,1
-27,The Police,Every Breath You Take,Global,latin,1JSTJqkT5qHq8MDJnJbRE1,17874535,221,8
-28,Ravyn Lenae,Love Me Not,Global,latin,4WFgvKVfEhb3IUAFGrutTR,17646413,50,8
-29,She & Him,I Thought I Saw Your Face Today,Global,latin,0myRViRgmQ3J8izICXEAVO,17006777,13,14
-30,Sabrina Carpenter,Manchild,Global,latin,2BwO5K8Q7EPAJSGze3AAh9,16507726,39,1
-31,Bad Bunny,VOY A LLeVARTE PA PR,Global,latin,59D4DOkspUbWyMmbAPQkxZ,16414264,53,8
-32,sombr,12 to 12,Global,latin,05od2qm2MTSKCHxy1GBp5W,16403974,32,14
-33,Gigi Perez,Sailor Song,Global,latin,21IYMdzTrzSe191Cy5eMap,16293188,81,7
-34,Taylor Swift,Opalite,Global,latin,3yWuTOYDztXjZxdE2cIRUa,16221369,22,2
-35,Bella Kay,iloveitiloveitiloveit,Global,latin,5IMpnpD0tQVcqWlVIgtAtV,16210197,2,35
-36,The Neighbourhood,Sweater Weather,Global,latin,0cQVqPuHQP4KEwc7ZUQmj6,16178529,288,16
-37,Billie Eilish,WILDFLOWER,Global,latin,3QaPy1KgI7nu9FJEQUgn6h,15256615,94,9
-38,Radiohead,Creep,Global,latin,70LcF31zb1H0PyJoS1Sx1r,15052471,118,27
-39,Bruno Mars,That's What I Like,Global,latin,0KKkJNfGyhkQ5aFogxQAPU,14902211,175,6
-40,"J Balvin, Bad Bunny",LA CANCIÓN,Global,latin,0fea68AdmYNygeTGI4RC18,14418462,141,11
-41,"Disco Lines, Tinashe",No Broke Boys,Global,latin,3cZajhyr8LmtPfHZ9296tj,14288536,36,13
-42,"Drake, Wizkid, Kyla",One Dance,Global,latin,1zi7xx7UVEFkmKfv06H8x0,14191693,268,12
-43,Benson Boone,Beautiful Things,Global,latin,3xkHsmpQCBMytMJNiDf3Ii,14153921,111,1
-44,Ella Langley,Choosin' Texas,Global,latin,65DbTqJKhbwqYbZ1Okr0rc,14143729,9,44
-45,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,Global,latin,2pbSCYzxrG0wa6qcj8IyiE,14113572,12,30
-46,Bruno Mars,Cha Cha Cha,Global,latin,6QletrrmpkUpeJkipX9pgf,14113224,1,46
-47,Don Toliver,E85,Global,latin,3B4cjvGlPvyBLNG3AzEgkZ,13967375,5,47
-48,Bruno Mars,Locked out of Heaven,Global,latin,5g7sDjBhZ4I3gcFIpkrLuI,13930898,187,18
-49,Jin,Don’t Say You Love Me,Global,latin,27xkOIER6uDLKALIelHylZ,13917142,42,2
-50,Arctic Monkeys,I Wanna Be Yours,Global,latin,5XeFesFbtLpXzIVDNQP22n,13643006,191,15
-51,The Killers,Mr. Brightside,Global,latin,003vvx7Niy0yvhvHt4a68B,13628626,210,50
-52,"Sean Paul, Keyshia Cole",(When You Gonna) Give It Up to Me - Radio Version,Global,latin,5nEdwtSv0qqeE0l4o1lR4q,13586077,7,52
-53,"The Weeknd, JENNIE, Lily-Rose Depp","One Of The Girls (with JENNIE, Lily Rose Depp)",Global,latin,7CyPwkp0oE8Ro9Dd5CUDjW,13352698,126,3
-54,Coldplay,Yellow,Global,latin,3AJwUDP919kvQ9QcozQPxg,13323933,272,19
-55,Bruno Mars,God Was Showing Off,Global,latin,1sVBT215CDmVJvfy1E2OCU,13189931,1,55
-56,"Rauw Alejandro, Bad Bunny",Qué Pasaría...,Global,latin,0l0vcZMU7AOeQmUIREoI2U,13152234,60,17
-57,"El Bogueto, Yung Beef",Cuando No Era Cantante,Global,latin,6N2iccqxRInhTLHc2Fu3W0,13125639,20,18
-58,Sabrina Carpenter,Espresso,Global,latin,2HRqTpkrJO5ggZyyK6NPWz,13085654,99,1
-59,KATSEYE,Gabriela,Global,latin,1xOqGUkyxGQRdCvGpvWKmL,13084946,37,10
-60,Fleetwood Mac,Dreams - 2004 Remaster,Global,latin,0ofHAoxe9vBkTCp2UQIavz,12938199,144,20
-61,Jimin,Who,Global,latin,7tI8dRuH2Yc6RuoTjxo4dU,12716099,85,1
-62,"Peso Pluma, Tito Double P",dopamina,Global,latin,3e32UUqXzrI4g2y5kNZrwC,12605852,10,13
-63,BLACKPINK,JUMP,Global,latin,5H1sKFMzDeMtXwND3V6hRY,12463397,27,1
-64,"The Weeknd, Daft Punk",Starboy,Global,latin,7MXVkk9YMctZqd1Srtv4MB,12423058,283,1
-65,Coldplay,Sparks,Global,latin,7D0RhFcb3CrfPuTJ0obrod,12292423,80,30
-66,"Ryan Castro, Kapo, Gangsta",LA VILLA,Global,latin,2ZyrAym0sRLwt4PhGotHuI,12264278,8,47
-67,Harry Styles,As It Was,Global,latin,4Dvkj6JhhA12EX05fT7y2e,12147204,198,1
-68,"ROSÉ, Bruno Mars",APT.,Global,latin,4wJ5Qq0jBN4ajy7ouZIV1c,12123491,72,1
-69,Dominic Fike,White Keys,Global,latin,5ViLKrbyL3HD6wsq3AB9eI,12031641,2,69
-70,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Global,latin,7d6yK8v8J484SWH5prIQiE,12023336,54,9
-71,Teddy Swims,Lose Control,Global,latin,17phhZDn6oGtzMe56NuWvj,11961040,121,5
-72,"Gorillaz, De La Soul",Feel Good Inc.,Global,latin,0d28khcov6AiegSCpG5TuT,11811702,63,46
-73,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",Global,latin,3GCdLUSnKSMJhs4Tj6CV3s,11794881,142,2
-74,Vance Joy,Riptide,Global,latin,2uXlHCUbq9OMUwx3hrk06o,11727269,264,30
-75,Arctic Monkeys,505,Global,latin,58ge6dfP91o9oXMzq3XkIS,11632654,217,43
-76,Daniel Caesar,Who Knows,Global,latin,6DH13QYXK7lKkYHSU88N48,11563110,15,58
-77,sombr,undressed,Global,latin,0TFTAtCYhp2tQ9KcJIZb55,11497773,49,6
-78,Bruno Mars,Why You Wanna Fight?,Global,latin,3Ac4AjYkqsvop2ydbSAhTX,11492627,1,78
-79,Addison Rae,Fame is a Gun,Global,latin,7B3BwNecBhKvNwSMOOl7Gk,11438050,15,56
-80,Herencia De Grandes,Ya Borracho,Global,latin,4NyUIohBa3CEMGcXURYSOh,11367657,15,66
-81,Linkin Park,In the End,Global,latin,60a0Rd6pjrkxjPbaKzXjfq,11366387,133,22
-82,"Jung Kook, Latto",Seven (feat. Latto) (Explicit Ver.),Global,latin,2HRgqmZQC0MC7GeNuDIXHN,11360421,138,1
-83,Bruno Mars,Dance With Me,Global,latin,1myZ6GQewhAzMH2dKtKSWK,11345856,1,83
-84,Michael Jackson,Billie Jean,Global,latin,7J1uxwnxfQLu4APicE5Rnj,11275762,41,48
-85,Nadhif Basalamah,kota ini tak sama tanpamu,Global,latin,13CwOTXUgBugeBByE9oIWb,11254940,9,48
-86,Lord Huron,The Night We Met,Global,latin,5yJaXWIErrrsjQ3J0eR5aK,11131031,176,15
-87,"Peso Pluma, Tito Double P",daño,Global,latin,136BeIIoBGrrU9fI1jbcDR,11125907,10,32
-88,Bruno Mars,Just the Way You Are,Global,latin,7BqBn9nzAq8spo5e7cZ0dJ,11104954,162,34
-89,Neton Vega,Pvta Luna,Global,latin,33MeEaRCeIQMSRyFTr5ZJU,11087297,16,61
-90,Gracie Abrams,That’s So True,Global,latin,7ne4VBA60CxGM75vw0EYad,11028253,72,3
-91,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,Global,latin,6iOndD4OFo7GkaDypWQIou,10974470,53,5
-92,The Marías,No One Noticed,Global,latin,3siwsiaEoU4Kuuc9WKMUy5,10941851,68,37
-93,BLACKPINK,Champion,Global,latin,43BJVWcBzHRIDaQCg7abnX,10936765,1,93
-94,"Peso Pluma, Tito Double P",7-3,Global,latin,4lzo6zPM2paqyP8oBp3DOs,10893482,10,42
-95,Don Toliver,Body,Global,latin,0FlcmZ13DGRmscCroro9GO,10848483,5,34
-96,Lenin Ramírez,Todo Lo Fue,Global,latin,0Sa8aRfGckW0qUGLrBwoBG,10798503,6,85
-97,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),Global,latin,0FIDCNYYjNvPVimz5icugS,10778352,75,3
-98,Coldplay,Viva La Vida,Global,latin,1mea3bSkSGXuIRvnydlB5b,10775710,184,31
-99,Lil Uzi Vert,What You Saying,Global,latin,7cjoZVmWe2xsGR4wcXiV2v,10766325,9,38
-100,Bruno Mars,On My Soul,Global,latin,4i4BVY2JiH4mDSLIBdNGKD,10766096,1,100
-1,"V, Park Hyo Shin",Winter Ahead (with PARK HYO SHIN),Taiwan,latin,7G7mSV4BebkoHWwKTDvXu9,1453217,66,1
-2,BLACKPINK,GO,Taiwan,latin,3FZPp9lBUvhsxFxKJi3VkB,514680,1,2
-3,Jin,Don’t Say You Love Me,Taiwan,latin,27xkOIER6uDLKALIelHylZ,508081,42,2
-4,A-Lin,幸福在歌唱 - 電影《陽光女子合唱團》幸福版主題曲,Taiwan,zh,3VHi5bCUek6XdiDmqqrirs,497996,9,2
-5,Jimin,Who,Taiwan,latin,7tI8dRuH2Yc6RuoTjxo4dU,431173,85,1
-6,Crowd Lu,太陽與地球,Taiwan,zh,0bQSWXtpau3VkNI1ZcXTQA,412787,24,2
-7,Pei-Yu Hung,再見的時候 - 電影〈陽光女子合唱團〉主題曲-再見版,Taiwan,zh,3IBYp3fKyydZ5dDtirLY6P,398234,7,3
-8,Hearts2Hearts,RUDE!,Taiwan,latin,0WA27lZzPKFJKAbiDRmQDc,369145,2,8
-9,IVE,BANG BANG,Taiwan,latin,7pBE8YpFoZ9ankC2Ci5z9X,351618,4,7
-10,BLACKPINK,Champion,Taiwan,latin,43BJVWcBzHRIDaQCg7abnX,348554,1,10
-11,Khalil Fong,特別的人,Taiwan,zh,0VTzUEuHYD8s7CgQ15cDPo,341263,53,4
-12,BLACKPINK,JUMP,Taiwan,latin,5H1sKFMzDeMtXwND3V6hRY,330617,34,2
-13,V,Slow Dancing,Taiwan,latin,5h1BN75CEh8wdSwE1xrbSe,320972,118,5
-14,Patrick Brasca,單程票,Taiwan,zh,3woBOD3Ldh81fAwpsnD8yC,302182,3,11
-15,"Top Barry, INDEcompany",一半一半,Taiwan,zh,21x0N6lu6D9kO8rVtTU3mH,294312,7,15
-16,V,Love Me Again,Taiwan,latin,2N0SPREDYqILVEFSsWF5N5,290752,134,1
-17,HWASA,Good Goodbye,Taiwan,latin,3cLXrotzCjYCkN73PewALM,287401,16,2
-18,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,Taiwan,latin,1CPZ5BxNNd0n0nF4Orb9JS,273979,37,2
-19,Evangeline Wong,離開我的依賴,Taiwan,zh,23WLgtD54AeluEPRr5muHo,270868,32,10
-20,BLACKPINK,Fxxxboy,Taiwan,latin,7m0duH1vdTNxM2g8BLfR0F,263113,1,20
-21,IVE,BLACKHOLE,Taiwan,latin,2ytQFMxdreEFPPZTtyDdqM,257958,2,21
-22,黃奇斌,若無你我欲去佗位,Taiwan,zh,76EfpqmO6JUL2TTR1SIGwz,256579,34,5
-23,"Patrick Brasca, mac ova seas",左轉燈 (1000 Times+1),Taiwan,zh,4UwZyC0wEV6XDEAr9kaQhi,254362,20,10
-24,Jay Chou,擱淺,Taiwan,zh,0cOMncRq4cmDLO4tPQnkBF,248595,237,11
-25,BLACKPINK,Me and my,Taiwan,latin,5MXcM263QvCTWriH3nVusc,238234,1,25
-26,KiiiKiii,404 (New Era),Taiwan,latin,24rDDbSlFY9OHrlJb48CRh,236384,5,24
-27,Bestards,離開的一路上,Taiwan,zh,1NoDTQhJsrd5rnpb6PQthK,234602,122,1
-28,Crowd Lu,一夜一夜一夜,Taiwan,zh,3wofqqt5YJWdhLI9IFaX39,230631,28,6
-29,JENNIE,like JENNIE,Taiwan,latin,0fK7ie6XwGxQTIkpFoWkd1,229663,52,3
-30,Crowd Lu,幾分之幾 - 電影<花甲大人轉男孩>主題曲,Taiwan,zh,4F7ZAsndEIJXyFzJUHNlRu,226829,322,4
-31,"i-dle, skaiwater",Mono (feat. skaiwater),Taiwan,latin,3VxmXJ4FdtbWI27p3Gx4Wh,226683,6,3
-32,EggPlantEgg,閣愛妳一擺,Taiwan,zh,4Zwn8WxD61diTwqv9hyTQA,223328,221,2
-33,Stefanie Sun,遇見,Taiwan,zh,3xJK8ywApYVEYIDhymYMC6,217175,254,26
-34,CORTIS,GO!,Taiwan,latin,6OWWZtNQORY1McaZmOrwhc,215315,26,4
-35,Stefanie Sun,我懷念的,Taiwan,zh,7z2M7DsEjZjwXBkWG3zd21,211975,196,11
-36,ROSÉ,toxic till the end,Taiwan,latin,1z5ebC9238uGoBgzYyvGpQ,211695,65,3
-37,BABYMONSTER,PSYCHO,Taiwan,latin,491ca80N1C63tpoLvAsLKb,207229,18,22
-38,Khalil Fong,愛愛愛,Taiwan,zh,59lBAMCis4C6NsPdUV35Vz,205591,54,3
-39,"LE SSERAFIM, j-hope",SPAGHETTI,Taiwan,latin,2N9miXnewVmUrgl6JSK1FI,205460,19,7
-40,"Patrick Brasca, 陳華",你沒等我去的舊金山,Taiwan,zh,1aNVW0fujBVx7JTorTO1jn,195800,10,9
-41,Bestards,不是因為天氣晴朗才愛你,Taiwan,zh,2VEt42QSQxILgEf9B50xxm,195563,332,5
-42,aespa,Whiplash,Taiwan,latin,7Cnpb1vBbC46RgVyyKLH7p,193989,72,4
-43,Amazing Show,愛情的大壞蛋,Taiwan,zh,5HVq8nS0pbM6G7YK8M7DY4,192347,74,14
-44,Jay Chou,晴天,Taiwan,zh,5pIcwtJYNJx93l420oR2Vm,191021,326,12
-45,A-Mei Chang,連名帶姓,Taiwan,zh,3LlQoKvVnkVvq3KC8anUn8,187416,275,2
-46,陳粒,小半,Taiwan,zh,3QxWTqyIT4O9bokIZlNDpo,184729,9,46
-47,BABYMONSTER,WE GO UP,Taiwan,latin,1tonXoW6dcb7GGNpec3PTl,184216,21,8
-48,"Jay Chou, Lara Liang",珊瑚海,Taiwan,zh,3Qj9Fy8BPbWmICTiNkuqB7,181385,227,28
-49,Pets Tseng,一個人想著一個人,Taiwan,zh,3n3zzFH7zzO0gJNaw4RKSm,180479,75,26
-50,ILLIT,NOT CUTE ANYMORE,Taiwan,latin,1k0JAiH11gHL9dc5dfQjQr,180057,15,9
-51,张远,看着我的眼睛说,Taiwan,zh,7d6eShN6yVeR4Y2Md9uCA4,177365,40,5
-52,Stefanie Sun,開始懂了,Taiwan,zh,68tZwwRuo9ip5gRQFG1XWF,173168,78,29
-53,David Tao,愛我還是他,Taiwan,zh,13bw75oRjvxMv9VGIeM32i,170449,96,13
-54,LBI利比,Jumping Machine (跳楼机),Taiwan,zh,1XZE0InCx3SdCnLpVsPpZl,168736,58,2
-55,Bruno Mars,Risk It All,Taiwan,latin,5y2ijHECwFYWqcAHKTZgzD,167349,1,55
-56,JOLIN,布拉格廣場 - JOLIN Version/ 星宇航空布拉格開航主題曲,Taiwan,zh,0HnESxAFR5lTHioAlI7wo3,164039,1,56
-57,EggPlantEgg,浪流連,Taiwan,zh,1IS0WFyiVpwsATeSzjEvpI,157780,377,1
-58,Sam Lee,痴心絕對,Taiwan,zh,0D0n4q2o54VTOmDJdL6ikY,151921,33,58
-59,Djo,End of Beginning,Taiwan,latin,3qhlB30KknSejmIvZZLjOD,151551,13,11
-60,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Taiwan,latin,1DwscornXpj8fmOmYVlqZt,149663,1,60
-61,EggPlantEgg,愛情你比我想的閣較偉大 (《當男人戀愛時》電影主題曲),Taiwan,zh,6m2I6ZyWRkxjBrrLVQILfl,149108,255,1
-62,"Firdhaus, DIOR 大穎",在加納共和國離婚,Taiwan,zh,6GyUt7yJ0sOktc5HjvVnFh,147897,112,1
-63,icyball 冰球樂團,不在乎,Taiwan,zh,1t2mpO9GpLjRHDDX6SFWRn,147054,12,25
-64,Jay Chou,楓,Taiwan,zh,1pALOIA4ytESmhl7Fxjdic,146255,129,15
-65,"马也_Crabbit, Cole先生",海屿你,Taiwan,zh,6UO9nrihAk6sFGvVHDVTz8,146179,3,65
-66,艾薇 Ivy,天使借的溫柔,Taiwan,zh,3ITUmRLMjxf3ZqCPSDD2gk,145942,22,47
-67,Taylor Swift,The Fate of Ophelia,Taiwan,latin,53iuhJlwXhSER5J2IYYv1W,144351,22,7
-68,LNGSHOT,Moonwalkin',Taiwan,latin,46V2ciN6F5bxjQWityNhkY,142959,7,11
-69,"ROSÉ, Bruno Mars",APT.,Taiwan,latin,4wJ5Qq0jBN4ajy7ouZIV1c,142839,72,1
-70,G.E.M.,多遠都要在一起,Taiwan,zh,55d0jw269HE9pbOt5ntCo8,140678,173,56
-71,Joker Xue,演员,Taiwan,zh,5Sib99jpYybZAicUMETb3h,139187,314,8
-72,张远,嘉賓,Taiwan,zh,5jAmIkIpskwu2hRz2YaEHi,137993,188,6
-73,CORTIS,FaSHioN,Taiwan,latin,4ecdsGz3Hg6TKPwQ0ZOdJz,137446,26,11
-74,Taylor Swift,Opalite,Taiwan,latin,3yWuTOYDztXjZxdE2cIRUa,134471,22,11
-75,A-Mei Chang,人質,Taiwan,zh,6OAUhxFZzaRHHC8XiuIkvb,133424,177,47
-76,sombr,back to friends,Taiwan,latin,7qjZnBKE73H4Oxkopwulqe,133225,37,71
-77,BABYMONSTER,DRIP,Taiwan,latin,1MUZitHRpmng5NevrvNx4T,132399,70,5
-78,Richael Liu,两三句,Taiwan,zh,0BkBM5rY934yzHViRhd8Em,132329,14,59
-79,Olivia Dean,So Easy (To Fall In Love),Taiwan,latin,6sGIMrtIzQjdzNndVxe397,132236,20,72
-80,"Jay Chou, A-Mei Chang",不該,Taiwan,zh,5miH0BWhRVTvHAwmnoeyXH,131533,93,80
-81,Sam Lee,手放開,Taiwan,zh,2Dd9EXYXI2NNrLG61OtWQv,130682,8,81
-82,Kenshi Yonezu,IRIS OUT,Taiwan,latin,59hVbgr8rfYkDbHfr8RcGI,129664,25,5
-83,CORTIS,"Mention Me - From The Movie ""GOAT""",Taiwan,latin,3f0OEJd7mlPNhmH3fUOrqy,128443,3,26
-84,F.I.R.,月牙灣,Taiwan,zh,1b5IRT3iraxjHOsKZx93sW,128179,80,68
-85,"Lady Gaga, Bruno Mars",Die With A Smile,Taiwan,latin,7so0lgd0zP2Sbgs2d7a1SZ,127954,81,3
-86,ILLIT,Magnetic,Taiwan,latin,1aKvZDoLGkNMxoRYgkckZG,127720,102,1
-87,PIZZALI,做我的初戀,Taiwan,zh,4flk8ZgDFry6o2t0SdKsnB,127235,33,22
-88,ROSÉ,number one girl,Taiwan,latin,1lcBt7LoEikqYmhUoa2cez,126923,67,4
-89,A-Lin,給我一個理由忘記,Taiwan,zh,2DcmVSLAg0ZzfOQxDshZHY,125664,70,46
-90,David Tao,就是愛妳,Taiwan,zh,73eCSQ1DxQbaOnzy8PhKx3,125278,31,70
-91,Joker Xue,其实,Taiwan,zh,6Mmdzst5fLkrKjhdkGhLpe,124859,21,65
-92,DIOR 大穎,人的這一生,Taiwan,zh,2Jox8DFhnUpJZJWLsVAsAR,124571,1,92
-93,Hearts2Hearts,FOCUS,Taiwan,latin,6jYiHr12NVKLzn0X7K8aSK,124554,17,53
-94,Silence Wang,像晴天像雨天（电视剧《难哄》心动曲）,Taiwan,zh,1zFuSla4RQ5qAJwDIQYixW,124451,54,4
-95,Amazing Show,偷偷愛,Taiwan,zh,0L7R4dmkwk46DEZgqx1fF7,124306,63,34
-96,"Disney, Shakira",Zoo,Taiwan,latin,3vJIaiTIHxHhYafTSPNiH4,123909,14,11
-97,Fish Leong,慢冷,Taiwan,zh,3NNDJfWMGHuNpvHWTImmlW,121360,353,12
-98,WeiBird,"如果可以 - 電影""月老""主題曲",Taiwan,zh,72OVnXDzugvrCU25lMi9au,120883,226,1
-99,Ronghao Li,"不將就 (電影""何以笙簫默""片尾曲)",Taiwan,zh,5DH8nF7aWoXXg5Sm3gjCWD,120655,205,62
-100,aespa,Rich Man,Taiwan,latin,1sUjTLLCJzcxC15GUBrOlg,120062,26,5
-1,Bruno Mars,Risk It All,USA,latin,5y2ijHECwFYWqcAHKTZgzD,12884594,1,1
-2,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,USA,latin,1DwscornXpj8fmOmYVlqZt,11706010,9,2
-3,Ella Langley,Choosin' Texas,USA,latin,65DbTqJKhbwqYbZ1Okr0rc,9528820,20,2
-4,Bruno Mars,I Just Might,USA,latin,6f68Ac5tt5BQOpwr0BV9oN,9391514,8,1
-5,Bad Bunny,DtMF,USA,latin,3sK8wGT43QFpWrvNQsrQya,9107715,61,1
-6,Olivia Dean,Man I Need,USA,latin,1qbmS6ep2hbBRaEZFpn7BX,8110625,28,2
-7,Dominic Fike,Babydoll,USA,latin,7yNf9YjeO5JXUE3JEBgnYc,7586014,37,7
-8,Don Toliver,E85,USA,latin,3B4cjvGlPvyBLNG3AzEgkZ,7469414,5,7
-9,Olivia Dean,So Easy (To Fall In Love),USA,latin,6sGIMrtIzQjdzNndVxe397,7185247,23,4
-10,Bad Bunny,BAILE INoLVIDABLE,USA,latin,2lTm559tuIvatlT1u0JYG2,6446001,61,2
-11,Bad Bunny,Tití Me Preguntó,USA,latin,1IHWl5LamUGEuP4ozKQSXZ,6414499,68,2
-12,Bad Bunny,NUEVAYoL,USA,latin,5TFD2bmFKGhoCRbX61nXY5,6277332,59,3
-13,Bruno Mars,Cha Cha Cha,USA,latin,6QletrrmpkUpeJkipX9pgf,6057711,1,13
-14,Djo,End of Beginning,USA,latin,3qhlB30KknSejmIvZZLjOD,5964511,93,1
-15,Don Toliver,Body,USA,latin,0FlcmZ13DGRmscCroro9GO,5909573,5,5
-16,Bruno Mars,God Was Showing Off,USA,latin,1sVBT215CDmVJvfy1E2OCU,5718926,1,16
-17,Alex Warren,FEVER DREAM,USA,latin,7ogpGbKc4Io6NCU6ydxXwZ,5626564,1,17
-18,Alex Warren,Ordinary,USA,latin,2RkZ5LkEzeHGRsmDqKwmaJ,5504835,56,1
-19,Bad Bunny,EoO,USA,latin,6J5kc12BW5HuP3d7C3vvx8,5343477,52,4
-20,Bella Kay,iloveitiloveitiloveit,USA,latin,5IMpnpD0tQVcqWlVIgtAtV,5324572,3,20
-21,The Killers,Mr. Brightside,USA,latin,003vvx7Niy0yvhvHt4a68B,5322691,284,16
-22,sombr,Homewrecker,USA,latin,7tICCrK3CcyRFKza7yrR0z,5283234,4,12
-23,sombr,back to friends,USA,latin,7qjZnBKE73H4Oxkopwulqe,5188435,50,2
-24,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,USA,latin,1CPZ5BxNNd0n0nF4Orb9JS,5165888,37,1
-25,Taylor Swift,The Fate of Ophelia,USA,latin,53iuhJlwXhSER5J2IYYv1W,5146569,22,1
-26,Fleetwood Mac,Dreams - 2004 Remaster,USA,latin,0ofHAoxe9vBkTCp2UQIavz,5038615,267,6
-27,Bruno Mars,Why You Wanna Fight?,USA,latin,3Ac4AjYkqsvop2ydbSAhTX,4968802,1,27
-28,Ella Langley,Be Her,USA,latin,05CjWFAcAlY6O9po6Qwakk,4907065,3,23
-29,Ella Langley,weren't for the wind,USA,latin,2A22iI0x4EYAVXNpKPhNEM,4806197,46,15
-30,Bruno Mars,Dance With Me,USA,latin,1myZ6GQewhAzMH2dKtKSWK,4806053,1,30
-31,Luke Combs,Be By You,USA,latin,7aLndReanHBzpTGE5Am9H8,4755976,3,13
-32,Morgan Wallen,I Got Better,USA,latin,4gfrYDtaRmp6HPvN80V2ob,4736574,42,3
-33,RAYE,WHERE IS MY HUSBAND!,USA,latin,55lijDD6OAjLFFUHU9tcDm,4721327,24,10
-34,Bruno Mars,On My Soul,USA,latin,4i4BVY2JiH4mDSLIBdNGKD,4685414,1,34
-35,Radiohead,Creep,USA,latin,70LcF31zb1H0PyJoS1Sx1r,4377046,95,12
-36,The Goo Goo Dolls,Iris,USA,latin,6Qyc6fS4DsZjB2mRW9DsQs,4334230,106,13
-37,Lil Uzi Vert,What You Saying,USA,latin,7cjoZVmWe2xsGR4wcXiV2v,4140951,10,6
-38,SIENNA SPIRO,Die On This Hill,USA,latin,2gYTC8DsplN3RNdpdBcCOQ,4125887,10,15
-39,Zara Larsson,Lush Life,USA,latin,1rIKgCH4H52lrvDcz50hS8,4063841,10,19
-40,Arctic Monkeys,505,USA,latin,58ge6dfP91o9oXMzq3XkIS,4049567,267,18
-41,The Neighbourhood,Sweater Weather,USA,latin,0cQVqPuHQP4KEwc7ZUQmj6,4018932,289,8
-42,Taylor Swift,Opalite,USA,latin,3yWuTOYDztXjZxdE2cIRUa,4017919,22,2
-43,Noah Kahan,The Great Divide,USA,latin,77zqs8ucHCSk5jh9TYec4b,4015208,5,1
-44,She & Him,I Thought I Saw Your Face Today,USA,latin,0myRViRgmQ3J8izICXEAVO,3964137,14,8
-45,Don Toliver,No Pole,USA,latin,0eaVIYo2zeOaGJeqZ5TwYz,3943567,72,25
-46,Bruno Mars,Something Serious,USA,latin,0PV4VQCmE6Ujssr1bnswdF,3934958,1,46
-47,sombr,12 to 12,USA,latin,05od2qm2MTSKCHxy1GBp5W,3880260,32,12
-48,"Lady Gaga, Bruno Mars",Die With A Smile,USA,latin,7so0lgd0zP2Sbgs2d7a1SZ,3863584,81,1
-49,Bruno Mars,Nothing Left,USA,latin,0Sq6JK9kyC4MQa3KrJj5CB,3828060,1,49
-50,Dominic Fike,White Keys,USA,latin,5ViLKrbyL3HD6wsq3AB9eI,3797860,3,50
-51,"Waka Flocka Flame, Roscoe Dash, Wale",No Hands (feat. Roscoe Dash & Wale),USA,latin,03tqyYWC9Um2ZqU0ZN849H,3740245,46,32
-52,"BigXthaPlug, Ella Langley",Hell At Night (feat. Ella Langley),USA,latin,3pAVk6Ydn0dcGpG8gDyxSJ,3717552,29,19
-53,Whiskey Myers,Broken Window Serenade,USA,latin,1VOSSXuWRcBj2rpfxNdX9v,3709236,31,52
-54,Drake,Headlines,USA,latin,6LxSe8YmdPxy095Ux6znaQ,3678273,53,28
-55,Olivia Dean,A Couple Minutes,USA,latin,312z6PZ8wwREck8613PkJk,3604047,17,27
-56,Sabrina Carpenter,Manchild,USA,latin,2BwO5K8Q7EPAJSGze3AAh9,3601228,39,1
-57,Bruno Mars,That's What I Like,USA,latin,0KKkJNfGyhkQ5aFogxQAPU,3454324,108,3
-58,"Mac Miller, Empire Of The Sun",The Spins,USA,latin,2QGVKiAGTa1YcDqPMhAzF7,3450290,204,58
-59,Ravyn Lenae,Love Me Not,USA,latin,4WFgvKVfEhb3IUAFGrutTR,3447969,52,5
-60,Billie Eilish,BIRDS OF A FEATHER,USA,latin,6dOtVTDdiauQNBQEDOtlAB,3441993,94,2
-61,Gigi Perez,Sailor Song,USA,latin,21IYMdzTrzSe191Cy5eMap,3417028,84,3
-62,Malcolm Todd,Earrings,USA,latin,0eAuGrXyGFYwur9ARUe7LJ,3390042,9,62
-63,"Kendrick Lamar, SZA",luther (with sza),USA,latin,2CGNAOSuO1MEFCbBRgUzjd,3367319,67,1
-64,The Marías,No One Noticed,USA,latin,3siwsiaEoU4Kuuc9WKMUy5,3366991,81,5
-65,EsDeeKid,4 Raws,USA,latin,554qQSs9lpRVq6TlaaiIKT,3306676,15,10
-66,Addison Rae,Fame is a Gun,USA,latin,7B3BwNecBhKvNwSMOOl7Gk,3300541,17,32
-67,"Zach Bryan, Kacey Musgraves",I Remember Everything (feat. Kacey Musgraves),USA,latin,4KULAymBBJcPRpk1yO4dOG,3293273,132,1
-68,Fetty Wap,Trap Queen,USA,latin,2d8JP84HNLKhmd6IYOoupQ,3280562,20,17
-69,Tame Impala,The Less I Know The Better,USA,latin,6K4t31amVTZDgR3sKmwUJJ,3227760,172,59
-70,"Drake, Wizkid, Kyla",One Dance,USA,latin,1zi7xx7UVEFkmKfv06H8x0,3215938,124,13
-71,"White Noise Radiance, Rain Sounds","Rain Sounds for Sleeping, Pt. 06 (Continuous No Gaps)",USA,latin,7gF2mPcjipv2hLGHY7bi17,3214702,5,60
-72,Morgan Wallen,I'm The Problem,USA,latin,7AeM1BGYM7emrqmQn1PuWv,3213867,57,4
-73,Bad Bunny,VOY A LLeVARTE PA PR,USA,latin,59D4DOkspUbWyMmbAPQkxZ,3208901,26,7
-74,Brent Faiyaz,butterflies.,USA,latin,4jyyma8YdFC4S4llusSFRu,3178817,3,37
-75,Daniel Caesar,Who Knows,USA,latin,6DH13QYXK7lKkYHSU88N48,3149055,19,34
-76,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",USA,latin,3GCdLUSnKSMJhs4Tj6CV3s,3143542,182,2
-77,J. Cole,No Role Modelz,USA,latin,68Dni7IE4VyPkTOH9mRWHr,3120302,411,10
-78,Tame Impala,Dracula,USA,latin,1NXbNEAcPvY5G1xvfN57aA,3117318,23,8
-79,Benson Boone,Beautiful Things,USA,latin,3xkHsmpQCBMytMJNiDf3Ii,3112335,111,1
-80,Chappell Roan,Pink Pony Club,USA,latin,6393yGahSJ9slVdOwSxOVR,3105145,91,8
-81,Frank Ocean,Nights,USA,latin,7eqoqGkKwgOaWNNHx90uEZ,3082354,4,81
-82,Lit,My Own Worst Enemy,USA,latin,33iv3wnGMrrDugd7GBso1z,3081820,8,82
-83,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),USA,latin,0FIDCNYYjNvPVimz5icugS,3034957,75,1
-84,"Post Malone, Morgan Wallen",I Had Some Help (Feat. Morgan Wallen),USA,latin,5IZXB5IKAD2qlvTPJYDCFB,3032828,95,1
-85,"Disco Lines, Tinashe",No Broke Boys,USA,latin,3cZajhyr8LmtPfHZ9296tj,3022409,38,15
-86,Zach Bryan,Something in the Orange,USA,latin,3WMj8moIAXJhHsyLaqIIHI,3007362,202,4
-87,Coldplay,Sparks,USA,latin,7D0RhFcb3CrfPuTJ0obrod,3005095,83,28
-88,Foo Fighters,Everlong,USA,latin,5UWwZ5lm5PKu6eKsHAGxOk,3001191,139,60
-89,Teddy Swims,Lose Control,USA,latin,17phhZDn6oGtzMe56NuWvj,2997492,121,10
-90,Chris Stapleton,You Should Probably Leave,USA,latin,2UikqkwBv7aIvlixeVXHWt,2995435,137,56
-91,Childish Gambino,Les,USA,latin,7ghKr0pCYyPPyp7t1FH8k4,2983206,40,70
-92,Drake,Passionfruit,USA,latin,5mCPDVBb16L4XQwDdbRUpz,2958127,170,1
-93,"Nelly Furtado, Timbaland",Promiscuous,USA,latin,2gam98EZKrF9XuOkU13ApN,2948033,48,81
-94,"Kanye West, Dwele",Flashing Lights,USA,latin,5TRPicyLGbAF2LGBFbHGvO,2944909,148,53
-95,Fleetwood Mac,The Chain - 2004 Remaster,USA,latin,5e9TFTbltYBg2xThimr0rU,2932250,39,63
-96,Fleetwood Mac,Landslide,USA,latin,5ihS6UUlyQAfmp48eSkxuQ,2931845,31,23
-97,Rihanna,Don't Stop The Music,USA,latin,1Jo0Zg7XlrA6z0mFTZVdkn,2927272,19,81
-98,Chappell Roan,"Good Luck, Babe!",USA,latin,0WbMK4wrZ1wFSty9F7FCgu,2920252,99,1
-99,Bruno Mars,Locked out of Heaven,USA,latin,5g7sDjBhZ4I3gcFIpkrLuI,2917448,57,24
-100,The Police,Every Breath You Take,USA,latin,1JSTJqkT5qHq8MDJnJbRE1,2912866,26,22
+rank,artist,title,region,spotify_uri
+1,"Mr Plata, El Americano 4KT",Las Muñequitas,Colombia,4nJJCRYru4QQakCiUA155f
+2,"ARIA VEGA, Ryan Castro",CHÉVERE (premium_remix),Colombia,3CBEVPwR3kUXDoTx1lqFUQ
+3,"Ryan Castro, Kapo, Gangsta",LA VILLA,Colombia,2ZyrAym0sRLwt4PhGotHuI
+4,Kris R.,GANAS,Colombia,4KE9Ne3hgh18B3Th4xcylg
+5,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,Colombia,6iOndD4OFo7GkaDypWQIou
+6,Beéle,no tiene sentido,Colombia,1HEwEN64NjgTaHmo7LfkX8
+7,"J Balvin, Ryan Castro, DJ Snake",Tonto,Colombia,7mU1fei7P9h4mpjP2Otdw5
+8,Beéle,quédate,Colombia,6VfL3MEuYeJbDlD8m011HR
+9,Grupo Firme,El Beneficio De La Duda,Colombia,5yXt80BNZGbmHFd0NHZHNn
+10,"Yeison Jimenez, Luis Alfonso",Destino Final,Colombia,2E4TYekUduml1DWIqQWNcj
+11,"Blessd, Los Money Makers, Prodmonja",NUEVA YORK,Colombia,5U3sC7aA5NxoMSeI1kmO2n
+12,Blessd,YOGURCITO,Colombia,6rZno3nqeT7hv2PnSWRuYS
+13,"Beéle, Ovy On The Drums",mi refe,Colombia,4zhk2RS2EZODmBW6il55Qj
+14,Bad Bunny,BAILE INoLVIDABLE,Colombia,2lTm559tuIvatlT1u0JYG2
+15,"Omar Courtz, Ñengo Flow",FOREVER TU GANTEL,Colombia,1YAWMfsmduIrpqrjP45pFn
+16,"Blessd, Ovy On The Drums",AMISTA,Colombia,1kJyDcBrZ7rSKnFtKc82vm
+17,"Blessd, Anuel AA, Yan Block, Luar La L, Kris R., ROA","YOGURCITO REMIX (feat. Kris R., ROA)",Colombia,7nrd0eIftH3NQLfgk20Qp9
+18,Yeison Jimenez,Por Qué la Envidia,Colombia,433eYQkvCgJKXh1o7LtplV
+19,"Fuerza Regida, Grupo Frontera",COQUETA,Colombia,1PREzVLuDT6PSE9sej4wnV
+20,"Blessd, Ovy On The Drums","""EMHDM""",Colombia,5NbIHx26LyFkW2oSNSCYBV
+21,"Ryan Castro, Dongo",SANKA,Colombia,46ufabZP6oK3ixmN6Gd753
+22,Bad Bunny,DtMF,Colombia,3sK8wGT43QFpWrvNQsrQya
+23,"Kapo, Ryan Castro",DÓNDE,Colombia,4zqFA9MOG86u7uugR8QFDU
+24,"J Balvin, Bad Bunny",LA CANCIÓN,Colombia,0fea68AdmYNygeTGI4RC18
+25,Omar Courtz,POR SI MAÑANA NO ESTOY,Colombia,595wwjQiad6e6lSTScmXvz
+26,Arcángel,Por Amar A Ciegas,Colombia,2BrfJdTXohQRtWBKsBTIp0
+27,Kapo,UWAIE,Colombia,0fMjldiEpgjbWQ4bBQwVzH
+28,Yeison Jimenez,Vete,Colombia,6cZcn282SIMmuO8FHN8634
+29,Lenin Ramírez,Todo Lo Fue,Colombia,0Sa8aRfGckW0qUGLrBwoBG
+30,Bad Bunny,EoO,Colombia,6J5kc12BW5HuP3d7C3vvx8
+31,ARIA VEGA,CHÉVERE (joesón_type_beat),Colombia,5OQCghydcEeA76eGdJ6GEa
+32,"Nanpa Básico, Beéle",Hasta Aquí Llegué,Colombia,0Qe2g06yzLBuuSvVmFiweP
+33,"Ovy On The Drums, Quevedo, Beéle",YO y TÚ,Colombia,7koAf6aZgjO6TS7bipfPD0
+34,"Kybba, Sean Paul, Ryan Castro, Busy Signal",Ba Ba Bad Remix,Colombia,0lMafSfME2iJEE972bsQaK
+35,"Héctor ""El Father"", Wisin & Yandel",El Teléfono,Colombia,614NVFo5csQqRnryl4jXs2
+36,Herencia De Grandes,Ya Borracho,Colombia,4NyUIohBa3CEMGcXURYSOh
+37,"Yeison Jimenez, Chayín Rubio",El Mejor - Remix,Colombia,1xRRW5ZrL7I9EG8CGZrXHE
+38,Bad Bunny,NO ME QUIERO CASAR,Colombia,39L3LdlHS3gqB62HPWaJRg
+39,Beéle,top diesel,Colombia,2QP041AcWg8PwPIWP95RKN
+40,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Colombia,7d6yK8v8J484SWH5prIQiE
+41,"Luister La Voz, maikol el insoportable",Ozono,Colombia,4acvrfbXrDPFQNNDnFZnpC
+42,Yeison Jimenez,Un Perro Enamorado,Colombia,3kcr3teEgyTOVIAxMPOPeO
+43,Arcángel,Pa' Que La Pases Bien,Colombia,1pLCpA1RN8avJxSD3ZCwhj
+44,"El Bogueto, Yung Beef",Cuando No Era Cantante,Colombia,6N2iccqxRInhTLHc2Fu3W0
+45,"Bad Bunny, Ozuna, Farruko, Arcángel, Ñengo Flow, DJ Luian, Mambo Kingz",Diles,Colombia,6C1RD7YQVvt3YQj0CmuTeu
+46,Bad Bunny,VOY A LLeVARTE PA PR,Colombia,59D4DOkspUbWyMmbAPQkxZ
+47,Arcángel,Hace Mucho Tiempo,Colombia,0a6ogDrZBvYgDjILgsQVaJ
+48,"Feid, ATL Jacob",LUNA,Colombia,7bywjHOc0wSjGGbj04XbVi
+49,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,Colombia,2pbSCYzxrG0wa6qcj8IyiE
+50,Kris R.,MIL D AURA,Colombia,0LvxvoeJmdhkxRIC4orlJ3
+51,"Blessd, Fuerza Regida, Ovy On The Drums",COMO OREO,Colombia,7sRXb5IgYWwVv1DaavHSNs
+52,Plan B,Es un Secreto,Colombia,3KZCP2StVGdWkOKyRZNWA4
+53,Yeison Jimenez,MLP,Colombia,4DAMvNqHt0s8zJr6JwOoye
+54,"Blessd, Los Money Makers, Prodmonja",URUS BLUE,Colombia,4sTnItbNUAcS5KDG6vTA5B
+55,"Maluma, Trap Capos, Noriel, Bryant Myers, Juhn","Cuatro Babys (feat. Trap Capos, Noriel, Bryant Myers & Juhn)",Colombia,0JoHqmlqE0W0i9prt6kcHR
+56,"Danny Ocean, Kapo",Imagínate,Colombia,7ns16ylM6sbxo9ZWIwyE5d
+57,"Bryant Myers, Anuel AA, Anonimus, Almighty",Esclava - Remix,Colombia,2Mgur7BKnpr7OG3izSNFTA
+58,"CARABIN3, SVNTI",MUSA,Colombia,0QuHK1VvIZ1Kt2GfqRrdVo
+59,Arcángel,Me Prefieres A Mi,Colombia,3GhmL9fuM8jwGcHCFbeo3v
+60,"Blessd, GeezyDee",DIOMEDEZ,Colombia,6qDTm2QbRSLlSmaUSJE6bF
+61,Bad Bunny,NUEVAYoL,Colombia,5TFD2bmFKGhoCRbX61nXY5
+62,"Kris R., ROA",PASIÓN Y SEXO,Colombia,4pjkZyNZnOJEPpBmzOqTC2
+63,Kapo,NO CRY,Colombia,4YM3IYESNKXWYHbPXvMMVD
+64,Rels B,TU VAS SIN (fav),Colombia,6uiQ0DqbXTBc8tl0AUKZkR
+65,"Blessd, J Alvarez",FANÁTICO,Colombia,0e3d2UZRjtvviXWWMRYGQo
+66,"Blessd, Ovy On The Drums",Mírame,Colombia,2btNsI4OvcVl7SAHQQDHFB
+67,Ñengo Flow,En Las Noches Frias,Colombia,0a0JiZejbYYem1W31fldde
+68,"Tony Dize, Plan B",Solos,Colombia,3CbiuLMBPM6uV4a7HvkOib
+69,"KAROL G, Feid",Verano Rosa,Colombia,0nafF9MxcXJBQWv3BTKtdF
+70,Danny Ocean,Me Rehúso,Colombia,6ifUES3keWjwXgae8pXI3o
+71,"Yan Block, Panda Black",444,Colombia,1o4xkdBe0RjSf2u6VXi4OI
+72,"W Sound, Blessd, Ovy On The Drums",Soltera - W Sound 01,Colombia,13BDiikG6y5o5cQTK0HpW6
+73,Willie Colón,Idilio,Colombia,5iwgEFKEktjBBZV3C9TTZj
+74,"Yan Block, Panda Black",Talento,Colombia,7sChwC2NZjGc2Kdni3hlDg
+75,"Rauw Alejandro, Bad Bunny",Qué Pasaría...,Colombia,0l0vcZMU7AOeQmUIREoI2U
+76,"Boza, ELENA ROSE",orióN,Colombia,4feh4Ak3ZJfC6ibxkNzlkE
+77,Luis Alberto Posada,Mal Amor,Colombia,1j4XwpoLvqdkWllikDu7Rm
+78,Arcángel,Ganas De Ti,Colombia,71w26UK674tLfGtJFfDSjE
+79,Romeo Santos,Imitadora,Colombia,6r46lnXFbE9fr2d3KNaGbe
+80,Maluma,Borro Cassette,Colombia,6DUdDIRgLqCGq1DwkNWQTN
+81,"Yan Block, TORRRES",Yo sé,Colombia,5DdLSEyKh8zgCrJq2hFj92
+82,"El Americano 4KT, Kobby",The Flow's Son Black!,Colombia,6uLcqYE347zlvXD6rhiM4J
+83,Dalmata,Dile a Tu Amiga,Colombia,3u2jlo9kygiIAq7SPVuw6S
+84,"Kris R., GeezyDee, Prodmonja",BOBADITA,Colombia,52IeC2QBiJqk9jAR5gbe14
+85,"Omar Courtz, ROA",WO OH OH,Colombia,0h54mLixODOqU6vTcZMqVM
+86,Yeison Jimenez,Ya No Mi Amor,Colombia,7qbPQqOYYMPdQqRqv7bNin
+87,Omar Courtz,SI ESTÁS CON ALGUIEN,Colombia,7nyk5uxevcijIfl1FlJgmA
+88,"Alzate, Yeison Jimenez",Mi Venganza,Colombia,3f4AsGGYt94t7g1lHcsa8D
+89,"Arcángel, Bad Bunny, Mambo Kingz, DJ Luian",Tu No Vive Asi (feat. Mambo Kingz & DJ Luian),Colombia,6NSMQFKgjpQb0KkjMDYIK0
+90,"TURY, CARABIN3",CHUCHA,Colombia,01dFxiEOMTTzim5J3kytjA
+91,Bad Bunny,KLOuFRENS,Colombia,4MUrUT38U98olfnyzMBCzm
+92,"KAROL G, Feid, DFZM, Ovy On The Drums, J Balvin, Maluma, Ryan Castro, Blessd",+57,Colombia,3mg9jYNC1NihbthlglzrWP
+93,Yeison Jimenez,El Mejor Caballo,Colombia,4Udf3NPZZVggwmVXHcjuqA
+94,"Yeison Maje, Ciro Quiñonez, Luis Alfonso, Yeison Jimenez",El Embustero RMX,Colombia,72q1JMsCJbKNbWgzipGi6x
+95,Milo j,Niño,Colombia,4aDbrgm1ZaebS1Bb2dOXac
+96,"Yan Block, De La Rose, Hades66, Ñengo Flow",444 - Remix,Colombia,5AK6QqM8aUXXTk6oY00ZRh
+97,"La Combinación Vallenata, Jean Carlos Centeno",Ayer Y Hoy,Colombia,5HCk7iruzhQ1FbxyS3igmM
+98,Omar Courtz,KOKO,Colombia,1tz7RZirwiuaJw2p0jbdHb
+99,Kapo,OHNANA,Colombia,482PEx8hfMHSsuGtHd960A
+100,"Tony Dize, Yandel",Permítame,Colombia,6OaGIYcVzx5c7aEKkuYS1M
+101,"Kenny Die, Blessd, Kris R., Sebas",Ultra Complicado (feat. Sebas) - Remix,Colombia,569xAmXCkpM3IsEOiG4hWe
+102,"Topboy TGR, Kzadores",MÁS DE AHÍ,Colombia,4ATzrqMF84B9iSCGUUqfTT
+103,Yeison Jimenez,Se Acabó,Colombia,2T6BBNQW4t81x2ddqWrGzs
+104,"Blessd, Anuel AA, Kris R., Young Fatty, CARABIN3, GeezyDee, TURY","BUENOS DIAS (feat. Tury, GeezyDee, CARABIN3)",Colombia,10B0cONtHL7b8hdMRE2Du6
+105,"Anuel AA, Daddy Yankee, Zion & Lennox, Farruko, Wisin",Sola (Remix),Colombia,5q2JbCNi4FcnglgPfxcV65
+106,Fuerza Regida,Marlboro Rojo,Colombia,3hpm0fTeSqlhJbnqAgaLZs
+107,Frankie Ruiz,Tú Con Él,Colombia,6cHHrFD3fmBG9MR3k8kvep
+108,"KAROL G, Marco Antonio Solís",Coleccionando Heridas,Colombia,3ddJ8Vbc5tYPxq5zKRVke6
+109,Bad Bunny,MONACO,Colombia,4MjDJD8cW7iVeWInc2Bdyj
+110,Yeison Jimenez,Ni Tengo Ni Necesito,Colombia,6829KtrgNt2ZwrsE19nTEd
+111,"Kris R., Blessd",Las Piponas (Remix),Colombia,281YJmnThveWjsWVic9Ym6
+112,Luister La Voz,Amarte más no pude - En vivo,Colombia,1OHj2WRXOR9XdCV6PuptXv
+113,"Blessd, Kris R.",POLOS OPUESTOS REMIX - BLESSD VERSION,Colombia,2ALQyXMC26Vew7JX7ert9M
+114,"Rauw Alejandro, Romeo Santos",Khé?,Colombia,1YYfyJ2yCvGFCxwjsIqEK9
+115,Yeison Jimenez,Qué Día Es Hoy,Colombia,5PB1ITleNasy7UMYEaBWkL
+116,Zion & Lennox,La player (Bandolera),Colombia,0VKkyBKCXyR99navhVRqcP
+117,"Kris R., Blessd",COSITAS,Colombia,3ClyThLf2bguwdMcm7hqZ2
+118,"Blessd, Sebastian Ledher, Tayson Kryss, Joseph Ren",UNA NOCHE DE LOCURA,Colombia,2tKVinInf0PJS1iG04zzqi
+119,Beéle,si te pillara,Colombia,1C7NXX8UJ6pgNx8EkmyZDd
+120,"Don Omar, Kendo Kapponi",RX,Colombia,3NgDulHteTVdF026IxY5bW
+121,Willie Colón,Oh Qué Será?,Colombia,2n1MTLCis6qPSDKdr5XSDI
+122,Blessd,Palabras Sobran,Colombia,4wu7jIeJCUhQJaXsXVit0e
+123,KAROL G,Si Antes Te Hubiera Conocido,Colombia,73scB4Q4fcOmnsBVZPmk32
+124,ARIA VEGA,AY MAMA (mi tiburón),Colombia,7yHZ66udwjeUafGohI7T46
+125,Yeison Jimenez,Aventurero,Colombia,0ftcn4ddKESqQMA784Ebc0
+126,Willie Colón,Gitana,Colombia,4VTb5wB46sZDsfL8XgroGt
+127,Tito Rojas,Siempre Sere,Colombia,4ZGk5h0sIfeunWEKzXEoHr
+128,Yandel,Encantadora,Colombia,7LABrQFfRYcZUqUwng0Heb
+129,Yiyo Sarante,Corazon de Acero,Colombia,21nc3O8OncUv1jjSrC1ML2
+130,GeezyDee,El Peor Hombre Del Mundo,Colombia,0TBFzXKWtoF7Lwh0LKFt8f
+131,Yiyo Sarante,Manos de Tijera,Colombia,5ds1Hh3lo4JUF2vflqyayK
+132,Frankie Ruiz,Deseándote,Colombia,0FsXZAMf6NACvNJ2LI6ySp
+133,"Pipe Bueno, Jessi Uribe, Yeison Jimenez, Carín León, Alzate, Darío Gómez, Luis Alberto Posada, El Charrito Negro, Jhonny Rivera, Jhon Alex Castaño, Juan Pablo Navarrete",Guaro (Remix),Colombia,5sMHuOIvtsSuFZafTcF19Q
+134,"Zion & Lennox, J Balvin",Otra Vez (feat. J Balvin),Colombia,3QwBODjSEzelZyVjxPOHdq
+135,"Grupo Frontera, Grupo Firme",EL AMOR DE SU VIDA,Colombia,34vXRJ2bCSFiZKQzVUYVOb
+136,Yeison Jimenez,Te Voy a Olvidar,Colombia,6jbDhMUR3Hc3yVPT2tEVxY
+137,"W Sound, Myke Towers, Ovy On The Drums",5 Estrellas - W Sound 23,Colombia,7hYlC6s0SXSIwtFlW6NgjT
+138,"Romeo Santos, Prince Royce",Dardos,Colombia,5SudOD9R1Of6CsJVWZy6CQ
+139,Grupo Niche,Sin Sentimientos,Colombia,7xDwU3I38ReireLvv79h63
+140,"Yeison Jimenez, Pasabordo",Hasta La Madre,Colombia,1nDvFYTsaQwxt5CTk7LJ5E
+141,Clarent,BIENVENIDA,Colombia,7zwgHkTKv86nMOREN5k1hx
+142,Yeison Jimenez,Tu Mal Sabor,Colombia,1LNLFgc99bgCWPAaJ9zUQi
+143,"JHAYCO, J Balvin, Bad Bunny",No Me Conoce - Remix,Colombia,2beS6dD5rovBxSA1zYoSHR
+144,Beéle,frente al mar,Colombia,1i1n7hUzCDkXGFqIJSSzom
+145,"Maluma, Yeison Jimenez",Con el Corazón,Colombia,1xTWu5aArww0QtXqX2ScBI
+146,"J Balvin, Bad Bunny, Marciano Cantero",UN PESO,Colombia,7hynhxDoDpgMIV12JuVtNa
+147,"El Americano 4KT, THE FAVORITES",MAMAXITA,Colombia,3UJN0IUZIeXnrmo48e6XXx
+148,Aventura,Dile al Amor,Colombia,2Bhmj4XK33InfhqKPxcJ1v
+149,"Peso Pluma, Estevan Plazola",HOLLYWOOD,Colombia,5GTBdEjZe7zEDp1N0eCZE4
+150,Rayo & Toby,Movimiento de Caderas,Colombia,5u4XWSNpF4wE6W6i78Uf1B
+151,Fuerza Regida,ANSIEDAD,Colombia,1a7onn7lPqqRWul5ogyMyX
+152,Aventura,El Perdedor,Colombia,27ze5t5tIDPlVits0KRbxT
+153,Tego Calderón,Pa' Que Retozen,Colombia,5YJ4BVvTFmVCxUyhKejHfR
+154,"Georgy Parra Salvaje, Yeison Jimenez",GPS #5 - Dime Que Sí,Colombia,7BNTVOitDoUC5HVN8HleQy
+155,BTS,Dynamite,Colombia,5QDLhrAOJJdNAmCTJ8xMyW
+156,"J Balvin, Bad Bunny",QUE PRETENDES,Colombia,25ZAibhr3bdlMCLmubZDVt
+157,Mon Laferte,Tu Falta De Querer,Colombia,4skuEIloXWuxxgekKupkEH
+158,Bad Bunny,Tití Me Preguntó,Colombia,1IHWl5LamUGEuP4ozKQSXZ
+159,ROA,FANTASÍA,Colombia,5hWpXZOs7vpz0JD3CIylsb
+160,"Blessd, CARABIN3, SVNTI",MUSA REMIX,Colombia,5ReIuecGjsHabpYSNlKnuR
+161,Don Omar,Dile,Colombia,69Ej1xrGjOcHvIMtMKxK0G
+162,"Ryan Castro, Blaiz Fayah, Tribal Kush",BOMBASTIK<3,Colombia,2Kx9AfJPaJib9DwAdDYdB9
+163,Luister La Voz,Las Cartas,Colombia,73BrH4q0vUdhT34uK9j98O
+164,"Ryan Castro, Blessd",LEJANIA,Colombia,4py8x8qXCOTi0Rrm4NbCTK
+165,Ele A El Dominio,Hace Mucho Tiempo,Colombia,3eIvjtwoYC16ElxYE6ph7J
+166,"Trap Capos, Noriel, Bad Bunny, Arcángel",De las 2 (feat. Bad Bunny & Arcángel),Colombia,4DS7HoqrKq1dDjeYOKBlu9
+167,"Bad Bunny, Feid",PERRO NEGRO,Colombia,7iQXYTyuG13aoeHxGG28Nh
+168,Grupo Niche,Algo Que Se Quede,Colombia,1JXcB149QtbcIpDUA6YZOB
+169,"Alleh, Yorghaki",capaz (merengueton),Colombia,2dd3G3ZqEcG2cNS1tp3oEk
+170,"Alexis y Fido, Arcángel, De La Ghetto",Camuflaje (Remix),Colombia,1dAQ93kw8Sy9n4JCz2G9Nf
+171,Los Hijos De Puerto Rico,Separados,Colombia,2HbmLkHkkI15eES8kpWRuI
+172,Adolescent's Orquesta,Virgen,Colombia,5HCGrYR7g9u2X9Ju83yQLm
+173,"El Americano 4KT, Tony Monta",WELCOME,Colombia,2lGGv17kLfOrdVzNFzuQWM
+174,Yeison Jimenez,Maldita Traga,Colombia,4ysgNOWbc02RUnCxQMzpeL
+175,"Luis Silva, Yeison Jimenez",Como No Voy a Decirlo,Colombia,0ToktqlTchGYvCRHUCWnG5
+176,"Blessd, Hades66, Blackinny, Young Fatty",MAS QUE AMIGOS,Colombia,0sOrHE0vkEhrmWZnhqjP36
+177,"Oscar Maydon, Fuerza Regida",Tu Boda,Colombia,5mp6OBKCAjN4UYRvhOuUze
+178,Omar Courtz,⁠LUCES DE COLORES,Colombia,5dDlknAL9imbXXl7uG7oqe
+179,"La Factoria, Eddy Lover",Perdóname,Colombia,6yLqoieklk9gwabLaUDJ4s
+180,"Piso 21, Marc Anthony, Beéle",Volver,Colombia,61C7zXd4t2Zuhz6DRwgsLM
+181,Farruko,Cositas Que Haciamos,Colombia,5BrVJGkFTBPAMRl5hIE9A7
+182,"Blessd, Kris R., Young Fatty, TURY, CARABIN3, GeezyDee","MIU MIU (feat. GeezyDee, CARABIN3)",Colombia,1btsXTZnL2wVSW8oDWvjMM
+183,Willie Colón,Talento De Televisión,Colombia,3fRIuTih8bzc0vtY9fHhvF
+184,"Don Omar, Plan B",Hooka,Colombia,0BenZn1xELuxhb7Pjwyjxv
+185,Blessd,Instagram,Colombia,0EFxJw34fK8DWlTxx9qYeW
+186,Juliana,El AchanTAdo,Colombia,3fr52NaaVxb2UxPNxDtaQx
+187,"J Alvarez, Ñejo & Dalmata","Sexo, Sudor y Calor",Colombia,4eDjNcAyIuJFhQ31Fvvoc1
+188,Maluma,El Perdedor,Colombia,1iEwyiSLAunPR6uouANE0O
+189,"Victor Valverde, JR Torres",El Mayor De Los Ranas,Colombia,6v5qt5KPQHJt5ckWuhDGtM
+190,Luis Enrique,Yo No Sé Mañana,Colombia,5jJTqI5yteOyLWoDTjiHCO
+191,Hades66,YO QUIERO,Colombia,47sQ0h1xhlDWJ3nHbwYPrg
+192,Fuerza Regida,TU SANCHO,Colombia,6eLQXa6uk2EW8drsiKbABZ
+193,"GeezyDee, Kris R.",Parche Tranqui,Colombia,2ROj8GoI45RQouYomaLDTm
+194,Jose Luis Carrascal,Como Duele El Frio,Colombia,2QcUxndr7skMMHLElnl4Bo
+195,Fresto Music,Me Hace Daño Verte,Colombia,4dyzxv5SsdBtunuU3qj7Ti
+196,David Pabon,Aquel Viejo Motel,Colombia,286NP8kXWzx2uHb5tr7TGv
+197,Frankie Ruiz,Desnúdate Mujer,Colombia,65nL3OLuHHfEYxKkHMQ1fL
+198,"Grupo Firme, Gerardo Coronel",Qué Onda Perdida,Colombia,6IV5Y1eWaQZ1jV5apkUMS4
+199,Romeo Santos,Eres Mía,Colombia,6I86RF3odBlcuZA9Vfjzeq
+200,"Bad Bunny, Bomba Estéreo",Ojitos Lindos,Colombia,3k3NWokhRRkEPhCzPmV8TW
+1,Bad Bunny,DtMF,Global,3sK8wGT43QFpWrvNQsrQya
+2,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Global,1DwscornXpj8fmOmYVlqZt
+3,Bruno Mars,Risk It All,Global,5y2ijHECwFYWqcAHKTZgzD
+4,Djo,End of Beginning,Global,3qhlB30KknSejmIvZZLjOD
+5,Olivia Dean,Man I Need,Global,1qbmS6ep2hbBRaEZFpn7BX
+6,Taylor Swift,The Fate of Ophelia,Global,53iuhJlwXhSER5J2IYYv1W
+7,Olivia Dean,So Easy (To Fall In Love),Global,6sGIMrtIzQjdzNndVxe397
+8,Bad Bunny,BAILE INoLVIDABLE,Global,2lTm559tuIvatlT1u0JYG2
+9,Bruno Mars,I Just Might,Global,6f68Ac5tt5BQOpwr0BV9oN
+10,Bad Bunny,NUEVAYoL,Global,5TFD2bmFKGhoCRbX61nXY5
+11,sombr,back to friends,Global,7qjZnBKE73H4Oxkopwulqe
+12,Dominic Fike,Babydoll,Global,7yNf9YjeO5JXUE3JEBgnYc
+13,RAYE,WHERE IS MY HUSBAND!,Global,55lijDD6OAjLFFUHU9tcDm
+14,"Dave, Tems",Raindance (feat. Tems),Global,3oTuTpF1F3A7rEC6RKsMRz
+15,Bad Bunny,Tití Me Preguntó,Global,1IHWl5LamUGEuP4ozKQSXZ
+16,Zara Larsson,Lush Life,Global,1rIKgCH4H52lrvDcz50hS8
+17,Alex Warren,Ordinary,Global,2RkZ5LkEzeHGRsmDqKwmaJ
+18,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,Global,1CPZ5BxNNd0n0nF4Orb9JS
+19,Bad Bunny,EoO,Global,6J5kc12BW5HuP3d7C3vvx8
+20,"Lady Gaga, Bruno Mars",Die With A Smile,Global,7so0lgd0zP2Sbgs2d7a1SZ
+21,Alex Warren,FEVER DREAM,Global,7ogpGbKc4Io6NCU6ydxXwZ
+22,SIENNA SPIRO,Die On This Hill,Global,2gYTC8DsplN3RNdpdBcCOQ
+23,BLACKPINK,GO,Global,3FZPp9lBUvhsxFxKJi3VkB
+24,The Goo Goo Dolls,Iris,Global,6Qyc6fS4DsZjB2mRW9DsQs
+25,sombr,Homewrecker,Global,7tICCrK3CcyRFKza7yrR0z
+26,Billie Eilish,BIRDS OF A FEATHER,Global,6dOtVTDdiauQNBQEDOtlAB
+27,The Police,Every Breath You Take,Global,1JSTJqkT5qHq8MDJnJbRE1
+28,Ravyn Lenae,Love Me Not,Global,4WFgvKVfEhb3IUAFGrutTR
+29,She & Him,I Thought I Saw Your Face Today,Global,0myRViRgmQ3J8izICXEAVO
+30,Sabrina Carpenter,Manchild,Global,2BwO5K8Q7EPAJSGze3AAh9
+31,Bad Bunny,VOY A LLeVARTE PA PR,Global,59D4DOkspUbWyMmbAPQkxZ
+32,sombr,12 to 12,Global,05od2qm2MTSKCHxy1GBp5W
+33,Gigi Perez,Sailor Song,Global,21IYMdzTrzSe191Cy5eMap
+34,Taylor Swift,Opalite,Global,3yWuTOYDztXjZxdE2cIRUa
+35,Bella Kay,iloveitiloveitiloveit,Global,5IMpnpD0tQVcqWlVIgtAtV
+36,The Neighbourhood,Sweater Weather,Global,0cQVqPuHQP4KEwc7ZUQmj6
+37,Billie Eilish,WILDFLOWER,Global,3QaPy1KgI7nu9FJEQUgn6h
+38,Radiohead,Creep,Global,70LcF31zb1H0PyJoS1Sx1r
+39,Bruno Mars,That's What I Like,Global,0KKkJNfGyhkQ5aFogxQAPU
+40,"J Balvin, Bad Bunny",LA CANCIÓN,Global,0fea68AdmYNygeTGI4RC18
+41,"Disco Lines, Tinashe",No Broke Boys,Global,3cZajhyr8LmtPfHZ9296tj
+42,"Drake, Wizkid, Kyla",One Dance,Global,1zi7xx7UVEFkmKfv06H8x0
+43,Benson Boone,Beautiful Things,Global,3xkHsmpQCBMytMJNiDf3Ii
+44,Ella Langley,Choosin' Texas,Global,65DbTqJKhbwqYbZ1Okr0rc
+45,"El Bogueto, Anuel AA, Fuerza Regida, Yung Beef",Cuando No Era Cantante - Remix,Global,2pbSCYzxrG0wa6qcj8IyiE
+46,Bruno Mars,Cha Cha Cha,Global,6QletrrmpkUpeJkipX9pgf
+47,Don Toliver,E85,Global,3B4cjvGlPvyBLNG3AzEgkZ
+48,Bruno Mars,Locked out of Heaven,Global,5g7sDjBhZ4I3gcFIpkrLuI
+49,Jin,Don’t Say You Love Me,Global,27xkOIER6uDLKALIelHylZ
+50,Arctic Monkeys,I Wanna Be Yours,Global,5XeFesFbtLpXzIVDNQP22n
+51,The Killers,Mr. Brightside,Global,003vvx7Niy0yvhvHt4a68B
+52,"Sean Paul, Keyshia Cole",(When You Gonna) Give It Up to Me - Radio Version,Global,5nEdwtSv0qqeE0l4o1lR4q
+53,"The Weeknd, JENNIE, Lily-Rose Depp","One Of The Girls (with JENNIE, Lily Rose Depp)",Global,7CyPwkp0oE8Ro9Dd5CUDjW
+54,Coldplay,Yellow,Global,3AJwUDP919kvQ9QcozQPxg
+55,Bruno Mars,God Was Showing Off,Global,1sVBT215CDmVJvfy1E2OCU
+56,"Rauw Alejandro, Bad Bunny",Qué Pasaría...,Global,0l0vcZMU7AOeQmUIREoI2U
+57,"El Bogueto, Yung Beef",Cuando No Era Cantante,Global,6N2iccqxRInhTLHc2Fu3W0
+58,Sabrina Carpenter,Espresso,Global,2HRqTpkrJO5ggZyyK6NPWz
+59,KATSEYE,Gabriela,Global,1xOqGUkyxGQRdCvGpvWKmL
+60,Fleetwood Mac,Dreams - 2004 Remaster,Global,0ofHAoxe9vBkTCp2UQIavz
+61,Jimin,Who,Global,7tI8dRuH2Yc6RuoTjxo4dU
+62,"Peso Pluma, Tito Double P",dopamina,Global,3e32UUqXzrI4g2y5kNZrwC
+63,BLACKPINK,JUMP,Global,5H1sKFMzDeMtXwND3V6hRY
+64,"The Weeknd, Daft Punk",Starboy,Global,7MXVkk9YMctZqd1Srtv4MB
+65,Coldplay,Sparks,Global,7D0RhFcb3CrfPuTJ0obrod
+66,"Ryan Castro, Kapo, Gangsta",LA VILLA,Global,2ZyrAym0sRLwt4PhGotHuI
+67,Harry Styles,As It Was,Global,4Dvkj6JhhA12EX05fT7y2e
+68,"ROSÉ, Bruno Mars",APT.,Global,4wJ5Qq0jBN4ajy7ouZIV1c
+69,Dominic Fike,White Keys,Global,5ViLKrbyL3HD6wsq3AB9eI
+70,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Global,7d6yK8v8J484SWH5prIQiE
+71,Teddy Swims,Lose Control,Global,17phhZDn6oGtzMe56NuWvj
+72,"Gorillaz, De La Soul",Feel Good Inc.,Global,0d28khcov6AiegSCpG5TuT
+73,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",Global,3GCdLUSnKSMJhs4Tj6CV3s
+74,Vance Joy,Riptide,Global,2uXlHCUbq9OMUwx3hrk06o
+75,Arctic Monkeys,505,Global,58ge6dfP91o9oXMzq3XkIS
+76,Daniel Caesar,Who Knows,Global,6DH13QYXK7lKkYHSU88N48
+77,sombr,undressed,Global,0TFTAtCYhp2tQ9KcJIZb55
+78,Bruno Mars,Why You Wanna Fight?,Global,3Ac4AjYkqsvop2ydbSAhTX
+79,Addison Rae,Fame is a Gun,Global,7B3BwNecBhKvNwSMOOl7Gk
+80,Herencia De Grandes,Ya Borracho,Global,4NyUIohBa3CEMGcXURYSOh
+81,Linkin Park,In the End,Global,60a0Rd6pjrkxjPbaKzXjfq
+82,"Jung Kook, Latto",Seven (feat. Latto) (Explicit Ver.),Global,2HRgqmZQC0MC7GeNuDIXHN
+83,Bruno Mars,Dance With Me,Global,1myZ6GQewhAzMH2dKtKSWK
+84,Michael Jackson,Billie Jean,Global,7J1uxwnxfQLu4APicE5Rnj
+85,Nadhif Basalamah,kota ini tak sama tanpamu,Global,13CwOTXUgBugeBByE9oIWb
+86,Lord Huron,The Night We Met,Global,5yJaXWIErrrsjQ3J0eR5aK
+87,"Peso Pluma, Tito Double P",daño,Global,136BeIIoBGrrU9fI1jbcDR
+88,Bruno Mars,Just the Way You Are,Global,7BqBn9nzAq8spo5e7cZ0dJ
+89,Neton Vega,Pvta Luna,Global,33MeEaRCeIQMSRyFTr5ZJU
+90,Gracie Abrams,That’s So True,Global,7ne4VBA60CxGM75vw0EYad
+91,"W Sound, Beéle, Ovy On The Drums",La Plena - W Sound 05,Global,6iOndD4OFo7GkaDypWQIou
+92,The Marías,No One Noticed,Global,3siwsiaEoU4Kuuc9WKMUy5
+93,BLACKPINK,Champion,Global,43BJVWcBzHRIDaQCg7abnX
+94,"Peso Pluma, Tito Double P",7-3,Global,4lzo6zPM2paqyP8oBp3DOs
+95,Don Toliver,Body,Global,0FlcmZ13DGRmscCroro9GO
+96,Lenin Ramírez,Todo Lo Fue,Global,0Sa8aRfGckW0qUGLrBwoBG
+97,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),Global,0FIDCNYYjNvPVimz5icugS
+98,Coldplay,Viva La Vida,Global,1mea3bSkSGXuIRvnydlB5b
+99,Lil Uzi Vert,What You Saying,Global,7cjoZVmWe2xsGR4wcXiV2v
+100,Bruno Mars,On My Soul,Global,4i4BVY2JiH4mDSLIBdNGKD
+101,Evanescence,Bring Me To Life,Global,0COqiPhxzoWICwFCS4eZcp
+102,Bruno Mars,When I Was Your Man,Global,0B7wvvmu9EISAwZnOpjhNI
+103,Empire Of The Sun,We Are The People,Global,3zEN0ii6s4DHHBpnTp3RP7
+104,"Don Omar, Lucenzo",Danza Kuduro,Global,2a1o6ZejUi8U3wzzOtCOYw
+105,Fuerza Regida,Marlboro Rojo,Global,3hpm0fTeSqlhJbnqAgaLZs
+106,Tame Impala,The Less I Know The Better,Global,6K4t31amVTZDgR3sKmwUJJ
+107,Olivia Dean,Nice To Each Other,Global,7gKxCvTDWwV9wBhdeBbr3l
+108,Chappell Roan,"Good Luck, Babe!",Global,0WbMK4wrZ1wFSty9F7FCgu
+109,Beéle,no tiene sentido,Global,1HEwEN64NjgTaHmo7LfkX8
+110,Piche Kota,Bahagia Lagi,Global,5tZaKZPJtiHh6teQfVEHB5
+111,Olivia Dean,A Couple Minutes,Global,312z6PZ8wwREck8613PkJk
+112,Ed Sheeran,Shape of You,Global,7qiZfU4dY1lWllzX7mPBI3
+113,"DJ Snake, Justin Bieber",Let Me Love You,Global,0lYBSQXN6rCTvUZvg9S0lU
+114,The Script,The Man Who Can't Be Moved,Global,3nqqDo8CcCLke3ZoTgiOKf
+115,Harry Styles,Aperture,Global,45Z3m6yazmAi4jZuW0tzW0
+116,Zara Larsson,Midnight Sun,Global,1qRV1dKLOfH1s00b9J2LUQ
+117,Lana Del Rey,Cinnamon Girl,Global,2mdEsXPu8ZmkHRRtAdC09e
+118,Tyla,CHANEL,Global,4VxTzYm00mg82MuoT35Ja7
+119,The Weeknd,Blinding Lights,Global,0VjIjW4GlUZAMYd2vXMi3b
+120,Tame Impala,Dracula,Global,1NXbNEAcPvY5G1xvfN57aA
+121,"Fuerza Regida, Grupo Frontera",COQUETA,Global,1PREzVLuDT6PSE9sej4wnV
+122,Nirvana,Smells Like Teen Spirit,Global,0gucTLf7trAf37Ua1uAyAu
+123,"Tame Impala, JENNIE",Dracula - JENNIE Remix,Global,5yvVYFDUpbnjcnRBgjwTzM
+124,KAROL G,Si Antes Te Hubiera Conocido,Global,73scB4Q4fcOmnsBVZPmk32
+125,"Pitbull, AFROJACK, Ne-Yo, Nayer",Give Me Everything (feat. Nayer),Global,4QNpBfC0zvjKqPJcyqBy9W
+126,"Tyler, The Creator, Kali Uchis",See You Again (feat. Kali Uchis),Global,7KA4W4McWYRpgf0fWsJZWB
+127,"Kendrick Lamar, SZA",luther (with sza),Global,2CGNAOSuO1MEFCbBRgUzjd
+128,Don Toliver,No Pole,Global,0eaVIYo2zeOaGJeqZ5TwYz
+129,Justin Bieber,DAISIES,Global,5BZsQlgw21vDOAjoqkNgKb
+130,"Shakira, Wyclef Jean",Hips Don't Lie (feat. Wyclef Jean),Global,3d0WouFnFmr0K3kjeza3fF
+131,Keane,Somewhere Only We Know,Global,0ll8uFnc0nANY35E0Lfxvg
+132,Rihanna,Only Girl (In The World),Global,2ENexcMEMsYk0rVJigVD3i
+133,Rihanna,Don't Stop The Music,Global,1Jo0Zg7XlrA6z0mFTZVdkn
+134,"Omar Courtz, Ñengo Flow",FOREVER TU GANTEL,Global,1YAWMfsmduIrpqrjP45pFn
+135,Kehlani,Folded,Global,0bxPRWprUVpQK0UFcddkrA
+136,Eminem,Without Me,Global,7lQ8MOhq6IN2w8EYcFNSUk
+137,OneRepublic,Counting Stars,Global,2tpWsVSb9UEmDRxAl1zhX1
+138,TOTO,Africa,Global,2374M0fQpWi3dLnB54qaLX
+139,Linkin Park,Numb,Global,2nLtzopw4rPReszdYBJU6h
+140,Bad Bunny,KLOuFRENS,Global,4MUrUT38U98olfnyzMBCzm
+141,Danny Ocean,Me Rehúso,Global,6ifUES3keWjwXgae8pXI3o
+142,Lana Del Rey,Young And Beautiful,Global,2nMeu6UenVvwUktBCpLMK9
+143,Ed Sheeran,Perfect,Global,0tgVpDi06FyKpA1z0VMD4v
+144,Laufey,From The Start,Global,43iIQbw5hx986dUEZbr3eN
+145,Idgitaf,Sedia Aku Sebelum Hujan,Global,64qfw9JZl3RYCrq4Mn0WvT
+146,"Macklemore, Ryan Lewis, Macklemore & Ryan Lewis, Ray Dalton",Can't Hold Us (feat. Ray Dalton),Global,22skzmqfdWrjJylampe0kt
+147,EsDeeKid,4 Raws,Global,554qQSs9lpRVq6TlaaiIKT
+148,Radiohead,Let Down,Global,2fuYa3Lx06QQJAm0MjztKr
+149,Cigarettes After Sex,Apocalypse,Global,1oAwsWBovWRIp7qLMGPIet
+150,JENNIE,like JENNIE,Global,0fK7ie6XwGxQTIkpFoWkd1
+151,rihanna,We Found Love,Global,1zv3WFUbZ5vPxFq9I2jAU1
+152,Sam Fender,Rein Me In,Global,0MUXBhPUDF8or0kfQ0EHwV
+153,Creedence Clearwater Revival,Have You Ever Seen The Rain,Global,2LawezPeJhN4AWuSB0GtAU
+154,BLACKPINK,Me and my,Global,5MXcM263QvCTWriH3nVusc
+155,Justin Bieber,Sorry,Global,09CtPGIpYB4BrO8qb1RGsF
+156,Bruno Mars,It Will Rain,Global,4rMNgxEwGWoPHIUcvB5BrB
+157,Rihanna,Kiss It Better,Global,0UHB9METy4VCXNgkcGqHqS
+158,Tom Odell,Another Love,Global,7jtQIBanIiJOMS6RyCx6jZ
+159,"Peso Pluma, Tito Double P, LENCHO",chiclona,Global,5Q4HTsEGKanxOwL1nYCnhQ
+160,Guns N' Roses,Sweet Child O' Mine,Global,7snQQk1zcKl8gZ92AnueZW
+161,"The Chainsmokers, Halsey",Closer,Global,7BKLCZ1jbUBVqRi2FVlTVw
+162,Tears For Fears,Everybody Wants To Rule The World,Global,2YiCMmONQcoMPX2bV1LxE0
+163,Fleetwood Mac,The Chain - 2004 Remaster,Global,5e9TFTbltYBg2xThimr0rU
+164,Ed Sheeran,Photograph,Global,6fxVffaTuwjgEk5h9QyRjy
+165,"Tate McRae, F1 The Album",Just Keep Watching (From F1® The Movie),Global,2yWlGEgEfPot0lv3OAjuG3
+166,"DJ Japa NK, MC Meno K, MC Ryan SP, Mc Jacaré, DJ DAVI DOGDOG",Posso Até Não Te Dar Flores,Global,4G7bbgD2DHORU4frrWoCXp
+167,"Nelly Furtado, Timbaland",Promiscuous,Global,2gam98EZKrF9XuOkU13ApN
+168,Lady Gaga,Poker Face,Global,1QV6tiMFM6fSOKOGLMHYYg
+169,Bad Bunny,MONACO,Global,4MjDJD8cW7iVeWInc2Bdyj
+170,"French Montana, Swae Lee",Unforgettable,Global,3B54sVLJ402zGa6Xm4YGNe
+171,"Coolio, L.V.",Gangsta's Paradise,Global,1DIXPcTDzTj8ZMHt3PDt8p
+172,Rihanna,Love On The Brain,Global,5oO3drDxtziYU2H1X23ZIp
+173,Ariana Grande,we can't be friends (wait for your love),Global,51ZQ1vr10ffzbwIjDCwqm4
+174,Bruno Mars,Something Serious,Global,0PV4VQCmE6Ujssr1bnswdF
+175,Lana Del Rey,Summertime Sadness,Global,1FEiijYPJtyswChfcpv3p0
+176,Taylor Swift,Style,Global,0ug5NqcwcFR2xrfTkc7k8e
+177,Twenty One Pilots,Stressed Out,Global,3CRDbSIZ4r5MsZ0YwxuEkn
+178,Hotel Ugly,Shut up My Moms Calling,Global,3hxIUxnT27p5WcmjGUXNwx
+179,Linkin Park,Somewhere I Belong,Global,3fjmSxt0PskST13CSdBUFx
+180,Tate McRae,Sports car,Global,5UJbgR4XF4y1DvbkxEqe8S
+181,The Cure,Boys Don't Cry,Global,1QFh8OH1e78dGd3VyJZCAC
+182,"Maroon 5, Wiz Khalifa",Payphone,Global,1XGmzt0PVuFgQYYnV2It7A
+183,Coldplay,The Scientist,Global,75JFxkI2RXiU7L9VXzMkle
+184,Hozier,Take Me To Church,Global,3dYD57lRAUcMHufyqn9GcI
+185,Rels B,TU VAS SIN (fav),Global,6uiQ0DqbXTBc8tl0AUKZkR
+186,Fuerza Regida,TU SANCHO,Global,6eLQXa6uk2EW8drsiKbABZ
+187,Bruno Mars,Nothing Left,Global,0Sq6JK9kyC4MQa3KrJj5CB
+188,Nirvana,Come As You Are,Global,5AEOqLsRJFAoSS4ay4Jzao
+189,Rihanna,S&M,Global,7ySUcLPVX7KudhnmNcgY2D
+190,"The Chainsmokers, Coldplay",Something Just Like This,Global,6RUKPb4LETWmmr3iAEQktW
+191,Chappell Roan,Pink Pony Club,Global,6393yGahSJ9slVdOwSxOVR
+192,"Post Malone, Swae Lee",Sunflower - Spider-Man: Into the Spider-Verse,Global,0RiRZpuVRbi7oqRdSMwhQY
+193,Rihanna,Breakin' Dishes,Global,5EcG8eMMlwkHRVa4aTR1qd
+194,"Kanye West, Dwele",Flashing Lights,Global,5TRPicyLGbAF2LGBFbHGvO
+195,a-ha,Take on Me,Global,04aigH9HRGebQZu1JAN6X1
+196,Lola Young,Messy,Global,35ISBknsCeZQtq66xABI9g
+197,"Charlie Puth, Selena Gomez",We Don't Talk Anymore (feat. Selena Gomez),Global,54PbBpquVfhfrwRwvjSXbI
+198,"Calvin Harris, Ellie Goulding",Outside (feat. Ellie Goulding),Global,7MmG8p0F9N3C4AXdK6o6Eb
+199,Oasis,Wonderwall - Remastered,Global,5qqabIl2vWzo9ApSC317sa
+200,"ZXKAI, slxughter",NO BATIDÃO,Global,7vg9noSnFEyPfwLiaCW4vi
+1,"V, Park Hyo Shin",Winter Ahead (with PARK HYO SHIN),Taiwan,7G7mSV4BebkoHWwKTDvXu9
+2,BLACKPINK,GO,Taiwan,3FZPp9lBUvhsxFxKJi3VkB
+3,Jin,Don’t Say You Love Me,Taiwan,27xkOIER6uDLKALIelHylZ
+4,A-Lin,幸福在歌唱 - 電影《陽光女子合唱團》幸福版主題曲,Taiwan,3VHi5bCUek6XdiDmqqrirs
+5,Jimin,Who,Taiwan,7tI8dRuH2Yc6RuoTjxo4dU
+6,Crowd Lu,太陽與地球,Taiwan,0bQSWXtpau3VkNI1ZcXTQA
+7,Pei-Yu Hung,再見的時候 - 電影〈陽光女子合唱團〉主題曲-再見版,Taiwan,3IBYp3fKyydZ5dDtirLY6P
+8,Hearts2Hearts,RUDE!,Taiwan,0WA27lZzPKFJKAbiDRmQDc
+9,IVE,BANG BANG,Taiwan,7pBE8YpFoZ9ankC2Ci5z9X
+10,BLACKPINK,Champion,Taiwan,43BJVWcBzHRIDaQCg7abnX
+11,Khalil Fong,特別的人,Taiwan,0VTzUEuHYD8s7CgQ15cDPo
+12,BLACKPINK,JUMP,Taiwan,5H1sKFMzDeMtXwND3V6hRY
+13,V,Slow Dancing,Taiwan,5h1BN75CEh8wdSwE1xrbSe
+14,Patrick Brasca,單程票,Taiwan,3woBOD3Ldh81fAwpsnD8yC
+15,"Top Barry, INDEcompany",一半一半,Taiwan,21x0N6lu6D9kO8rVtTU3mH
+16,V,Love Me Again,Taiwan,2N0SPREDYqILVEFSsWF5N5
+17,HWASA,Good Goodbye,Taiwan,3cLXrotzCjYCkN73PewALM
+18,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,Taiwan,1CPZ5BxNNd0n0nF4Orb9JS
+19,Evangeline Wong,離開我的依賴,Taiwan,23WLgtD54AeluEPRr5muHo
+20,BLACKPINK,Fxxxboy,Taiwan,7m0duH1vdTNxM2g8BLfR0F
+21,IVE,BLACKHOLE,Taiwan,2ytQFMxdreEFPPZTtyDdqM
+22,黃奇斌,若無你我欲去佗位,Taiwan,76EfpqmO6JUL2TTR1SIGwz
+23,"Patrick Brasca, mac ova seas",左轉燈 (1000 Times+1),Taiwan,4UwZyC0wEV6XDEAr9kaQhi
+24,Jay Chou,擱淺,Taiwan,0cOMncRq4cmDLO4tPQnkBF
+25,BLACKPINK,Me and my,Taiwan,5MXcM263QvCTWriH3nVusc
+26,KiiiKiii,404 (New Era),Taiwan,24rDDbSlFY9OHrlJb48CRh
+27,Bestards,離開的一路上,Taiwan,1NoDTQhJsrd5rnpb6PQthK
+28,Crowd Lu,一夜一夜一夜,Taiwan,3wofqqt5YJWdhLI9IFaX39
+29,JENNIE,like JENNIE,Taiwan,0fK7ie6XwGxQTIkpFoWkd1
+30,Crowd Lu,幾分之幾 - 電影<花甲大人轉男孩>主題曲,Taiwan,4F7ZAsndEIJXyFzJUHNlRu
+31,"i-dle, skaiwater",Mono (feat. skaiwater),Taiwan,3VxmXJ4FdtbWI27p3Gx4Wh
+32,EggPlantEgg,閣愛妳一擺,Taiwan,4Zwn8WxD61diTwqv9hyTQA
+33,Stefanie Sun,遇見,Taiwan,3xJK8ywApYVEYIDhymYMC6
+34,CORTIS,GO!,Taiwan,6OWWZtNQORY1McaZmOrwhc
+35,Stefanie Sun,我懷念的,Taiwan,7z2M7DsEjZjwXBkWG3zd21
+36,ROSÉ,toxic till the end,Taiwan,1z5ebC9238uGoBgzYyvGpQ
+37,BABYMONSTER,PSYCHO,Taiwan,491ca80N1C63tpoLvAsLKb
+38,Khalil Fong,愛愛愛,Taiwan,59lBAMCis4C6NsPdUV35Vz
+39,"LE SSERAFIM, j-hope",SPAGHETTI,Taiwan,2N9miXnewVmUrgl6JSK1FI
+40,"Patrick Brasca, 陳華",你沒等我去的舊金山,Taiwan,1aNVW0fujBVx7JTorTO1jn
+41,Bestards,不是因為天氣晴朗才愛你,Taiwan,2VEt42QSQxILgEf9B50xxm
+42,aespa,Whiplash,Taiwan,7Cnpb1vBbC46RgVyyKLH7p
+43,Amazing Show,愛情的大壞蛋,Taiwan,5HVq8nS0pbM6G7YK8M7DY4
+44,Jay Chou,晴天,Taiwan,5pIcwtJYNJx93l420oR2Vm
+45,A-Mei Chang,連名帶姓,Taiwan,3LlQoKvVnkVvq3KC8anUn8
+46,陳粒,小半,Taiwan,3QxWTqyIT4O9bokIZlNDpo
+47,BABYMONSTER,WE GO UP,Taiwan,1tonXoW6dcb7GGNpec3PTl
+48,"Jay Chou, Lara Liang",珊瑚海,Taiwan,3Qj9Fy8BPbWmICTiNkuqB7
+49,Pets Tseng,一個人想著一個人,Taiwan,3n3zzFH7zzO0gJNaw4RKSm
+50,ILLIT,NOT CUTE ANYMORE,Taiwan,1k0JAiH11gHL9dc5dfQjQr
+51,张远,看着我的眼睛说,Taiwan,7d6eShN6yVeR4Y2Md9uCA4
+52,Stefanie Sun,開始懂了,Taiwan,68tZwwRuo9ip5gRQFG1XWF
+53,David Tao,愛我還是他,Taiwan,13bw75oRjvxMv9VGIeM32i
+54,LBI利比,Jumping Machine (跳楼机),Taiwan,1XZE0InCx3SdCnLpVsPpZl
+55,Bruno Mars,Risk It All,Taiwan,5y2ijHECwFYWqcAHKTZgzD
+56,JOLIN,布拉格廣場 - JOLIN Version/ 星宇航空布拉格開航主題曲,Taiwan,0HnESxAFR5lTHioAlI7wo3
+57,EggPlantEgg,浪流連,Taiwan,1IS0WFyiVpwsATeSzjEvpI
+58,Sam Lee,痴心絕對,Taiwan,0D0n4q2o54VTOmDJdL6ikY
+59,Djo,End of Beginning,Taiwan,3qhlB30KknSejmIvZZLjOD
+60,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,Taiwan,1DwscornXpj8fmOmYVlqZt
+61,EggPlantEgg,愛情你比我想的閣較偉大 (《當男人戀愛時》電影主題曲),Taiwan,6m2I6ZyWRkxjBrrLVQILfl
+62,"Firdhaus, DIOR 大穎",在加納共和國離婚,Taiwan,6GyUt7yJ0sOktc5HjvVnFh
+63,icyball 冰球樂團,不在乎,Taiwan,1t2mpO9GpLjRHDDX6SFWRn
+64,Jay Chou,楓,Taiwan,1pALOIA4ytESmhl7Fxjdic
+65,"马也_Crabbit, Cole先生",海屿你,Taiwan,6UO9nrihAk6sFGvVHDVTz8
+66,艾薇 Ivy,天使借的溫柔,Taiwan,3ITUmRLMjxf3ZqCPSDD2gk
+67,Taylor Swift,The Fate of Ophelia,Taiwan,53iuhJlwXhSER5J2IYYv1W
+68,LNGSHOT,Moonwalkin',Taiwan,46V2ciN6F5bxjQWityNhkY
+69,"ROSÉ, Bruno Mars",APT.,Taiwan,4wJ5Qq0jBN4ajy7ouZIV1c
+70,G.E.M.,多遠都要在一起,Taiwan,55d0jw269HE9pbOt5ntCo8
+71,Joker Xue,演员,Taiwan,5Sib99jpYybZAicUMETb3h
+72,张远,嘉賓,Taiwan,5jAmIkIpskwu2hRz2YaEHi
+73,CORTIS,FaSHioN,Taiwan,4ecdsGz3Hg6TKPwQ0ZOdJz
+74,Taylor Swift,Opalite,Taiwan,3yWuTOYDztXjZxdE2cIRUa
+75,A-Mei Chang,人質,Taiwan,6OAUhxFZzaRHHC8XiuIkvb
+76,sombr,back to friends,Taiwan,7qjZnBKE73H4Oxkopwulqe
+77,BABYMONSTER,DRIP,Taiwan,1MUZitHRpmng5NevrvNx4T
+78,Richael Liu,两三句,Taiwan,0BkBM5rY934yzHViRhd8Em
+79,Olivia Dean,So Easy (To Fall In Love),Taiwan,6sGIMrtIzQjdzNndVxe397
+80,"Jay Chou, A-Mei Chang",不該,Taiwan,5miH0BWhRVTvHAwmnoeyXH
+81,Sam Lee,手放開,Taiwan,2Dd9EXYXI2NNrLG61OtWQv
+82,Kenshi Yonezu,IRIS OUT,Taiwan,59hVbgr8rfYkDbHfr8RcGI
+83,CORTIS,"Mention Me - From The Movie ""GOAT""",Taiwan,3f0OEJd7mlPNhmH3fUOrqy
+84,F.I.R.,月牙灣,Taiwan,1b5IRT3iraxjHOsKZx93sW
+85,"Lady Gaga, Bruno Mars",Die With A Smile,Taiwan,7so0lgd0zP2Sbgs2d7a1SZ
+86,ILLIT,Magnetic,Taiwan,1aKvZDoLGkNMxoRYgkckZG
+87,PIZZALI,做我的初戀,Taiwan,4flk8ZgDFry6o2t0SdKsnB
+88,ROSÉ,number one girl,Taiwan,1lcBt7LoEikqYmhUoa2cez
+89,A-Lin,給我一個理由忘記,Taiwan,2DcmVSLAg0ZzfOQxDshZHY
+90,David Tao,就是愛妳,Taiwan,73eCSQ1DxQbaOnzy8PhKx3
+91,Joker Xue,其实,Taiwan,6Mmdzst5fLkrKjhdkGhLpe
+92,DIOR 大穎,人的這一生,Taiwan,2Jox8DFhnUpJZJWLsVAsAR
+93,Hearts2Hearts,FOCUS,Taiwan,6jYiHr12NVKLzn0X7K8aSK
+94,Silence Wang,像晴天像雨天（电视剧《难哄》心动曲）,Taiwan,1zFuSla4RQ5qAJwDIQYixW
+95,Amazing Show,偷偷愛,Taiwan,0L7R4dmkwk46DEZgqx1fF7
+96,"Disney, Shakira",Zoo,Taiwan,3vJIaiTIHxHhYafTSPNiH4
+97,Fish Leong,慢冷,Taiwan,3NNDJfWMGHuNpvHWTImmlW
+98,WeiBird,"如果可以 - 電影""月老""主題曲",Taiwan,72OVnXDzugvrCU25lMi9au
+99,Ronghao Li,"不將就 (電影""何以笙簫默""片尾曲)",Taiwan,5DH8nF7aWoXXg5Sm3gjCWD
+100,aespa,Rich Man,Taiwan,1sUjTLLCJzcxC15GUBrOlg
+101,F.I.R.,我們的愛,Taiwan,0Q4YuuiCuxIIKUw2fb1cmV
+102,Crowd Lu,愚人節快樂,Taiwan,3bQeHxH1x4pVUfsRpuLAlH
+103,JOLIN,妥協,Taiwan,0m1cI6aV1jq537JamnL592
+104,李浩瑋 Howard Lee,無垢,Taiwan,08VBl78Lgs7VIEzCL1Btyv
+105,"JISOO, ZAYN",EYES CLOSED (with ZAYN),Taiwan,4WFfPxJv1KRekG6mxn837K
+106,"Jung Kook, Latto",Seven (feat. Latto) (Explicit Ver.),Taiwan,2HRgqmZQC0MC7GeNuDIXHN
+107,Andrew Tan,天后,Taiwan,4D0KlK4Fl8lotvsoys1bYQ
+108,TWS,OVERDRIVE,Taiwan,5qAfVxNUxjrELshgTpWxLf
+109,Billie Eilish,BIRDS OF A FEATHER,Taiwan,6dOtVTDdiauQNBQEDOtlAB
+110,Wu Bai,淚橋,Taiwan,0NAcDn6U2GB2Arhspmh38S
+111,"G-DRAGON, TAEYANG, DAESUNG",HOME SWEET HOME (feat. TAEYANG & DAESUNG),Taiwan,5doooVlMVRZztQbySqARMI
+112,"The Kid LAROI, Justin Bieber",STAY (with Justin Bieber),Taiwan,567e29TDzLwZwfDuEpGTwo
+113,TWICE,THIS IS FOR,Taiwan,18AMT576rBlQFMzUTS7WBa
+114,高爾宣 OSN,Without You,Taiwan,0KWnRv3wxjltYVB3MqjNd2
+115,A-Mei Chang,如果你也聽說,Taiwan,2JH8WubSk2IWYUDBUguSQv
+116,NMIXX,Blue Valentine,Taiwan,4i0HNuFEH6P6K4UnsY5uUh
+117,A-Lin,失戀無罪,Taiwan,2s96YKKpfBUbQP3lJuhkfX
+118,G.E.M.,泡沫,Taiwan,2IfSPLPDW6RGosdB5huwAA
+119,Jay Chou,七里香,Taiwan,57w29bSwdIZ6gr6xXOqwc1
+120,Bruno Mars,I Just Might,Taiwan,6f68Ac5tt5BQOpwr0BV9oN
+121,Eric Chou,怎麼了,Taiwan,5cU1O9P0EDA0rPkPDykhIm
+122,Leehom Wang,愛錯,Taiwan,4vdX5mQE0oXkflFqsqQkUP
+123,BABYMONSTER,Really Like You,Taiwan,5xqM1HOndjxfH7NmyD8SVS
+124,"艾薇 Ivy, 吳霏",我受夠了,Taiwan,3w71TlXbEeZeZcI7BtHy2G
+125,EggPlantEgg,浪子回頭,Taiwan,301mxTHzMyFOVUXl6U22sf
+126,"高爾宣 OSN, Patrick Brasca",Hold On,Taiwan,580BvW3DyUNoYFgQgoD2GI
+127,Juice Boy,一萬公里外的你,Taiwan,6FIhcAp2lj45eFlUkTriAr
+128,A-Mei Chang,掉了,Taiwan,4yLirljV93Y0vIoERjeTv5
+129,"The Chainsmokers, Halsey",Closer,Taiwan,7BKLCZ1jbUBVqRi2FVlTVw
+130,"Kenshi Yonezu, Hikaru Utada",JANE DOE,Taiwan,4oE7MyJhqSD3BaHRpNs8Nl
+131,"ROSÉ, F1 The Album",Messy (From F1® The Movie),Taiwan,6Wobsw9uZ0D0xkfOjxXSq9
+132,Stefanie Sun,雨天,Taiwan,5tZbcQ5PYID0xB0VNblmrK
+133,玖壹壹,下輩子,Taiwan,73Ijz3vN9KP1W5qrfNeWMI
+134,Amazing Show,捲菸,Taiwan,7ks6KrwN2DKhEm06X85qEK
+135,TWICE,What is Love?,Taiwan,5Ek40FyMPprcvtyZDjqylX
+136,Stefanie Sun,我不難過,Taiwan,4XrWar13kLO1jr535AzKrQ
+137,Jay Chou,說好的幸福呢,Taiwan,4OoExItZJ0jePoCZDbHx4t
+138,IVE,XOXZ,Taiwan,2c6xH9usslUoHnOzsRhpcP
+139,Crowd Lu,刻在我心底的名字 (Your Name Engraved Herein) - 電影<刻在你心底的名字>主題曲,Taiwan,3OC84eKMxRJ4x0Hcwl9i4i
+140,en王翊恩,嚣张,Taiwan,1vfUASvUGt3gxQ1x3T3u1C
+141,831,想見你想見你想見你 - 電視劇《想見你》片尾曲,Taiwan,69zgyr5HVKdInjeKpq1qHa
+142,ALLDAY PROJECT,ONE MORE TIME,Taiwan,7FyKqLLICVzwBiAUtbVYUW
+143,"The Chainsmokers, Coldplay",Something Just Like This,Taiwan,6RUKPb4LETWmmr3iAEQktW
+144,Zhang Zhen Yue,愛我別走,Taiwan,2fc2vUA5H3mTAr9rQoBDKt
+145,Jay Chou,一路向北,Taiwan,7KoqEF76fGnDYdxTSHLxcm
+146,Bruno Mars,That's What I Like,Taiwan,0KKkJNfGyhkQ5aFogxQAPU
+147,"Saja Boys, Andrew Choi, Neckwav, Danny Chung, KEVIN WOO, samUIL Lee, KPop Demon Hunters Cast",Soda Pop,Taiwan,02sy7FAs8dkDNYsHp4Ul3f
+148,Olivia Dean,Man I Need,Taiwan,1qbmS6ep2hbBRaEZFpn7BX
+149,"阿涵, Ayo97",感谢你曾来过,Taiwan,1JLtvvPsHwLyd2ufASdkWV
+150,Khalil Fong,紅豆,Taiwan,5TkQbhQm9BXONk2agDo4w9
+151,IVE,Odd (GAEUL Solo),Taiwan,2dl3pNKU8pr0fcI4XrKcGF
+152,David Tao,"愛, 很簡單",Taiwan,3OXHwY8gI2QUh0QliXBwrI
+153,菲菲公主,第57次取消发送,Taiwan,2xYrGeWUjwGvB0KMAfUFSd
+154,Cheer Chen,太聰明,Taiwan,4DCB1S7G6SmH9qlDpEVIzP
+155,頑童Mj116,SPOTLIGHT,Taiwan,4IazYww9msi3dR81d9itO7
+156,艾薇 Ivy,失重前幸福,Taiwan,3SJgTyb8a7z66suw0kBZ0T
+157,Rainie Yang,雨愛,Taiwan,553GNiNqcudWfsF55RBDqz
+158,CORTIS,JoyRide,Taiwan,6T17ZI0glfM2IGLdUwtnLK
+159,JENNIE,Mantra,Taiwan,1kUyOJb3fzUo8r0OCz5SQk
+160,Shi Shi,少一點天份,Taiwan,7lCLZlVt6g4ifoHXpXEHZm
+161,Amazing Show,心悶,Taiwan,5PpuqQ7vLG2e66SUpjUVYg
+162,陈村长,爱怎么了,Taiwan,0c9gjnRGBRke9VmLaZWmhM
+163,ZQS,这是你期盼的长大吗,Taiwan,3AKYofM0vFekNthGbpjMpN
+164,Hearts2Hearts,STYLE,Taiwan,5EoV2HmAlkqN1XvsIjOBZZ
+165,"Kendrick Lamar, SZA",luther (with sza),Taiwan,2CGNAOSuO1MEFCbBRgUzjd
+166,Rene Liu,後來,Taiwan,2wzXhxWPX0aODraKNXoJYY
+167,sodagreen,小情歌,Taiwan,4FhJ7YSRxATHnaRg4nGs6t
+168,Ricky Hsiao,末班車,Taiwan,4oELKeBS6hWwN3CTuN6acA
+169,"Marz23, Faye 詹雯婷",不簡單的歌 (feat. Faye 詹雯婷),Taiwan,77Y69dj99sTYGAWule3nz8
+170,WOODZ,Drowning,Taiwan,4xeugB5MqWh0jwvXZPxahq
+171,芒果醬 Mango Jump,我喜歡你,Taiwan,6FpUCVpLvO0QXwsovSfWEa
+172,JOLIN,倒帶,Taiwan,4XipvtwRgtUrGb2j2l0wNG
+173,Eason Chan,淘汰,Taiwan,5sYtvIl1mx9QuIgwC6FDU1
+174,黃小琥,沒那麽簡單,Taiwan,4xZIMRwaaBx7CZMmM6KLuh
+175,"Ronghao Li, A-Mei Chang",對等關係 (feat. 張惠妹),Taiwan,0mGNDAW085Jkn8IbEalZG3
+176,aespa,UP - KARINA Solo,Taiwan,5sjnkOfTLCLNfkkchI2re2
+177,Amazing Show,擋一根,Taiwan,6439IQyiZV5I7aOo8UREgm
+178,Bad Bunny,DtMF,Taiwan,3sK8wGT43QFpWrvNQsrQya
+179,Sam Lee,最近,Taiwan,0ONg8VCxzW3CCNDxDY0DNe
+180,"Charlie Puth, Selena Gomez",We Don't Talk Anymore (feat. Selena Gomez),Taiwan,54PbBpquVfhfrwRwvjSXbI
+181,LNGSHOT,Never Let Go,Taiwan,37xebnhvUyM8VyyDDeo65d
+182,F.I.R.,Lydia,Taiwan,4D4KVgVNxed4Hd3rGWlCo2
+183,Nicky Lee,想太多,Taiwan,7IiSESHLOtsoEXTlXa0bjJ
+184,颜人中,有些,Taiwan,4bDJJr7yG31MApWuvEasAo
+185,David Tao,普通朋友,Taiwan,7CTitzr4eVIDCPUJi5Dr4B
+186,Taylor Swift,Cruel Summer,Taiwan,1BxfuPKGuaTgP7aM0Bbdwr
+187,aespa,Drama,Taiwan,5XWlyfo0kZ8LF7VSyfS4Ew
+188,icyball 冰球樂團,能不能和我留在台北（陪我幾天）,Taiwan,63N9fNPJ5kkbvtntCwgIbm
+189,KATSEYE,Gabriela,Taiwan,1xOqGUkyxGQRdCvGpvWKmL
+190,Wu Bai,夢醒時分,Taiwan,51fGtLs5vdK2NOumVhMXru
+191,IVE,I AM,Taiwan,70t7Q6AYG6ZgTYmJWcnkUM
+192,BY2,我知道,Taiwan,7iXPSlDdL0EQwPFtUR8ye1
+193,XG,HYPNOTIZE,Taiwan,3fEX9NgOeklq816Fw00uoo
+194,ATEEZ,Adrenaline,Taiwan,2VKGO4DNyUK5UxCQB3b3DF
+195,Eason Chan,十年,Taiwan,25pWemriUQVrZ3yIiS2IBf
+196,Eric Chou,想念你想我,Taiwan,1sl9O7VLwGwdw4iXqnkbDP
+197,Eric Chou,摯友,Taiwan,5evE7bweEhX83fd1ZmwPjP
+198,BABYMONSTER,FOREVER,Taiwan,7a6vvAM1cjAuyVQpqv9pmu
+199,NewJeans,Ditto,Taiwan,3r8RuvgbX9s7ammBn07D3W
+200,马师傅,善后,Taiwan,6gYS6CQc7UMnj0Ubq3C0QT
+1,Bruno Mars,Risk It All,USA,5y2ijHECwFYWqcAHKTZgzD
+2,"PinkPantheress, Zara Larsson",Stateside + Zara Larsson,USA,1DwscornXpj8fmOmYVlqZt
+3,Ella Langley,Choosin' Texas,USA,65DbTqJKhbwqYbZ1Okr0rc
+4,Bruno Mars,I Just Might,USA,6f68Ac5tt5BQOpwr0BV9oN
+5,Bad Bunny,DtMF,USA,3sK8wGT43QFpWrvNQsrQya
+6,Olivia Dean,Man I Need,USA,1qbmS6ep2hbBRaEZFpn7BX
+7,Dominic Fike,Babydoll,USA,7yNf9YjeO5JXUE3JEBgnYc
+8,Don Toliver,E85,USA,3B4cjvGlPvyBLNG3AzEgkZ
+9,Olivia Dean,So Easy (To Fall In Love),USA,6sGIMrtIzQjdzNndVxe397
+10,Bad Bunny,BAILE INoLVIDABLE,USA,2lTm559tuIvatlT1u0JYG2
+11,Bad Bunny,Tití Me Preguntó,USA,1IHWl5LamUGEuP4ozKQSXZ
+12,Bad Bunny,NUEVAYoL,USA,5TFD2bmFKGhoCRbX61nXY5
+13,Bruno Mars,Cha Cha Cha,USA,6QletrrmpkUpeJkipX9pgf
+14,Djo,End of Beginning,USA,3qhlB30KknSejmIvZZLjOD
+15,Don Toliver,Body,USA,0FlcmZ13DGRmscCroro9GO
+16,Bruno Mars,God Was Showing Off,USA,1sVBT215CDmVJvfy1E2OCU
+17,Alex Warren,FEVER DREAM,USA,7ogpGbKc4Io6NCU6ydxXwZ
+18,Alex Warren,Ordinary,USA,2RkZ5LkEzeHGRsmDqKwmaJ
+19,Bad Bunny,EoO,USA,6J5kc12BW5HuP3d7C3vvx8
+20,Bella Kay,iloveitiloveitiloveit,USA,5IMpnpD0tQVcqWlVIgtAtV
+21,The Killers,Mr. Brightside,USA,003vvx7Niy0yvhvHt4a68B
+22,sombr,Homewrecker,USA,7tICCrK3CcyRFKza7yrR0z
+23,sombr,back to friends,USA,7qjZnBKE73H4Oxkopwulqe
+24,"HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",Golden,USA,1CPZ5BxNNd0n0nF4Orb9JS
+25,Taylor Swift,The Fate of Ophelia,USA,53iuhJlwXhSER5J2IYYv1W
+26,Fleetwood Mac,Dreams - 2004 Remaster,USA,0ofHAoxe9vBkTCp2UQIavz
+27,Bruno Mars,Why You Wanna Fight?,USA,3Ac4AjYkqsvop2ydbSAhTX
+28,Ella Langley,Be Her,USA,05CjWFAcAlY6O9po6Qwakk
+29,Ella Langley,weren't for the wind,USA,2A22iI0x4EYAVXNpKPhNEM
+30,Bruno Mars,Dance With Me,USA,1myZ6GQewhAzMH2dKtKSWK
+31,Luke Combs,Be By You,USA,7aLndReanHBzpTGE5Am9H8
+32,Morgan Wallen,I Got Better,USA,4gfrYDtaRmp6HPvN80V2ob
+33,RAYE,WHERE IS MY HUSBAND!,USA,55lijDD6OAjLFFUHU9tcDm
+34,Bruno Mars,On My Soul,USA,4i4BVY2JiH4mDSLIBdNGKD
+35,Radiohead,Creep,USA,70LcF31zb1H0PyJoS1Sx1r
+36,The Goo Goo Dolls,Iris,USA,6Qyc6fS4DsZjB2mRW9DsQs
+37,Lil Uzi Vert,What You Saying,USA,7cjoZVmWe2xsGR4wcXiV2v
+38,SIENNA SPIRO,Die On This Hill,USA,2gYTC8DsplN3RNdpdBcCOQ
+39,Zara Larsson,Lush Life,USA,1rIKgCH4H52lrvDcz50hS8
+40,Arctic Monkeys,505,USA,58ge6dfP91o9oXMzq3XkIS
+41,The Neighbourhood,Sweater Weather,USA,0cQVqPuHQP4KEwc7ZUQmj6
+42,Taylor Swift,Opalite,USA,3yWuTOYDztXjZxdE2cIRUa
+43,Noah Kahan,The Great Divide,USA,77zqs8ucHCSk5jh9TYec4b
+44,She & Him,I Thought I Saw Your Face Today,USA,0myRViRgmQ3J8izICXEAVO
+45,Don Toliver,No Pole,USA,0eaVIYo2zeOaGJeqZ5TwYz
+46,Bruno Mars,Something Serious,USA,0PV4VQCmE6Ujssr1bnswdF
+47,sombr,12 to 12,USA,05od2qm2MTSKCHxy1GBp5W
+48,"Lady Gaga, Bruno Mars",Die With A Smile,USA,7so0lgd0zP2Sbgs2d7a1SZ
+49,Bruno Mars,Nothing Left,USA,0Sq6JK9kyC4MQa3KrJj5CB
+50,Dominic Fike,White Keys,USA,5ViLKrbyL3HD6wsq3AB9eI
+51,"Waka Flocka Flame, Roscoe Dash, Wale",No Hands (feat. Roscoe Dash & Wale),USA,03tqyYWC9Um2ZqU0ZN849H
+52,"BigXthaPlug, Ella Langley",Hell At Night (feat. Ella Langley),USA,3pAVk6Ydn0dcGpG8gDyxSJ
+53,Whiskey Myers,Broken Window Serenade,USA,1VOSSXuWRcBj2rpfxNdX9v
+54,Drake,Headlines,USA,6LxSe8YmdPxy095Ux6znaQ
+55,Olivia Dean,A Couple Minutes,USA,312z6PZ8wwREck8613PkJk
+56,Sabrina Carpenter,Manchild,USA,2BwO5K8Q7EPAJSGze3AAh9
+57,Bruno Mars,That's What I Like,USA,0KKkJNfGyhkQ5aFogxQAPU
+58,"Mac Miller, Empire Of The Sun",The Spins,USA,2QGVKiAGTa1YcDqPMhAzF7
+59,Ravyn Lenae,Love Me Not,USA,4WFgvKVfEhb3IUAFGrutTR
+60,Billie Eilish,BIRDS OF A FEATHER,USA,6dOtVTDdiauQNBQEDOtlAB
+61,Gigi Perez,Sailor Song,USA,21IYMdzTrzSe191Cy5eMap
+62,Malcolm Todd,Earrings,USA,0eAuGrXyGFYwur9ARUe7LJ
+63,"Kendrick Lamar, SZA",luther (with sza),USA,2CGNAOSuO1MEFCbBRgUzjd
+64,The Marías,No One Noticed,USA,3siwsiaEoU4Kuuc9WKMUy5
+65,EsDeeKid,4 Raws,USA,554qQSs9lpRVq6TlaaiIKT
+66,Addison Rae,Fame is a Gun,USA,7B3BwNecBhKvNwSMOOl7Gk
+67,"Zach Bryan, Kacey Musgraves",I Remember Everything (feat. Kacey Musgraves),USA,4KULAymBBJcPRpk1yO4dOG
+68,Fetty Wap,Trap Queen,USA,2d8JP84HNLKhmd6IYOoupQ
+69,Tame Impala,The Less I Know The Better,USA,6K4t31amVTZDgR3sKmwUJJ
+70,"Drake, Wizkid, Kyla",One Dance,USA,1zi7xx7UVEFkmKfv06H8x0
+71,"White Noise Radiance, Rain Sounds","Rain Sounds for Sleeping, Pt. 06 (Continuous No Gaps)",USA,7gF2mPcjipv2hLGHY7bi17
+72,Morgan Wallen,I'm The Problem,USA,7AeM1BGYM7emrqmQn1PuWv
+73,Bad Bunny,VOY A LLeVARTE PA PR,USA,59D4DOkspUbWyMmbAPQkxZ
+74,Brent Faiyaz,butterflies.,USA,4jyyma8YdFC4S4llusSFRu
+75,Daniel Caesar,Who Knows,USA,6DH13QYXK7lKkYHSU88N48
+76,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",USA,3GCdLUSnKSMJhs4Tj6CV3s
+77,J. Cole,No Role Modelz,USA,68Dni7IE4VyPkTOH9mRWHr
+78,Tame Impala,Dracula,USA,1NXbNEAcPvY5G1xvfN57aA
+79,Benson Boone,Beautiful Things,USA,3xkHsmpQCBMytMJNiDf3Ii
+80,Chappell Roan,Pink Pony Club,USA,6393yGahSJ9slVdOwSxOVR
+81,Frank Ocean,Nights,USA,7eqoqGkKwgOaWNNHx90uEZ
+82,Lit,My Own Worst Enemy,USA,33iv3wnGMrrDugd7GBso1z
+83,"The Weeknd, Playboi Carti",Timeless (feat Playboi Carti),USA,0FIDCNYYjNvPVimz5icugS
+84,"Post Malone, Morgan Wallen",I Had Some Help (Feat. Morgan Wallen),USA,5IZXB5IKAD2qlvTPJYDCFB
+85,"Disco Lines, Tinashe",No Broke Boys,USA,3cZajhyr8LmtPfHZ9296tj
+86,Zach Bryan,Something in the Orange,USA,3WMj8moIAXJhHsyLaqIIHI
+87,Coldplay,Sparks,USA,7D0RhFcb3CrfPuTJ0obrod
+88,Foo Fighters,Everlong,USA,5UWwZ5lm5PKu6eKsHAGxOk
+89,Teddy Swims,Lose Control,USA,17phhZDn6oGtzMe56NuWvj
+90,Chris Stapleton,You Should Probably Leave,USA,2UikqkwBv7aIvlixeVXHWt
+91,Childish Gambino,Les,USA,7ghKr0pCYyPPyp7t1FH8k4
+92,Drake,Passionfruit,USA,5mCPDVBb16L4XQwDdbRUpz
+93,"Nelly Furtado, Timbaland",Promiscuous,USA,2gam98EZKrF9XuOkU13ApN
+94,"Kanye West, Dwele",Flashing Lights,USA,5TRPicyLGbAF2LGBFbHGvO
+95,Fleetwood Mac,The Chain - 2004 Remaster,USA,5e9TFTbltYBg2xThimr0rU
+96,Fleetwood Mac,Landslide,USA,5ihS6UUlyQAfmp48eSkxuQ
+97,Rihanna,Don't Stop The Music,USA,1Jo0Zg7XlrA6z0mFTZVdkn
+98,Chappell Roan,"Good Luck, Babe!",USA,0WbMK4wrZ1wFSty9F7FCgu
+99,Bruno Mars,Locked out of Heaven,USA,5g7sDjBhZ4I3gcFIpkrLuI
+100,The Police,Every Breath You Take,USA,1JSTJqkT5qHq8MDJnJbRE1
+101,"Gorillaz, De La Soul",Feel Good Inc.,USA,0d28khcov6AiegSCpG5TuT
+102,"J Balvin, Bad Bunny",LA CANCIÓN,USA,0fea68AdmYNygeTGI4RC18
+103,Treaty Oak Revival,Missed Call,USA,6ybZUqlfk938oS6WeBmDab
+104,Tate McRae,Sports car,USA,5UJbgR4XF4y1DvbkxEqe8S
+105,Olivia Dean,Nice To Each Other,USA,7gKxCvTDWwV9wBhdeBbr3l
+106,Zara Larsson,Midnight Sun,USA,1qRV1dKLOfH1s00b9J2LUQ
+107,Riley Green,Worst Way,USA,1osfLqL6L2iQsirRf83ded
+108,The Marías,Sienna,USA,0InIeZW4P6VO7dUGRM4AKH
+109,Sublime,Santeria,USA,2hnMS47jN0etwvFPzYk11f
+110,"Tyler, The Creator, Kali Uchis",See You Again (feat. Kali Uchis),USA,7KA4W4McWYRpgf0fWsJZWB
+111,Red Hot Chili Peppers,Scar Tissue,USA,32sx78QsGg6pKXn42XvF9L
+112,Vance Joy,Riptide,USA,2uXlHCUbq9OMUwx3hrk06o
+113,sombr,undressed,USA,0TFTAtCYhp2tQ9KcJIZb55
+114,Kehlani,Folded,USA,0bxPRWprUVpQK0UFcddkrA
+115,Chris Stapleton,Tennessee Whiskey,USA,3fqwjXwUGN6vbzIwvyFMhx
+116,Luke Combs,Sleepless in a Hotel Room,USA,2za9t2qpWyUpIhnJcwopPt
+117,"Morgan Wallen, Tate McRae",What I Want (feat. Tate McRae),USA,04emojnbYkrRmv5qtJcgVP
+118,Harry Styles,Aperture,USA,45Z3m6yazmAi4jZuW0tzW0
+119,Noah Kahan,Stick Season,USA,0mflMxspEfB0VbI1kyLiAv
+120,Don Toliver,ATM,USA,03auLpFLdCv4HozP4pQseu
+121,Shaboozey,A Bar Song (Tipsy),USA,5fZJQrFKWQLb7FpJXZ1g7K
+122,Kendrick Lamar,Not Like Us,USA,6AI3ezQ4o3HUoP6Dhudph3
+123,Billie Eilish,WILDFLOWER,USA,3QaPy1KgI7nu9FJEQUgn6h
+124,Evanescence,Bring Me To Life,USA,0COqiPhxzoWICwFCS4eZcp
+125,Ella Langley,Dandelion,USA,7FudQLDIYCX6F7ruexVn2X
+126,Malcolm Todd,Sweet Boy,USA,59c2xv2kMzYM6HR9oY6BIa
+127,Creedence Clearwater Revival,Have You Ever Seen The Rain,USA,2LawezPeJhN4AWuSB0GtAU
+128,Justin Bieber,DAISIES,USA,5BZsQlgw21vDOAjoqkNgKb
+129,"Rauw Alejandro, Bad Bunny",Qué Pasaría...,USA,0l0vcZMU7AOeQmUIREoI2U
+130,Nirvana,Smells Like Teen Spirit,USA,0gucTLf7trAf37Ua1uAyAu
+131,Kanye West,Heartless,USA,4EWCNWgDS8707fNSZ1oaA5
+132,"Don Toliver, Rema",Secondhand (feat. Rema),USA,4Z5KKoBGxpJo8YbDcGQXd5
+133,Laufey,From The Start,USA,43iIQbw5hx986dUEZbr3eN
+134,Twenty One Pilots,Drag Path,USA,0TlcczkVTGpinpkGJpT81L
+135,Rihanna,Love On The Brain,USA,5oO3drDxtziYU2H1X23ZIp
+136,Don Toliver,Gemstone,USA,6d9Cs2D2RSIl9c0ulgnFe8
+137,Lil Uzi Vert,20 Min,USA,0uxSUdBrJy9Un0EYoBowng
+138,Sabrina Carpenter,Espresso,USA,2HRqTpkrJO5ggZyyK6NPWz
+139,Rihanna,Kiss It Better,USA,0UHB9METy4VCXNgkcGqHqS
+140,Frank Ocean,Pink + White,USA,3xKsf9qdS1CyvXSMEid6g8
+141,Tears For Fears,Everybody Wants To Rule The World,USA,2YiCMmONQcoMPX2bV1LxE0
+142,Zach Bryan,Pink Skies,USA,4ZJ4vzLQekI0WntDbanNC7
+143,"J. Cole, Miguel",Power Trip (feat. Miguel),USA,2uwnP6tZVVmTovzX5ELooy
+144,Nirvana,Come As You Are,USA,5AEOqLsRJFAoSS4ay4Jzao
+145,Hozier,Take Me To Church,USA,3dYD57lRAUcMHufyqn9GcI
+146,J. Cole,Work Out,USA,2wAJTrFhCnQyNSD3oUgTZO
+147,Miguel,Sure Thing,USA,0JXXNGljqupsJaZsgSbMZV
+148,"Dave, Tems",Raindance (feat. Tems),USA,3oTuTpF1F3A7rEC6RKsMRz
+149,Brooks & Dunn,Neon Moon,USA,2M38X60UJnupGPbFTkVPNQ
+150,Morgan Wallen,Last Night,USA,583dMdiUquLMenarTp7PQm
+151,Baby Keem,Ca$ino,USA,3VW6HJYa5l0uzGcCRA222P
+152,Linkin Park,Somewhere I Belong,USA,3fjmSxt0PskST13CSdBUFx
+153,Rihanna,Breakin' Dishes,USA,5EcG8eMMlwkHRVa4aTR1qd
+154,Frank Ocean,Novacane,USA,4osgfFTICMkcGbbigdsa53
+155,Frank Ocean,Thinkin Bout You,USA,7DfFc7a6Rwfi3YQMRbDMau
+156,Tory Lanez,The Color Violet,USA,3azJifCSqg9fRij2yKIbWz
+157,"Lil Wayne, Drake, Future",Love Me,USA,2XHzzp1j4IfTNp1FTn7YFg
+158,SZA,Snooze,USA,4iZ4pt7kvcaH6Yo8UoZ4s2
+159,Linkin Park,In the End,USA,60a0Rd6pjrkxjPbaKzXjfq
+160,TV Girl,Lovers Rock,USA,6dBUzqjtbnIa1TwYbyw5CM
+161,Mazzy Star,Fade Into You,USA,1LzNfuep1bnAUR9skqdHCK
+162,Coldplay,Yellow,USA,3AJwUDP919kvQ9QcozQPxg
+163,Gracie Abrams,That’s So True,USA,7ne4VBA60CxGM75vw0EYad
+164,Hozier,Too Sweet,USA,19XpFsce28aByvCC4g89tJ
+165,Jeff Buckley,"Lover, You Should've Come Over",USA,6Jv7kjGkhY2fT4yuBF3aTz
+166,Julia Wolf,In My Room,USA,2Ui2JtVjnbHZuExldryCOA
+167,Malcolm Todd,Roommates,USA,5vPUv0xziXbV4lnWeVNXNq
+168,3 Doors Down,Kryptonite,USA,6ZOBP3NvffbU4SZcrnt1k6
+169,Chris Stapleton,Think I'm In Love With You,USA,3Gn1zuHNLtGuGEOXwq0k7e
+170,Radiohead,Let Down,USA,2fuYa3Lx06QQJAm0MjztKr
+171,The Red Clay Strays,Wondering Why,USA,1HbzxLqpNVPdiBXvpC7Ovb
+172,KATSEYE,Gabriela,USA,1xOqGUkyxGQRdCvGpvWKmL
+173,Justin Bieber,YUKON,USA,29iva9idM6rFCPUlu7Rhxl
+174,Hotel Ugly,Shut up My Moms Calling,USA,3hxIUxnT27p5WcmjGUXNwx
+175,Morgan Wallen,20 Cigarettes,USA,0YsIYFRoxkmEvbKCwTp0Tg
+176,Joji,SLOW DANCING IN THE DARK,USA,6rY5FAWxCdAGllYEOZMbjW
+177,Red Hot Chili Peppers,Can't Stop,USA,6ojiTSzyv2qPMWqyhUKAqz
+178,Olivia Dean,The Hardest Part,USA,3cPoiK69oQ1SdbB2j2ulGm
+179,King Von,Took Her To The O,USA,7fEoXCZTZFosUFvFQg1BmW
+180,TLC,No Scrubs,USA,1KGi9sZVMeszgZOWivFpxs
+181,Rihanna,Only Girl (In The World),USA,2ENexcMEMsYk0rVJigVD3i
+182,Don Toliver,Tiramisu,USA,2GHKo6nrSjruvBEQbzD7Fw
+183,"B.o.B, Bruno Mars",Nothin' on You (feat. Bruno Mars),USA,59dLtGBS26x7kc0rHbaPrq
+184,Hudson Westbrook,House Again,USA,1zM8S2pnIclcdTmrfFnWtX
+185,Michael Jackson,Billie Jean,USA,7J1uxwnxfQLu4APicE5Rnj
+186,Daniel Caesar,Superpowers,USA,736PP5LTtREkDgktNmX3Gu
+187,"Baby Keem, Kendrick Lamar, Momo Boyd",Good Flirts (feat. Kendrick Lamar & Momo Boyd),USA,5sHeIGDbdzw8DeO57XZKIy
+188,BLACKPINK,GO,USA,3FZPp9lBUvhsxFxKJi3VkB
+189,"Tame Impala, JENNIE",Dracula - JENNIE Remix,USA,5yvVYFDUpbnjcnRBgjwTzM
+190,The Cure,Boys Don't Cry,USA,1QFh8OH1e78dGd3VyJZCAC
+191,Tate McRae,TIT FOR TAT,USA,1dByUyyoRKL99fJJ6VCQzb
+192,"Kendrick Lamar, Lefty Gunplay",tv off (feat. lefty gunplay),USA,0aB0v4027ukVziUGwVGYpG
+193,"USHER, Lil Jon, Ludacris",Yeah! (feat. Lil Jon & Ludacris),USA,5rb9QrpfcKFHM1EUbSIurX
+194,Olivia Dean,Dive,USA,36vmaZyO0iAE6FZ7287fg2
+195,"Kendrick Lamar, Jay Rock",Money Trees,USA,2HbKqm4o0w5wEeEFXm2sD4
+196,Prince,Purple Rain,USA,1uvyZBs4IZYRebHIB1747m
+197,The Cranberries,Linger,USA,0gEyKnHvgkrkBM6fbeHdwK
+198,Coldplay,Viva La Vida,USA,1mea3bSkSGXuIRvnydlB5b
+199,Morgan Wallen,Whiskey Glasses,USA,57TEkZN3f84tFJFHFrD4pO
+200,Noah Kahan,Northern Attitude,USA,4O2rRsoSPb5aN7N3tG6Y3v
