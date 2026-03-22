@@ -271,7 +271,7 @@ rank,artist,title,region,spotify_uri
 70,"Bad Bunny, Omar Courtz, Dei V",VeLDÁ,Global,7d6yK8v8J484SWH5prIQiE
 71,Teddy Swims,Lose Control,Global,17phhZDn6oGtzMe56NuWvj
 72,"Gorillaz, De La Soul",Feel Good Inc.,Global,0d28khcov6AiegSCpG5TuT
-73,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",Global,3GCdLUSnKSMJhs4Tj6CV3s
+73,"Kendrick Lamar, SZA",All The Stars,Global,3GCdLUSnKSMJhs4Tj6CV3s
 74,Vance Joy,Riptide,Global,2uXlHCUbq9OMUwx3hrk06o
 75,Arctic Monkeys,505,Global,58ge6dfP91o9oXMzq3XkIS
 76,Daniel Caesar,Who Knows,Global,6DH13QYXK7lKkYHSU88N48
@@ -649,7 +649,7 @@ rank,artist,title,region,spotify_uri
 48,"Lady Gaga, Bruno Mars",Die With A Smile,USA,7so0lgd0zP2Sbgs2d7a1SZ
 49,Bruno Mars,Nothing Left,USA,0Sq6JK9kyC4MQa3KrJj5CB
 50,Dominic Fike,White Keys,USA,5ViLKrbyL3HD6wsq3AB9eI
-51,"Waka Flocka Flame, Roscoe Dash, Wale",No Hands (feat. Roscoe Dash & Wale),USA,03tqyYWC9Um2ZqU0ZN849H
+51,"Waka Flocka Flame, Roscoe Dash, Wale",No Hands,USA,03tqyYWC9Um2ZqU0ZN849H
 52,"BigXthaPlug, Ella Langley",Hell At Night (feat. Ella Langley),USA,3pAVk6Ydn0dcGpG8gDyxSJ
 53,Whiskey Myers,Broken Window Serenade,USA,1VOSSXuWRcBj2rpfxNdX9v
 54,Drake,Headlines,USA,6LxSe8YmdPxy095Ux6znaQ
@@ -674,7 +674,7 @@ rank,artist,title,region,spotify_uri
 73,Bad Bunny,VOY A LLeVARTE PA PR,USA,59D4DOkspUbWyMmbAPQkxZ
 74,Brent Faiyaz,butterflies.,USA,4jyyma8YdFC4S4llusSFRu
 75,Daniel Caesar,Who Knows,USA,6DH13QYXK7lKkYHSU88N48
-76,"Kendrick Lamar, SZA","All The Stars (with SZA) - From ""Black Panther: The Album""",USA,3GCdLUSnKSMJhs4Tj6CV3s
+76,"Kendrick Lamar, SZA",All The Stars,USA,3GCdLUSnKSMJhs4Tj6CV3s
 77,J. Cole,No Role Modelz,USA,68Dni7IE4VyPkTOH9mRWHr
 78,Tame Impala,Dracula,USA,1NXbNEAcPvY5G1xvfN57aA
 79,Benson Boone,Beautiful Things,USA,3xkHsmpQCBMytMJNiDf3Ii
