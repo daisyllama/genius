@@ -53,7 +53,7 @@ Provide a CSV with these columns:
 - `region`
 - `lyrics`
 
-Example file: `data/sample_lyrics.csv`
+Example file: `data/processed/archive/sample_lyrics.csv`
 
 ## Setup
 
@@ -67,7 +67,7 @@ pip install -e .
 ## Run
 
 ```bash
-python -m lyrics_analysis --input data/sample_lyrics.csv --output-dir outputs
+python -m lyrics_analysis --input data/processed/archive/sample_lyrics.csv --output-dir outputs
 ```
 
 ## Outputs
