@@ -17,25 +17,25 @@ Each stage reads from the previous stage's output file.
 No stage overwrites upstream files.
 ```
 [Spotify API]
-    → data/processed/titles.csv        # merged, deduplicated
-   → data/processed/lyrics.csv        # + lyrics, length columns
-   → data/processed/lyrics_lang.csv   # + original_lang column
-   → data/processed/lyrics_trans.csv  # + lyrics_in_en, review metadata
-    → data/processed/emotions.csv      # + emotion scores
+   → data/processed/00_titles.csv           # merged, deduplicated
+   → data/processed/01_lyrics.csv        # + lyrics, length columns
+   → data/processed/02_lyrics_lang.csv   # + original_lang column
+   → data/processed/03_lyrics_trans.csv  # + lyrics_in_en, review metadata
+   → data/processed/emotions.csv         # + emotion scores
 ```
 
 Columns at each stage (✓ = verified):
-- **titles.csv** ✓            [artist, title, spotify_uri] — unique tracks
-- **lyrics.csv** ✓            [artist, title, spotify_uri, lyrics, length] — lyrics fetched via Genius + character length of lyrics
-- **lyrics_lang.csv** ✓       [artist, title, spotify_uri, lyrics, length, original_lang] — language detected (ISO 639-1: "en", "es", "ja", "pt", "tr", "ar", or "unknown")
-- **lyrics_trans.csv** ✓      [artist, title, spotify_uri, original_lang, lyrics_in_en, length, translation_review_required] — English translation + review flags
+- **00_titles.csv** ✓            [artist, title, spotify_uri] — unique tracks
+- **01_lyrics.csv** ✓            [artist, title, spotify_uri, lyrics, length] — lyrics fetched via Genius + character length of lyrics
+- **02_lyrics_lang.csv** ✓       [artist, title, spotify_uri, lyrics, length, original_lang] — language detected (ISO 639-1: "en", "es", "ja", "pt", "tr", "ar", or "unknown")
+- **03_lyrics_trans.csv** ✓      [artist, title, spotify_uri, original_lang, lyrics_in_en, length, translation_review_required] — English translation + review flags
 - **emotions.csv**            [artist, title, spotify_uri, original_lang, lyrics_in_en, length, translation_review_required, emotion_label, emotion_scores] — emotion classification
 
 ## Phases
 
 ---
 
-### Phase 1: Build titles.csv and Fetch Lyrics
+### Phase 1: Build 00_titles.csv and Fetch Lyrics
 
 **Notebook:** notebooks/01_lyrics_ingestion.ipynb
 
@@ -44,12 +44,12 @@ lyrics for each unique track via Genius API.
 
 **Data flow:**
 - Input:  `data/raw/regional-{country}-weekly-{date}.csv` — one file per region/week
-- Stage 1: `data/processed/titles.csv`       — [artist, title, spotify_uri] (unique)
-- Cache:   `data/processed/lyrics_cache.csv` — [spotify_uri, lyrics] (checkpoint)
-- Output:  `data/processed/lyrics.csv`       — [spotify_uri, artist, title, lyrics, length] (unique)
+- Stage 1: `data/processed/00_titles.csv`       — [artist, title, spotify_uri] (unique)
+- Cache:   `data/processed/01_lyrics_cache.csv` — [spotify_uri, lyrics] (checkpoint)
+- Output:  `data/processed/01_lyrics.csv`       — [spotify_uri, artist, title, lyrics, length] (unique)
 
-**Note on schema:** rank and region are intentionally excluded from titles.csv and
-lyrics.csv. These are deduplicated track reference files used purely for API lookups.
+**Note on schema:** rank and region are intentionally excluded from 00_titles.csv and
+01_lyrics.csv. These are deduplicated track reference files used purely for API lookups.
 Regional data stays in the raw CSVs and will be joined back at the analysis stage.
 
 Actions:
@@ -58,28 +58,28 @@ Actions:
 3. Strip the `spotify:track:` prefix from the uri column.
 4. Extract chart_date from filename using regex.
 5. Concatenate all regions, drop duplicates on spotify_uri.
-6. Write [artist, title, spotify_uri] to data/processed/titles.csv.
-7. Check lyrics_cache.csv — skip any spotify_uri already present.
-8. For each pending track, call Genius API and append to lyrics_cache.csv
+6. Write [artist, title, spotify_uri] to data/processed/00_titles.csv.
+7. Check 01_lyrics_cache.csv — skip any spotify_uri already present.
+8. For each pending track, call Genius API and append to 01_lyrics_cache.csv
    in batches of CHUNK_SIZE.
-9. After fetch loop, merge unique_tracks + cache, compute `length=len(lyrics)` → write lyrics.csv.
+9. After fetch loop, merge unique_tracks + cache, compute `length=len(lyrics)` → write 01_lyrics.csv.
 
 Resumability:
-- titles.csv is a full refresh — always overwritten, no external calls involved.
-- lyrics_cache.csv is the checkpoint — re-running resumes from last cached URI.
+- 00_titles.csv is a full refresh — always overwritten, no external calls involved.
+- 01_lyrics_cache.csv is the checkpoint — re-running resumes from last cached URI.
 - Batch writes every CHUNK_SIZE tracks (default: 10).
 - Missing lyrics written as empty string in cache; distinguishable from un-fetched
   (un-fetched rows simply don't exist in the cache yet).
 
 Success criteria:
-- titles.csv exists with columns [artist, title, spotify_uri]
-- No duplicate spotify_uri rows in titles.csv
+- 00_titles.csv exists with columns [artist, title, spotify_uri]
+- No duplicate spotify_uri rows in 00_titles.csv
 - Row count is plausible (≤ 200 × number of regions, likely less due to cross-region hits)
-- lyrics.csv exists with columns [spotify_uri, artist, title, lyrics, length]
-- Row count matches titles.csv row count exactly
+- 01_lyrics.csv exists with columns [spotify_uri, artist, title, lyrics, length]
+- Row count matches 00_titles.csv row count exactly
 - lyrics populated for ≥ 80% of rows (Genius coverage expectation)
 - length equals character length of lyrics for every row
-- No duplicate spotify_uri rows in lyrics.csv
+- No duplicate spotify_uri rows in 01_lyrics.csv
 
 ---
 
@@ -90,16 +90,16 @@ Success criteria:
 **Goal:** Detect the original language of each lyric and append to file.
 
 Actions:
-1. Load lyrics.csv.
+1. Load 01_lyrics.csv.
 2. Apply language detection to `lyrics` column.
 3. Append `original_lang` column (ISO 639-1 codes, e.g. "en", "es", "ja").
-4. Write to data/processed/lyrics_lang.csv.
+4. Write to data/processed/02_lyrics_lang.csv.
 
 Resumability:
 - Skip rows where `original_lang` already populated.
 
 Success criteria:
-- lyrics_lang.csv exists
+- 02_lyrics_lang.csv exists
 - original_lang populated for all rows with non-null lyrics
 - Distribution of languages is plausible per region
 
@@ -112,12 +112,12 @@ Success criteria:
 **Goal:** Translate non-English lyrics to English using GoogleTranslator, with a length gate and review flagging.
 
 Actions:
-1. Load lyrics_lang.csv.
+1. Load 02_lyrics_lang.csv.
 2. For rows where original_lang != "en" and `length < 5000`, apply GoogleTranslator to `lyrics`.
 3. For rows where original_lang == "en", copy `lyrics` → `lyrics_in_en`.
 4. For rows where original_lang != "en" and `length >= 5000`, skip translation and leave for manual review.
 5. Append `lyrics_in_en` plus review metadata columns (`length`, `translation_review_required`).
-6. Write to data/processed/lyrics_trans.csv.
+6. Write to data/processed/03_lyrics_trans.csv.
 
 Resumability:
 - Skip rows where `lyrics_in_en` already populated.
@@ -127,9 +127,9 @@ Dependencies:
 - deep_translator: add `!pip install deep_translator` guard at top of notebook.
 
 Success criteria:
-- lyrics_trans.csv exists
+- 03_lyrics_trans.csv exists
 - lyrics_in_en populated for rows where translation is attempted (or copied for English rows)
-- non-English rows with `length >= 5000` are preserved and flagged for review in lyrics_trans.csv
+- non-English rows with `length >= 5000` are preserved and flagged for review in 03_lyrics_trans.csv
 - Spot-check: non-English rows have visibly translated content
 
 ---
@@ -138,10 +138,10 @@ Success criteria:
 
 **Notebook:** notebooks/04_lyrics_translation_qa.ipynb
 
-**Goal:** Validate translation quality and review flagged long-lyrics rows from the same `lyrics_trans.csv`.
+**Goal:** Validate translation quality and review flagged long-lyrics rows from the same `03_lyrics_trans.csv`.
 
 Actions:
-1. Load lyrics_trans.csv.
+1. Load 03_lyrics_trans.csv.
 2. Review rows flagged via `translation_review_required` (length > 500).
 3. Detect language for evaluable `lyrics_in_en` rows using FastText (`lid.176.ftz`).
 4. Mark each evaluable row as pass/fail using: predicted lang == "en" and confidence >= 0.70.
@@ -163,7 +163,7 @@ Success criteria:
 **Goal:** Score each lyric for emotional content and produce analysis-ready output.
 
 Actions:
-1. Load lyrics_trans.csv.
+1. Load 03_lyrics_trans.csv.
 2. Apply zero-shot emotion classifier to `lyrics_in_en`.
 3. Append `emotion_label` (top emotion) and `emotion_scores` (dict or JSON).
 4. Write to data/processed/emotions.csv.
