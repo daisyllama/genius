@@ -24,12 +24,12 @@ No stage overwrites upstream files.
     → data/processed/emotions.csv      # + emotion scores
 ```
 
-Columns at each stage:
-- titles.csv:       [artist, title, spotify_uri]
-- lyrics.csv:       [artist, title, spotify_uri, lyrics]
-- lyrics_lang.csv:  [..., original_lang]
-- lyrics_trans.csv: [..., lyrics_in_en]
-- emotions.csv:     [..., emotion_<emotion>, emotion_scores]
+Columns at each stage (✓ = verified):
+- **titles.csv** ✓            [artist, title, spotify_uri] — unique tracks
+- **lyrics.csv** ✓            [artist, title, spotify_uri, lyrics] — lyrics fetched via Genius
+- **lyrics_lang.csv** ✓       [artist, title, spotify_uri, lyrics, original_lang] — language detected (ISO 639-1: "en", "es", "ja", "pt", "tr", "ar", or "unknown")
+- **lyrics_trans.csv** ✓      [artist, title, spotify_uri, original_lang, lyrics_in_en] — English translation (lyrics_in_en = original lyrics if original_lang=="en", translated text if != "en")
+- **emotions.csv**            [artist, title, spotify_uri, original_lang, lyrics_in_en, emotion_label, emotion_scores] — emotion classification
 
 ## Phases
 
@@ -131,7 +131,27 @@ Success criteria:
 
 ---
 
-### Phase 4: Emotion Analysis
+### Phase 4: Translation QA
+
+**Notebook:** notebooks/04_lyrics_translation_qa.ipynb
+
+**Goal:** Validate translation quality by checking whether `lyrics_in_en` is detected as English.
+
+Actions:
+1. Load lyrics_trans.csv.
+2. Detect language for `lyrics_in_en` using FastText (`lid.176.ftz`).
+3. Mark each row as pass/fail using: predicted lang == "en" and confidence >= 0.70.
+4. Write failed rows to data/processed/lyrics_trans_qa_failures.csv.
+5. Write summary metrics to data/processed/lyrics_trans_qa_summary.csv.
+
+Success criteria:
+- lyrics_trans_qa_summary.csv exists
+- Pass rate on evaluable rows >= 97%
+- Failed rows are exported for manual review
+
+---
+
+### Phase 5: Emotion Analysis
 
 **Notebook:** notebooks/06_analysis_zeroshot.ipynb
 
