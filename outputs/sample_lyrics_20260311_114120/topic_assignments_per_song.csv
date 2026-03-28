@@ -1,6 +1,0 @@
-song,region,topic,topic_probability,emotion_joy,emotion_neutral,emotion_fear,emotion_sadness,dominant_emotion
-Song A,North,-1,,0.88353431224823,0.0,0.0,0.0,joy
-Song B,South,-1,,0.0,0.44579824805259705,0.0,0.0,neutral
-Song C,North,-1,,0.0,0.0,0.48103204369544983,0.0,fear
-Song D,West,-1,,0.0,0.0,0.0,0.9056060314178467,sadness
-Song E,South,-1,,0.0,0.0,0.7191694378852844,0.0,fear

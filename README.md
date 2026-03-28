@@ -84,7 +84,7 @@ Example run folder: `outputs/sample_lyrics_20260311_114120/`
 
 ## Notes
 
-- BERTopic settings are adapted so small datasets can still run.
+- Top songs are taken from https://charts.spotify.com/home
 - Emotion scoring is chunked and averaged per song.
 - Spotify/Genius ingestion is intentionally not wired yet (paused by request).
 
