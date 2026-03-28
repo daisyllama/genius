@@ -17,7 +17,6 @@ Each stage reads from the previous stage's output file.
 No stage overwrites upstream files.
 ```
 [Spotify API]
-    → data/raw/regional-*.csv          # one file per region/week
     → data/processed/titles.csv        # merged, deduplicated
     → data/processed/lyrics.csv        # + lyrics column
     → data/processed/lyrics_lang.csv   # + original_lang column
@@ -26,94 +25,66 @@ No stage overwrites upstream files.
 ```
 
 Columns at each stage:
-- titles.csv:       [artist, title, spotify_uri, region, chart_date]
-- lyrics.csv:       [artist, title, spotify_uri, region, chart_date, lyrics]
+- titles.csv:       [artist, title, spotify_uri]
+- lyrics.csv:       [artist, title, spotify_uri, lyrics]
 - lyrics_lang.csv:  [..., original_lang]
 - lyrics_trans.csv: [..., lyrics_in_en]
-- emotions.csv:     [..., emotion_label, emotion_scores]
+- emotions.csv:     [..., emotion_<emotion>, emotion_scores]
 
 ## Phases
 
 ---
 
-### Phase 0: Stabilise Existing Notebooks (Unblocking Work)
+### Phase 1: Build titles.csv and Fetch Lyrics
 
-**Goal:** Get the existing notebook environment to a clean, runnable state
-before building new pipeline stages.
+**Notebook:** notebooks/01_lyrics_ingestion.ipynb
 
-**This is cleanup, not feature work. Time-box to ~1 session.**
+**Goal:** Produce a deduplicated track list from Spotify regional charts, then fetch
+lyrics for each unique track via Genius API.
 
-Actions:
-1. Fix undefined variable diagnostics:
-   - notebooks/00_genius_sample_checks.ipynb — guard `song_uri` before use
-   - notebooks/05_lyrics_en_cleaning.ipynb — initialise or replace `df_test`
-2. Resolve missing import:
-   - notebooks/04_lyrics_translate.ipynb — add `pip install deep_translator`
-     guard cell at top
-3. Final legacy path sweep across notebooks 00–06:
-   - Confirm all active path cells use the notebook-06 local root pattern
-   - Databricks alternatives kept as comments only
+**Data flow:**
+- Input:  `data/raw/regional-{country}-weekly-{date}.csv` — one file per region/week
+- Stage 1: `data/processed/titles.csv`       — [artist, title, spotify_uri] (unique)
+- Cache:   `data/processed/lyrics_cache.csv` — [spotify_uri, lyrics] (checkpoint)
+- Output:  `data/processed/lyrics.csv`       — [spotify_uri, artist, title, lyrics] (unique)
 
-Success criteria:
-- Zero unresolved symbol/import diagnostics in notebooks 00–06
-- All path cells consistent
-
-Resume checkpoint: `progress.md` → Phase 0 complete
-
----
-
-### Phase 1: Spotify Regional Data Download
-
-**Notebook:** notebooks/01_lyrics_ingestion.ipynb (or new 01_spotify_download.ipynb)
-
-**Goal:** Download Top 200 chart CSVs for target regions and merge into titles.csv.
+**Note on schema:** rank and region are intentionally excluded from titles.csv and
+lyrics.csv. These are deduplicated track reference files used purely for API lookups.
+Regional data stays in the raw CSVs and will be joined back at the analysis stage.
 
 Actions:
-1. Identify target regions (e.g. SG, JP, ES, AR — confirm list).
-2. Download or confirm existing regional CSVs in data/raw/.
-3. Merge into titles.csv with columns:
-   `[artist, title, spotify_uri, region, chart_date]`
-4. Deduplicate on `spotify_uri + region + chart_date`.
-5. Write to data/processed/titles.csv.
+1. Define FILE_REGION_MAP — map each raw filename to its region label.
+2. For each file, load CSV and rename columns to [artist, title, rank, spotify_uri].
+3. Strip the `spotify:track:` prefix from the uri column.
+4. Extract chart_date from filename using regex.
+5. Concatenate all regions, drop duplicates on spotify_uri.
+6. Write [artist, title, spotify_uri] to data/processed/titles.csv.
+7. Check lyrics_cache.csv — skip any spotify_uri already present.
+8. For each pending track, call Genius API and append to lyrics_cache.csv
+   in batches of CHUNK_SIZE.
+9. After fetch loop, merge unique_tracks + cache → write lyrics.csv.
 
 Resumability:
-- Check if titles.csv exists and is non-empty before re-downloading.
-- Append new regions/dates without full rewrite.
+- titles.csv is a full refresh — always overwritten, no external calls involved.
+- lyrics_cache.csv is the checkpoint — re-running resumes from last cached URI.
+- Batch writes every CHUNK_SIZE tracks (default: 10).
+- Missing lyrics written as empty string in cache; distinguishable from un-fetched
+  (un-fetched rows simply don't exist in the cache yet).
 
 Success criteria:
-- titles.csv exists with expected columns
-- Row count > 0 per region
-- No duplicate (spotify_uri, region, chart_date) rows
+- titles.csv exists with columns [artist, title, spotify_uri]
+- No duplicate spotify_uri rows in titles.csv
+- Row count is plausible (≤ 200 × number of regions, likely less due to cross-region hits)
+- lyrics.csv exists with columns [spotify_uri, artist, title, lyrics]
+- Row count matches titles.csv row count exactly
+- lyrics populated for ≥ 80% of rows (Genius coverage expectation)
+- No duplicate spotify_uri rows in lyrics.csv
 
 ---
 
-### Phase 2: Lyrics Ingestion via Genius API
+### Phase 2: Language Detection
 
-**Notebook:** notebooks/02_lyrics_fill.ipynb
-
-**Goal:** For each row in titles.csv, fetch lyrics from Genius and save to lyrics.csv.
-
-Actions:
-1. Load titles.csv.
-2. For each track, call Genius API to fetch lyrics.
-3. Append `lyrics` column.
-4. Write to data/processed/lyrics.csv.
-
-Resumability:
-- Load lyrics.csv if it exists; skip rows where lyrics is already populated.
-- Batch writes every N rows (not all-or-nothing).
-- Log failed lookups separately (not as empty strings).
-
-Success criteria:
-- lyrics.csv exists with all titles.csv rows
-- lyrics column populated for ≥ 80% of rows (Genius coverage expectation)
-- Failed lookups logged clearly
-
----
-
-### Phase 3: Language Detection
-
-**Notebook:** notebooks/03_language_detection.ipynb
+**Notebook:** notebooks/02_language_detection.ipynb
 
 **Goal:** Detect the original language of each lyric and append to file.
 
@@ -133,9 +104,9 @@ Success criteria:
 
 ---
 
-### Phase 4: Translation to English
+### Phase 3: Translation to English
 
-**Notebook:** notebooks/04_lyrics_translate.ipynb
+**Notebook:** notebooks/03_lyrics_translate.ipynb
 
 **Goal:** Translate non-English lyrics to English using GoogleTranslator.
 
@@ -160,7 +131,7 @@ Success criteria:
 
 ---
 
-### Phase 5: Emotion Analysis
+### Phase 4: Emotion Analysis
 
 **Notebook:** notebooks/06_analysis_zeroshot.ipynb
 
