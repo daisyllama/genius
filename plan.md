@@ -18,18 +18,18 @@ No stage overwrites upstream files.
 ```
 [Spotify API]
     → data/processed/titles.csv        # merged, deduplicated
-    → data/processed/lyrics.csv        # + lyrics column
-    → data/processed/lyrics_lang.csv   # + original_lang column
-    → data/processed/lyrics_trans.csv  # + lyrics_in_en column
+   → data/processed/lyrics.csv        # + lyrics, length columns
+   → data/processed/lyrics_lang.csv   # + original_lang column
+   → data/processed/lyrics_trans.csv  # + lyrics_in_en, review metadata
     → data/processed/emotions.csv      # + emotion scores
 ```
 
 Columns at each stage (✓ = verified):
 - **titles.csv** ✓            [artist, title, spotify_uri] — unique tracks
-- **lyrics.csv** ✓            [artist, title, spotify_uri, lyrics] — lyrics fetched via Genius
-- **lyrics_lang.csv** ✓       [artist, title, spotify_uri, lyrics, original_lang] — language detected (ISO 639-1: "en", "es", "ja", "pt", "tr", "ar", or "unknown")
-- **lyrics_trans.csv** ✓      [artist, title, spotify_uri, original_lang, lyrics_in_en] — English translation (lyrics_in_en = original lyrics if original_lang=="en", translated text if != "en")
-- **emotions.csv**            [artist, title, spotify_uri, original_lang, lyrics_in_en, emotion_label, emotion_scores] — emotion classification
+- **lyrics.csv** ✓            [artist, title, spotify_uri, lyrics, length] — lyrics fetched via Genius + character length of lyrics
+- **lyrics_lang.csv** ✓       [artist, title, spotify_uri, lyrics, length, original_lang] — language detected (ISO 639-1: "en", "es", "ja", "pt", "tr", "ar", or "unknown")
+- **lyrics_trans.csv** ✓      [artist, title, spotify_uri, original_lang, lyrics_in_en, length, translation_review_required] — English translation + review flags
+- **emotions.csv**            [artist, title, spotify_uri, original_lang, lyrics_in_en, length, translation_review_required, emotion_label, emotion_scores] — emotion classification
 
 ## Phases
 
@@ -46,7 +46,7 @@ lyrics for each unique track via Genius API.
 - Input:  `data/raw/regional-{country}-weekly-{date}.csv` — one file per region/week
 - Stage 1: `data/processed/titles.csv`       — [artist, title, spotify_uri] (unique)
 - Cache:   `data/processed/lyrics_cache.csv` — [spotify_uri, lyrics] (checkpoint)
-- Output:  `data/processed/lyrics.csv`       — [spotify_uri, artist, title, lyrics] (unique)
+- Output:  `data/processed/lyrics.csv`       — [spotify_uri, artist, title, lyrics, length] (unique)
 
 **Note on schema:** rank and region are intentionally excluded from titles.csv and
 lyrics.csv. These are deduplicated track reference files used purely for API lookups.
@@ -62,7 +62,7 @@ Actions:
 7. Check lyrics_cache.csv — skip any spotify_uri already present.
 8. For each pending track, call Genius API and append to lyrics_cache.csv
    in batches of CHUNK_SIZE.
-9. After fetch loop, merge unique_tracks + cache → write lyrics.csv.
+9. After fetch loop, merge unique_tracks + cache, compute `length=len(lyrics)` → write lyrics.csv.
 
 Resumability:
 - titles.csv is a full refresh — always overwritten, no external calls involved.
@@ -75,9 +75,10 @@ Success criteria:
 - titles.csv exists with columns [artist, title, spotify_uri]
 - No duplicate spotify_uri rows in titles.csv
 - Row count is plausible (≤ 200 × number of regions, likely less due to cross-region hits)
-- lyrics.csv exists with columns [spotify_uri, artist, title, lyrics]
+- lyrics.csv exists with columns [spotify_uri, artist, title, lyrics, length]
 - Row count matches titles.csv row count exactly
 - lyrics populated for ≥ 80% of rows (Genius coverage expectation)
+- length equals character length of lyrics for every row
 - No duplicate spotify_uri rows in lyrics.csv
 
 ---
@@ -108,14 +109,15 @@ Success criteria:
 
 **Notebook:** notebooks/03_lyrics_translate.ipynb
 
-**Goal:** Translate non-English lyrics to English using GoogleTranslator.
+**Goal:** Translate non-English lyrics to English using GoogleTranslator, with a length gate and review flagging.
 
 Actions:
 1. Load lyrics_lang.csv.
-2. For rows where original_lang != "en", apply GoogleTranslator to `lyrics`.
+2. For rows where original_lang != "en" and `length < 5000`, apply GoogleTranslator to `lyrics`.
 3. For rows where original_lang == "en", copy `lyrics` → `lyrics_in_en`.
-4. Append `lyrics_in_en` column.
-5. Write to data/processed/lyrics_trans.csv.
+4. For rows where original_lang != "en" and `length >= 5000`, skip translation and leave for manual review.
+5. Append `lyrics_in_en` plus review metadata columns (`length`, `translation_review_required`).
+6. Write to data/processed/lyrics_trans.csv.
 
 Resumability:
 - Skip rows where `lyrics_in_en` already populated.
@@ -126,7 +128,8 @@ Dependencies:
 
 Success criteria:
 - lyrics_trans.csv exists
-- lyrics_in_en populated for all rows with non-null lyrics
+- lyrics_in_en populated for rows where translation is attempted (or copied for English rows)
+- non-English rows with `length >= 5000` are preserved and flagged for review in lyrics_trans.csv
 - Spot-check: non-English rows have visibly translated content
 
 ---
@@ -135,18 +138,20 @@ Success criteria:
 
 **Notebook:** notebooks/04_lyrics_translation_qa.ipynb
 
-**Goal:** Validate translation quality by checking whether `lyrics_in_en` is detected as English.
+**Goal:** Validate translation quality and review flagged long-lyrics rows from the same `lyrics_trans.csv`.
 
 Actions:
 1. Load lyrics_trans.csv.
-2. Detect language for `lyrics_in_en` using FastText (`lid.176.ftz`).
-3. Mark each row as pass/fail using: predicted lang == "en" and confidence >= 0.70.
-4. Write failed rows to data/processed/lyrics_trans_qa_failures.csv.
-5. Write summary metrics to data/processed/lyrics_trans_qa_summary.csv.
+2. Review rows flagged via `translation_review_required` (length > 500).
+3. Detect language for evaluable `lyrics_in_en` rows using FastText (`lid.176.ftz`).
+4. Mark each evaluable row as pass/fail using: predicted lang == "en" and confidence >= 0.70.
+5. Write failed rows to data/processed/lyrics_trans_qa_failures.csv.
+6. Write summary metrics to data/processed/lyrics_trans_qa_summary.csv.
 
 Success criteria:
 - lyrics_trans_qa_summary.csv exists
 - Pass rate on evaluable rows >= 97%
+- Rows flagged for review (length > 500) are visible in Phase 4 output checks
 - Failed rows are exported for manual review
 
 ---
