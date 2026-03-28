@@ -17,7 +17,7 @@ Each stage reads from the previous stage's output file.
 No stage overwrites upstream files.
 ```
 [Spotify API]
-   → data/processed/00_titles.csv           # merged, deduplicated
+   → data/processed/00_titles.csv        # merged, deduplicated
    → data/processed/01_lyrics.csv        # + lyrics, length columns
    → data/processed/02_lyrics_lang.csv   # + original_lang column
    → data/processed/03_lyrics_trans.csv  # + lyrics_in_en, review metadata
@@ -109,15 +109,18 @@ Success criteria:
 
 **Notebook:** notebooks/03_lyrics_translate.ipynb
 
-**Goal:** Translate non-English lyrics to English using GoogleTranslator, with a length gate and review flagging.
+**Goal:** Translate non-English lyrics to English using GoogleTranslator, with a length gate and review flagging for long or suspicious outputs.
 
 Actions:
 1. Load 02_lyrics_lang.csv.
 2. For rows where original_lang != "en" and `length < 5000`, apply GoogleTranslator to `lyrics`.
 3. For rows where original_lang == "en", copy `lyrics` → `lyrics_in_en`.
-4. For rows where original_lang != "en" and `length >= 5000`, skip translation and leave for manual review.
-5. Append `lyrics_in_en` plus review metadata columns (`length`, `translation_review_required`).
-6. Write to data/processed/03_lyrics_trans.csv.
+4. For rows where original_lang != "en" and `length >= 5000`, skip translation and mark for manual review.
+5. Set `translation_review_required` for non-English rows when either condition is true:
+   - `length >= 5000`
+   - `lyrics_in_en` appears suspicious (e.g., unchanged from source, non-English script still present, encoding artifacts, or very low English character signal)
+6. Append `lyrics_in_en` plus review metadata columns (`length`, `translation_review_required`).
+7. Write to data/processed/03_lyrics_trans.csv.
 
 Resumability:
 - Skip rows where `lyrics_in_en` already populated.
@@ -130,6 +133,7 @@ Success criteria:
 - 03_lyrics_trans.csv exists
 - lyrics_in_en populated for rows where translation is attempted (or copied for English rows)
 - non-English rows with `length >= 5000` are preserved and flagged for review in 03_lyrics_trans.csv
+- non-English rows with suspicious translated output are also flagged via `translation_review_required`
 - Spot-check: non-English rows have visibly translated content
 
 ---
@@ -138,11 +142,11 @@ Success criteria:
 
 **Notebook:** notebooks/04_lyrics_translation_qa.ipynb
 
-**Goal:** Validate translation quality and review flagged long-lyrics rows from the same `03_lyrics_trans.csv`.
+**Goal:** Validate translation quality and review rows flagged as long or suspicious from the same `03_lyrics_trans.csv`.
 
 Actions:
 1. Load 03_lyrics_trans.csv.
-2. Review rows flagged via `translation_review_required` (length > 500).
+2. Review rows flagged via `translation_review_required` (length >= 5000 or suspicious translated output).
 3. Detect language for evaluable `lyrics_in_en` rows using FastText (`lid.176.ftz`).
 4. Mark each evaluable row as pass/fail using: predicted lang == "en" and confidence >= 0.70.
 5. Write failed rows to data/processed/lyrics_trans_qa_failures.csv.
@@ -151,7 +155,7 @@ Actions:
 Success criteria:
 - lyrics_trans_qa_summary.csv exists
 - Pass rate on evaluable rows >= 97%
-- Rows flagged for review (length > 500) are visible in Phase 4 output checks
+- Rows flagged for review (`translation_review_required`) are visible in Phase 4 output checks
 - Failed rows are exported for manual review
 
 ---
