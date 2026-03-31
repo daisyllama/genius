@@ -21,7 +21,7 @@ No stage overwrites upstream files.
    → data/processed/01_lyrics.csv        # + lyrics, length columns
    → data/processed/02_lyrics_lang.csv   # + original_lang column
    → data/processed/03_lyrics_trans.csv  # + lyrics_in_en, review metadata
-   → data/processed/emotions.csv         # + emotion scores
+   → data/processed/emotion_scores.csv   # + wide emotion columns
 ```
 
 Columns at each stage (✓ = verified):
@@ -29,7 +29,7 @@ Columns at each stage (✓ = verified):
 - **01_lyrics.csv** ✓            [artist, title, spotify_uri, lyrics, length] — lyrics fetched via Genius + character length of lyrics
 - **02_lyrics_lang.csv** ✓       [artist, title, spotify_uri, lyrics, length, original_lang] — language detected (ISO 639-1: "en", "es", "ja", "pt", "tr", "ar", or "unknown")
 - **03_lyrics_trans.csv** ✓      [artist, title, spotify_uri, original_lang, lyrics_in_en, length, translation_review_required] — English translation + review flags
-- **emotions.csv**            [artist, title, spotify_uri, original_lang, lyrics_in_en, length, translation_review_required, emotion_label, emotion_scores] — emotion classification
+- **emotion_scores.csv**            [artist, title, spotify_uri, original_lang, lyrics_in_en, dominant_emotion, emotion_<label...>] — wide emotion classification
 
 ## Phases
 
@@ -164,24 +164,30 @@ Success criteria:
 
 **Notebook:** notebooks/06_analysis_zeroshot.ipynb
 
-**Goal:** Score each lyric for emotional content and produce analysis-ready output.
+**Goal:** Define an emotion set, score each lyric against that set, and produce a wide analysis-ready output.
 
 Actions:
 1. Load 03_lyrics_trans.csv.
-2. Apply zero-shot emotion classifier to `lyrics_in_en`.
-3. Append `emotion_label` (top emotion) and `emotion_scores` (dict or JSON).
-4. Write to data/processed/emotions.csv.
-5. Produce summary aggregations:
+2. Define the emotion labels to analyse (single source of truth list), e.g. [love, anger, heartbreak, ...].
+3. Apply zero-shot emotion classifier to `lyrics_in_en` using the labels from Step 2.
+4. Build wide output columns:
+   - Base columns: [artist, title, spotify_uri, original_lang, lyrics_in_en]
+   - `dominant_emotion`: label with highest score for each row
+   - One score column per defined emotion using `emotion_<label>` naming
+5. Write to data/processed/emotion_scores.csv.
+6. Produce summary aggregations:
    - Dominant emotion by region
    - Emotion distribution over time (if multi-week data)
    - Top tracks per emotion per region
 
 Resumability:
-- Skip rows where emotion_label already populated.
+- Skip rows where dominant_emotion already populated.
 - Batch writes every N rows.
 
 Success criteria:
-- emotions.csv exists with emotion columns
+- emotion_scores.csv exists in wide format with columns:
+   [artist, title, spotify_uri, original_lang, lyrics_in_en, dominant_emotion, emotion_<label...>]
+- Every label defined in Step 2 exists as a dedicated `emotion_<label>` column
 - Aggregations produce plausible regional differences
 - At least one chart/table per region showing emotion distribution
 
