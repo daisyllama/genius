@@ -1,79 +1,56 @@
 # Progress Snapshot
 
-Date: 2026-03-28
+Date: 2026-04-06
 Mode: Notebook-first workflow
 
-## Completed So Far
+## Compact Project Review
 
-- Performed a full project review and cleanup assessment.
-- Aligned notebook path handling to match the style used in notebook 06.
-- Preserved Databricks-compatible path comments while standardizing local paths.
-- Applied path updates in:
-  - notebooks/00_genius_sample_checks.ipynb
-  - notebooks/01_lyrics_ingestion.ipynb
-  - notebooks/02_lyrics_fill.ipynb
-  - notebooks/03_language_detection.ipynb
-  - notebooks/04_lyrics_translate.ipynb
-- Confirmed edits by reading back updated notebook cells.
+### Overall Health
 
-## Repository Change State (Current)
+- Data pipeline artifacts are present through Phase 5 style outputs in `data/processed/`.
+- Active analysis flow is notebook-based and appears to be the real source of truth.
+- No workspace diagnostics are currently reported by the editor.
 
-Modified:
-- notebooks/00_genius_sample_checks.ipynb
-- notebooks/01_lyrics_ingestion.ipynb
-- notebooks/02_lyrics_fill.ipynb
-- notebooks/03_language_detection.ipynb
-- notebooks/04_lyrics_translate.ipynb
+### Confirmed Working Assets
 
-Deleted:
-- src/lyrics_analysis/__init__.py
-- src/lyrics_analysis/__main__.py
-- src/lyrics_analysis/cleaning.py
-- src/lyrics_analysis/cli.py
-- src/lyrics_analysis/pipeline.py
-- notebooks/99_analysis_BERTopics.ipynb
-- several generated output CSV files under outputs/
-- selected raw files moved out of data/raw root (now represented in archive/new files)
+- Notebooks currently in use:
+  - `notebooks/01_lyrics_ingestion.ipynb`
+  - `notebooks/02_language_detection.ipynb`
+  - `notebooks/03_lyrics_translate.ipynb`
+  - `notebooks/03_lyrics_translation_qa.ipynb`
+  - `notebooks/04_classification_zeroshot.ipynb`
+  - `notebooks/05_song_analysis.ipynb`
+- Processed outputs present:
+  - `data/processed/00_titles.csv`
+  - `data/processed/01_lyrics.csv`
+  - `data/processed/02_lyrics_lang.csv`
+  - `data/processed/03_lyrics_trans.csv`
+  - `data/processed/04_emotion_scores.csv`
+  - `data/processed/05_titles_emotion_scores.csv`
 
-Untracked:
-- data/raw/archive/
-- data/raw/regional-ar-weekly-2026-03-05.csv
-- data/raw/regional-es-weekly-2026-03-05.csv
-- data/raw/regional-jp-weekly-2026-03-05.csv
-- data/raw/regional-sg-weekly-2026-03-05.csv
-- notebooks/archive/
+### Gaps / Risks Identified
 
-## Diagnostics / Tests
-
-Automated test suite:
-- Not run in this phase.
-
-Current diagnostics status: FAILING (not fully clean)
-- notebooks/00_genius_sample_checks.ipynb
-  - song_uri is referenced before definition in update cells.
-- notebooks/04_lyrics_translate.ipynb
-  - deep_translator import unresolved in current environment.
-- notebooks/05_lyrics_en_cleaning.ipynb
-  - df_test referenced before definition.
+- Packaging/docs mismatch (resolved this session):
+  - Notebook-only decision confirmed.
+  - Removed stale CLI/package entrypoint references from `README.md` and `pyproject.toml`.
+- Dependency mismatch risk:
+  - Added translation dependency (`deep-translator`) to both `requirements.txt` and `pyproject.toml`.
+- Progress history drift:
+  - Previous progress notes referenced notebook files that no longer exist in the active notebook set.
 
 ## Current Status
 
-- Path consistency work is mostly complete for active notebook pipeline files.
-- Databricks path support was intentionally preserved as comments.
-- Remaining blockers are notebook diagnostics issues and final validation.
+- Core objective (lyrics ingestion -> language detection -> translation -> emotion scoring -> analysis) is materially implemented in notebooks and backed by generated CSV outputs.
+- Project is usable for notebook-driven analysis now.
+- Repository metadata now reflects notebook-only workflow.
 
-## Open Issues In Progress
+## Priority Next Steps
 
-- Undefined variables in specific notebook cells.
-- Missing translation package import resolution.
-- Need one final sweep for any residual legacy path patterns.
-- No end-to-end smoke execution completed after latest edits.
+1. Run one end-to-end notebook smoke pass and record row counts at each phase in this file.
+2. Add a short reproducibility block with exact package versions used for the last successful run.
+3. Optionally archive or remove stale `src/lyrics_analysis/` remnants to reduce confusion.
 
-## Exact Next Step To Resume
+## Resume Point
 
-1. Fix diagnostics in notebooks/00_genius_sample_checks.ipynb (define/guard song_uri in update cells).
-2. Fix diagnostics in notebooks/05_lyrics_en_cleaning.ipynb (replace or initialize df_test).
-3. Resolve dependency in notebooks/04_lyrics_translate.ipynb (install/guard deep_translator).
-4. Re-scan notebooks 00-06 for any remaining legacy path patterns.
-5. Run a short smoke pass of setup cells in notebooks 01-06.
+- Next concrete action: perform one full notebook run validation and update this snapshot with measured metrics.
 

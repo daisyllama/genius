@@ -1,59 +1,29 @@
 # Lyrics Analysis
 
-Topic modeling and emotional-tone comparison for song lyrics using BERTopic.
+Notebook-first pipeline for collecting lyrics from Spotify chart tracks, detecting language, translating to English, and scoring emotions.
 
-## What this project does
+## Workflow
 
-- Cleans lyrics text while preserving stopwords/pronouns.
-- Generates sentence embeddings with `all-MiniLM-L6-v2`.
-- Runs BERTopic to assign each song to a topic.
-- Extracts top keywords per topic.
-- Aggregates topic distribution by region.
-- Scores emotional tone and aggregates by region and topic.
+Run notebooks in this order:
 
-## Current architecture
+1. `notebooks/01_lyrics_ingestion.ipynb`
+2. `notebooks/02_language_detection.ipynb`
+3. `notebooks/03_lyrics_translate.ipynb`
+4. `notebooks/03_lyrics_translation_qa.ipynb`
+5. `notebooks/04_classification_zeroshot.ipynb`
+6. `notebooks/05_song_analysis.ipynb`
 
-```mermaid
-flowchart TD
-	A[Input CSV<br/>columns: song, region, lyrics] --> B[clean_lyrics]
-	B --> B1[Remove bracket tags: [Verse], [Chorus], ...]
-	B1 --> B2[Lowercase]
-	B2 --> B3[Remove punctuation]
-	B3 --> B4[Collapse whitespace]
-	B4 --> C[Clean lyrics list]
+## Data Pipeline
 
-	C --> D[SentenceTransformer<br/>all-MiniLM-L6-v2]
-	D --> E[Embeddings]
-
-	E --> F[BERTopic<br/>UMAP + HDBSCAN]
-	C --> F
-	F --> G[Topic per song]
-	F --> H[Top keywords per topic]
-
-	G --> I[Topic distribution by region]
-
-	C --> J[Emotion model<br/>j-hartmann/emotion-english-distilroberta-base]
-	J --> K[Chunk-level emotion scores]
-	K --> L[Average per song]
-	L --> M[Emotion by region]
-	L --> N[Emotion by topic]
-
-	G --> O[assignments_per_song.csv]
-	H --> P[topic_keywords.csv]
-	I --> Q[topic_distribution_by_region.csv]
-	M --> R[emotion_by_region.csv]
-	N --> S[emotion_by_topic.csv]
+```text
+data/raw/regional-*.csv
+  -> data/processed/00_titles.csv
+  -> data/processed/01_lyrics.csv
+  -> data/processed/02_lyrics_lang.csv
+  -> data/processed/03_lyrics_trans.csv
+  -> data/processed/04_emotion_scores.csv
+  -> data/processed/05_titles_emotion_scores.csv
 ```
-
-## Input format
-
-Provide a CSV with these columns:
-
-- `song`
-- `region`
-- `lyrics`
-
-Example file: `data/processed/archive/sample_lyrics.csv`
 
 ## Setup
 
@@ -61,30 +31,18 @@ Example file: `data/processed/archive/sample_lyrics.csv`
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-pip install -e .
 ```
 
-## Run
+## Key Dependencies
 
-```bash
-python -m lyrics_analysis --input data/processed/archive/sample_lyrics.csv --output-dir outputs
-```
-
-## Outputs
-
-Generated files:
-
-- `outputs/<input_name>_<timestamp>/topic_assignments_per_song.csv`
-- `outputs/<input_name>_<timestamp>/topic_keywords.csv`
-- `outputs/<input_name>_<timestamp>/topic_distribution_by_region.csv`
-- `outputs/<input_name>_<timestamp>/emotion_by_region.csv`
-- `outputs/<input_name>_<timestamp>/emotion_by_topic.csv`
-
-Example run folder: `outputs/sample_lyrics_20260311_114120/`
+- Data: `pandas`, `numpy`
+- Topic/embeddings: `bertopic`, `sentence-transformers`, `torch`, `umap-learn`, `hdbscan`
+- Translation: `deep-translator`
+- Modeling: `transformers`, `scikit-learn`
 
 ## Notes
 
-- Top songs are taken from https://charts.spotify.com/home
-- Emotion scoring is chunked and averaged per song.
-- Spotify/Genius ingestion is intentionally not wired yet (paused by request).
+- This repository is currently notebook-only.
+- Python package/CLI execution is intentionally not part of the active workflow.
+- Top chart source data is from Spotify charts exports in `data/raw/`.
 
