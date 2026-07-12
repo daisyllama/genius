@@ -1,0 +1,9 @@
+metric,value
+rows_total,1105.0
+rows_flagged_for_review,181.0
+translate_max_length,5000.0
+rows_evaluable,998.0
+rows_passed,903.0
+pass_rate,0.9048096192384769
+target_pass_rate,0.97
+confidence_threshold,0.7
