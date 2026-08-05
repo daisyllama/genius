@@ -184,7 +184,5 @@ cython_debug/
 .DS_Store
 .databricks
 
-# Local-only planning/progress notes
-plan.md
-progress.md
-agent_guidlines.md
+# Local-only working files (not part of the versioned project state)
+local/
