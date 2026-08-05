@@ -24,13 +24,14 @@ data/raw/regional/*.csv
   -> 02_lyrics_lang.csv      (02_language_detection.ipynb)
   -> 03_lyrics_trans.csv     (03_lyrics_translate.ipynb)
   -> qa_failures/qa_summary  (03_lyrics_translation_qa.ipynb)
-  -> 04.1_emotion_scores.csv (04.1_classification_zeroshot.ipynb)  -- zero-shot NLI, 10 custom labels
-  -> 04.2_emotion_scores.csv (04.2_classification_goemotions.ipynb) -- GoEmotions, 28 labels, run on Databricks
+  -> 04.1_emotion_scores_zeroshot.csv   (04.1_classification_zeroshot.ipynb)  -- zero-shot NLI, 10 custom labels
+  -> 04.2_emotion_scores_goemotions.csv (04.2_classification_goemotions.ipynb) -- GoEmotions, 28 labels, run on Databricks
   -> 05_titles_emotion_scores.csv (05_song_analysis.ipynb)
   -> charts                 (06_exploration_charts.ipynb)
+  -> 07_classifier_comparison_regional.csv (07_compare_classifiers.ipynb)
 ```
 
-04.1 and 04.2 are alternative classifiers over the same `03_lyrics_trans.csv` input — not sequential steps. `05_song_analysis.ipynb` defaults to reading `04.1_emotion_scores.csv`.
+04.1 and 04.2 are alternative classifiers over the same `03_lyrics_trans.csv` input — not sequential steps. `05_song_analysis.ipynb` defaults to reading `04.1_emotion_scores_zeroshot.csv`. `07_compare_classifiers.ipynb` compares the two directly.
 
 ### 1. Ingestion — `lyricsgenius`
 
@@ -88,6 +89,16 @@ Cleaning/chunking logic is shared with 04.1 (same `clean_lyrics`/`chunk_text`, s
 ### 6. Analysis & Charting
 
 `05_song_analysis.ipynb` joins emotion scores back onto chart metadata (rank, region) and produces the final per-song, per-region dataset. `06_exploration_charts.ipynb` visualizes regional emotional character, including a differential chart showing each region's deviation from the global mean — this was added specifically because raw emotion scores are hard to compare across regions when the absolute scoring scale is compressed; showing deviation from mean surfaces what's actually distinctive per region.
+
+### 7. Comparing the two classifiers — `07_compare_classifiers.ipynb`
+
+Since 04.1 and 04.2 classify the same 1,105 songs under different taxonomies, this notebook checks how much they actually agree, restricted to the 4 labels both taxonomies share (`love`, `joy`, `grief`, `anger`) — comparing anything outside that overlap isn't meaningful since one side simply has no equivalent label.
+
+Findings from the last run:
+- **Coverage**: zero-shot classifies 90.2% of songs (108 unclassified), GoEmotions 81.8% (201 unclassified) — expected, since GoEmotions' independent sigmoid scores rarely all clear a fixed 0.30 bar the way a forced-competition softmax does.
+- **Score correlation** on the shared labels is positive but moderate (r = 0.28–0.48) — the two models don't disagree on direction, but their scoring mechanics (competing softmax vs. independent sigmoid) aren't directly comparable in magnitude.
+- **Dominant-emotion agreement** is low (23.4%) even when GoEmotions' pick is in the shared set — mostly because 04.1's richer romantic/melancholic vocabulary (`sensual`, `longing`, `heartbreak`, `lonely`) captures nuance GoEmotions collapses into `love` or `sadness`. This reads as a taxonomy-granularity mismatch rather than the models disagreeing about song content.
+- Neither classifier is "more correct" — 04.1 trades speed for a song-specific label set, 04.2 trades label nuance for faster, general-purpose inference.
 
 ## Repo Layout
 
