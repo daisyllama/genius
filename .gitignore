@@ -183,3 +183,7 @@ cython_debug/
 # macOS
 .DS_Store
 .databricks
+
+# Local-only planning/progress notes
+plan.md
+progress.md
