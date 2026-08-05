@@ -25,7 +25,8 @@ data/
 │   ├── 03_lyrics_trans.csv         # Translation results
 │   ├── lyrics_trans_qa_failures.csv # Translation QA outputs
 │   ├── lyrics_trans_qa_summary.csv
-│   ├── 04_emotion_scores.csv       # Emotion classification results
+│   ├── 04.1_emotion_scores.csv     # Zero-shot NLI emotion classification (10 custom labels)
+│   ├── 04.2_emotion_scores.csv     # GoEmotions emotion classification (28 labels, run on Databricks)
 │   ├── 05_titles_emotion_scores.csv # Final analysis-ready dataset
 │   └── null_dom_emo.csv            # Records with missing emotions
 │
@@ -52,15 +53,22 @@ data/raw/regional/ → notebooks → data/processed/
 03_lyrics_translation_qa.ipynb
   → lyrics_trans_qa_failures.csv, lyrics_trans_qa_summary.csv
 
-04_classification_zeroshot.ipynb
-  → 04_emotion_scores.csv, regional_summary.csv
+04.1_classification_zeroshot.ipynb    (zero-shot NLI, bart-large-mnli, 10 custom labels)
+  → 04.1_emotion_scores.csv, 04.1_regional_summary.csv
+
+04.2_classification_goemotions.ipynb  (GoEmotions, ONNX, 28 fixed labels — run on Databricks)
+  → 04.2_emotion_scores.csv, 04.2_regional_summary.csv
 
 05_song_analysis.ipynb
-  → 05_titles_emotion_scores.csv, null_dom_emo.csv
+  → 05_titles_emotion_scores.csv, null_dom_emo.csv  (reads 04.1_emotion_scores.csv by default)
 
 06_exploration_charts.ipynb
   → Interactive visualization (no CSV output)
 ```
+
+04.1 and 04.2 are two alternative classification approaches over the same input
+(`03_lyrics_trans.csv`) — see README.md for the rationale behind each. Downstream
+notebooks default to the 04.1 (zero-shot) output; swap the path in 05 to use 04.2 instead.
 
 ## Changes (2026-08-05)
 
@@ -70,6 +78,11 @@ data/raw/regional/ → notebooks → data/processed/
   - `data/processed/archive/*` (old checkpoint CSVs)
   - `data/processed/co_global_tw_usa/` and `data/processed/sg_es_ar_jp/` (earlier region-grouped processing runs)
 - All other notebooks (02–06) already referenced `data/processed/` directly and needed no path changes.
+- Renamed `04_classification_zeroshot.ipynb` → `04.1_classification_zeroshot.ipynb` and its outputs
+  (`04_emotion_scores.csv` → `04.1_emotion_scores.csv`, etc.) to make room for an alternative
+  classification approach.
+- Added `04.2_classification_goemotions.ipynb` — GoEmotions (28-label, ONNX) classifier, intended
+  to be run on Databricks. Not yet executed; no `04.2_emotion_scores.csv` exists yet.
 
 All notebooks resolve paths consistently via:
 ```python
