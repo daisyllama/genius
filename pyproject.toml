@@ -22,4 +22,11 @@ dependencies = [
   "umap-learn>=0.5.5",
   "hdbscan>=0.8.33",
   "deep-translator>=1.11.4",
+  "lyricsgenius>=3.0.1",
+  "python-dotenv>=1.0.0",
+  "fasttext-wheel>=0.9.2",
+  "tqdm>=4.66.0",
+  "plotly>=5.20.0",
+  "duckdb>=1.0.0",
+  "optimum[onnxruntime]>=1.19.0",
 ]

@@ -1,29 +1,102 @@
 # Lyrics Analysis
 
-Notebook-first pipeline for collecting lyrics from Spotify chart tracks, detecting language, translating to English, and scoring emotions.
+A notebook-first pipeline that pulls the top charting songs across 8 regions (Spotify Charts), fetches their lyrics, detects source language, translates everything to English, and scores each song's emotional content — with the goal of comparing emotional character across regions/cultures.
 
-## Workflow
+## What This Does
 
-Run notebooks in this order:
+Starting from weekly regional Spotify chart exports, the pipeline:
 
-1. `notebooks/01_lyrics_ingestion.ipynb`
-2. `notebooks/02_language_detection.ipynb`
-3. `notebooks/03_lyrics_translate.ipynb`
-4. `notebooks/03_lyrics_translation_qa.ipynb`
-5. `notebooks/04_classification_zeroshot.ipynb`
-6. `notebooks/05_song_analysis.ipynb`
+1. **Ingests** the top-ranked tracks per region and fetches lyrics from Genius
+2. **Detects** the original language of each song's lyrics
+3. **Translates** non-English lyrics to English
+4. **QA-checks** translation quality before trusting it downstream
+5. **Classifies** each song's emotion — two alternative approaches (04.1 zero-shot NLI, 04.2 GoEmotions)
+6. **Aggregates** results per region/song for comparison and charting
 
-## Data Pipeline
+Regions covered: Argentina, Colombia, Global, Japan, Singapore, Spain, Taiwan, USA.
 
-```text
-data/raw/regional-*.csv
-  -> data/processed/00_titles.csv
-  -> data/processed/01_lyrics.csv
-  -> data/processed/02_lyrics_lang.csv
-  -> data/processed/03_lyrics_trans.csv
-  -> data/processed/04_emotion_scores.csv
-  -> data/processed/05_titles_emotion_scores.csv
+## Pipeline & Rationale
+
 ```
+data/raw/regional/*.csv
+  -> 00_titles.csv           (01_lyrics_ingestion.ipynb)
+  -> 01_lyrics.csv           (01_lyrics_ingestion.ipynb)
+  -> 02_lyrics_lang.csv      (02_language_detection.ipynb)
+  -> 03_lyrics_trans.csv     (03_lyrics_translate.ipynb)
+  -> qa_failures/qa_summary  (03_lyrics_translation_qa.ipynb)
+  -> 04.1_emotion_scores.csv (04.1_classification_zeroshot.ipynb)  -- zero-shot NLI, 10 custom labels
+  -> 04.2_emotion_scores.csv (04.2_classification_goemotions.ipynb) -- GoEmotions, 28 labels, run on Databricks
+  -> 05_titles_emotion_scores.csv (05_song_analysis.ipynb)
+  -> charts                 (06_exploration_charts.ipynb)
+```
+
+04.1 and 04.2 are alternative classifiers over the same `03_lyrics_trans.csv` input — not sequential steps. `05_song_analysis.ipynb` defaults to reading `04.1_emotion_scores.csv`.
+
+### 1. Ingestion — `lyricsgenius`
+
+Raw chart CSVs give title/artist/rank per region but no lyrics. `lyricsgenius` wraps the Genius API and is the most maintained Python client for it. Lyrics fetching is deduplicated by `spotify_uri` before hitting the API (many tracks appear on multiple regional charts), and results are cached to a checkpoint CSV so an interrupted run can resume without re-fetching tracks already pulled — Genius lookups are slow and rate-limited, so this mattered in practice.
+
+Of the initial ~694 unique tracks, 42 had no retrievable lyrics (no match / instrumental) — these carry through the pipeline as empty and get excluded from emotion scoring downstream.
+
+### 2. Language Detection — script check + FastText
+
+A single language-ID approach wasn't reliable on its own, so this is a **two-pass** strategy:
+
+- **Pass 1 (rule-based script detection):** scans lyrics for Unicode script ranges (Hiragana/Katakana, CJK ideographs, Hangul, Arabic, Thai, Cyrillic) and assigns a language directly if one of these scripts dominates. This exists because many chart songs mix scripts — e.g. Japanese lyrics with English hooks — and FastText alone would misclassify these as English due to the Latin-script segments.
+- **Pass 2 (FastText `lid.176`):** for anything that passes through Pass 1 unchanged (Latin-script or ambiguous), FastText's language-identification model classifies the first 200 characters. FastText was chosen over `langdetect` (tried earlier, see `data/archive/`) for speed and better short-text accuracy.
+
+A NumPy 2.x compatibility shim is monkey-patched onto FastText's `predict()` in the notebook, since the installed `fasttext` build calls `np.array(..., copy=False)`, which NumPy 2.x rejects.
+
+### 3. Translation — `deep-translator` (Google Translate backend)
+
+`deep-translator`'s `GoogleTranslator` was chosen over a local MT model (e.g. NLLB, MarianMT) for pragmatic reasons: chart lyrics span many languages (Spanish, Chinese, Japanese, Korean, Portuguese, etc.) and a single hosted API avoids managing per-language local models and their quality inconsistencies. It runs with a timeout guard per call (30s) and language-code normalization (e.g. mapping `zh-cn`/`zh_cn` variants to what the API expects) since chart-detected language codes aren't always in the exact form the translator needs.
+
+Songs longer than 5,000 characters are flagged `translation_review_required` rather than blindly trusted, since very long lyrics are more likely to hit truncation or partial-translation failures silently.
+
+### 4. Translation QA — FastText again, as a validator
+
+Rather than trusting translation output, a dedicated QA pass re-runs FastText on `lyrics_in_en` to confirm it actually reads as English (confidence ≥ 0.70). Target pass rate was 97%; the last full run measured **90.48%** — root-caused to a batch of Chinese songs that partially failed translation (mixed-language output). Most of these were already caught by the length-based `translation_review_required` flag; a couple of short Chinese songs slipped through silently and need manual re-check. This QA step exists specifically because silent translation failures would otherwise corrupt emotion scores without any visible signal.
+
+### 5. Emotion Classification — two approaches, run side by side
+
+No labeled emotion dataset exists for this song set. Two different classification strategies are implemented as parallel notebooks over the same input (`03_lyrics_trans.csv`), rather than one replacing the other — they trade off label flexibility against inference speed/calibration, and it's an open question which is more useful for this dataset.
+
+#### 5a. `04.1_classification_zeroshot.ipynb` — zero-shot NLI (`facebook/bart-large-mnli`)
+
+**Zero-shot classification** via an NLI model lets us define our own emotion labels (`love`, `longing`, `joy`, `heartbreak`, `grief`, `despair`, `hope`, `lonely`, `sensual`, `anger`) without training data — the model just needs to judge whether lyrics entail "The dominant emotion in this song is `{label}`." This matters here because the interesting emotional vocabulary for songs (`longing`, `heartbreak`, `despair`) doesn't overlap much with any existing labeled emotion dataset.
+
+`facebook/bart-large-mnli` was chosen as the strongest general-purpose zero-shot NLI model readily available via `transformers`; `cross-encoder/nli-deberta-v3-large` was noted as a higher-accuracy alternative at ~2x the inference cost, left as a future swap if quality demands it.
+
+Two scoring decisions worth flagging:
+- **`multi_label=False`, not `True`.** The first pass used `multi_label=True` (each emotion scored independently), which caused score inflation — nearly every song scored 0.7+ on "longing" and "sensual" regardless of content, because the model over-estimates certain labels globally when they aren't forced to compete. Switching to `multi_label=False` makes emotions compete via softmax in one pass, so a song's dominant emotion reflects what's actually distinctive about it rather than a global bias.
+- **Custom hypothesis template.** `"The dominant emotion in this song is {}."` instead of the default template — this phrasing pushes the model toward picking one best-fitting emotion per chunk rather than treating each label as an independent yes/no question.
+
+Lyrics are chunked (~350 words) to stay under the model's token limit, classified in batches of 16, and chunk-level scores are averaged to a per-song score. The pipeline checkpoints every 10 songs so a multi-hour CPU/GPU run survives interruption.
+
+#### 5b. `04.2_classification_goemotions.ipynb` — GoEmotions (`SamLowe/roberta-base-go_emotions-onnx`)
+
+The alternative: a **supervised, fine-tuned** classifier trained on GoEmotions (28 labels: `admiration`, `amusement`, `anger`, ..., `neutral`), exported to ONNX and served via `optimum`'s ONNX Runtime backend. One forward pass per chunk returns all 28 label scores directly — no NLI hypothesis pairs — so it's substantially faster than zero-shot inference. The tradeoff is losing the custom song-emotion vocabulary: GoEmotions' labels were trained on Reddit-comment tone, so categories like `admiration`, `curiosity`, `approval` show up that don't map cleanly onto lyrical themes, and labels like `longing`/`heartbreak`/`despair` that zero-shot lets you define directly aren't available at all.
+
+Scoring is structurally different from 04.1: GoEmotions is multi-label by training (independent sigmoid per label, not a competing softmax), so a song's scores don't sum to ~1 the way 04.1's do — multiple emotions can legitimately score high simultaneously. Dominant emotion is still derived via argmax across the emotion columns, but gated on an `UNCLASSIFIED_THRESHOLD` (0.30) rather than `> 0`, since independent sigmoids rarely land on an exact zero.
+
+Cleaning/chunking logic is shared with 04.1 (same `clean_lyrics`/`chunk_text`, since that preprocessing is model-agnostic). This notebook is intended to be run on Databricks rather than locally.
+
+### 6. Analysis & Charting
+
+`05_song_analysis.ipynb` joins emotion scores back onto chart metadata (rank, region) and produces the final per-song, per-region dataset. `06_exploration_charts.ipynb` visualizes regional emotional character, including a differential chart showing each region's deviation from the global mean — this was added specifically because raw emotion scores are hard to compare across regions when the absolute scoring scale is compressed; showing deviation from mean surfaces what's actually distinctive per region.
+
+## Repo Layout
+
+```
+data/
+  raw/regional/       weekly Spotify chart exports (input, one CSV per region)
+  processed/          current pipeline outputs (00_titles.csv ... 05_titles_emotion_scores.csv)
+  archive/            superseded processing runs / old checkpoints, kept for reference
+notebooks/            the pipeline, run in numeric order (01 -> 06)
+src/lyrics_analysis/  early attempt at a package/DB-backed version (see Notes)
+```
+
+See `DATA_STRUCTURE.md` for the full breakdown of `data/`.
 
 ## Setup
 
@@ -33,16 +106,33 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Key Dependencies
+Genius API access requires a `.env` file at the project root with:
+```
+GENIUS_ACCESS_TOKEN=...
+```
 
-- Data: `pandas`, `numpy`
-- Topic/embeddings: `bertopic`, `sentence-transformers`, `torch`, `umap-learn`, `hdbscan`
-- Translation: `deep-translator`
-- Modeling: `transformers`, `scikit-learn`
+## Key Dependencies & Why
+
+| Tool | Used for | Why this over alternatives |
+|---|---|---|
+| `lyricsgenius` | Lyrics fetch | Best-maintained Genius API wrapper |
+| `fasttext` (`lid.176`) | Language ID | Faster + more accurate than `langdetect` on short lyric snippets; used for both initial detection and translation QA |
+| `deep-translator` | Translation | Single hosted API covers all chart languages without managing per-language local MT models |
+| `transformers` (`facebook/bart-large-mnli`) | Emotion classification (04.1) | No labeled emotion data exists, so zero-shot NLI is the only classification approach that doesn't require training; BART-MNLI is the strongest general zero-shot model available off the shelf |
+| `optimum[onnxruntime]` (`SamLowe/roberta-base-go_emotions-onnx`) | Emotion classification (04.2) | Supervised, single-pass classifier — faster than zero-shot NLI; traded off against being locked into GoEmotions' fixed 28-label taxonomy |
+| `duckdb` | Joining pipeline outputs | SQL joins over CSVs in `05_song_analysis.ipynb` without standing up a database |
+| `pandas` | Everything tabular | Notebook-first workflow, no need for a heavier data framework at this scale (~1-2k songs) |
+
+`bertopic`, `sentence-transformers`, `umap-learn`, `hdbscan`, `scikit-learn` are installed for exploratory topic-modeling work that hasn't been folded into the numbered pipeline yet.
+
+## Known Limitations
+
+- ~31% of unique chart songs (495 of ~1,600 title entries) have no Genius lyrics match and are excluded from emotion scoring.
+- Translation QA pass rate is 90.48% against a 97% target — ~56 Chinese songs have partial/mixed-language translations; most are flagged via `translation_review_required`, a couple slipped through silently and need manual review (see `data/processed/lyrics_trans_qa_failures.csv`).
+- `fasttext-wheel` must be installed separately from `requirements.txt` for the QA notebook to run.
 
 ## Notes
 
-- This repository is currently notebook-only.
-- Python package/CLI execution is intentionally not part of the active workflow.
-- Top chart source data is from Spotify charts exports in `data/raw/`.
-
+- This repository is notebook-only by design — the pipeline runs interactively and each stage's output is inspected before moving on. A `src/lyrics_analysis/` package/DB-backed variant was explored but is not part of the active workflow.
+- Source chart data is Spotify Charts weekly regional exports, stored in `data/raw/regional/`.
+- `plan.md` and `progress.md` are local working notes (task planning / session progress) and are gitignored — they're not part of the versioned project state.
