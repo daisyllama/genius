@@ -187,3 +187,4 @@ cython_debug/
 # Local-only planning/progress notes
 plan.md
 progress.md
+agent_guidlines.md
