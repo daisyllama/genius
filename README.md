@@ -38,6 +38,8 @@ Raw chart CSVs give title/artist/rank per region but no lyrics. `lyricsgenius` w
 
 Of the initial ~694 unique tracks, 42 had no retrievable lyrics (no match / instrumental) — these carry through the pipeline as empty and get excluded from emotion scoring downstream.
 
+**Genius API lyrics are not always accurate.** `search_song()` sometimes matches the wrong track, returns a page with ads/annotations baked into the text, or pulls a different version/remix than the one on the chart. Rather than trust every result blindly, songs were flagged for manual review when they showed signs of a bad match — length > 5,000 characters (often duplicated/glued lyrics from a wrong-page match) or unexpected non-language characters and symbols (scraping artifacts, ad text, or wrong-script content that shouldn't be there for that track). Flagged rows were manually corrected by hand — patching the record and re-sourcing the actual lyrics via a Google search — rather than re-running the fetch, since the wrong Genius match wouldn't fix itself on retry. See `cleanup_notes.txt` for the tracks flagged this way.
+
 ### 2. Language Detection — script check + FastText
 
 A single language-ID approach wasn't reliable on its own, so this is a **two-pass** strategy:
@@ -55,7 +57,9 @@ Songs longer than 5,000 characters are flagged `translation_review_required` rat
 
 ### 4. Translation QA — FastText again, as a validator
 
-Rather than trusting translation output, a dedicated QA pass re-runs FastText on `lyrics_in_en` to confirm it actually reads as English (confidence ≥ 0.70). Target pass rate was 97%; the last full run measured **90.48%** — root-caused to a batch of Chinese songs that partially failed translation (mixed-language output). Most of these were already caught by the length-based `translation_review_required` flag; a couple of short Chinese songs slipped through silently and need manual re-check. This QA step exists specifically because silent translation failures would otherwise corrupt emotion scores without any visible signal.
+Rather than trusting translation output, a dedicated QA pass re-runs FastText on `lyrics_in_en` to confirm it actually reads as English (confidence ≥ 0.70). Target pass rate was 97%; the last full run measured **90.48%** — root-caused to a batch of Chinese songs that partially failed translation (mixed-language output). Most of these were already caught by the length-based `translation_review_required` flag; a couple of short Chinese songs slipped through silently.
+
+Those remaining slipped-through, still-non-English rows were left as-is rather than manually re-translated. `facebook/bart-large-mnli` (used in 04.1) is itself multilingual under the hood — its underlying BART/mBART-style training means zero-shot NLI still produces reasonable entailment scores on non-English text, even against English-language candidate labels. So a handful of songs reaching emotion classification without full translation doesn't silently corrupt those scores the way it would for a model that only understands English — the QA step still matters for catching *broken* translations, but perfect translation coverage isn't a hard precondition for 04.1 specifically.
 
 ### 5. Emotion Classification — two approaches, run side by side
 
@@ -128,7 +132,8 @@ GENIUS_ACCESS_TOKEN=...
 ## Known Limitations
 
 - ~31% of unique chart songs (495 of ~1,600 title entries) have no Genius lyrics match and are excluded from emotion scoring.
-- Translation QA pass rate is 90.48% against a 97% target — ~56 Chinese songs have partial/mixed-language translations; most are flagged via `translation_review_required`, a couple slipped through silently and need manual review (see `data/processed/lyrics_trans_qa_failures.csv`).
+- Genius lyrics are not always accurate — some tracks matched the wrong song/version or returned lyrics with scraping artifacts (ads, wrong-script text). Flagged via length > 5,000 chars or unexpected symbols/non-language characters, then manually patched using a Google search for the correct lyrics rather than trusting the API result as-is. See `cleanup_notes.txt`.
+- Translation QA pass rate is 90.48% against a 97% target — ~56 Chinese songs have partial/mixed-language translations; most are flagged via `translation_review_required`, and a couple of short songs slipped through silently (see `data/processed/lyrics_trans_qa_failures.csv`). Left unpatched: zero-shot NLI (04.1) still scores non-English text reasonably, so this doesn't block emotion classification the way it would for an English-only model.
 - `fasttext-wheel` must be installed separately from `requirements.txt` for the QA notebook to run.
 
 ## Notes
