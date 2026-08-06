@@ -229,3 +229,27 @@ comparisons that tier 3 above forbids.
 - **Chunk averaging is unweighted.** A 3-chunk song weights its final chorus
   chunk as heavily as its first verse, and short trailing chunks count fully.
   Applies identically to both forks, so it doesn't bias the comparison.
+
+---
+
+## Post-re-run addendum (2026-08-06)
+
+The design above was tested against real model output for the first time on
+2026-08-06 (`04` → `05.1`/`05.2` → `06.1`/`06.2` → `07`; see `local/progress.md`
+for exact numbers). Two results worth recording here, since they bear directly
+on how much weight the design choices above should get:
+
+- **Learning points 1–3 held up as predicted.** Coverage converged to
+  identical (90.3%/90.3%) once the contract was actually applied — the
+  ~93-song "gap" really was just the threshold mismatch this doc diagnosed,
+  not a residual model difference.
+- **Learning point 5's "same map, different vocabulary" hope did *not* hold.**
+  The §5 regional z-score test — designed to be the one comparison immune to
+  the calibration gap — came back r = 0.153 overall, with `joy` (r=-0.03) and
+  `grief` (r=-0.40) essentially uncorrelated between the two classifiers. Only
+  `love` (r=0.67) shows real agreement. This doesn't invalidate the tiering
+  argument in learning point 5 (ranks/z-scores are still more comparable than
+  raw magnitudes) — it means the *taxonomy* itself, not just its calibration,
+  is doing real work in shaping which regional signal comes through. A
+  regional claim from one classifier is not evidence for the same claim under
+  the other, and downstream write-ups should say which classifier they used.

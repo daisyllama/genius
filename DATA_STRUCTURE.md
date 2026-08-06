@@ -54,16 +54,15 @@ data/raw/regional/ → notebooks → data/processed/
 03_lyrics_translation_qa.ipynb
   → lyrics_trans_qa_failures.csv, lyrics_trans_qa_summary.csv
 
-04.1_classification_zeroshot.ipynb    (zero-shot NLI, bart-large-mnli, 10 custom labels)
+04_classification.ipynb    (§4A zero-shot NLI bart-large-mnli, §4B GoEmotions ONNX — shared
+                            cleaning/chunking/checkpointing, both run on Databricks)
   → 04.1_emotion_scores_zeroshot.csv, 04.1_regional_summary_zeroshot.csv
-
-04.2_classification_goemotions.ipynb  (GoEmotions, ONNX, 28 fixed labels — run on Databricks)
   → 04.2_emotion_scores_goemotions.csv, 04.2_regional_summary_goemotions.csv
 
-05_song_analysis.ipynb
-  → 05_titles_emotion_scores.csv, null_dom_emo.csv  (reads 04.1_emotion_scores_zeroshot.csv by default)
+05.1_song_analysis_zeroshot.ipynb / 05.2_song_analysis_goemotions.ipynb
+  → 05.1_titles_emotion_scores_zeroshot.csv / 05.2_titles_emotion_scores_goemotions.csv
 
-06_exploration_charts.ipynb
+06.1_exploration_charts_zeroshot.ipynb / 06.2_exploration_charts_goemotions.ipynb
   → Interactive visualization (no CSV output)
 
 07_compare_classifiers.ipynb
@@ -71,10 +70,19 @@ data/raw/regional/ → notebooks → data/processed/
 ```
 
 04.1 and 04.2 are two alternative classification approaches over the same input
-(`03_lyrics_trans.csv`) — see README.md for the rationale behind each. Downstream
-notebooks default to the 04.1 (zero-shot) output; swap the path in 05 to use 04.2 instead.
-07 compares the two directly on coverage, score correlation, and dominant-emotion
-agreement, restricted to the 4 labels (`love`, `joy`, `grief`, `anger`) both taxonomies share.
+(`03_lyrics_trans.csv`), unified under one shared scoring contract (independent
+per-label probabilities, `unclassified` means "no scoreable lyrics" in both) — see
+`docs/classifier_methodology.md` for the rationale and `README.md` for the pipeline
+writeup. The pipeline forks completely at 05/06 (one notebook pair per classifier,
+not one shared pair) so 10-label and 28-label scores never get pooled into one
+schema. 07 is the only place the two forks meet: it compares coverage, score
+correlation, and dominant-emotion agreement on the 4 labels (`love`, `joy`, `grief`,
+`anger`) both taxonomies share, plus a regional z-score map comparison that is
+robust to the calibration gap between the two models.
+
+Former `04.1_classification_zeroshot.ipynb`, `04.2_classification_goemotions.ipynb`,
+`05_song_analysis.ipynb`, and `06_exploration_charts.ipynb` are archived in
+`notebooks/archive/`, superseded by the split above.
 
 ## Changes (2026-08-05)
 
