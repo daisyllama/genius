@@ -156,10 +156,33 @@ Three tiers of comparability, in decreasing strength:
 3. **Across forks, raw magnitudes** — never valid, contract or no contract.
 
 Every chart in `06.1` / `06.2` is labelled with which tier it belongs to. The
-z-scored regional-character heatmap (§ 4 in both) is the designated cross-fork
-view, and `07 § 5` is built on the same idea: *do the two classifiers draw the
-same regional map?* — a question invariant to scale, which is the only kind of
-cross-classifier question worth asking here.
+z-scored regional-character view (§ 4 heatmap and § 4b dot strip in both) is the
+designated cross-fork view, and `07 § 5` is built on the same idea: *do the two
+classifiers draw the same regional map?* — a question invariant to scale, which
+is the only kind of cross-classifier question worth asking here.
+
+Tier 2 only holds if the two forks are standardised *identically*, which turned
+out to need two explicit decisions (both made 2026-08-06):
+
+- **Fixed shared domain.** § 4 originally scaled its colour to each fork's own
+  max, so +1.5 SD rendered as a different colour in each notebook — the charts
+  looked comparable and weren't. Both forks now pin `Z_LIM = 2.9` and raise if
+  the data exceeds it.
+- **`Global` is held out of the baseline.** It is a worldwide chart, not a
+  market, so including it meant it was partly its own reference. The baseline is
+  the seven market regions; Global is scored against them. This makes Global's
+  position interpretable ("the worldwide chart vs the markets") at the cost of
+  the rows no longer summing to zero across all eight regions.
+
+`07 § 5`'s `regional_z()` now takes the same `ref_region` parameter and applies
+the identical held-out baseline, so the headline number in learning point 8 is
+computed the same way as `06.1`/`06.2` § 4. One thing worth knowing if you ever
+touch this again: **the per-label correlations didn't move at all** —
+`pearsonr` is invariant to each fork's own affine rescaling, and swapping which
+7-vs-8 regions set the mean/std is exactly that, an affine rescale, applied
+identically to both z-columns being correlated. Only the *flat* correlation
+(computed across labels, where each label now carries a slightly different
+rescale) shifted, and only by 0.001 — see learning point 8.
 
 ---
 
@@ -245,10 +268,12 @@ on how much weight the design choices above should get:
   not a residual model difference.
 - **Learning point 5's "same map, different vocabulary" hope did *not* hold.**
   The §5 regional z-score test — designed to be the one comparison immune to
-  the calibration gap — came back r = 0.153 overall, with `joy` (r=-0.03) and
-  `grief` (r=-0.40) essentially uncorrelated between the two classifiers. Only
-  `love` (r=0.67) shows real agreement. This doesn't invalidate the tiering
-  argument in learning point 5 (ranks/z-scores are still more comparable than
+  the calibration gap — came back r = 0.152 overall (0.153 before `Global` was
+  held out of the baseline, see learning point 5; the per-label numbers below
+  are unaffected by that change), with `joy` (r=-0.03) and `grief` (r=-0.40)
+  essentially uncorrelated between the two classifiers. Only `love` (r=0.67)
+  shows real agreement. This doesn't invalidate the tiering argument in
+  learning point 5 (ranks/z-scores are still more comparable than
   raw magnitudes) — it means the *taxonomy* itself, not just its calibration,
   is doing real work in shaping which regional signal comes through. A
   regional claim from one classifier is not evidence for the same claim under

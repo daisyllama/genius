@@ -15,6 +15,12 @@ Starting from weekly regional Spotify chart exports, the pipeline:
 
 Regions covered: Argentina, Colombia, Global, Japan, Singapore, Spain, Taiwan, USA.
 
+## About
+
+Do the songs that top the charts in different countries carry a different emotional character — more heartbreak here, more joy there — or does global pop culture converge on roughly the same emotional palette everywhere? That's the question this project sets out to answer empirically, using each region's actual top-charting tracks rather than assumptions about "what a culture's music sounds like."
+
+The approach: take weekly regional Spotify charts, get every song into a common, comparable form (English-language lyrics), score the emotional content of each one, and compare the resulting emotional profiles across regions. Two independent emotion classifiers are run side by side (§5) specifically to stress-test the answer — if both agree on which emotions define a region's chart, that's a real regional signal; if they disagree, the "signal" may just be an artifact of whichever labeling scheme was chosen. As documented in §7, that stress test matters: the two classifiers do **not** agree on the regional map (r = 0.152), so the honest answer as of this run is "zero-shot's regional differences are real under its own vocabulary, but not yet corroborated by an independent classifier" — a finding about the limits of the method as much as about the music.
+
 ## Pipeline & Rationale
 
 ```
@@ -89,7 +95,14 @@ Cleaning/chunking logic, `MIN_CONFIDENCE`, and checkpointing are shared with § 
 
 ### 6. Analysis & Charting
 
-`05.1_song_analysis_zeroshot.ipynb` / `05.2_song_analysis_goemotions.ipynb` join each classifier's emotion scores back onto chart metadata (rank, region) and produce the final per-song, per-region dataset for that fork. `06.1_exploration_charts_zeroshot.ipynb` / `06.2_exploration_charts_goemotions.ipynb` visualize regional emotional character, including a z-score heatmap showing each region's deviation from the global mean — this exists specifically because raw emotion scores are hard to compare across regions when the absolute scoring scale is compressed (see §7 below); showing deviation from mean surfaces what's actually distinctive per region. The two forks stay separate through 05/06 on purpose, so 10-label and 28-label scores never get pooled into one schema with mostly-missing cells.
+`05.1_song_analysis_zeroshot.ipynb` / `05.2_song_analysis_goemotions.ipynb` join each classifier's emotion scores back onto chart metadata (rank, region) and produce the final per-song, per-region dataset for that fork. `06.1_exploration_charts_zeroshot.ipynb` / `06.2_exploration_charts_goemotions.ipynb` visualize regional emotional character, including a z-score view of each region's deviation from the mean across regions — this exists specifically because raw emotion scores are hard to compare across regions when the absolute scoring scale is compressed (see §7 below); showing deviation from mean surfaces what's actually distinctive per region. The two forks stay separate through 05/06 on purpose, so 10-label and 28-label scores never get pooled into one schema with mostly-missing cells.
+
+Two conventions govern that z-score view (§4 heatmap and §4b dot strip in both notebooks), both added 2026-08-06:
+
+- **The `Global` playlist is held out of the baseline and then scored against it** (`REF_REGION` / `baseline_regions` in the palette cell). Global is one of the eight regions in the source data, but it is a worldwide chart rather than a market, so averaging it into the mean it is compared with made it partly its own reference. The baseline is now the seven market regions; the markets centre on zero and Global floats, readable as "how the worldwide chart sits relative to the markets."
+- **The colour and axis domain is a fixed `Z_LIM = 2.9` shared by both forks**, not each fork's own max. A per-fork max silently gave the same SD value a different colour in each notebook, which defeated the point of standardising; §4 now raises if a fork's z ever exceeds `Z_LIM`.
+
+⚠ `07_compare_classifiers.ipynb` § 5 still standardises across **all eight** regions, so its z-map is not computed on the same baseline as `06.1`/`06.2` § 4. See `local/progress.md` → Priority Next Steps for the open decision.
 
 ### 7. Comparing the two classifiers — `07_compare_classifiers.ipynb`
 
@@ -100,7 +113,7 @@ Findings from the 2026-08-06 re-run (first run under the unified contract):
 - **Confidence is** a real differentiator: GoEmotions flags 94 songs (8.5%) `low_confidence` at the shared 0.30 bar, vs. 5 for zero-shot (0.5%). Median `dominant_score` is 0.971 (zero-shot) vs. 0.536 (GoEmotions) — a calibration gap (conservative sigmoid trained on short Reddit comments vs. entailment probabilities that run hot), not an accuracy difference.
 - **Score correlation** on the shared labels is positive but moderate (pearson r = 0.30–0.48 across love/joy/grief/anger) — the two models don't disagree on direction, but their scoring mechanics aren't directly comparable in magnitude, so rank/z-score comparisons are the trustworthy ones.
 - **Dominant-emotion agreement** is low (29.8%, of 305 songs where GoEmotions' non-neutral pick lands in the shared set) — mostly because zero-shot's richer romantic/melancholic vocabulary (`sensual`, `longing`, `heartbreak`, `lonely`) captures nuance GoEmotions collapses into `love` or `sadness`. This reads as a taxonomy-granularity mismatch rather than the models disagreeing about song content.
-- **The headline test — do the two classifiers draw the same regional map? — came back negative.** Z-scoring each shared label across regions within each fork and correlating the two profiles gives **r = 0.153** overall (love r=0.672, anger r=0.371, joy r=-0.027, grief r=-0.402). The methodology doc's own bar was r > 0.7 for "same story, different vocabulary" and r < 0.3 for "taxonomy choice materially changes the regional conclusion" — this result is squarely in the second bucket. **Practical upshot: regional claims in this README and the site report should be read as zero-shot-specific, not classifier-agnostic** — GoEmotions does not corroborate them, particularly for `joy` and `grief`.
+- **The headline test — do the two classifiers draw the same regional map? — came back negative.** Z-scoring each shared label against a market-only baseline (`Global` held out, then scored against it — see below) within each fork and correlating the two profiles gives **r = 0.152** overall (love r=0.672, anger r=0.371, joy r=-0.027, grief r=-0.402). The methodology doc's own bar was r > 0.7 for "same story, different vocabulary" and r < 0.3 for "taxonomy choice materially changes the regional conclusion" — this result is squarely in the second bucket. **Practical upshot: regional claims in this README and the site report should be read as zero-shot-specific, not classifier-agnostic** — GoEmotions does not corroborate them, particularly for `joy` and `grief`.
 - Neither classifier is "more correct" — zero-shot trades speed for a song-specific label set with better calibration; GoEmotions trades label nuance for faster, benchmarked, general-purpose inference. But which one you pick now visibly changes the regional conclusion, which it wasn't supposed to.
 
 ## Repo Layout
@@ -153,7 +166,7 @@ GENIUS_ACCESS_TOKEN=...
 - Genius lyrics are not always accurate — some tracks matched the wrong song/version or returned lyrics with scraping artifacts (ads, wrong-script text). Flagged via length > 5,000 chars or unexpected symbols/non-language characters, then manually patched using a Google search for the correct lyrics rather than trusting the API result as-is. See `cleanup_notes.txt`.
 - Translation QA pass rate is 90.48% against a 97% target — ~56 Chinese songs have partial/mixed-language translations; most are flagged via `translation_review_required`, and a couple of short songs slipped through silently (see `data/processed/lyrics_trans_qa_failures.csv`). Left unpatched: zero-shot NLI (04.1) still scores non-English text reasonably, so this doesn't block emotion classification the way it would for an English-only model.
 - `fasttext-wheel` must be installed separately from `requirements.txt` for the QA notebook to run.
-- **Regional emotion claims are zero-shot-specific, not classifier-agnostic.** §7's regional z-score map comparison between the two classifiers came back r = 0.153 (love and anger agree reasonably, joy and grief don't at all) — well below the bar for "same regional story, different vocabulary." A regional claim backed only by the zero-shot fork should not be assumed to hold under GoEmotions too.
+- **Regional emotion claims are zero-shot-specific, not classifier-agnostic.** §7's regional z-score map comparison between the two classifiers came back r = 0.152 (love and anger agree reasonably, joy and grief don't at all) — well below the bar for "same regional story, different vocabulary." A regional claim backed only by the zero-shot fork should not be assumed to hold under GoEmotions too.
 
 ## Notes
 
