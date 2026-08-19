@@ -15,6 +15,21 @@
     "deny": [
       "Bash(git add *)",
       "Bash(git commit *)"
+    ],
+    "additionalDirectories": [
+      "/Users/wednesday/.claude/agents"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "Check if .claude/checkpoint.md exists in the current repo. If it does, read it and summarize what was in progress: the task, what was last attempted (successes/failures), next steps, and any blockers. Ask the user if they want to continue from there or start something new. If the file doesn't exist, do nothing silently."
+          }
+        ]
+      }
     ]
   }
 }
