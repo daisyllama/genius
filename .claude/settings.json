@@ -12,10 +12,7 @@
       "Bash(git mv *)",
       "Bash(python3 -c \"import json; json.load\\(open\\('/Users/wednesday/Documents/GitHub/genius/notebooks/04.2_classification_goemotions.ipynb'\\)\\); print\\('valid JSON'\\)\")"
     ],
-    "deny": [
-      "Bash(git add *)",
-      "Bash(git commit *)"
-    ],
+    "deny": [],
     "additionalDirectories": [
       "/Users/wednesday/.claude/agents"
     ]
