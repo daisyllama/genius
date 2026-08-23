@@ -186,3 +186,6 @@ cython_debug/
 
 # Local-only working files (not part of the versioned project state)
 local/
+
+# Claude Code local settings
+.claude/
