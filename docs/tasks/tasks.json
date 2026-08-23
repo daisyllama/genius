@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": "2026-08-19-regional-disagreement-presentation",
+      "title": "Present Regional Disagreement Finding",
+      "status": "completed",
+      "file": "docs/tasks/completed/01-regional-disagreement-presentation.md",
+      "decision_doc": "docs/tasks/decisions/2026-08-21-regional-disagreement-presentation.md",
+      "created": "2026-08-19",
+      "completed": "2026-08-21",
+      "notes": "README/methodology already satisfied criteria 1-3 and were committed; built site/scrollytelling2.html as the stakeholder-ready presentation (criterion 4)."
+    },
+    {
+      "id": "2026-08-19-null-dom-emo-csv",
+      "title": "Regenerate or Retire null_dom_emo.csv",
+      "status": "pending",
+      "file": "docs/tasks/pending/02-null-dom-emo-csv.md",
+      "decision_doc": null,
+      "created": "2026-08-19",
+      "completed": null,
+      "notes": "data/processed/null_dom_emo.csv still present, dated 2026-08-05 (pre-dates the 05.1/05.2 pipeline rework). Not yet regenerated or removed."
+    },
+    {
+      "id": "2026-08-19-chinese-translation-qa",
+      "title": "Manual QA Review of Chinese Song Translations",
+      "status": "pending",
+      "file": "docs/tasks/pending/03-chinese-translation-qa.md",
+      "decision_doc": null,
+      "created": "2026-08-19",
+      "completed": null,
+      "notes": "2 short Chinese songs in lyrics_trans_qa_failures.csv still lack manual review / translation_review_required flag decision."
+    },
+    {
+      "id": "2026-08-19-archive-stale-code",
+      "title": "Archive/Remove Stale src/lyrics_analysis/ Code",
+      "status": "pending",
+      "file": "docs/tasks/pending/04-archive-stale-code.md",
+      "decision_doc": null,
+      "created": "2026-08-19",
+      "completed": null,
+      "notes": "src/lyrics_analysis/ (db, jobs, pipeline subdirs) still present, unaudited."
+    },
+    {
+      "id": "2026-08-19-commit-classifier-work",
+      "title": "Decide on Committing Classifier Robustness Work",
+      "status": "completed",
+      "file": "docs/tasks/completed/05-commit-classifier-work.md",
+      "decision_doc": "docs/tasks/decisions/2026-08-19-commit-classifier-work-decision.md",
+      "created": "2026-08-19",
+      "completed": "2026-08-08",
+      "notes": "All 6 listed files committed together in 633fb22 ('recalulate emotion scores') on fix-classification, pushed to origin/fix-classification. Not yet merged to origin/main."
+    },
+    {
+      "id": "2026-08-19-fix-settings-permissions",
+      "title": "Fix .claude/settings.json Permissions",
+      "status": "pending",
+      "file": "docs/tasks/pending/06-fix-settings-permissions.md",
+      "decision_doc": null,
+      "created": "2026-08-19",
+      "completed": null,
+      "notes": "permissions.allow still uses literal exact-command entries (mkdir/mv paths, exact python3 -c strings) rather than prefix wildcards."
+    }
+  ]
+}

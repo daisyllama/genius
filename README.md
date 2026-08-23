@@ -15,6 +15,12 @@ Starting from weekly regional Spotify chart exports, the pipeline:
 
 Regions covered: Argentina, Colombia, Global, Japan, Singapore, Spain, Taiwan, USA.
 
+## About
+
+Do the songs that top the charts in different countries carry a different emotional character — more heartbreak here, more joy there — or does global pop culture converge on roughly the same emotional palette everywhere? That's the question this project sets out to answer empirically, using each region's actual top-charting tracks rather than assumptions about "what a culture's music sounds like."
+
+The approach: take weekly regional Spotify charts, get every song into a common, comparable form (English-language lyrics), score the emotional content of each one, and compare the resulting emotional profiles across regions. Two independent emotion classifiers are run side by side (§5) specifically to stress-test the answer — if both agree on which emotions define a region's chart, that's a real regional signal; if they disagree, the "signal" may just be an artifact of whichever labeling scheme was chosen. As documented in §7, that stress test matters: the two classifiers do **not** agree on the regional map (r = 0.152), so the honest answer as of this run is "zero-shot's regional differences are real under its own vocabulary, but not yet corroborated by an independent classifier" — a finding about the limits of the method as much as about the music.
+
 ## Pipeline & Rationale
 
 ```
@@ -24,14 +30,15 @@ data/raw/regional/*.csv
   -> 02_lyrics_lang.csv      (02_language_detection.ipynb)
   -> 03_lyrics_trans.csv     (03_lyrics_translate.ipynb)
   -> qa_failures/qa_summary  (03_lyrics_translation_qa.ipynb)
-  -> 04.1_emotion_scores_zeroshot.csv   (04.1_classification_zeroshot.ipynb)  -- zero-shot NLI, 10 custom labels
-  -> 04.2_emotion_scores_goemotions.csv (04.2_classification_goemotions.ipynb) -- GoEmotions, 28 labels, run on Databricks
-  -> 05_titles_emotion_scores.csv (05_song_analysis.ipynb)
-  -> charts                 (06_exploration_charts.ipynb)
+  -> 04.1_emotion_scores_zeroshot.csv    (04_classification.ipynb § A) -- zero-shot NLI, 10 custom labels
+  -> 04.2_emotion_scores_goemotions.csv  (04_classification.ipynb § B) -- GoEmotions, 28 labels, run on Databricks
+  -> 05.1_titles_emotion_scores_zeroshot.csv    (05.1_song_analysis_zeroshot.ipynb)
+  -> 05.2_titles_emotion_scores_goemotions.csv  (05.2_song_analysis_goemotions.ipynb)
+  -> charts                 (06.1_exploration_charts_zeroshot.ipynb, 06.2_exploration_charts_goemotions.ipynb)
   -> 07_classifier_comparison_regional.csv (07_compare_classifiers.ipynb)
 ```
 
-04.1 and 04.2 are alternative classifiers over the same `03_lyrics_trans.csv` input — not sequential steps. `05_song_analysis.ipynb` defaults to reading `04.1_emotion_scores_zeroshot.csv`. `07_compare_classifiers.ipynb` compares the two directly.
+04.1 and 04.2 are alternative classifiers over the same `03_lyrics_trans.csv` input, produced by one notebook (`04_classification.ipynb`, § A / § B) under a shared scoring contract — not sequential steps, and not two separate notebooks any more. Each fork stays separate all the way through `05.1`/`06.1` (zero-shot) and `05.2`/`06.2` (GoEmotions) so 10-label and 28-label scores never get pooled into one schema. `07_compare_classifiers.ipynb` is the only place the two forks meet. Design rationale for all of the above is in `docs/classifier_methodology.md`.
 
 ### 1. Ingestion — `lyricsgenius`
 
@@ -66,49 +73,62 @@ Those remaining slipped-through, still-non-English rows were left as-is rather t
 
 No labeled emotion dataset exists for this song set. Two different classification strategies are implemented as parallel notebooks over the same input (`03_lyrics_trans.csv`), rather than one replacing the other — they trade off label flexibility against inference speed/calibration, and it's an open question which is more useful for this dataset.
 
-#### 5a. `04.1_classification_zeroshot.ipynb` — zero-shot NLI (`facebook/bart-large-mnli`)
+#### 5a. `04_classification.ipynb` § A — zero-shot NLI (`facebook/bart-large-mnli`)
 
 **Zero-shot classification** via an NLI model lets us define our own emotion labels (`love`, `longing`, `joy`, `heartbreak`, `grief`, `despair`, `hope`, `lonely`, `sensual`, `anger`) without training data — the model just needs to judge whether lyrics entail "The dominant emotion in this song is `{label}`." This matters here because the interesting emotional vocabulary for songs (`longing`, `heartbreak`, `despair`) doesn't overlap much with any existing labeled emotion dataset.
 
 `facebook/bart-large-mnli` was chosen as the strongest general-purpose zero-shot NLI model readily available via `transformers`; `cross-encoder/nli-deberta-v3-large` was noted as a higher-accuracy alternative at ~2x the inference cost, left as a future swap if quality demands it.
 
-Two scoring decisions worth flagging:
-- **`multi_label=False`, not `True`.** The first pass used `multi_label=True` (each emotion scored independently), which caused score inflation — nearly every song scored 0.7+ on "longing" and "sensual" regardless of content, because the model over-estimates certain labels globally when they aren't forced to compete. Switching to `multi_label=False` makes emotions compete via softmax in one pass, so a song's dominant emotion reflects what's actually distinctive about it rather than a global bias.
+Two scoring decisions worth flagging, both revisited during the 2026-08-06 classifier-fairness pass (`docs/classifier_methodology.md`):
+- **`ZEROSHOT_MULTI_LABEL = True`, not `False`.** Independent per-label scoring inflates — "longing" and "sensual" score high almost regardless of content, because the model over-estimates certain labels globally when they aren't forced to compete. A 2026-07-12 fix switched to `multi_label=False` (softmax competition) to fix that. But comparing this classifier against GoEmotions requires both to emit the *same kind* of score (independent per-label probabilities), and GoEmotions can't be made competitive without retraining — so as of 2026-08-06 `multi_label` is back to `True`. The inflation problem is real and still there; it's now handled at analysis time instead, by z-scoring each label against its own regional baseline (§6 below) rather than by suppressing it at scoring time.
 - **Custom hypothesis template.** `"The dominant emotion in this song is {}."` instead of the default template — this phrasing pushes the model toward picking one best-fitting emotion per chunk rather than treating each label as an independent yes/no question.
 
 Lyrics are chunked (~350 words) to stay under the model's token limit, classified in batches of 16, and chunk-level scores are averaged to a per-song score. The pipeline checkpoints every 10 songs so a multi-hour CPU/GPU run survives interruption.
 
-#### 5b. `04.2_classification_goemotions.ipynb` — GoEmotions (`SamLowe/roberta-base-go_emotions-onnx`)
+#### 5b. `04_classification.ipynb` § B — GoEmotions (`SamLowe/roberta-base-go_emotions-onnx`)
 
 The alternative: a **supervised, fine-tuned** classifier trained on GoEmotions (28 labels: `admiration`, `amusement`, `anger`, ..., `neutral`), exported to ONNX and served via `optimum`'s ONNX Runtime backend. One forward pass per chunk returns all 28 label scores directly — no NLI hypothesis pairs — so it's substantially faster than zero-shot inference. The tradeoff is losing the custom song-emotion vocabulary: GoEmotions' labels were trained on Reddit-comment tone, so categories like `admiration`, `curiosity`, `approval` show up that don't map cleanly onto lyrical themes, and labels like `longing`/`heartbreak`/`despair` that zero-shot lets you define directly aren't available at all.
 
-Scoring is structurally different from 04.1: GoEmotions is multi-label by training (independent sigmoid per label, not a competing softmax), so a song's scores don't sum to ~1 the way 04.1's do — multiple emotions can legitimately score high simultaneously. Dominant emotion is still derived via argmax across the emotion columns, but gated on an `UNCLASSIFIED_THRESHOLD` (0.30) rather than `> 0`, since independent sigmoids rarely land on an exact zero.
+Both classifiers now share one **scoring contract**: independent per-label probabilities in [0, 1] (GoEmotions via its native sigmoid head, zero-shot via `multi_label=True` above), `unclassified` means "no scoreable lyrics" in both (not a confidence cutoff), and confidence (`dominant_score` / `low_confidence` at a shared `MIN_CONFIDENCE = 0.30`) is recorded as data rather than used to drop rows. This wasn't always true — see `docs/classifier_methodology.md` for what the unforced differences were hiding before it was unified.
 
-Cleaning/chunking logic is shared with 04.1 (same `clean_lyrics`/`chunk_text`, since that preprocessing is model-agnostic). This notebook is intended to be run on Databricks rather than locally.
+Cleaning/chunking logic, `MIN_CONFIDENCE`, and checkpointing are shared with § A in the same notebook, since that plumbing is model-agnostic; only the model call and label set differ. § B is intended to be run on Databricks rather than locally.
 
 ### 6. Analysis & Charting
 
-`05_song_analysis.ipynb` joins emotion scores back onto chart metadata (rank, region) and produces the final per-song, per-region dataset. `06_exploration_charts.ipynb` visualizes regional emotional character, including a differential chart showing each region's deviation from the global mean — this was added specifically because raw emotion scores are hard to compare across regions when the absolute scoring scale is compressed; showing deviation from mean surfaces what's actually distinctive per region.
+`05.1_song_analysis_zeroshot.ipynb` / `05.2_song_analysis_goemotions.ipynb` join each classifier's emotion scores back onto chart metadata (rank, region) and produce the final per-song, per-region dataset for that fork. `06.1_exploration_charts_zeroshot.ipynb` / `06.2_exploration_charts_goemotions.ipynb` visualize regional emotional character, including a z-score view of each region's deviation from the mean across regions — this exists specifically because raw emotion scores are hard to compare across regions when the absolute scoring scale is compressed (see §7 below); showing deviation from mean surfaces what's actually distinctive per region. The two forks stay separate through 05/06 on purpose, so 10-label and 28-label scores never get pooled into one schema with mostly-missing cells.
+
+Two conventions govern that z-score view (§4 heatmap and §4b dot strip in both notebooks), both added 2026-08-06:
+
+- **The `Global` playlist is held out of the baseline and then scored against it** (`REF_REGION` / `baseline_regions` in the palette cell). Global is one of the eight regions in the source data, but it is a worldwide chart rather than a market, so averaging it into the mean it is compared with made it partly its own reference. The baseline is now the seven market regions; the markets centre on zero and Global floats, readable as "how the worldwide chart sits relative to the markets."
+- **The colour and axis domain is a fixed `Z_LIM = 2.9` shared by both forks**, not each fork's own max. A per-fork max silently gave the same SD value a different colour in each notebook, which defeated the point of standardising; §4 now raises if a fork's z ever exceeds `Z_LIM`.
+
+⚠ `07_compare_classifiers.ipynb` § 5 still standardises across **all eight** regions, so its z-map is not computed on the same baseline as `06.1`/`06.2` § 4. See `local/progress.md` → Priority Next Steps for the open decision.
 
 ### 7. Comparing the two classifiers — `07_compare_classifiers.ipynb`
 
 Since 04.1 and 04.2 classify the same 1,105 songs under different taxonomies, this notebook checks how much they actually agree, restricted to the 4 labels both taxonomies share (`love`, `joy`, `grief`, `anger`) — comparing anything outside that overlap isn't meaningful since one side simply has no equivalent label.
 
-Findings from the last run:
-- **Coverage**: zero-shot classifies 90.2% of songs (108 unclassified), GoEmotions 81.8% (201 unclassified) — expected, since GoEmotions' independent sigmoid scores rarely all clear a fixed 0.30 bar the way a forced-competition softmax does.
-- **Score correlation** on the shared labels is positive but moderate (r = 0.28–0.48) — the two models don't disagree on direction, but their scoring mechanics (competing softmax vs. independent sigmoid) aren't directly comparable in magnitude.
-- **Dominant-emotion agreement** is low (23.4%) even when GoEmotions' pick is in the shared set — mostly because 04.1's richer romantic/melancholic vocabulary (`sensual`, `longing`, `heartbreak`, `lonely`) captures nuance GoEmotions collapses into `love` or `sadness`. This reads as a taxonomy-granularity mismatch rather than the models disagreeing about song content.
-- Neither classifier is "more correct" — 04.1 trades speed for a song-specific label set, 04.2 trades label nuance for faster, general-purpose inference.
+Findings from the 2026-08-06 re-run (first run under the unified contract):
+- **Coverage is no longer a differentiator, as intended**: both classifiers now score 90.3% of songs (998/1,105) and agree on exactly which 107 are `unclassified` — that used to look like a ~93-song gap, and it was entirely a threshold mismatch, not a model difference (see `docs/classifier_methodology.md`).
+- **Confidence is** a real differentiator: GoEmotions flags 94 songs (8.5%) `low_confidence` at the shared 0.30 bar, vs. 5 for zero-shot (0.5%). Median `dominant_score` is 0.971 (zero-shot) vs. 0.536 (GoEmotions) — a calibration gap (conservative sigmoid trained on short Reddit comments vs. entailment probabilities that run hot), not an accuracy difference.
+- **Score correlation** on the shared labels is positive but moderate (pearson r = 0.30–0.48 across love/joy/grief/anger) — the two models don't disagree on direction, but their scoring mechanics aren't directly comparable in magnitude, so rank/z-score comparisons are the trustworthy ones.
+- **Dominant-emotion agreement** is low (29.8%, of 305 songs where GoEmotions' non-neutral pick lands in the shared set) — mostly because zero-shot's richer romantic/melancholic vocabulary (`sensual`, `longing`, `heartbreak`, `lonely`) captures nuance GoEmotions collapses into `love` or `sadness`. This reads as a taxonomy-granularity mismatch rather than the models disagreeing about song content.
+- **The headline test — do the two classifiers draw the same regional map? — came back negative.** Z-scoring each shared label against a market-only baseline (`Global` held out, then scored against it — see below) within each fork and correlating the two profiles gives **r = 0.152** overall (love r=0.672, anger r=0.371, joy r=-0.027, grief r=-0.402). The methodology doc's own bar was r > 0.7 for "same story, different vocabulary" and r < 0.3 for "taxonomy choice materially changes the regional conclusion" — this result is squarely in the second bucket. **Practical upshot: regional claims in this README and the site report should be read as zero-shot-specific, not classifier-agnostic** — GoEmotions does not corroborate them, particularly for `joy` and `grief`.
+- Neither classifier is "more correct" — zero-shot trades speed for a song-specific label set with better calibration; GoEmotions trades label nuance for faster, benchmarked, general-purpose inference. But which one you pick now visibly changes the regional conclusion, which it wasn't supposed to.
 
 ## Repo Layout
 
 ```
 data/
   raw/regional/       weekly Spotify chart exports (input, one CSV per region)
-  processed/          current pipeline outputs (00_titles.csv ... 05_titles_emotion_scores.csv)
+  processed/          current pipeline outputs (00_titles.csv ... 07_classifier_comparison_regional.csv)
   archive/            superseded processing runs / old checkpoints, kept for reference
-notebooks/            the pipeline, run in numeric order (01 -> 06)
+notebooks/            the pipeline, run in numeric order (01 -> 07); notebooks/archive/ holds
+                      the pre-2026-08-06 04.1/04.2/05/06 notebooks superseded by the split above
 src/lyrics_analysis/  early attempt at a package/DB-backed version (see Notes)
+docs/classifier_methodology.md  design rationale for the two-classifier setup and its scoring contract
+site/                local-only (gitignored) data-story report built from these outputs — see its own
+                      dated source note before trusting numbers in it
 ```
 
 See `DATA_STRUCTURE.md` for the full breakdown of `data/`.
@@ -133,9 +153,9 @@ GENIUS_ACCESS_TOKEN=...
 | `lyricsgenius` | Lyrics fetch | Best-maintained Genius API wrapper |
 | `fasttext` (`lid.176`) | Language ID | Faster + more accurate than `langdetect` on short lyric snippets; used for both initial detection and translation QA |
 | `deep-translator` | Translation | Single hosted API covers all chart languages without managing per-language local MT models |
-| `transformers` (`facebook/bart-large-mnli`) | Emotion classification (04.1) | No labeled emotion data exists, so zero-shot NLI is the only classification approach that doesn't require training; BART-MNLI is the strongest general zero-shot model available off the shelf |
-| `optimum[onnxruntime]` (`SamLowe/roberta-base-go_emotions-onnx`) | Emotion classification (04.2) | Supervised, single-pass classifier — faster than zero-shot NLI; traded off against being locked into GoEmotions' fixed 28-label taxonomy |
-| `duckdb` | Joining pipeline outputs | SQL joins over CSVs in `05_song_analysis.ipynb` without standing up a database |
+| `transformers` (`facebook/bart-large-mnli`) | Emotion classification (04.1, § A) | No labeled emotion data exists, so zero-shot NLI is the only classification approach that doesn't require training; BART-MNLI is the strongest general zero-shot model available off the shelf |
+| `optimum[onnxruntime]` (`SamLowe/roberta-base-go_emotions-onnx`) | Emotion classification (04.2, § B) | Supervised, single-pass classifier — faster than zero-shot NLI; traded off against being locked into GoEmotions' fixed 28-label taxonomy |
+| `duckdb` | Joining pipeline outputs | SQL joins over CSVs in `05.1`/`05.2_song_analysis_*.ipynb` without standing up a database |
 | `pandas` | Everything tabular | Notebook-first workflow, no need for a heavier data framework at this scale (~1-2k songs) |
 
 `bertopic`, `sentence-transformers`, `umap-learn`, `hdbscan`, `scikit-learn` are installed for exploratory topic-modeling work that hasn't been folded into the numbered pipeline yet.
@@ -146,6 +166,7 @@ GENIUS_ACCESS_TOKEN=...
 - Genius lyrics are not always accurate — some tracks matched the wrong song/version or returned lyrics with scraping artifacts (ads, wrong-script text). Flagged via length > 5,000 chars or unexpected symbols/non-language characters, then manually patched using a Google search for the correct lyrics rather than trusting the API result as-is. See `cleanup_notes.txt`.
 - Translation QA pass rate is 90.48% against a 97% target — ~56 Chinese songs have partial/mixed-language translations; most are flagged via `translation_review_required`, and a couple of short songs slipped through silently (see `data/processed/lyrics_trans_qa_failures.csv`). Left unpatched: zero-shot NLI (04.1) still scores non-English text reasonably, so this doesn't block emotion classification the way it would for an English-only model.
 - `fasttext-wheel` must be installed separately from `requirements.txt` for the QA notebook to run.
+- **Regional emotion claims are zero-shot-specific, not classifier-agnostic.** §7's regional z-score map comparison between the two classifiers came back r = 0.152 (love and anger agree reasonably, joy and grief don't at all) — well below the bar for "same regional story, different vocabulary." A regional claim backed only by the zero-shot fork should not be assumed to hold under GoEmotions too.
 
 ## Notes
 
