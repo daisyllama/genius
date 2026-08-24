@@ -143,8 +143,6 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
 
 # mypy
 .mypy_cache/
@@ -189,3 +187,6 @@ local/
 
 # Claude Code local settings
 .claude/
+
+# archive
+archive/

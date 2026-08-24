@@ -1,0 +1,790 @@
+<meta charset="utf-8">
+<title>Same Chorus, Different Key</title>
+<style>
+  :root{
+    color-scheme: light;
+    --bg:        #EDE9DF;
+    --bg-raised: #E4DFD1;
+    --ink:       #211D17;
+    --ink-2:     #5B564C;
+    --ink-3:     #898271;
+    --line:      #D6CFBC;
+    --line-strong: #C3BAA2;
+    --amber:     #B8620D;
+    --amber-ink: #8F4B08;
+    --teal:      #0E8F80;
+    --teal-ink:  #0B6E62;
+    --card:      #F6F3EA;
+    --shadow:    rgba(33,29,23,0.08);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:where(:not([data-theme="light"])){
+      color-scheme: dark;
+      --bg:        #17140F;
+      --bg-raised: #1E1A13;
+      --ink:       #F1EAD9;
+      --ink-2:     #B9AF9A;
+      --ink-3:     #7D7566;
+      --line:      #322C22;
+      --line-strong: #423A2C;
+      --amber:     #C77E1F;
+      --amber-ink: #E4A34C;
+      --teal:      #2FA79A;
+      --teal-ink:  #5AC2B6;
+      --card:      #1C1810;
+      --shadow:    rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --bg:        #17140F;
+    --bg-raised: #1E1A13;
+    --ink:       #F1EAD9;
+    --ink-2:     #B9AF9A;
+    --ink-3:     #7D7566;
+    --line:      #322C22;
+    --line-strong: #423A2C;
+    --amber:     #C77E1F;
+    --amber-ink: #E4A34C;
+    --teal:      #2FA79A;
+    --teal-ink:  #5AC2B6;
+    --card:      #1C1810;
+    --shadow:    rgba(0,0,0,0.35);
+  }
+  :root[data-theme="light"]{
+    color-scheme: light;
+    --bg:        #EDE9DF;
+    --bg-raised: #E4DFD1;
+    --ink:       #211D17;
+    --ink-2:     #5B564C;
+    --ink-3:     #898271;
+    --line:      #D6CFBC;
+    --line-strong: #C3BAA2;
+    --amber:     #B8620D;
+    --amber-ink: #8F4B08;
+    --teal:      #0E8F80;
+    --teal-ink:  #0B6E62;
+    --card:      #F6F3EA;
+    --shadow:    rgba(33,29,23,0.08);
+  }
+
+  *{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce){ html{ scroll-behavior: auto; } *{ animation: none !important; transition: none !important; } }
+
+  body{
+    margin:0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  .mono{
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", "Courier New", monospace;
+  }
+
+  a{ color: inherit; }
+
+  .wrap{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .wrap-wide{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  section{ padding: 96px 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type{ border-bottom: none; }
+
+  .eyebrow{
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin: 0 0 18px;
+  }
+
+  h1,h2,h3{ text-wrap: balance; font-weight: 600; margin: 0; }
+  h1{ font-size: clamp(38px, 7vw, 64px); line-height: 1.05; letter-spacing: -0.01em; }
+  h2{ font-size: clamp(26px, 4vw, 36px); line-height: 1.15; margin-bottom: 20px; }
+  h3{ font-size: 21px; margin-bottom: 6px; }
+
+  p{ margin: 0 0 18px; max-width: 62ch; }
+  p.lede{ font-size: 20px; color: var(--ink-2); }
+  .prose p:last-child{ margin-bottom: 0; }
+
+  .stat{
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- rail nav ---------- */
+  .rail{
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    width: 230px;
+    padding: 40px 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    z-index: 20;
+  }
+  @media (min-width: 1180px){ .rail{ display: flex; } .page{ margin-left: 230px; } }
+  .rail a{
+    text-decoration: none;
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    color: var(--ink-3);
+    padding: 7px 10px;
+    border-left: 2px solid transparent;
+    transition: color .25s ease, border-color .25s ease, transform .25s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .rail a.active{
+    color: var(--amber-ink);
+    border-left-color: var(--amber);
+    transform: translateX(3px);
+  }
+  .rail .num{ opacity: .6; margin-right: 8px; }
+
+  /* ---------- hero ---------- */
+  .hero{ padding: 120px 0 96px; }
+  .hero .tape{
+    display:flex; flex-wrap:wrap; gap: 8px 10px;
+    margin-top: 44px;
+  }
+  .tape span{
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", monospace;
+    font-size: 11px;
+    letter-spacing: .04em;
+    color: var(--ink-3);
+    border: 1px solid var(--line-strong);
+    border-radius: 3px;
+    padding: 5px 9px;
+  }
+  .tape span b{ color: var(--ink); font-weight: 600; }
+
+  /* ---------- illusion strip chart ---------- */
+  .strip{ margin: 40px 0 8px; }
+  .strip-row{
+    display:grid;
+    grid-template-columns: 108px 1fr;
+    align-items:center;
+    gap: 14px;
+    padding: 9px 0;
+    border-top: 1px solid var(--line);
+  }
+  .strip-row:last-child{ border-bottom: 1px solid var(--line); }
+  .strip-row .rname{ font-size: 14px; color: var(--ink-2); }
+  .strip-track{
+    position: relative;
+    height: 22px;
+    background: var(--bg-raised);
+    border-radius: 3px;
+  }
+  .strip-dot{
+    position:absolute; top: 50%; width: 10px; height: 10px; border-radius: 50%;
+    background: var(--amber);
+    transform: translate(-50%,-50%);
+    cursor: default;
+    box-shadow: 0 0 0 3px var(--bg);
+  }
+  .strip-axis{
+    display:grid; grid-template-columns: 108px 1fr; gap:14px; margin-top: 4px;
+  }
+  .strip-axis-track{ position:relative; height: 14px; }
+  .strip-axis-track span{ position:absolute; font-family: ui-monospace, monospace; font-size: 10px; color: var(--ink-3); transform: translateX(-50%); }
+
+  /* ---------- diverging bar chart ---------- */
+  .divchart{ margin-top: 8px; }
+  .divrow{
+    display:grid;
+    grid-template-columns: 92px 1fr;
+    align-items:center;
+    gap: 10px;
+    height: 25px;
+  }
+  .divrow .elabel{
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", monospace;
+    font-size: 11.5px;
+    color: var(--ink-2);
+    text-align: right;
+  }
+  .divtrack{
+    position: relative;
+    height: 14px;
+    background: linear-gradient(to right, transparent 49.9%, var(--line-strong) 49.9%, var(--line-strong) 50.1%, transparent 50.1%);
+  }
+  .divbar{
+    position: absolute;
+    top: 0; height: 100%;
+    border-radius: 2px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+  }
+  .divbar.pos{ background: var(--amber); left: 50%; justify-content: flex-end; }
+  .divbar.neg{ background: var(--teal); right: 50%; justify-content: flex-start; }
+  .divval{
+    font-family: ui-monospace, monospace; font-size: 10px; font-weight: 700;
+    white-space: nowrap;
+    pointer-events: none;
+    color: var(--ink);
+    background: color-mix(in oklab, var(--card) 82%, transparent);
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+  .divbar.pos .divval{ margin-right: 3px; }
+  .divbar.neg .divval{ margin-left: 3px; }
+  .divval.outside{
+    position: absolute; top: 50%; transform: translateY(-50%);
+    background: none; padding: 0;
+  }
+  .divval.outside.pos{ color: var(--amber-ink); left: 100%; margin-left: 6px; }
+  .divval.outside.neg{ color: var(--teal-ink); right: 100%; margin-right: 6px; }
+
+  .legend-key{
+    display:flex; align-items:center; gap: 22px; flex-wrap: wrap;
+    font-family: ui-monospace, monospace; font-size: 11.5px; color: var(--ink-2);
+    margin: 26px 0 6px;
+  }
+  .legend-key .sw{ display:inline-flex; align-items:center; gap:7px; }
+  .legend-key i{ width:12px; height:12px; border-radius:2px; display:inline-block; }
+  .legend-key i.amber{ background: var(--amber); }
+  .legend-key i.teal{ background: var(--teal); }
+
+  /* ---------- region cluster ---------- */
+  .cluster-head{ margin-bottom: 12px; }
+  .cluster-head .eyebrow{ margin-bottom: 8px; }
+  .region-grid{ display:grid; grid-template-columns: 1fr; gap: 40px; margin-top: 36px; }
+  @media (min-width: 720px){ .region-grid.two{ grid-template-columns: 1fr 1fr; } }
+  .region-card{
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 26px 24px 22px;
+    box-shadow: 0 1px 2px var(--shadow);
+  }
+  .region-card .rhead{
+    display:flex; justify-content: space-between; align-items: baseline; gap: 12px;
+    margin-bottom: 4px;
+  }
+  .region-card h3{ margin-bottom: 0; }
+  .region-card .sig{
+    font-family: ui-monospace, monospace; font-size: 13px; color: var(--amber-ink);
+    white-space: nowrap;
+  }
+  .region-card .n{ font-family: ui-monospace, monospace; font-size: 11px; color: var(--ink-3); margin-bottom: 18px; }
+  .songs{ margin-top: 18px; padding-top: 14px; border-top: 1px dashed var(--line-strong); }
+  .songs .srow{
+    display:flex; justify-content: space-between; gap: 12px;
+    font-family: ui-monospace, monospace; font-size: 12px; color: var(--ink-2);
+    padding: 4px 0;
+  }
+  .songs .srow .t{ color: var(--ink); }
+  .songs .srow .v{ color: var(--ink-3); flex-shrink:0; }
+
+  /* ---------- heatmap ---------- */
+  .heatmap-wrap{ overflow-x: auto; margin-top: 28px; padding-bottom: 6px; }
+  table.heatmap{ border-collapse: collapse; font-family: ui-monospace, monospace; min-width: 760px; }
+  table.heatmap th, table.heatmap td{ padding: 0; }
+  table.heatmap th.colh{
+    font-size: 10.5px; color: var(--ink-3); font-weight: 500;
+    text-align:center; padding: 0 4px 8px; writing-mode: vertical-rl; transform: rotate(180deg);
+    height: 70px; vertical-align: bottom;
+  }
+  table.heatmap th.rowh{
+    font-size: 12px; color: var(--ink-2); text-align:right; padding-right: 12px; white-space:nowrap;
+  }
+  table.heatmap td.cell{ width: 52px; height: 34px; position: relative; border: 2px solid var(--bg); }
+  table.heatmap td.cell .v{
+    display:none; position:absolute; inset:0; align-items:center; justify-content:center;
+    font-size: 9px; font-weight: 700; color: var(--ink);
+  }
+  table.heatmap td.cell .v span{
+    background: color-mix(in oklab, var(--bg) 78%, transparent);
+    padding: 1px 4px;
+    border-radius: 3px;
+  }
+  table.heatmap.show-values td.cell .v{ display:flex; }
+
+  .toggle-row{ display:flex; align-items:center; gap:10px; margin-top: 18px; }
+  .toggle-row label{ font-family: ui-monospace, monospace; font-size: 12px; color: var(--ink-2); cursor:pointer; user-select:none; }
+  .toggle-row input{ accent-color: var(--amber); cursor:pointer; }
+
+  /* ---------- tooltip ---------- */
+  #tooltip{
+    position: fixed;
+    pointer-events: none;
+    background: var(--ink);
+    color: var(--bg);
+    font-family: ui-monospace, monospace;
+    font-size: 12px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    z-index: 100;
+    opacity: 0;
+    transform: translate(-50%, calc(-100% - 10px));
+    transition: opacity .1s ease;
+    white-space: nowrap;
+  }
+  #tooltip.show{ opacity: 1; }
+
+  /* ---------- classifier spec sheet ---------- */
+  .specs{ display:grid; grid-template-columns: 1fr; gap: 22px; margin-top: 30px; }
+  @media (min-width: 720px){ .specs{ grid-template-columns: 1fr 1fr; } }
+  .spec-card{ background: var(--card); border:1px solid var(--line); border-radius: 10px; padding: 24px; }
+  .spec-card .tag{ font-family: ui-monospace, monospace; font-size: 11px; color: var(--ink-3); text-transform:uppercase; letter-spacing:.08em; }
+  .spec-card h3{ margin: 6px 0 14px; }
+  .spec-list{ list-style:none; margin: 0; padding: 0; }
+  .spec-list li{ display:flex; gap: 10px; padding: 6px 0; font-size: 14.5px; border-top: 1px solid var(--line); }
+  .spec-list li:first-child{ border-top: none; }
+  .spec-list li .mark{ font-family: ui-monospace, monospace; flex-shrink:0; width: 16px; }
+  .spec-list li .txt{ flex: 1; min-width: 0; }
+  .spec-list li.pro .mark{ color: var(--teal-ink); }
+  .spec-list li.con .mark{ color: var(--amber-ink); }
+
+  .kpi-row{ display:grid; grid-template-columns: repeat(2,1fr); gap: 16px; margin: 34px 0 8px; }
+  @media (min-width: 640px){ .kpi-row{ grid-template-columns: repeat(4,1fr); } }
+  .kpi{ text-align:center; }
+  .kpi .big{ font-family: ui-monospace, monospace; font-size: clamp(24px,4vw,34px); font-weight:700; font-variant-numeric: tabular-nums; }
+  .kpi .lbl{ font-size: 11.5px; color: var(--ink-3); margin-top: 4px; font-family: ui-monospace, monospace; }
+
+  /* ---------- pipeline ---------- */
+  .pipeline{ margin-top: 34px; display:flex; flex-direction:column; }
+  .pstep{ display:grid; grid-template-columns: 34px 1fr; gap: 16px; padding: 16px 0; border-top: 1px solid var(--line); }
+  .pstep:last-child{ padding-bottom: 0; }
+  .pstep .idx{ font-family: ui-monospace, monospace; color: var(--ink-3); font-size: 13px; padding-top: 2px; }
+  .pstep .body b{ display:block; font-size: 15.5px; margin-bottom: 3px; }
+  .pstep .body span{ font-size: 14px; color: var(--ink-2); }
+
+  /* ---------- footer ---------- */
+  .closing{ padding: 110px 0 140px; }
+  footer.credits{
+    padding: 40px 0 60px;
+    font-family: ui-monospace, monospace;
+    font-size: 12px;
+    color: var(--ink-3);
+    line-height: 1.9;
+  }
+</style>
+
+<div id="tooltip"></div>
+
+<nav class="rail" id="rail">
+  <a href="#hero"><span class="num mono">00</span>Intro</a>
+  <a href="#illusion"><span class="num mono">01</span>The Illusion</a>
+  <a href="#fix"><span class="num mono">02</span>Flattening the Mix</a>
+  <a href="#hopefuls"><span class="num mono">03</span>Side A: The Hopefuls</a>
+  <a href="#ache"><span class="num mono">04</span>Side A: The Ache</a>
+  <a href="#heat"><span class="num mono">05</span>Side A: The Heat</a>
+  <a href="#fullmix"><span class="num mono">06</span>The Full Mix</a>
+  <a href="#classifiers"><span class="num mono">07</span>Two Ears, Two Verdicts</a>
+  <a href="#pipeline"><span class="num mono">08</span>Liner Notes</a>
+  <a href="#outro"><span class="num mono">09</span>Outro</a>
+</nav>
+
+<div class="page">
+
+<section class="hero" id="hero">
+  <div class="wrap">
+    <p class="eyebrow">Spotify Top 200 · week of 2026-03-05 · 8 regions · lyrics translated &amp; emotion-scored</p>
+    <h1>Every chart-topper feels the same.</h1>
+    <p class="lede" style="margin-top:22px;">Until you subtract the average.</p>
+    <div class="prose" style="margin-top:22px;">
+      <p>We pulled the Spotify Top 200 for eight regional charts — Argentina, Colombia, Japan, Singapore, Spain, Taiwan, the USA, and the Global 200 — for the week of March 5, 2026, fetched their lyrics, translated everything to English, and ran each song through an emotion classifier tuned for lyrics: love, longing, joy, heartbreak, grief, despair, hope, lonely, sensual, anger.</p>
+      <p>The first result looked like a bug.</p>
+    </div>
+    <div class="tape">
+      <span>ARGENTINA <b>→ longing</b></span>
+      <span>COLOMBIA <b>→ longing</b></span>
+      <span>SPAIN <b>→ longing</b></span>
+      <span>JAPAN <b>→ longing</b></span>
+      <span>SINGAPORE <b>→ longing</b></span>
+      <span>TAIWAN <b>→ longing</b></span>
+      <span>USA <b>→ longing</b></span>
+      <span>GLOBAL <b>→ longing</b></span>
+    </div>
+  </div>
+</section>
+
+<section id="illusion">
+  <div class="wrap">
+    <p class="eyebrow">01 — The Illusion</p>
+    <h2>Longing wins everywhere. That's the tell, not the finding.</h2>
+    <div class="prose">
+      <p><span class="stat">532</span> of 1,471 songs — <span class="stat">36%</span> — have <b>longing</b> as their single dominant emotion, more than the next two labels (<span class="mono">sensual</span>, <span class="mono">love</span>) combined. It's the top raw score in <em>every</em> one of the eight regions. If you stopped here, the headline writes itself: "global pop is wistful." </p>
+      <p>But look at how close together the regions actually sit. This is each region's average <span class="mono">longing</span> score, plotted on the classifier's full 0–1 scale:</p>
+    </div>
+
+    <div class="strip" id="illusion-chart"></div>
+    <div class="strip-axis">
+      <div></div>
+      <div class="strip-axis-track">
+        <span style="left:0%">0.0</span>
+        <span style="left:50%">0.5</span>
+        <span style="left:100%">1.0</span>
+      </div>
+    </div>
+
+    <div class="prose" style="margin-top:34px;">
+      <p>Eight regions, eight different cultures, eight different languages of origin — and the entire spread is <span class="stat">0.092</span> points wide, all bunched at the top of the scale. A zero-shot classifier forced to score every label independently will lean on whichever label it's least stingy with, and it turns out that's <span class="mono">longing</span>, everywhere, regardless of what the song is actually about. Raw scores here don't compare regions. They compare a shared classifier bias against itself, eight times.</p>
+    </div>
+  </div>
+</section>
+
+<section id="fix">
+  <div class="wrap">
+    <p class="eyebrow">02 — Flattening the Mix</p>
+    <h2>Subtract the global average, and a signal appears.</h2>
+    <div class="prose">
+      <p>Think of it like a mixing board. Every region's lyrics run hot on the same few frequencies — <span class="mono">sensual</span>, <span class="mono">longing</span> — because those are just loud in pop songwriting generally, everywhere, always. That's the shared mix. It drowns out what makes any one region distinct.</p>
+      <p>So we flatten it: take each region's average score per emotion and subtract the eight-region global average for that same emotion. What's left isn't "how sensual is this region" — it's "how much <em>more</em> sensual than everyone else." Positive means a region leans into that emotion harder than the global pool. Negative means it leans away.</p>
+    </div>
+    <div class="legend-key">
+      <span class="sw"><i class="amber"></i>above the 8-region average</span>
+      <span class="sw"><i class="teal"></i>below the 8-region average</span>
+    </div>
+    <div class="prose" style="margin-top:22px;">
+      <p>That's the chart in every section below. Same ten emotions, same scale, every time — so a longer amber bar in Japan really is a bigger deviation than a shorter one in Colombia.</p>
+    </div>
+  </div>
+</section>
+
+<section id="hopefuls">
+  <div class="wrap-wide">
+    <div class="cluster-head">
+      <p class="eyebrow">03 — Side A, Track 1</p>
+      <h2>The Hopefuls</h2>
+      <p class="lede">Japan, Singapore, and Taiwan all break the same direction — toward hope, love, and joy, and hardest away from anger of anywhere on the chart.</p>
+    </div>
+    <div class="region-grid two" id="hopefuls-grid"></div>
+  </div>
+</section>
+
+<section id="ache">
+  <div class="wrap-wide">
+    <div class="cluster-head">
+      <p class="eyebrow">04 — Side A, Track 2</p>
+      <h2>The Ache</h2>
+      <p class="lede">The USA pulls hardest toward despair and heartbreak, away from love. The Global chart leans the same direction — toward longing, heartbreak, and grief — just far more mildly, which tracks: it's an aggregate of everywhere else.</p>
+    </div>
+    <div class="region-grid two" id="ache-grid"></div>
+  </div>
+</section>
+
+<section id="heat">
+  <div class="wrap-wide">
+    <div class="cluster-head">
+      <p class="eyebrow">05 — Side A, Track 3</p>
+      <h2>The Heat</h2>
+      <p class="lede">Spain, Colombia, and Argentina all spike hardest on anger, well past anywhere else on the chart — Spain and Colombia's charts share a Latin-market reggaetón overlap (literally the same songs some weeks), and Argentina's chart leans the same way even without that overlap.</p>
+    </div>
+    <div class="region-grid two" id="heat-grid"></div>
+  </div>
+</section>
+
+<section id="fullmix">
+  <div class="wrap-wide">
+    <p class="eyebrow">06 — The Full Mix</p>
+    <h2>All eight regions, one grid.</h2>
+    <div class="prose">
+      <p>The same deviation-from-average measure, every region and every emotion at once. Read down a column to see which regions push an emotion hardest; read across a row to see a region's whole emotional signature in one line.</p>
+    </div>
+    <div class="legend-key">
+      <span class="sw"><i class="amber"></i>above average</span>
+      <span class="sw"><i class="teal"></i>below average</span>
+    </div>
+    <div class="heatmap-wrap">
+      <table class="heatmap" id="heatmap"></table>
+    </div>
+    <div class="toggle-row">
+      <input type="checkbox" id="show-values">
+      <label for="show-values">Show exact values</label>
+    </div>
+  </div>
+</section>
+
+<section id="classifiers">
+  <div class="wrap-wide">
+    <p class="eyebrow">07 — Two Ears, Two Verdicts</p>
+    <h2>We ran two different classifiers. They barely agree.</h2>
+    <div class="prose">
+      <p>Everything above comes from a zero-shot NLI model (<span class="mono">facebook/bart-large-mnli</span>) judging each song against ten hand-picked, lyric-specific labels. As a sanity check, the same 1,105 songs were also run through GoEmotions, a classifier trained on 28 labels from Reddit comments — a completely different taxonomy, model, and scoring mechanism.</p>
+      <p>Restricted to the four labels both share — <span class="mono">love</span>, <span class="mono">joy</span>, <span class="mono">grief</span>, <span class="mono">anger</span> — here's how much they actually agree:</p>
+    </div>
+
+    <div class="kpi-row">
+      <div class="kpi"><div class="big stat">90.3% / 90.3%</div><div class="lbl">coverage, zero-shot / GoEmotions</div></div>
+      <div class="kpi"><div class="big stat">0.30–0.48</div><div class="lbl">score correlation (r), shared labels</div></div>
+      <div class="kpi"><div class="big stat">29.8%</div><div class="lbl">dominant-emotion agreement</div></div>
+      <div class="kpi"><div class="big stat">r = 0.15</div><div class="lbl">regional map agreement (the test that matters)</div></div>
+    </div>
+
+    <div class="prose" style="margin-top:30px;">
+      <p>Coverage is identical now — both classifiers are held to the same "no scoreable lyrics" rule for <span class="mono">unclassified</span>, so that's no longer a place for a difference to hide. Dominant-emotion disagreement is mostly a taxonomy mismatch, not a real disagreement: zero-shot's <span class="mono">sensual</span>, <span class="mono">longing</span>, <span class="mono">heartbreak</span>, and <span class="mono">lonely</span> — the vocabulary that actually fits a love song — don't exist in GoEmotions at all, so a song zero-shot calls "heartbreak" collapses into GoEmotions' nearest bucket, usually just <span class="mono">love</span> or <span class="mono">sadness</span>.</p>
+      <p><b>The one number that matters more than the rest:</b> z-score each classifier's regional averages on the four shared labels and ask whether the two draw the same map of which region leans which way. They don't — <span class="mono">r = 0.15</span> overall, and on <span class="mono">joy</span> and <span class="mono">grief</span> specifically the two classifiers are telling close to opposite stories (r = −0.03 and r = −0.40). <span class="mono">love</span> is the one label where they mostly agree (r = 0.67). Every regional claim on this page comes from the zero-shot classifier — read it as that classifier's read on the charts, not as a classifier-agnostic fact.</p>
+    </div>
+
+    <div class="specs">
+      <div class="spec-card">
+        <p class="tag">04.1 · bart-large-mnli</p>
+        <h3>Zero-shot NLI</h3>
+        <ul class="spec-list">
+          <li class="pro"><span class="mark">+</span><span class="txt">Custom vocabulary built for lyrics — <span class="mono">longing</span>, <span class="mono">heartbreak</span>, <span class="mono">despair</span> exist as labels at all</span></li>
+          <li class="pro"><span class="mark">+</span><span class="txt">Every label scored independently — same scoring contract as GoEmotions, magnitudes comparable in kind if not in scale</span></li>
+          <li class="pro"><span class="mark">+</span><span class="txt">Well calibrated at the shared 0.30 confidence bar — only 5 songs (0.5%) flagged low-confidence</span></li>
+          <li class="con"><span class="mark">–</span><span class="txt">Slower — one NLI pass per label, per lyric chunk</span></li>
+          <li class="con"><span class="mark">–</span><span class="txt">Labels are hand-picked, not benchmarked against any ground truth</span></li>
+        </ul>
+      </div>
+      <div class="spec-card">
+        <p class="tag">04.2 · roberta-go_emotions</p>
+        <h3>GoEmotions</h3>
+        <ul class="spec-list">
+          <li class="pro"><span class="mark">+</span><span class="txt">Fast — one supervised forward pass returns all 28 labels at once</span></li>
+          <li class="pro"><span class="mark">+</span><span class="txt">Trained on real labeled data, not hand-tuned hypotheses</span></li>
+          <li class="con"><span class="mark">–</span><span class="txt">Reddit-comment taxonomy: <span class="mono">admiration</span>, <span class="mono">curiosity</span>, <span class="mono">approval</span> don't map onto lyrical themes</span></li>
+          <li class="con"><span class="mark">–</span><span class="txt">No romantic/melancholic vocabulary — heartbreak and longing have nowhere to go</span></li>
+          <li class="con"><span class="mark">–</span><span class="txt">Conservative calibration at the shared 0.30 bar — 94 songs (8.5%) flagged low-confidence, vs. 5 for zero-shot</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prose" style="margin-top:30px;">
+      <p>Neither is "more correct" — there's no labeled ground truth for song emotion to check either against. Zero-shot trades speed for a vocabulary that actually fits the medium; GoEmotions trades vocabulary for a faster, validated model. Every regional pattern on this page is a product of that first choice.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pipeline">
+  <div class="wrap">
+    <p class="eyebrow">08 — Liner Notes</p>
+    <h2>How this was made.</h2>
+    <div class="pipeline">
+      <div class="pstep">
+        <div class="idx mono">01</div>
+        <div class="body"><b>Ingest</b><span>Weekly Spotify regional charts → Genius API for lyrics, deduplicated across regions, checkpointed to survive rate limits. 42 of ~694 unique tracks had no retrievable lyrics.</span></div>
+      </div>
+      <div class="pstep">
+        <div class="idx mono">02</div>
+        <div class="body"><b>Detect language</b><span>Unicode script detection first (catches mixed-script songs like Japanese lyrics with English hooks), FastText <span class="mono">lid.176</span> for the rest.</span></div>
+      </div>
+      <div class="pstep">
+        <div class="idx mono">03</div>
+        <div class="body"><b>Translate</b><span>Google Translate via <span class="mono">deep-translator</span>, everything to English. QA'd by re-running FastText on the output to confirm it actually reads as English.</span></div>
+      </div>
+      <div class="pstep">
+        <div class="idx mono">04</div>
+        <div class="body"><b>Classify emotion</b><span>Two parallel approaches over the same lyrics — zero-shot NLI with a custom 10-label vocabulary, and GoEmotions' supervised 28-label model. Compared, not merged.</span></div>
+      </div>
+      <div class="pstep">
+        <div class="idx mono">05</div>
+        <div class="body"><b>Aggregate &amp; compare</b><span>Per-song scores joined back to chart rank and region; region averages measured against the 8-region global mean to surface what's actually distinctive.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="outro" class="closing">
+  <div class="wrap">
+    <p class="eyebrow">09 — Outro</p>
+    <h2>The average isn't the story. The deviation is.</h2>
+    <div class="prose">
+      <p>Raw emotion scores told us pop music is wistful, everywhere, always — technically true and completely useless. It took one subtraction to get somewhere real: Japan, Singapore, and Taiwan's charts lean hopeful, the USA's leans toward despair and heartbreak, Spain, Colombia, and Argentina run hot with anger. None of that shows up until you stop asking "how much" and start asking "how much more than everyone else" — and even then, it's one classifier's read: a second classifier trained on a different taxonomy draws a visibly different regional map on two of the four labels it shares with this one (§07).</p>
+    </div>
+  </div>
+</section>
+
+<footer class="credits">
+  <div class="wrap">
+    <p>Source: Spotify Top 200, regional weekly charts, week of 2026-03-05 (200 tracks per region) · Lyrics via Genius · Translation via Google Translate · Emotion scoring via facebook/bart-large-mnli (zero-shot) and SamLowe/roberta-base-go_emotions-onnx · 1,471 of 1,600 chart entries scored across Argentina, Colombia, Global, Japan, Singapore, Spain, Taiwan, USA · data re-run 2026-08-06, see local/progress.md.</p>
+  </div>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var EMOTIONS = ["joy","hope","love","sensual","longing","lonely","heartbreak","grief","despair","anger"];
+
+  var DIFF = {"Argentina": {"joy": -0.0521, "hope": -0.0571, "love": -0.0381, "sensual": -0.0139, "longing": 0.019, "lonely": 0.025, "heartbreak": 0.0431, "grief": 0.0275, "despair": 0.0351, "anger": 0.0494}, "Colombia": {"joy": -0.0214, "hope": -0.055, "love": -0.0117, "sensual": 0.0263, "longing": -0.0456, "lonely": -0.0423, "heartbreak": -0.0494, "grief": -0.0549, "despair": -0.028, "anger": 0.0649}, "Global": {"joy": -0.0051, "hope": 0.0095, "love": 0.0124, "sensual": -0.0024, "longing": 0.0397, "lonely": 0.0149, "heartbreak": 0.0346, "grief": 0.0339, "despair": 0.0226, "anger": -0.0238}, "Japan": {"joy": 0.0172, "hope": 0.0432, "love": 0.0273, "sensual": -0.0889, "longing": -0.0527, "lonely": -0.0781, "heartbreak": -0.0921, "grief": -0.1013, "despair": -0.1179, "anger": -0.1749}, "Singapore": {"joy": 0.0272, "hope": 0.0547, "love": 0.0624, "sensual": 0.0089, "longing": 0.0357, "lonely": 0.0258, "heartbreak": 0.0374, "grief": 0.0345, "despair": 0.0142, "anger": -0.0398}, "Spain": {"joy": -0.0374, "hope": -0.0502, "love": -0.0156, "sensual": 0.0673, "longing": 0.0145, "lonely": -0.0238, "heartbreak": -0.0298, "grief": -0.0265, "despair": -0.0377, "anger": 0.0717}, "Taiwan": {"joy": 0.1059, "hope": 0.0849, "love": 0.0064, "sensual": 0.0255, "longing": -0.0271, "lonely": 0.0335, "heartbreak": -0.0133, "grief": 0.0199, "despair": 0.0258, "anger": 0.0343}, "USA": {"joy": -0.0342, "hope": -0.0299, "love": -0.043, "sensual": -0.0229, "longing": 0.0166, "lonely": 0.045, "heartbreak": 0.0696, "grief": 0.0669, "despair": 0.0858, "anger": 0.0181}};
+
+  var LONGING_RAW = {
+    "Argentina":0.8525,"Colombia":0.788,"Global":0.8732,"Japan":0.7808,
+    "Singapore":0.8692,"Spain":0.848,"Taiwan":0.8064,"USA":0.8501
+  };
+
+  var SONGS = {
+    "Japan":{delta:"+0.043 hope", songs:[["Snow Man","オドロウゼ！",0.988],["SUDA MASAKI","さよならエレジー",0.9784],["Aimyon","Harunohi",0.9772]]},
+    "Singapore":{delta:"+0.062 love", songs:[["Don Toliver","E85",0.997],["Coldplay","Yellow",0.9922],["Bruno Mars","On My Soul",0.992]]},
+    "Taiwan":{delta:"+0.106 joy", songs:[["Stefanie Sun","我懷念的",0.9868],["Zhang Zhen Yue","愛我別走",0.9783],["玖壹壹","下輩子",0.9779]]},
+    "Global":{delta:"+0.040 longing", songs:[["JENNIE","like JENNIE",0.9969],["El Bogueto, Yung Beef","Cuando No Era Cantante",0.9966],["Fuerza Regida, Grupo Frontera","COQUETA",0.9961]]},
+    "USA":{delta:"+0.086 despair", songs:[["Fleetwood Mac","The Chain - 2004 Remaster",0.9906],["Twenty One Pilots","Drag Path",0.9886],["Radiohead","Let Down",0.9884]]},
+    "Argentina":{delta:"+0.049 anger", songs:[["DENNIS, Luísa Sonza, Emilia","MOTINHA 2.0 (Mete Marcha) - Remix",0.9923],["Yan Block, Panda Black","Talento",0.9799],["Eugenia Quevedo, Angela Leiva, La banda de Carlitos","No Podrás - En Vivo",0.9719]]},
+    "Spain":{delta:"+0.072 anger", songs:[["Yan Block, Panda Black","Talento",0.9799],["Sabrina Carpenter","Manchild",0.9562],["JC Reyes, Hades66","BARRIO FINO",0.9542]]},
+    "Colombia":{delta:"+0.065 anger", songs:[["Yeison Jimenez","Qué Día Es Hoy",0.9848],["Yan Block, Panda Black","Talento",0.9799],["Yeison Jimenez, Pasabordo","Hasta La Madre",0.9753]]}
+  };
+
+  var COUNTS = {"Global":196,"USA":196,"Spain":193,"Colombia":188,"Japan":188,"Singapore":183,"Argentina":178,"Taiwan":149};
+
+  var MAXDEV = 0.18; // shared domain across every diverging chart
+
+  var tooltip = document.getElementById("tooltip");
+  function showTip(el, text){
+    var r = el.getBoundingClientRect();
+    tooltip.textContent = text;
+    tooltip.style.left = (r.left + r.width/2) + "px";
+    tooltip.style.top = r.top + "px";
+    tooltip.classList.add("show");
+  }
+  function hideTip(){ tooltip.classList.remove("show"); }
+
+  // ---- illusion strip chart ----
+  function buildStrip(){
+    var el = document.getElementById("illusion-chart");
+    var order = ["Japan","Colombia","Taiwan","Spain","USA","Argentina","Singapore","Global"];
+    order.forEach(function(region){
+      var v = LONGING_RAW[region];
+      var row = document.createElement("div");
+      row.className = "strip-row";
+      row.innerHTML = '<div class="rname mono">'+region+'</div><div class="strip-track"></div>';
+      var track = row.querySelector(".strip-track");
+      var dot = document.createElement("div");
+      dot.className = "strip-dot";
+      dot.style.left = (v*100)+"%";
+      dot.addEventListener("mouseenter", function(){ showTip(dot, region+" · longing "+v.toFixed(4)); });
+      dot.addEventListener("mouseleave", hideTip);
+      track.appendChild(dot);
+      el.appendChild(row);
+    });
+  }
+
+  // ---- diverging bar chart ----
+  function buildDivChart(container, region){
+    var diff = DIFF[region];
+    var chart = document.createElement("div");
+    chart.className = "divchart";
+    var sorted = EMOTIONS.slice().sort(function(a,b){ return diff[b]-diff[a]; });
+    var top2 = sorted.slice(0,1).concat(sorted.slice(-1)); // strongest positive + strongest negative direct-labeled
+    EMOTIONS.forEach(function(e){
+      var v = diff[e];
+      var pct = Math.min(Math.abs(v)/MAXDEV, 1) * 50;
+      var row = document.createElement("div");
+      row.className = "divrow";
+      var barHtml = v >= 0
+        ? '<div class="divbar pos" style="width:'+pct+'%"></div>'
+        : '<div class="divbar neg" style="width:'+pct+'%"></div>';
+      row.innerHTML = '<div class="elabel mono">'+e+'</div><div class="divtrack">'+barHtml+'</div>';
+      var bar = row.querySelector(".divbar");
+      var sign = v >= 0 ? "+" : "";
+      if (top2.indexOf(e) !== -1){
+        var dir = v >= 0 ? "pos" : "neg";
+        var label = document.createElement("div");
+        label.textContent = sign + v.toFixed(3);
+        if (pct < 10){
+          // bar too short to hold the label — dock it just outside the tip instead
+          label.className = "divval outside " + dir;
+          bar.appendChild(label);
+        } else {
+          label.className = "divval " + dir;
+          bar.appendChild(label);
+        }
+      }
+      bar.addEventListener("mouseenter", function(){ showTip(bar, region+" · "+e+" "+sign+v.toFixed(4)); });
+      bar.addEventListener("mouseleave", hideTip);
+      chart.appendChild(row);
+    });
+    container.appendChild(chart);
+  }
+
+  function buildRegionCard(region){
+    var d = SONGS[region];
+    var card = document.createElement("div");
+    card.className = "region-card";
+    var songsHtml = d.songs.map(function(s){
+      return '<div class="srow"><span class="t">'+s[0]+' — '+s[1]+'</span><span class="v">'+s[2].toFixed(4)+'</span></div>';
+    }).join("");
+    card.innerHTML =
+      '<div class="rhead"><h3>'+region+'</h3><div class="sig">'+d.delta+'</div></div>' +
+      '<div class="n">'+COUNTS[region]+' songs on chart</div>';
+    buildDivChart(card, region);
+    var songsEl = document.createElement("div");
+    songsEl.className = "songs";
+    songsEl.innerHTML = songsHtml;
+    card.appendChild(songsEl);
+    return card;
+  }
+
+  ["Japan","Singapore","Taiwan"].forEach(function(r){ document.getElementById("hopefuls-grid").appendChild(buildRegionCard(r)); });
+  ["USA","Global"].forEach(function(r){ document.getElementById("ache-grid").appendChild(buildRegionCard(r)); });
+  ["Spain","Colombia","Argentina"].forEach(function(r){ document.getElementById("heat-grid").appendChild(buildRegionCard(r)); });
+
+  buildStrip();
+
+  // ---- heatmap ----
+  function buildHeatmap(){
+    var table = document.getElementById("heatmap");
+    var regions = Object.keys(DIFF);
+    var thead = document.createElement("tr");
+    thead.innerHTML = "<th></th>" + EMOTIONS.map(function(e){ return '<th class="colh">'+e+'</th>'; }).join("");
+    table.appendChild(thead);
+    regions.forEach(function(region){
+      var tr = document.createElement("tr");
+      var rowHtml = '<th class="rowh">'+region+'</th>';
+      EMOTIONS.forEach(function(e){
+        var v = DIFF[region][e];
+        var t = Math.max(0, Math.min(1, Math.abs(v) / MAXDEV));
+        var pct = Math.round(t * 100);
+        var pole = v >= 0 ? "var(--amber)" : "var(--teal)";
+        var color = "color-mix(in oklab, var(--card) " + (100-pct) + "%, " + pole + " " + pct + "%)";
+        var sign = v >= 0 ? "+" : "";
+        rowHtml += '<td class="cell" style="background:'+color+'" data-region="'+region+'" data-emotion="'+e+'" data-val="'+sign+v.toFixed(4)+'"><span class="v mono"><span>'+sign+v.toFixed(2)+'</span></span></td>';
+      });
+      tr.innerHTML = rowHtml;
+      table.appendChild(tr);
+    });
+    table.querySelectorAll("td.cell").forEach(function(cell){
+      cell.addEventListener("mouseenter", function(){
+        showTip(cell, cell.dataset.region+" · "+cell.dataset.emotion+" "+cell.dataset.val);
+      });
+      cell.addEventListener("mouseleave", hideTip);
+    });
+  }
+
+  buildHeatmap();
+
+  document.getElementById("show-values").addEventListener("change", function(e){
+    document.getElementById("heatmap").classList.toggle("show-values", e.target.checked);
+  });
+
+  // ---- rail active-section tracking ----
+  var railLinks = Array.prototype.slice.call(document.querySelectorAll("#rail a"));
+  var sections = railLinks.map(function(a){ return document.querySelector(a.getAttribute("href")); });
+  function updateRail(){
+    var pos = window.scrollY + window.innerHeight * 0.35;
+    var activeIdx = 0;
+    sections.forEach(function(sec, i){
+      if (sec && sec.offsetTop <= pos) activeIdx = i;
+    });
+    railLinks.forEach(function(a, i){ a.classList.toggle("active", i === activeIdx); });
+  }
+  window.addEventListener("scroll", updateRail, { passive: true });
+  updateRail();
+
+})();
+</script>
