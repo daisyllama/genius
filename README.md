@@ -2,6 +2,8 @@
 
 A notebook-first pipeline that pulls the top charting songs across 8 regions (Spotify Charts), fetches their lyrics, detects source language, translates everything to English, and scores each song's emotional content — with the goal of comparing emotional character across regions/cultures.
 
+**Live site:** https://daisyllama.github.io/genius/
+
 ## What This Does
 
 Starting from weekly regional Spotify chart exports, the pipeline:
