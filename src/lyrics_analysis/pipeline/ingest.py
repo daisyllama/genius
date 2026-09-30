@@ -6,15 +6,29 @@ from pathlib import Path
 
 import pandas as pd
 
-TRACK_COLUMNS = ["artist", "title", "rank", "spotify_uri"]
+# Source column names as Spotify's regional chart export uses them.
+REQUIRED_SOURCE_COLUMNS = ["rank", "uri", "artist_names", "track_name"]
+SOURCE_COLUMN_RENAME = {
+    "artist_names": "artist",
+    "track_name": "title",
+    "uri": "spotify_uri",
+}
 
 
 def load_chart_csv(csv_path: Path, region_code: str, chart_week) -> pd.DataFrame:
-    frame = pd.read_csv(csv_path)
-    frame = frame.copy()
-    if frame.shape[1] >= 4:
-        frame = frame.iloc[:, :4]
-        frame.columns = TRACK_COLUMNS
+    # utf-8-sig strips the BOM Spotify's export ships with, so "rank" (not
+    # "﻿rank") is the first column name.
+    frame = pd.read_csv(csv_path, encoding="utf-8-sig")
+
+    missing = [c for c in REQUIRED_SOURCE_COLUMNS if c not in frame.columns]
+    if missing:
+        raise ValueError(f"Chart CSV missing required column(s): {missing}")
+
+    frame = frame.rename(columns=SOURCE_COLUMN_RENAME)
+    frame["rank"] = pd.to_numeric(frame["rank"], errors="coerce")
+    if "streams" in frame.columns:
+        frame["streams"] = pd.to_numeric(frame["streams"], errors="coerce")
+
     frame["region_code"] = region_code
     frame["chart_week"] = chart_week
     frame["spotify_uri"] = frame["spotify_uri"].astype(str).str.replace("spotify:track:", "", regex=False)
