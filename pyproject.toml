@@ -30,3 +30,14 @@ dependencies = [
   "duckdb>=1.0.0",
   "optimum[onnxruntime]>=1.19.0",
 ]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pytest-cov>=5"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+  "data: checks against real files in data/processed (skipped if missing)",
+]
+addopts = "-m 'not data'"
