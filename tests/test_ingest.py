@@ -9,8 +9,10 @@ import pandas as pd
 import pytest
 
 from lyrics_analysis.pipeline.ingest import (
+    append_cache_chunk,
     build_chart_fact,
     build_track_dimension,
+    extract_date_from_filename,
     load_chart_csv,
 )
 
@@ -94,3 +96,37 @@ class TestLoadChartCsv:
         bad_csv.write_text("rank,artist_names,track_name\n1,Someone,Song\n")
         with pytest.raises(ValueError):
             load_chart_csv(bad_csv, "ar", date(2026, 3, 5))
+
+
+class TestExtractDateFromFilename:
+    def test_extracts_date(self):
+        assert extract_date_from_filename("regional-ar-weekly-2026-03-05.csv") == "2026-03-05"
+
+    def test_no_date_returns_none(self):
+        assert extract_date_from_filename("no_date_here.csv") is None
+
+
+class TestAppendCacheChunk:
+    def test_writes_header_once_across_two_appends(self, tmp_path: Path):
+        out_path = tmp_path / "cache.csv"
+        cols = ["artist", "title", "spotify_uri", "lyrics"]
+
+        append_cache_chunk(
+            [{"artist": "A", "title": "T1", "spotify_uri": "u1", "lyrics": "la la"}],
+            out_path,
+            cols,
+        )
+        append_cache_chunk(
+            [{"artist": "B", "title": "T2", "spotify_uri": "u2", "lyrics": "da da"}],
+            out_path,
+            cols,
+        )
+
+        lines = out_path.read_text().splitlines()
+        assert lines[0] == "artist,title,spotify_uri,lyrics"
+        assert len(lines) == 3  # 1 header + 2 data rows, header not repeated
+
+    def test_empty_rows_is_noop(self, tmp_path: Path):
+        out_path = tmp_path / "cache.csv"
+        append_cache_chunk([], out_path, ["artist"])
+        assert not out_path.exists()
