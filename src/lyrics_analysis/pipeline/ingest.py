@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -48,3 +49,22 @@ def build_chart_fact(chart_frames: list[pd.DataFrame]) -> pd.DataFrame:
     if "streams" in combined.columns:
         columns.append("streams")
     return combined[columns].copy()
+
+
+def extract_date_from_filename(filename: str) -> str | None:
+    """Extract date in YYYY-MM-DD format from filename like 'regional-XX-weekly-YYYY-MM-DD.csv'"""
+    match = re.search(r'(\d{4}-\d{2}-\d{2})', filename)
+    return match.group(1) if match else None
+
+
+def append_cache_chunk(rows_chunk: list[dict], out_path: Path, cache_cols: list[str]) -> None:
+    """Append cache rows (as ordered by cache_cols) to a lyrics cache CSV.
+
+    Writes the header only if out_path does not already exist, so repeated
+    calls build up one CSV that an interrupted run can resume from.
+    """
+    if not rows_chunk:
+        return
+    chunk_df = pd.DataFrame(rows_chunk)[cache_cols]
+    write_header = not out_path.exists()
+    chunk_df.to_csv(out_path, mode='a', header=write_header, index=False)
